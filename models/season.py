@@ -1,3 +1,12 @@
-class Season():
-    def __init__(self, year, played, won, lost, drawn, tied, nr, max_games) -> None:
-        self.year = year
+from typing import NamedTuple
+
+
+class Season(NamedTuple):
+    year: int
+    played: int
+    won: int
+    lost: int
+    drawn: int
+    tied: int
+    nr: int
+    max_games: int
