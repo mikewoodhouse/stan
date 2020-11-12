@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Stan!</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Played</th>
+                <th>Won</th>
+                <th>Lost</th>
+                <th>Drew</th>
+                <th>Tied</th>
+                <th>N/R</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ season.year }}</td>
+                <td>{{ season.played }}</td>
+                <td>{{ season.won }}</td>
+                <td>{{ season.lost }}</td>
+                <td>{{ season.drawn }}</td>
+                <td>{{ season.tied }}</td>
+                <td>{{ season.nr }}</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
