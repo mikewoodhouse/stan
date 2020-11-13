@@ -1,0 +1,24 @@
+table {
+    border: 1px solid black;
+}
+
+th {
+    background: blue;
+    color: ivory;
+}
+
+tr.odd {
+    background: ivory;
+}
+
+tr.even {
+    background: skyblue;
+}
+
+td {
+    padding: 0;
+}
+
+td.number {
+    text-align: right;
+}

@@ -1,43 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>TOCC - Stan</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-</head>
-<body style="background: lightyellow;">
-    <div style="background: gold;">
-        <img src="stan.png">
-        <span style="color: maroon;">
-            The statistical source for Trinity Oxley Cricket Club
-        </span>
-    </div>
-    <table>
-        <thead>
-            <tr>
-                <th>Year</th>
-                <th>Played</th>
-                <th>Won</th>
-                <th>Lost</th>
-                <th>Drew</th>
-                <th>Tied</th>
-                <th>N/R</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>{{ season.year }}</td>
-                <td>{{ season.played }}</td>
-                <td>{{ season.won }}</td>
-                <td>{{ season.lost }}</td>
-                <td>{{ season.drawn }}</td>
-                <td>{{ season.tied }}</td>
-                <td>{{ season.nr }}</td>
-            </tr>
-        </tbody>
-    </table>
-</body>
-</html>
+{% extends 'index.html' %}
+{% block data %}
+<h2>Season Results Summary</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Played</th>
+            <th>Won</th>
+            <th>Lost</th>
+            <th>Drew</th>
+            <th>Tied</th>
+            <th>N/R</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for season in seasons %}
+        <tr class="{{ loop.cycle('odd', 'even') }}">
+            <td class="number">{{ season.year }}</td>
+            <td class="number">{{ season.played }}</td>
+            <td class="number">{{ season.won }}</td>
+            <td class="number">{{ season.lost }}</td>
+            <td class="number">{{ season.drawn }}</td>
+            <td class="number">{{ season.tied }}</td>
+            <td class="number">{{ season.nr }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -11,5 +11,4 @@ def root():
 
 @app.route("/seasons", methods=['GET'])
 def season():
-    # return jsonify(Season.get(1949)._asdict())
-    return render_template('seasons.html', season=Season.get(1949))
+    return render_template('seasons.html', seasons=Season.all())

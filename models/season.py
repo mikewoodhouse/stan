@@ -1,4 +1,5 @@
 from typing import NamedTuple
+import csv
 
 
 class Season(NamedTuple):
@@ -13,3 +14,9 @@ class Season(NamedTuple):
 
     def get(year):
         return Season(1949, 12, 4, 7, 1, 0, 0, 12)
+
+    def all():
+        with open("Season.csv") as f:
+            reader = csv.reader(f, delimiter=',')
+            next(reader)
+            return [Season(*row) for row in reader]
