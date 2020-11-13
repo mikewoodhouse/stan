@@ -1,6 +1,7 @@
 from app import app
-from flask import jsonify, render_template
+from flask import render_template
 from models.season import Season
+from models.season_record import SeasonRecord
 
 
 @app.route('/')
@@ -12,3 +13,8 @@ def root():
 @app.route("/seasons", methods=['GET'])
 def season():
     return render_template('seasons.html', seasons=Season.all())
+
+
+@app.route("/season_record/<year>")
+def season_record(year):
+    return render_template('season_record.html', year=year, recs=SeasonRecord.get(year))

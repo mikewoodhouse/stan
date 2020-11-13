@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+{% block data %}
+<h2>Season Record Details: {{ year }}</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Club</th>
+            <th>Runs</th>
+            <th>Wickets</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for s in recs %}
+        <tr class="{{ loop.cycle('odd', 'even') }}">
+            <td >{{ s.club }}</td>
+            <td class="number">{{ s.runsscored }}</td>
+            <td class="number">{{ s.wicketslost }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
