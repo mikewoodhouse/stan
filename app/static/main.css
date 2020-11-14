@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+}
+
+div.app-header {
+    display: block;
+    background: gold;
+}
+
 table {
     border: 1px solid black;
 }
