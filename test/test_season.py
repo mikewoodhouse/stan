@@ -26,3 +26,10 @@ def test_season_record_for_year():
     res = SeasonRecord.get(1949)
     assert len(res) == 2
     assert res[0].highestdate.year == 1949
+
+
+def test_season_record_has_balls():
+    r = SeasonRecord(0, '', 0, 0, 0, 0, None, '', 0, 0, None, '', 0, 0, 0, 0, 0, 0)
+    assert not r.has_balls
+    r = SeasonRecord(0, '', 0, 0, 0, 0, None, '', 0, 0, None, '', 0, 0, 0, 0, 0, 1)
+    assert r.has_balls

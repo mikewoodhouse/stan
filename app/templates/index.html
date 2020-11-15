@@ -17,7 +17,13 @@
             The statistical source for Trinity Oxley Cricket Club
         </span>
     </div>
-    {% block data %}
-    {% endblock %}
+    <div class="sidebar">
+        {% block sidebar %}
+        {% endblock %}
+    </div>
+    <div style="margin: 20px; padding: 20px;">
+        {% block data %}
+        {% endblock %}
+    </div>
 </body>
 </html>

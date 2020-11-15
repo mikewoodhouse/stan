@@ -34,3 +34,7 @@ class SeasonRecord(NamedTuple):
     def get(year):
         rows = filter(lambda s: s.year == int(year), SeasonRecord.all())
         return sorted(rows, key=lambda s: s.club, reverse=True)
+
+    @property
+    def has_balls(self):
+        return int(self.ballsbowled) > 0 or int(self.ballsreceived) > 0

@@ -17,4 +17,6 @@ def season():
 
 @app.route("/season_record/<year>")
 def season_record(year):
-    return render_template('season_record.html', year=year, recs=SeasonRecord.get(year))
+    recs = SeasonRecord.get(year)
+    has_balls = any(r.has_balls for r in recs)
+    return render_template('season_record.html', year=year, recs=recs, has_balls=has_balls)

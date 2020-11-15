@@ -5,8 +5,18 @@
     <thead>
         <tr>
             <th>Club</th>
-            <th>Runs</th>
-            <th>Wickets</th>
+            <th>Runs Scored</th>
+            <th>Wickets Lost</th>
+            <th>Highest</th>
+            <th>Lowest</th>
+            {% if has_balls %}
+                <th>Balls bowled</th>
+                <th>Balls received</th>
+            {% endif %}
+            <th>Wides</th>
+            <th>No balls</th>
+            <th>Byes</th>
+            <th>Leg Byes</th>
         </tr>
     </thead>
     <tbody>
@@ -15,6 +25,16 @@
             <td >{{ s.club }}</td>
             <td class="number">{{ s.runsscored }}</td>
             <td class="number">{{ s.wicketslost }}</td>
+            <td>{{ s.highest }}-{{ s.highestwkts}} {{ 'vs' if s.club == 'TCC' else 'by' }} {{ s.highestopps }}, {{ s.highestdate}}</td>
+            <td>{{ s.lowest }}-{{ s.lowestwkts}} {{ 'vs' if s.club == 'TCC' else 'by' }} {{ s.lowestopps }}, {{ s.lowestdate}}</td>
+            {% if has_balls %}
+                <td class="number">{{ s.ballsbowled }}</td>
+                <td class="number">{{ s.ballsreceived }}</td>
+            {% endif %}
+            <td class="number">{{ s.wides }}</td>
+            <td class="number">{{ s.noballs }}</td>
+            <td class="number">{{ s.byes }}</td>
+            <td class="number">{{ s.legbyes }}</td>
         </tr>
         {% endfor %}
     </tbody>
