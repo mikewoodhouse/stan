@@ -32,5 +32,5 @@ class SeasonRecord(NamedTuple):
 
     @staticmethod
     def get(year):
-        rows = {s.club: s for s in SeasonRecord.all() if s.year == int(year)}
-        return [rows['TCC'], rows['Opp']]
+        rows = filter(lambda s: s.year == int(year), SeasonRecord.all())
+        return sorted(rows, key=lambda s: s.club, reverse=True)
