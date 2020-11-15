@@ -15,7 +15,7 @@
     </thead>
     <tbody>
         {% for season in seasons %}
-        <tr class="{{ loop.cycle('odd', 'even') }}">
+        <tr>
             <td class="number">{{ season.year }}</td>
             <td class="number">{{ season.played }}</td>
             <td class="number">{{ season.won }}</td>

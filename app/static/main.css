@@ -8,24 +8,25 @@ div.app-header {
 }
 
 table {
-    border: 1px solid black;
+    border: 1px solid #24943A;
+    background-color: #DFFADC;
+    text-align: center;
 }
 
-th {
-    background: blue;
-    color: ivory;
+td, th {
+    border: 1px solid #24943A;
+    padding: 2px 4px;
 }
 
-tr.odd {
-    background: ivory;
+tr:nth-child(even) {
+    background: #C4DCC1;
 }
 
-tr.even {
-    background: skyblue;
-}
-
-td {
-    padding: 0;
+thead {
+    background: #24943A;
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid #24943A;
 }
 
 td.number {

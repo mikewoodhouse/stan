@@ -11,7 +11,7 @@
     </thead>
     <tbody>
         {% for s in recs %}
-        <tr class="{{ loop.cycle('odd', 'even') }}">
+        <tr>
             <td >{{ s.club }}</td>
             <td class="number">{{ s.runsscored }}</td>
             <td class="number">{{ s.wicketslost }}</td>
