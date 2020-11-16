@@ -2,6 +2,33 @@ body {
     margin: 0;
 }
 
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: rgb(252, 231, 116);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 6xp 8px 6px 16px;
+    text-decoration: none;
+    color: maroon;
+    display: block;
+}
+
+.sidebar a:hover {
+  color: green;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 0px 20px;
+}
+
 h2 {
     color: maroon;
 }
