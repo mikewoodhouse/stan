@@ -2,6 +2,7 @@ from app import app
 from flask import render_template
 from models.season import Season
 from models.season_record import SeasonRecord
+from models.century import Century
 
 
 @app.route('/')
@@ -20,3 +21,8 @@ def season_record(year):
     recs = SeasonRecord.get(year)
     has_balls = any(r.has_balls for r in recs)
     return render_template('season_record.html', year=year, recs=recs, has_balls=has_balls)
+
+
+@app.route("/centuries")
+def centuries():
+    return render_template('centuries.html', tons=Century.all())
