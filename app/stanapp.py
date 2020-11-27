@@ -1,8 +1,13 @@
-from app import app
+from flask import Flask
 from flask import render_template
 from models.season import Season
 from models.season_record import SeasonRecord
 from models.century import Century
+
+
+app = Flask(__name__,
+            static_folder='static',
+            static_url_path='')
 
 
 @app.route('/')
@@ -26,3 +31,7 @@ def season_record(year):
 @app.route("/centuries")
 def centuries():
     return render_template('centuries.html', tons=Century.all())
+
+
+if __name__ == "__main__":
+    app.run()
