@@ -6,7 +6,8 @@ from models.century import Century
 
 
 app = Flask(__name__,
-            static_folder='static',
+            static_folder='app/static',
+            template_folder='app/templates',
             static_url_path='')
 
 
