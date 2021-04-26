@@ -1,4 +1,4 @@
-# Getting to a running FLask instance on EC2
+# Getting to a running Flask instance on EC2
 
 ```
 sudo apt-get update
