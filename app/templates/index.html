@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Stan (TOCC)</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href={{ url_for('static', filename='main.css') }}>
-    <script src={{ url_for('static', filename='main.js') }}></script>
+    <link rel='stylesheet' type='text/css' media='screen' href={{ url_for('static', filename='main.css' ) }}>
+    <script src={{ url_for('static', filename='main.js' ) }}></script>
 </head>
+
 <body style="background: lightyellow;">
     <div class="app-header">
-        <span>
-            <img src={{ url_for('static', filename='stan.png') }}>
-        </span>
+        <a href='/'>
+            <span>
+                <img src={{ url_for('static', filename='stan.png' ) }}>
+            </span>
+        </a>
         <span style="color: maroon;">
             The statistical source for Trinity Oxley Cricket Club
         </span>
@@ -27,4 +31,5 @@
         {% endblock %}
     </div>
 </body>
+
 </html>
