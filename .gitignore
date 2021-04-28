@@ -4,3 +4,4 @@ venv
 *.pem
 __pycache__
 .pytest_cache
+*.sqlite
