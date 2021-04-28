@@ -8,7 +8,7 @@ body {
     position: fixed;
     z-index: 1;
     left: 0;
-    background-color: rgb(252, 231, 116);
+    background-color: #d4aa7d;
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -18,10 +18,11 @@ body {
     text-decoration: none;
     color: maroon;
     display: block;
+    text-align: center;
 }
 
 .sidebar a:hover {
-    color: green;
+    color: #90a9b7;
 }
 
 .main {
@@ -35,31 +36,31 @@ h2 {
 
 div.app-header {
     display: block;
-    background: gold;
+    background: #f79d5c;
 }
 
 table {
-    border: 1px solid #24943A;
+    border: 1px solid #a288a6;
     border-collapse: collapse;
-    background-color: #DFFADC;
+    background-color: #d2d8b3;
     text-align: center;
 }
 
 td, th {
-    border: 1px solid #24943A;
+    border: 1px solid #a288a6;
     padding: 2px 4px;
 }
 
 tr:nth-child(even) {
-    background: #C4DCC1;
+    background: #efd09e;
 }
 
 thead {
-    background: #24943A;
+    background: #a288a6;
     color: white;
     font-weight: bold;
     text-align: center;
-    border-left: 1px solid #24943A;
+    border-left: 1px solid #a288a6;
 }
 
 td.number {
