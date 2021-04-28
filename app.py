@@ -1,6 +1,19 @@
 from flask import Flask
 from flask import render_template
 
+import sqlite3
+from collections import namedtuple
+
+
+def namedtuple_factory(cursor, row):
+    """
+    Usage:
+    con.row_factory = namedtuple_factory
+    """
+    fields = [col[0] for col in cursor.description]
+    Row = namedtuple("Row", fields)
+    return Row(*row)
+
 
 app = Flask(__name__,
             static_folder='app/static',
@@ -16,10 +29,12 @@ def root():
 
 @app.route('/seasons')
 def seasons():
-    data = [
-        {'year': 1949, 'played': 12, 'won': 4, 'lost': 7, 'drawn': 1, 'tie': 0, 'noresult': 0, 'maxpossiblegames': 12},
-        {'year': 1950, 'played': 14, 'won': 6, 'lost': 6, 'drawn': 2, 'tie': 0, 'noresult': 0, 'maxpossiblegames': 14},
-    ]
+    conn = sqlite3.connect('tocc.sqlite')
+    conn.row_factory = namedtuple_factory
+    csr = conn.cursor()
+    data = csr.execute('SELECT * FROM seasons ORDER BY year').fetchall()
+    csr.close()
+    conn.close()
     return render_template('seasons.html', data=data)
 
 
