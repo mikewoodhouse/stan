@@ -1,0 +1,32 @@
+{% extends "index.html" %}
+{% block data %}
+<h1>
+    Seasons. Yay!
+</h1>
+<table>
+    <thead>
+        <tr>
+            <th>year</th>
+            <th>played</th>
+            <th>won</th>
+            <th>lost</th>
+            <th>drawn</th>
+            <th>tie</th>
+            <th>no<br/>result</th>
+            <th>max possible<br/>games</th>
+        </tr>
+    </thead>
+    {% for s in data %}
+    <tr>
+        <td>{{s.year}}</td>
+        <td>{{s.played}}</td>
+        <td>{{s.won}}</td>
+        <td>{{s.lost}}</td>
+        <td>{{s.drawn}}</td>
+        <td>{{s.tie}}</td>
+        <td>{{s.noresult}}</td>
+        <td>{{s.maxpossiblegames}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
