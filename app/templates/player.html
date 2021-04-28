@@ -1,0 +1,58 @@
+{% extends "index.html" %}
+{% block data %}
+<h1>
+    Player: {{ player.name }}
+</h1>
+<table>
+    <thead>
+        <tr>
+            <th>year</th>
+            <th>matches</th>
+            <th>innings</th>
+            <th>not_out</th>
+            <th>highest</th>
+            <th>runs_scored</th>
+            <th>bat ave</th>
+            <th>fifties</th>
+            <th>hundreds</th>
+            <th>fours</th>
+            <th>sixes</th>
+            <th>overs</th>
+            <th>maidens</th>
+            <th>runs_conceded</th>
+            <th>wickets</th>
+            <th>bowl ave</th>
+            <th>five_fors</th>
+            <th>catches (ct wkt)</th>
+            <th>kept_wicket</th>
+            <th>stumpings</th>
+            <th>captained</th>
+        </tr>
+    </thead>
+    {% for p in data %}
+    <tr>
+        <td>{{ p.year }}</td>
+        <td>{{ p.matches }}</td>
+        <td>{{ p.innings }}</td>
+        <td>{{ p.not_out }}</td>
+        <td>{{ p.highest }}{{ p.high_not_out_flag}}</td>
+        <td>{{ p.runs_scored }}</td>
+        <td><strong>{{ "%.2f"|format(p.bat_ave) }}</strong></td>
+        <td>{{ p.fifties }}</td>
+        <td>{{ p.hundreds }}</td>
+        <td>{{ p.fours }}</td>
+        <td>{{ p.sixes }}</td>
+        <td>{{ p.overs }}.{{ p.balls }}</td>
+        <td>{{ p.maidens }}</td>
+        <td>{{ p.runs_conceded }}</td>
+        <td>{{ p.wickets }}</td>
+        <td><strong>{{ "%.2f"|format(p.bowl_ave) }}</strong></td>
+        <td>{{ p.five_fors }}</td>
+        <td>{{ p.catches }} ({{ p.caught_wkt }})</td>
+        <td>{{ p.kept_wicket }}</td>
+        <td>{{ p.stumpings }}</td>
+        <td>{{ p.captained }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
