@@ -38,5 +38,29 @@ def seasons():
     return render_template('seasons.html', data=data)
 
 
+@app.route('/players')
+def players():
+    conn = sqlite3.connect('tocc.sqlite')
+    conn.row_factory = namedtuple_factory
+    csr = conn.cursor()
+    data = csr.execute("""
+    SELECT
+      p.code
+    , p.surname || ', ' || IfNull(p.firstname, IfNull(p.initial, '?')) name
+    , Min(f.year) from_year
+    , Max(f.year) to_year
+    , Sum(matches) matches
+    FROM players p
+    , performances f
+    WHERE p.code = f.code
+    GROUP BY p.code
+    , p.surname || ', ' || IfNull(p.firstname, IfNull(p.initial, '?'))
+    ORDER BY p.surname || ', ' || IfNull(p.firstname, IfNull(p.initial, '?'))
+    """).fetchall()
+    csr.close()
+    conn.close()
+    return render_template('players.html', data=data)
+
+
 if __name__ == "__main__":
     app.run()
