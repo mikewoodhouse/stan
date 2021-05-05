@@ -1,3 +1,4 @@
+from models.performance import PlayerRecord
 from flask import Flask
 from flask import render_template
 
@@ -64,45 +65,8 @@ def players():
 
 @app.route('/player/<code>')
 def player(code):
-    print(f'{code=}')
-    player = {'name': 'Bonzo Dogdoodah' + f'({code})'}
-    conn = sqlite3.connect('tocc.sqlite')
-    conn.row_factory = namedtuple_factory
-    csr = conn.cursor()
-    player = csr.execute("""
-    SELECT p.surname || ', ' || IfNull(p.firstname, IfNull(p.initial, '?')) name
-    FROM players p
-    WHERE code = ?
-    """, (code,)).fetchone()
-    csr.close()
-    csr = conn.cursor()
-    data = csr.execute("""
-    SELECT
-      *
-    , CASE highest_not_out
-        WHEN 1 THEN '*'
-        ELSE ''
-      END high_not_out_flag
-    , CASE innings
-        WHEN 0 THEN 0.0
-        ELSE
-            CASE not_out
-                WHEN innings THEN 0.0
-                ELSE Round(Cast(runs_scored AS REAL) / (Cast(innings - not_out AS REAL)), 2)
-            END
-        END bat_ave
-    , CASE wickets
-        WHEN 0 THEN 0
-        ELSE Cast(runs_conceded AS REAL) / Cast(wickets AS REAL)
-    END bowl_ave
-    FROM performances
-    WHERE code = ?
-    ORDER BY year
-    """, (code,)).fetchall()
-    csr.close()
-    conn.close()
-    print(data[0])
-    return render_template('player.html', player=player, data=data)
+    player = PlayerRecord(code)
+    return render_template('player.html', player=player, data=player.performances)
 
 
 if __name__ == "__main__":
