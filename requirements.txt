@@ -1,0 +1,12 @@
+# needed for execution
+Flask
+
+dataclass-csv
+
+# for development
+flake8
+black
+
+# if jupyter needed
+jupyter
+ipykernel
