@@ -14,6 +14,8 @@ CREATE TABLE
   , "second_wkts" INTEGER
   , "second_all_out" BOOLEAN
   , "second_notes" VARCHAR
+  , "overs_opp" REAL
+  , "overs_tocc" REAL
   , "tocc_w" INTEGER
   , "tocc_nb" INTEGER
   , "tocc_b" INTEGER

@@ -3,6 +3,17 @@ from dataclasses import dataclass
 from dataclass_csv import accept_whitespaces
 
 
+@accept_whitespaces
+@dataclass(kw_only=True)
+class Player:
+    id: int = None
+    code: str
+    surname: str
+    active: bool
+    initial: str = ""
+    firstname: str = ""
+
+
 @dataclass
 class Match:
     date: date
@@ -18,6 +29,8 @@ class Match:
     second_wkts: int
     second_all_out: bool
     second_notes: str
+    overs_opp: float
+    ocers_tocc: float
     tocc_w: int
     tocc_nb: int
     tocc_b: int
@@ -44,16 +57,6 @@ class Partnership:
     opp: str
     bat1_id: int
     bat2_id: int
-
-
-@accept_whitespaces
-@dataclass
-class Player:
-    code: str
-    surname: str
-    active: bool
-    initial: str = ""
-    firstname: str = ""
 
 
 @dataclass

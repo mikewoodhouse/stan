@@ -13,3 +13,5 @@ ipykernel
 
 pytest
 pytest-cov
+
+openpyxl
