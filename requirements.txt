@@ -10,3 +10,6 @@ black
 # if jupyter needed
 jupyter
 ipykernel
+
+pytest
+pytest-cov
