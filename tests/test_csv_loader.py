@@ -56,7 +56,8 @@ def test_player_ids_set(fully_loaded: CsvLoader):
         for col in load_def.player_id_cols.keys():
             sql = f"""
             select
-                count(*) row_count, count(distinct {col}) player_ids
+                count(*) row_count
+            ,   count(distinct {col}) player_ids
             from {load_def.table}
             """
             row_count, player_ids = fully_loaded.conn.execute(sql).fetchone()
