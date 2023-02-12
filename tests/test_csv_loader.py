@@ -2,11 +2,26 @@ from app.csv_loader import CsvLoader, load_defs
 import sqlite3
 import pytest
 
+TABLES = [
+    "players",
+    "seasons",
+    "hundred_plus",
+]
+
 
 @pytest.fixture
 def loader() -> CsvLoader:
     loader = CsvLoader(sqlite3.connect(":memory:"))
     loader.load_schema()
+    return loader
+
+
+@pytest.fixture
+def fully_loaded() -> CsvLoader:
+    loader = CsvLoader(sqlite3.connect(":memory:"))
+    loader.load_schema()
+    for table in TABLES:
+        loader.load(table)
     return loader
 
 
@@ -25,20 +40,11 @@ def test_schema_loaded(loader: CsvLoader):
 
 @pytest.mark.parametrize(
     "key",
-    [
-        "players",
-        "seasons",
-    ],
+    TABLES,
 )
 def test_load_defs_exist(key):
     assert key in load_defs
 
 
-def test_players_loaded(loader: CsvLoader):
-    loader.load("players")
-    assert count(loader, "players") > 0
-
-
-def test_seasons_loaded(loader: CsvLoader):
-    loader.load("players")
-    assert count(loader, "players") > 0
+def test_data_loaded(fully_loaded: CsvLoader):
+    assert all(count(fully_loaded, table) > 0 for table in TABLES)

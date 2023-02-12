@@ -1,6 +1,7 @@
 from datetime import date
 from dataclasses import dataclass
-from dataclass_csv import accept_whitespaces
+from dataclass_csv import accept_whitespaces, dateformat
+from typing import Optional
 
 
 @accept_whitespaces
@@ -118,16 +119,18 @@ class Captain:
     tied: int
 
 
-@dataclass
+@accept_whitespaces
+@dataclass(kw_only=True)
+@dateformat(r"%Y-%m-%d %H:%M:%S")
 class HundredPlus:
-    player_id: int
+    player_id: int = -1
     year: int
     code: str
     date: date
     score: int
     notout: bool
     opponents: str
-    minutes: int
+    minutes: Optional[int] = None
 
 
 @dataclass
