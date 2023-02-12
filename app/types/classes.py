@@ -42,7 +42,9 @@ class Match:
     opp_lb: int
 
 
-@dataclass
+@accept_whitespaces
+@dataclass(kw_only=True)
+@dateformat(r"%Y-%m-%d %H:%M:%S")
 class Partnership:
     year: int
     wicket: int
@@ -56,8 +58,8 @@ class Partnership:
     bat2score: int
     bat2notout: bool
     opp: str
-    bat1_id: int
-    bat2_id: int
+    bat1_id: int = -1
+    bat2_id: int = -1
 
 
 @dataclass

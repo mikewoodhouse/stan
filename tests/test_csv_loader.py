@@ -6,6 +6,7 @@ TABLES = [
     "players",
     "seasons",
     "hundred_plus",
+    "partnerships",
 ]
 
 
@@ -51,11 +52,13 @@ def test_data_loaded(fully_loaded: CsvLoader):
 
 
 def test_player_ids_set(fully_loaded: CsvLoader):
-    sql = """
-        select
-            count(*) row_count, count(distinct player_id) player_ids
-        from hundred_plus
-        """
-    row_count, player_ids = fully_loaded.conn.execute(sql).fetchone()
-    assert player_ids > 1
-    assert row_count > 0
+    for load_def in load_defs.values():
+        for col in load_def.player_id_cols.keys():
+            sql = f"""
+            select
+                count(*) row_count, count(distinct {col}) player_ids
+            from {load_def.table}
+            """
+            row_count, player_ids = fully_loaded.conn.execute(sql).fetchone()
+            assert player_ids > 1, f"fewer than 2 distinct {col} in {load_def.table}"
+            assert row_count > 0, f"no rows in {load_def.table}"
