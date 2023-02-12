@@ -27,6 +27,7 @@ def test_schema_loaded(loader: CsvLoader):
     "key",
     [
         "players",
+        "seasons",
     ],
 )
 def test_load_defs_exist(key):
@@ -34,5 +35,10 @@ def test_load_defs_exist(key):
 
 
 def test_players_loaded(loader: CsvLoader):
+    loader.load("players")
+    assert count(loader, "players") > 0
+
+
+def test_seasons_loaded(loader: CsvLoader):
     loader.load("players")
     assert count(loader, "players") > 0

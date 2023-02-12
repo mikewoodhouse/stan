@@ -2,7 +2,7 @@ import sqlite3
 from dataclasses import dataclass, fields, asdict
 from dataclass_csv import DataclassReader
 from contextlib import closing
-from app.types.classes import Player
+from app.types.classes import Player, Season
 from typing import Type
 
 
@@ -22,7 +22,12 @@ load_defs = {
         klass=Player,
         table="players",
         headers="Code|Surname|Initial|Active|FirstName",
-    )
+    ),
+    "seasons": LoadDefinition(
+        klass=Season,
+        table="seaons",
+        headers="Year|Played|Won|Lost|Drawn|Tied|NoResult|MaxPossibleGames",
+    ),
 }
 
 
