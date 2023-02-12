@@ -1,5 +1,5 @@
 import sqlite3
-from dataclasses import dataclass, fields, asdict
+from dataclasses import dataclass, field, fields, asdict
 from dataclass_csv import DataclassReader
 from contextlib import closing
 from app.types.classes import Player, Season, HundredPlus
@@ -11,6 +11,7 @@ class LoadDefinition:
     klass: Type
     table: str
     headers: str
+    player_id_cols: dict = field(default_factory=dict)
 
     @property
     def header_map(self) -> list[tuple]:
@@ -32,6 +33,7 @@ load_defs = {
         klass=HundredPlus,
         table="hundred_plus",
         headers="Year|Code|Date|Score|NotOut|Opponents|Minutes",
+        player_id_cols={"player_id": "code"},
     ),
 }
 
@@ -44,6 +46,7 @@ class CsvLoader:
         load_def = load_defs[filename]
         csv_rows = self.read_csv(filename, load_def)
         self.insert_data(load_def, csv_rows)
+        self.update_player_ids(load_def)
 
     def read_csv(self, filename: str, load_def: LoadDefinition) -> None:
         with open(f"csvdata/{filename}.csv") as f:
@@ -65,3 +68,16 @@ class CsvLoader:
         sql = self.insert_sql(load_def.klass, load_def.table)
         with closing(self.conn.cursor()) as csr:
             csr.executemany(sql, [asdict(row) for row in rows])
+
+    def update_player_ids(self, load_def: LoadDefinition) -> None:
+        for id_col, map_from in load_def.player_id_cols.items():
+            sql = f"""
+                UPDATE {load_def.table}
+                    SET {id_col} = (
+                        SELECT id
+                        FROM players
+                        WHERE players.code={load_def.table}.{map_from}
+                    )
+                """
+            print(sql)
+            self.conn.execute(sql)

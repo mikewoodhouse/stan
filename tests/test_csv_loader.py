@@ -48,3 +48,14 @@ def test_load_defs_exist(key):
 
 def test_data_loaded(fully_loaded: CsvLoader):
     assert all(count(fully_loaded, table) > 0 for table in TABLES)
+
+
+def test_player_ids_set(fully_loaded: CsvLoader):
+    sql = """
+        select
+            count(*) row_count, count(distinct player_id) player_ids
+        from hundred_plus
+        """
+    row_count, player_ids = fully_loaded.conn.execute(sql).fetchone()
+    assert player_ids > 1
+    assert row_count > 0
