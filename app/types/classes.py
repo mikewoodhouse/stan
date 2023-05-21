@@ -7,7 +7,7 @@ from typing import Optional
 @accept_whitespaces
 @dataclass(kw_only=True)
 class Player:
-    id: int = None
+    id: int | None = None
     code: str
     surname: str
     active: bool
@@ -31,7 +31,7 @@ class Match:
     second_all_out: bool
     second_notes: str
     overs_opp: float
-    ocers_tocc: float
+    overs_tocc: float
     tocc_w: int
     tocc_nb: int
     tocc_b: int

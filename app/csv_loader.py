@@ -3,6 +3,7 @@ from dataclasses import fields, asdict
 from dataclass_csv import DataclassReader
 from contextlib import closing
 from app.load_defs import LoadDefinition, load_defs
+from typing import Any
 
 
 class CsvLoader:
@@ -15,7 +16,7 @@ class CsvLoader:
         self.insert_data(load_def, csv_rows)
         self.update_player_ids(load_def)
 
-    def read_csv(self, filename: str, load_def: LoadDefinition) -> None:
+    def read_csv(self, filename: str, load_def: LoadDefinition) -> list[Any]:
         with open(f"csvdata/{filename}.csv") as f:
             reader = DataclassReader(f, load_def.klass)
             for hdr_in, hdr_out in load_def.header_map:
@@ -31,7 +32,7 @@ class CsvLoader:
         with open("db_schema.sql") as f:
             self.conn.executescript(f.read())
 
-    def insert_data(self, load_def: LoadDefinition, rows: list[dict]) -> None:
+    def insert_data(self, load_def: LoadDefinition, rows: list[Any]) -> None:
         sql = self.insert_sql(load_def.klass, load_def.table)
         with closing(self.conn.cursor()) as csr:
             csr.executemany(sql, [asdict(row) for row in rows])
