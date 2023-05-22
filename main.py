@@ -57,7 +57,7 @@ with ui.header():
     ui.label("Hundreds")
 
 with ui.row():
-    ui.table(rows=rows, columns=cols, row_key="code").classes(remove="q-table")
+    ui.table(rows=rows, columns=cols, row_key="code").props("dense")
 
     ton_count = Counter(row["name"] for row in rows)
 
@@ -67,6 +67,6 @@ with ui.row():
         {"name": "count", "label": "Hundreds", "field": "hundreds", "sortable": True},
     ]
 
-    ui.table(rows=ton_rows, columns=ton_cols)
+    ui.table(rows=ton_rows, columns=ton_cols).props("dense")
 
 ui.run()
