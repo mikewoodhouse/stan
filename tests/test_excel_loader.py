@@ -1,5 +1,6 @@
-from app.excel_loader import ExcelLoader
 import pytest
+
+from app.excel_loader import ExcelLoader
 
 
 @pytest.fixture

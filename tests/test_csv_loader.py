@@ -1,6 +1,8 @@
-from app.csv_loader import CsvLoader, load_defs
 import sqlite3
+
 import pytest
+
+from app.csv_loader import CsvLoader, load_defs
 
 TABLES = [
     "players",

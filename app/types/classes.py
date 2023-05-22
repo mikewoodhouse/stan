@@ -1,18 +1,24 @@
-from datetime import date
 from dataclasses import dataclass
-from dataclass_csv import accept_whitespaces, dateformat
+from datetime import date
 from typing import Optional
 
+from dataclass_csv import dateformat
 
-@accept_whitespaces
+
 @dataclass(kw_only=True)
 class Player:
-    id: int | None = None
+    id: int = -1
     code: str
     surname: str
     active: bool
     initial: str = ""
     firstname: str = ""
+
+    @property
+    def name(self) -> str:
+        if forename := self.firstname or self.initial:
+            return f"{self.surname}, {forename}"
+        return self.surname
 
 
 @dataclass
@@ -42,7 +48,6 @@ class Match:
     opp_lb: int
 
 
-@accept_whitespaces
 @dataclass(kw_only=True)
 @dateformat(r"%Y-%m-%d %H:%M:%S")
 class Partnership:
@@ -121,10 +126,10 @@ class Captain:
     tied: int
 
 
-@accept_whitespaces
 @dataclass(kw_only=True)
 @dateformat(r"%Y-%m-%d %H:%M:%S")
 class HundredPlus:
+    id: int = -1
     player_id: int = -1
     year: int
     code: str
@@ -133,6 +138,16 @@ class HundredPlus:
     notout: bool
     opponents: str
     minutes: Optional[int] = None
+
+    def row_dict(self, players: dict) -> dict:
+        player: Player = players[self.player_id]
+        name = player.name
+        return {
+            "name": name,
+            "score": f"{self.score}{'*' if self.notout else ''}",
+            "opponents": self.opponents,
+            "date": self.date,
+        }
 
 
 @dataclass

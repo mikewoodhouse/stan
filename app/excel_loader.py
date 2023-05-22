@@ -1,5 +1,7 @@
-from openpyxl import load_workbook
 import warnings
+
+from openpyxl import load_workbook
+
 from app.types.classes import Match
 
 
@@ -52,4 +54,4 @@ match_map = {
 
 dict_0 = {v: match_rows[3][k] for k, v in match_map.items()}
 
-match = Match(**dict_0)
+match = Match(**dict_0)  # type: ignore

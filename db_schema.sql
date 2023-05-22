@@ -174,9 +174,3 @@ CREATE TABLE
   );
 
 CREATE INDEX "index_performances_on_player_id" ON "performances" ("player_id");
-
-CREATE TABLE
-  IF NOT EXISTS "schema_migrations" ("version" VARCHAR NOT NULL PRIMARY KEY);
-
-CREATE TABLE
-  IF NOT EXISTS "ar_internal_metadata" ("key" VARCHAR NOT NULL PRIMARY KEY, "value" VARCHAR);

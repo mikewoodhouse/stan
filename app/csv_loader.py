@@ -1,9 +1,11 @@
 import sqlite3
-from dataclasses import fields, asdict
-from dataclass_csv import DataclassReader
 from contextlib import closing
-from app.load_defs import LoadDefinition, load_defs
+from dataclasses import asdict, fields
 from typing import Any
+
+from dataclass_csv import DataclassReader
+
+from app.load_defs import LoadDefinition, load_defs
 
 
 class CsvLoader:
@@ -24,8 +26,10 @@ class CsvLoader:
             return list(reader)
 
     def insert_sql(self, klass: type, tablename: str) -> str:
-        cols = ", ".join(field.name for field in fields(klass))
-        vals = ", ".join(f":{field.name}" for field in fields(klass))
+        cols = ", ".join(field.name for field in fields(klass) if field.name != "id")
+        vals = ", ".join(
+            f":{field.name}" for field in fields(klass) if field.name != "id"
+        )
         return f"INSERT INTO {tablename} ({cols}) VALUES ({vals})"
 
     def load_schema(self) -> None:

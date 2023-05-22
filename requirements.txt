@@ -6,6 +6,7 @@ dataclass-csv
 # for development
 flake8
 black
+isort
 
 # if jupyter needed
 jupyter
@@ -15,3 +16,11 @@ pytest
 pytest-cov
 
 openpyxl
+
+mypy
+
+types-openpyxl
+
+nicegui
+
+dacite

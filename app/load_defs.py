@@ -1,6 +1,9 @@
 from dataclasses import dataclass, field
-from app.types.classes import Player, Season, HundredPlus, Partnership
 from typing import Type
+
+from app.types.importables import HundredPlusImport, PlayerImport
+
+from app.types.classes import Season, Partnership
 
 
 @dataclass
@@ -17,7 +20,7 @@ class LoadDefinition:
 
 load_defs = {
     "players": LoadDefinition(
-        klass=Player,
+        klass=PlayerImport,
         table="players",
         headers="Code|Surname|Initial|Active|FirstName",
     ),
@@ -27,7 +30,7 @@ load_defs = {
         headers="Year|Played|Won|Lost|Drawn|Tied|NoResult|MaxPossibleGames",
     ),
     "hundred_plus": LoadDefinition(
-        klass=HundredPlus,
+        klass=HundredPlusImport,
         table="hundred_plus",
         headers="Year|Code|Date|Score|NotOut|Opponents|Minutes",
         player_id_cols={
