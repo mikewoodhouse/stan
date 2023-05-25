@@ -1,4 +1,4 @@
-from dataclasses import dataclass, asdict
+from dataclasses import asdict, dataclass
 from datetime import date
 from typing import Optional
 
@@ -67,30 +67,33 @@ class Partnership:
     bat2_id: int = -1
 
 
-@dataclass
+@dataclass(kw_only=True)
+@dateformat(r"%Y-%m-%d %H:%M:%S")
 class SeasonRecord:
+    id: int = -1
     year: int
     club: str
     runsscored: int
     wicketslost: int
     highest: int
     highestwkts: int
-    highestdate: date
-    highestopps: str
+    highestdate: date = date(1899, 12, 31)
+    highestopps: str = ""
     lowest: int
     lowestwkts: int
-    lowestdate: date
-    lowestopps: str
+    lowestdate: date = date(1899, 12, 31)
+    lowestopps: str = ""
     byes: int
     legbyes: int
     wides: int
     noballs: int
-    ballsbowled: int
-    ballsreceived: int
+    ballsbowled: int = -1
+    ballsreceived: int = -1
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Season:
+    id: int = -1
     year: int
     played: int
     won: int

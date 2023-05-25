@@ -1,8 +1,10 @@
-from collections import Counter
-from nicegui import ui
-from contextlib import closing
-from app.types.classes import Player, HundredPlus
 import sqlite3
+from collections import Counter
+from contextlib import closing
+
+from nicegui import ui
+
+from app.types.classes import HundredPlus, Player
 
 HUNDREDS_COLS = [
     {

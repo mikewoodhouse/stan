@@ -1,10 +1,18 @@
-from nicegui import ui
-from contextlib import closing
-from app.types.classes import Player, Performance
 import sqlite3
+from contextlib import closing
+
+from nicegui import ui
+
+from app.types.classes import Performance, Player
 
 COLS = [
-    {"name": "year", "label": "year", "field": "year", "sortable": True},
+    {
+        "name": "year",
+        "label": "year",
+        "field": "year",
+        "sortable": True,
+        "align": "center",
+    },
     {"name": "matches", "label": "matches", "field": "matches", "sortable": True},
     {"name": "innings", "label": "innings", "field": "innings", "sortable": True},
     {"name": "notout", "label": "not out", "field": "notout", "sortable": True},
@@ -78,4 +86,10 @@ def show_player(db: sqlite3.Connection, player_id: int) -> None:
     rows = [row.row_dict() for row in performances(db, player_id)]
     print(rows[:5])
     with ui.row():
-        ui.table(rows=rows, columns=COLS, row_key="year").props("dense")
+        with ui.table(rows=rows, columns=COLS, row_key="year").props("dense") as table:
+            table.add_slot(
+                "body-cell-year",
+                r"""
+                <td :props="props"><a :href="'/seasons/' + props.row.year">{{props.row.year}}</a></td>
+                """,
+            )

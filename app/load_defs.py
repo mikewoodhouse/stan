@@ -1,9 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Type
 
+from app.types.classes import Partnership, Performance, Season, SeasonRecord
 from app.types.importables import HundredPlusImport, PlayerImport
-
-from app.types.classes import Season, Partnership, Performance
 
 
 @dataclass
@@ -53,5 +52,10 @@ load_defs = {
         player_id_cols={
             "player_id": "code",
         },
+    ),
+    "season_records": LoadDefinition(
+        klass=SeasonRecord,
+        table="season_records",
+        headers="Year|Club|RunsScored|WicketsLost|Highest|HighestWkts|HighestDate|HighestOpps|Lowest|LowestWkts|LowestDate|LowestOpps|Byes|LegByes|Wides|NoBalls|BallsBowled|BallsReceived",
     ),
 }
