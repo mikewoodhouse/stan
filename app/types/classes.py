@@ -151,32 +151,33 @@ class HundredPlus:
         }
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Performance:
-    player_id: int
+    id: int = -1
+    player_id: int = -1
     code: str
     year: int
     matches: int
-    innings: int
-    notout: int
-    highest: int
-    highestnotout: bool
-    runsscored: int
-    fours: int
-    sixes: int
-    overs: int
-    balls: int
-    maidens: int
-    wides: int
-    noballs: int
-    runs: int
-    wickets: int
-    fivewktinn: int
-    caught: int
-    stumped: int
-    fifties: int
-    hundreds: int
-    fives: int
-    caughtwkt: int
-    captain: int
-    keptwicket: int
+    innings: int = 0
+    notout: int = 0
+    highest: int = 0
+    highestnotout: bool = False
+    runsscored: int = 0
+    fours: int = 0
+    sixes: int = 0
+    overs: int = 0
+    balls: int = 0
+    maidens: int = 0
+    wides: int = 0
+    noballs: int = 0
+    runs: int = 0
+    wickets: int = 0
+    fivewktinn: int = 0
+    caught: int = 0
+    stumped: int = 0
+    fifties: int = 0
+    hundreds: int = 0
+    fives: int = 0
+    caughtwkt: int = 0
+    captain: int = 0
+    keptwicket: int = 0

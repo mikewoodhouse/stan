@@ -64,8 +64,6 @@ def hundreds_report(db: sqlite3.Connection):
 
     players = all_players(db)
     rows = [row.row_dict(players) for row in hundreds(db)]
-    rows = rows[:5]
-    print(rows)
 
     with ui.row():
         with ui.table(rows=rows, columns=HUNDREDS_COLS, row_key="id").props(

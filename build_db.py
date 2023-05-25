@@ -3,16 +3,10 @@ import sqlite3
 from contextlib import closing
 
 from app.csv_loader import CsvLoader
+from app.load_defs import load_defs
 
 os.unlink("stan.sqlite")
 db = sqlite3.connect("stan.sqlite")
-
-TABLES = [
-    "players",
-    "seasons",
-    "hundred_plus",
-    "partnerships",
-]
 
 
 def count(db: sqlite3.Connection, tablename: str) -> int:
@@ -23,10 +17,10 @@ def count(db: sqlite3.Connection, tablename: str) -> int:
 
 loader = CsvLoader(db)
 loader.load_schema()
-for table in TABLES:
+for table in load_defs.keys():
     print("loading", table)
     loader.load(table)
-for table in TABLES:
+for table in load_defs.keys():
     print(table, count(db, table))
 db.commit()
 db.close()

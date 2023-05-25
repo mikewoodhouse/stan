@@ -3,7 +3,7 @@ from typing import Type
 
 from app.types.importables import HundredPlusImport, PlayerImport
 
-from app.types.classes import Season, Partnership
+from app.types.classes import Season, Partnership, Performance
 
 
 @dataclass
@@ -44,6 +44,14 @@ load_defs = {
         player_id_cols={
             "bat1_id": "bat1",
             "bat2_id": "bat2",
+        },
+    ),
+    "performances": LoadDefinition(
+        klass=Performance,
+        table="performances",
+        headers="Code|Year|Matches|Innings|NotOut|Highest|HighestNotOut|RunsScored|Fours|Sixes|Overs|Balls|Maidens|Wides|NoBalls|Runs|Wickets|FiveWktInn|Caught|Stumped|Fifties|Hundreds|Fives|CaughtWkt|Captain|KeptWicket",
+        player_id_cols={
+            "player_id": "code",
         },
     ),
 }

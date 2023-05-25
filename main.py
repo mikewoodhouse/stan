@@ -3,6 +3,7 @@ from nicegui import ui
 import sqlite3
 
 from app.pages.hundreds import hundreds_report
+from app.pages.player import show_player
 
 
 def dict_factory(cursor, row):
@@ -23,6 +24,11 @@ def main_page():
 @ui.page("/hundreds")
 async def hundreds_page():
     hundreds_report(db)
+
+
+@ui.page("/players/{player_id}")
+async def players(player_id: int):
+    show_player(db, player_id)
 
 
 ui.run()
