@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 from datetime import date
 from typing import Optional
 
@@ -181,3 +181,18 @@ class Performance:
     caughtwkt: int = 0
     captain: int = 0
     keptwicket: int = 0
+
+    @property
+    def high_score(self) -> str:
+        return f"{self.highest}{'*' if self.highestnotout else ''}"
+
+    @property
+    def overs_bowled(self) -> str:
+        total_overs, total_balls = divmod(self.overs * 6 + self.balls, 6)
+        return f"{total_overs}.{total_balls}"
+
+    def row_dict(self) -> dict:
+        return asdict(self) | {
+            "high_score": self.high_score,
+            "overs_bowled": self.overs_bowled,
+        }
