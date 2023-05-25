@@ -56,21 +56,29 @@ def handle_cell_click(msg):
 
 
 def hundreds_report(db: sqlite3.Connection):
+    with ui.header(elevated=True).style("background-color: maroon"):
+        ui.label("Hundreds").style("color: gold")
+
     with ui.row():
-        ui.label("Hundreds")
         ui.link("Back", "/")
 
     players = all_players(db)
     rows = [row.row_dict(players) for row in hundreds(db)]
+    rows = rows[:5]
+    print(rows)
 
     with ui.row():
-        ton_table = ui.table(rows=rows, columns=HUNDREDS_COLS, row_key="code").props(
+        with ui.table(rows=rows, columns=HUNDREDS_COLS, row_key="id").props(
             "dense"
-        )
-        ton_table.on("cellClicked", handle_cell_click)
+        ) as table:
+            table.add_slot(
+                "body-cell-name",
+                r"""
+                <td :props="props"><a :href="'/players/' + props.row.player_id">{{props.row.name}}</a></td>
+                """,
+            )
 
         ton_count = Counter(row["name"] for row in rows)
-
         ton_rows = [{"name": k, "hundreds": v} for k, v in ton_count.items()]
         ton_cols = [
             {"name": "name", "label": "Name", "field": "name", "sortable": True},

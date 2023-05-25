@@ -143,6 +143,7 @@ class HundredPlus:
         player: Player = players[self.player_id]
         name = player.name
         return {
+            "player_id": self.player_id,
             "name": name,
             "score": f"{self.score}{'*' if self.notout else ''}",
             "opponents": self.opponents,
