@@ -198,4 +198,17 @@ class Performance:
         return asdict(self) | {
             "high_score": self.high_score,
             "overs_bowled": self.overs_bowled,
+            "batting_average": self.batting_average,
+            "bowling_average": self.bowling_average,
         }
+
+    @property
+    def batting_average(self) -> float:
+        if (self.innings - self.notout) > 0:
+            return round(self.runsscored / (self.innings - self.notout), 2)
+        else:
+            return 0
+
+    @property
+    def bowling_average(self) -> float:
+        return round(self.runs / self.wickets, 2) if self.wickets > 0 else 0

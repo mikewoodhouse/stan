@@ -23,6 +23,12 @@ COLS = [
         "field": "runsscored",
         "sortable": True,
     },
+    {
+        "name": "batave",
+        "label": "ave",
+        "field": "batting_average",
+        "sortable": True,
+    },
     {"name": "fours", "label": "fours", "field": "fours", "sortable": True},
     {"name": "sixes", "label": "sixes", "field": "sixes", "sortable": True},
     {
@@ -34,6 +40,12 @@ COLS = [
     {"name": "maidens", "label": "maidens", "field": "maidens", "sortable": True},
     {"name": "runs", "label": "runs", "field": "runs", "sortable": True},
     {"name": "wickets", "label": "wickets", "field": "wickets", "sortable": True},
+    {
+        "name": "bowlave",
+        "label": "ave",
+        "field": "bowling_average",
+        "sortable": True,
+    },
     {
         "name": "fivewktinn",
         "label": "five-for",
@@ -84,7 +96,6 @@ def show_player(db: sqlite3.Connection, player_id: int) -> None:
     with ui.header(elevated=True).style("background-color: maroon"):
         ui.label(player.name).style("color: gold")
     rows = [row.row_dict() for row in performances(db, player_id)]
-    print(rows[:5])
     with ui.row():
         with ui.table(rows=rows, columns=COLS, row_key="year").props("dense") as table:
             table.add_slot(
