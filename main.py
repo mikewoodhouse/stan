@@ -2,7 +2,7 @@ import sqlite3
 
 from nicegui import ui
 
-from app.pages import hundreds_report, show_player, show_season
+from app.pages import hundreds_report, show_player, show_season, show_seasons
 
 
 def dict_factory(cursor, row):
@@ -18,6 +18,7 @@ db.row_factory = dict_factory
 def main_page():
     with ui.left_drawer():
         ui.link("Hundreds", "/hundreds")
+        ui.link("Seasons", "/seasons")
 
 
 @ui.page("/hundreds", title="hundreds • Stan")
@@ -30,7 +31,12 @@ async def players(player_id: int):
     show_player(db, player_id)
 
 
-@ui.page("/seasons/{year}", title="season • Stan")
+@ui.page("/seasons", title="seasons • Stan")
+async def seasons():
+    show_seasons(db)
+
+
+@ui.page("/season/{year}", title="season • Stan")
 async def season(year: int):
     show_season(db, year)
 
