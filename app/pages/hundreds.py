@@ -4,7 +4,7 @@ from contextlib import closing
 
 from nicegui import ui
 
-from app.types.classes import HundredPlus, Player
+from app.types import HundredPlus, Player
 
 HUNDREDS_COLS = [
     {

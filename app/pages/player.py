@@ -3,7 +3,7 @@ from contextlib import closing
 
 from nicegui import ui
 
-from app.types.classes import Performance, Player
+from app.types import Performance, Player
 
 COLS = [
     {

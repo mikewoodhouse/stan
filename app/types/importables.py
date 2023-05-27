@@ -1,6 +1,6 @@
 from dataclass_csv import accept_whitespaces
 
-from app.types.classes import HundredPlus, Player
+from app.types import HundredPlus, Player
 
 
 @accept_whitespaces

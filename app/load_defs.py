@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Type
 
-from app.types.classes import Partnership, Performance, Season, SeasonRecord
+from app.types import Partnership, Performance, Season, SeasonRecord
 from app.types.importables import HundredPlusImport, PlayerImport
 
 

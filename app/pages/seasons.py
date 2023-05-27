@@ -4,7 +4,7 @@ from dataclasses import asdict
 
 from nicegui import ui
 
-from app.types.classes import Season
+from app.types import Season
 
 
 def get_seasons(db: sqlite3.Connection) -> list[Season]:
