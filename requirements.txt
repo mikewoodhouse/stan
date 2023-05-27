@@ -1,26 +1,7 @@
-# needed for execution
-Flask
-
 dataclass-csv
-
-# for development
-flake8
-black
-isort
-
-# if jupyter needed
-jupyter
-ipykernel
-
-pytest
-pytest-cov
 
 openpyxl
 
-mypy
-
-types-openpyxl
-
 nicegui
 
-dacite
+
