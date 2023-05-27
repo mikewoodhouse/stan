@@ -4,13 +4,6 @@ import pytest
 
 from app.csv_loader import CsvLoader, load_defs
 
-TABLES = [
-    "players",
-    "seasons",
-    "hundred_plus",
-    "partnerships",
-]
-
 
 @pytest.fixture
 def loader() -> CsvLoader:
@@ -23,8 +16,8 @@ def loader() -> CsvLoader:
 def fully_loaded() -> CsvLoader:
     loader = CsvLoader(sqlite3.connect(":memory:"))
     loader.load_schema()
-    for table in TABLES:
-        loader.load(table)
+    for filename, _ in load_defs.items():
+        loader.load(filename)
     return loader
 
 
@@ -41,27 +34,23 @@ def test_schema_loaded(loader: CsvLoader):
     assert count(loader, "players") == 0
 
 
-@pytest.mark.parametrize(
-    "key",
-    TABLES,
-)
-def test_load_defs_exist(key):
-    assert key in load_defs
-
-
 def test_data_loaded(fully_loaded: CsvLoader):
-    assert all(count(fully_loaded, table) > 0 for table in TABLES)
+    assert all(count(fully_loaded, table) > 0 for table in load_defs.keys())
 
 
 def test_player_ids_set(fully_loaded: CsvLoader):
-    for load_def in load_defs.values():
-        for col in load_def.player_id_cols.keys():
-            sql = f"""
-            select
-                count(*) row_count
-            ,   count(distinct {col}) player_ids
-            from {load_def.table}
-            """
-            row_count, player_ids = fully_loaded.conn.execute(sql).fetchone()
-            assert player_ids > 1, f"fewer than 2 distinct {col} in {load_def.table}"
-            assert row_count > 0, f"no rows in {load_def.table}"
+    def count_in_col(table: str, col: str) -> bool:
+        sql = f"""
+        select
+            count(*) row_count
+        ,   count(distinct {col}) player_ids
+        from {table}
+        """
+        row_count, player_ids = fully_loaded.conn.execute(sql).fetchone()
+        return row_count > 0 and player_ids > 1
+
+    assert all(
+        count_in_col(load_def.table, col)
+        for load_def in load_defs.values()
+        for col in load_def.player_id_cols
+    )

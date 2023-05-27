@@ -17,8 +17,9 @@ db.row_factory = dict_factory
 @ui.page("/", title="Stan")
 def main_page():
     with ui.left_drawer():
-        ui.link("Hundreds", "/hundreds")
-        ui.link("Seasons", "/seasons")
+        with ui.column():
+            ui.link("Hundreds", "/hundreds")
+            ui.link("Seasons", "/seasons")
 
 
 @ui.page("/hundreds", title="hundreds • Stan")

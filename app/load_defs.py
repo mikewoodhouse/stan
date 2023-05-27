@@ -48,7 +48,9 @@ load_defs = {
     "performances": LoadDefinition(
         klass=Performance,
         table="performances",
-        headers="Code|Year|Matches|Innings|NotOut|Highest|HighestNotOut|RunsScored|Fours|Sixes|Overs|Balls|Maidens|Wides|NoBalls|Runs|Wickets|FiveWktInn|Caught|Stumped|Fifties|Hundreds|Fives|CaughtWkt|Captain|KeptWicket",
+        headers="Code|Year|Matches|Innings|NotOut|Highest|HighestNotOut|RunsScored|Fours|Sixes"
+        "|Overs|Balls|Maidens|Wides|NoBalls|Runs|Wickets|FiveWktInn|Caught|Stumped|Fifties|Hundreds"
+        "|Fives|CaughtWkt|Captain|KeptWicket",
         player_id_cols={
             "player_id": "code",
         },
@@ -56,6 +58,7 @@ load_defs = {
     "season_records": LoadDefinition(
         klass=SeasonRecord,
         table="season_records",
-        headers="Year|Club|RunsScored|WicketsLost|Highest|HighestWkts|HighestDate|HighestOpps|Lowest|LowestWkts|LowestDate|LowestOpps|Byes|LegByes|Wides|NoBalls|BallsBowled|BallsReceived",
+        headers="Year|Club|RunsScored|WicketsLost|Highest|HighestWkts|HighestDate|HighestOpps"
+        "|Lowest|LowestWkts|LowestDate|LowestOpps|Byes|LegByes|Wides|NoBalls|BallsBowled|BallsReceived",
     ),
 }
