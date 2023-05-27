@@ -1,60 +1,9 @@
 import sqlite3
 from collections import Counter
-from contextlib import closing
 
 from nicegui import ui
 
 from app.types import HundredPlus, Player
-
-HUNDREDS_COLS = [
-    {
-        "name": "name",
-        "label": "Name",
-        "field": "name",
-        "sortable": True,
-        "align": "left",
-    },
-    {
-        "name": "score",
-        "label": "Score",
-        "field": "score",
-        "sortable": True,
-        "align": "center",
-    },
-    {
-        "name": "opps",
-        "label": "Vs",
-        "field": "opponents",
-        "sortable": True,
-        "align": "left",
-    },
-    {
-        "name": "date",
-        "label": "Date",
-        "field": "date",
-        "sortable": True,
-        "align": "center",
-    },
-]
-
-
-def all_players(conn: sqlite3.Connection) -> dict[int, Player]:
-    with closing(conn.cursor()) as csr:
-        csr.execute("SELECT * FROM players")
-        rows = csr.fetchall()
-    player_list = [Player(**row) for row in rows]
-    return {player.id: player for player in player_list}
-
-
-def hundreds(db):
-    with closing(db.cursor()) as csr:
-        csr.execute("SELECT * FROM hundred_plus")
-        rows = list(csr.fetchall())
-        return [HundredPlus(**row) for row in rows]
-
-
-def handle_cell_click(msg):
-    print(msg)
 
 
 def hundreds_report(db: sqlite3.Connection):
@@ -64,17 +13,19 @@ def hundreds_report(db: sqlite3.Connection):
     with ui.row():
         ui.link("Back", "/")
 
-    players = all_players(db)
-    rows = [row.row_dict(players) for row in hundreds(db)]
+    players = Player.all(db)
+    rows = [row.row_dict(players) for row in HundredPlus.all(db)]
 
     with ui.row():
-        with ui.table(rows=rows, columns=HUNDREDS_COLS, row_key="id").props(
+        with ui.table(rows=rows, columns=HundredPlus.table_cols(), row_key="id").props(
             "dense"
         ) as table:
             table.add_slot(
                 "body-cell-name",
                 r"""
-                <td :props="props"><a :href="'/players/' + props.row.player_id">{{props.row.name}}</a></td>
+                <td :props="props">
+                    <a :href="'/players/' + props.row.player_id">{{props.row.name}}</a>
+                </td>
                 """,
             )
 
