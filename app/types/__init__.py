@@ -1,3 +1,4 @@
+from .batting_average import BattingAverage
 from .hundred_plus import HundredPlus
 from .partnership import Partnership
 from .performance import Performance

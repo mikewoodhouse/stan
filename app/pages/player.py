@@ -17,6 +17,6 @@ def show_player(db: sqlite3.Connection, player_id: int) -> None:
             table.add_slot(
                 "body-cell-year",
                 r"""
-                <td :props="props"><a :href="'/seasons/' + props.row.year">{{props.row.year}}</a></td>
+                <td :props="props"><a :href="'/season/' + props.row.year">{{props.row.year}}</a></td>
                 """,
             )
