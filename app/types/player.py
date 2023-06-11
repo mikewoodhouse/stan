@@ -8,9 +8,9 @@ from dataclasses import dataclass
 @dataclass(kw_only=True)
 class Player:
     id: int = -1
-    code: str
-    surname: str
-    active: bool
+    code: str = ""
+    surname: str = ""
+    active: bool = False
     initial: str = ""
     firstname: str = ""
 

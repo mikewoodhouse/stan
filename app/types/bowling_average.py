@@ -5,17 +5,20 @@ from dataclasses import Field, dataclass, fields
 from typing import Any
 
 from app.types.performance import Performance
+from app.utils import balls_to_overs
 
 
 @dataclass(kw_only=True)
-class BattingAverage:
+class BowlingAverage:
     player_id: int = -1
     position: int = -1
     name: str = ""
-    innings: int
-    notout: int
-    high_score: str
-    runsscored: int
+    overs: int
+    balls: int
+    overs_bowled: str = ""
+    maidens: str
+    runs: int
+    wickets: int
     average: float = 0
     fifties: int
     hundreds: int
@@ -24,30 +27,35 @@ class BattingAverage:
 
     @classmethod
     def for_year(
-        cls, db: sqlite3.Connection, year: int, min_innings: int = 1
-    ) -> tuple[list[BattingAverage], list[BattingAverage]]:
+        cls, db: sqlite3.Connection, year: int, min_wickets: int = 1
+    ) -> tuple[list[BowlingAverage], list[BowlingAverage]]:
         perfs = [perf for perf in Performance.for_year(db, year) if perf.innings > 0]
         flds = fields(cls)
 
         def build_row(
             flds: tuple[Field[Any], ...], perf: Performance
-        ) -> BattingAverage:
+        ) -> BowlingAverage:
             attrs = {field.name: getattr(perf, field.name, None) for field in flds}
-            item: BattingAverage = BattingAverage(
+            item: BowlingAverage = BowlingAverage(
                 **{k: v for k, v in attrs.items() if v is not None}
             )
-            item.average = perf.batting_average
-            item.high_score = perf.high_score
+            item.average = perf.bowling_average
+            item.overs_bowled = balls_to_overs(item.overs * 6 + item.balls)
             return item
 
         avgs = [build_row(flds, perf) for perf in perfs]
-        main_set = list(filter(lambda avg: avg.innings >= min_innings, avgs))
-        also_batted = list(filter(lambda avg: avg.innings < min_innings, avgs))
-        main_set.sort(key=lambda b: b.average, reverse=True)
+        main_set = list(filter(lambda avg: avg.wickets >= min_wickets, avgs))
+        also_bowled = list(
+            filter(
+                lambda avg: avg.wickets < min_wickets and avg.overs + avg.balls > 0,
+                avgs,
+            )
+        )
+        main_set.sort(key=lambda b: b.average, reverse=False)
         for idx, item in enumerate(main_set):
             item.position = idx + 1
-        also_batted.sort(key=lambda b: b.name)
-        return main_set, also_batted
+        also_bowled.sort(key=lambda b: b.name)
+        return main_set, also_bowled
 
     @staticmethod
     def table_cols():
@@ -66,22 +74,27 @@ class BattingAverage:
                 "sortable": True,
             },
             {
-                "name": "innings",
-                "label": "innings",
-                "field": "innings",
-                "sortable": True,
-            },
-            {"name": "notout", "label": "notout", "field": "notout", "sortable": True},
-            {
-                "name": "high_score",
-                "label": "high_score",
-                "field": "high_score",
+                "name": "overs",
+                "label": "overs",
+                "field": "overs_bowled",
                 "sortable": True,
             },
             {
-                "name": "runsscored",
-                "label": "runsscored",
-                "field": "runsscored",
+                "name": "maidens",
+                "label": "maidens",
+                "field": "maidens",
+                "sortable": True,
+            },
+            {
+                "name": "runs",
+                "label": "runs",
+                "field": "runs",
+                "sortable": True,
+            },
+            {
+                "name": "wickets",
+                "label": "wickets",
+                "field": "wickets",
                 "sortable": True,
             },
             {
@@ -91,17 +104,21 @@ class BattingAverage:
                 "sortable": True,
             },
             {
-                "name": "fifties",
-                "label": "fifties",
-                "field": "fifties",
+                "name": "strike",
+                "label": "strike",
+                "field": "strike",
                 "sortable": True,
             },
             {
-                "name": "hundreds",
-                "label": "hundreds",
-                "field": "hundreds",
+                "name": "economy",
+                "label": "economy",
+                "field": "economy",
                 "sortable": True,
             },
-            {"name": "fours", "label": "fours", "field": "fours", "sortable": True},
-            {"name": "sixes", "label": "sixes", "field": "sixes", "sortable": True},
+            {
+                "name": "five+",
+                "label": "five+",
+                "field": "five+",
+                "sortable": True,
+            },
         ]
