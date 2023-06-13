@@ -24,12 +24,16 @@ class BowlingAverage:
     hundreds: int
     fours: int
     sixes: int
+    strike_rate: float | None = None
+    economy: float = 0
 
     @classmethod
     def for_year(
         cls, db: sqlite3.Connection, year: int, min_wickets: int = 1
     ) -> tuple[list[BowlingAverage], list[BowlingAverage]]:
-        perfs = [perf for perf in Performance.for_year(db, year) if perf.innings > 0]
+        perfs = [
+            perf for perf in Performance.for_year(db, year) if perf.balls_bowled > 0
+        ]
         flds = fields(cls)
 
         def build_row(
@@ -41,6 +45,8 @@ class BowlingAverage:
             )
             item.average = perf.bowling_average
             item.overs_bowled = balls_to_overs(item.overs * 6 + item.balls)
+            item.strike_rate = perf.strike_rate
+            item.economy = perf.economy
             return item
 
         avgs = [build_row(flds, perf) for perf in perfs]
@@ -106,7 +112,7 @@ class BowlingAverage:
             {
                 "name": "strike",
                 "label": "strike",
-                "field": "strike",
+                "field": "strike_rate",
                 "sortable": True,
             },
             {

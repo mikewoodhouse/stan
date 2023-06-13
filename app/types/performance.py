@@ -44,7 +44,7 @@ class Performance:
 
     @property
     def overs_bowled(self) -> str:
-        return balls_to_overs(self.overs * 6 + self.balls)
+        return balls_to_overs(self.balls_bowled)
 
     @property
     def batting_average(self) -> float:
@@ -56,6 +56,18 @@ class Performance:
     @property
     def bowling_average(self) -> float:
         return round(self.runs / self.wickets, 2) if self.wickets > 0 else 0
+
+    @property
+    def strike_rate(self) -> float | None:
+        return round(self.balls_bowled / self.wickets, 2) if self.wickets else None
+
+    @property
+    def balls_bowled(self) -> int:
+        return self.overs * 6 + self.balls
+
+    @property
+    def economy(self) -> float:
+        return round(self.runs * 6 / self.balls_bowled, 2)
 
     def row_dict(self) -> dict:
         return asdict(self) | {

@@ -33,7 +33,6 @@ def show_season(db: sqlite3.Connection, year: int) -> None:
             bowl_aves, also_bowled = BowlingAverage.for_year(db, year, min_wickets)
             show_bowling(min_wickets, players, bowl_aves, show_position=True)
             show_bowling(min_wickets, players, also_bowled, show_position=False)
-            ui.label("bowl aves")
         with ui.card():
             ui.label("other stats")
 
