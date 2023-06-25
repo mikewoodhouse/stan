@@ -5,7 +5,7 @@ from typing import Any
 
 from dataclass_csv import DataclassReader
 
-from app.load_defs import LoadDefinition, load_defs
+from app.loaders.load_defs import LoadDefinition, load_defs
 
 
 class CsvLoader:
