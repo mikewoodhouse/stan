@@ -2,8 +2,8 @@ import os
 import sqlite3
 from contextlib import closing
 
-from app.csv_loader import CsvLoader
-from app.load_defs import load_defs
+from app.loaders.csv_loader import CsvLoader
+from app.loaders.load_defs import load_defs
 
 os.unlink("stan.sqlite")
 db = sqlite3.connect("stan.sqlite")
