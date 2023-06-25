@@ -34,8 +34,19 @@ class MatchBatting:
         w = "+" if self.kept_wicket else " "
         return f"{(c + w).strip():>2}"
 
+    @property
+    def fielding(self) -> str:
+        ret = []
+        if (catches := self.caught + self.caught_wkt) > 0:
+            ret.append(f"{catches} ct")
+        if self.stumped > 0:
+            ret.append(f"{self.stumped} st")
+        return f"[{','.join(ret)}]" if ret else ""
+
     def __str__(self) -> str:
-        return f"{self.position:2d} {self.capt_wkt_flags} {self.name:40}{self.how_out:^3} {self.runs:3d}"
+        name_plus = f"{self.name} {self.fielding}"
+        run_str = f"{self.runs:3d}" if self.how_out != "dnb" else "   "
+        return f"{self.position:2d} {self.capt_wkt_flags} {name_plus:40}{self.how_out:^3} {run_str}"
 
     @staticmethod
     def from_worksheet(name: str, entry: str) -> MatchBatting:
@@ -50,17 +61,18 @@ class MatchBatting:
         obj.how_out = fields["how_out"]
         obj.captain = "*" in fields["capt_kept"]
         obj.kept_wicket = "+" in fields["capt_kept"]
-        ct_st = fields["fielded"].split(".")
+
+        def split_dotted(dotted: str) -> tuple:
+            parts = [int(p) for p in dotted.split(".")]
+            return tuple(parts) if len(parts) == 2 else (parts[0], 0)
+
         if obj.kept_wicket:
-            obj.caught_wkt = int(ct_st[0])
-            if len(ct_st) > 1:
-                obj.stumped = int(ct_st[1])
+            obj.caught_wkt, obj.stumped = split_dotted(fields["fielded"])
         else:
-            obj.caught = int(fields["fielded"])
-        four_six = fields["bdries"].split(".")
-        obj.fours = int(four_six[0])
-        if len(four_six) > 1:
-            obj.sixes = int(four_six[1])
+            obj.caught, obj.stumped = split_dotted(fields["fielded"])
+
+        obj.fours, obj.sixes = split_dotted(fields["bdries"])
+
         return obj
 
 
