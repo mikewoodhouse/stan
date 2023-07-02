@@ -17,9 +17,9 @@ def count(db: sqlite3.Connection, tablename: str) -> int:
 
 loader = CsvLoader(db)
 loader.load_schema()
-for table in load_defs.keys():
-    print("loading", table)
-    loader.load(table)
+for tablename, load_def in load_defs.items():
+    print("loading", load_def.table)
+    loader.load(load_def)
 for table in load_defs.keys():
     print(table, count(db, table))
 db.commit()

@@ -17,6 +17,11 @@ class LoadDefinition:
         return [(h, h.lower()) for h in self.headers.split("|")]
 
 
+#
+# TODO: no need for this to be a dict, key is always == table, if that ceases
+# to be the case (or we need a different filename) then the class definition
+# can always be extended
+#
 load_defs = {
     "players": LoadDefinition(
         klass=PlayerImport,

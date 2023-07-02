@@ -10,12 +10,10 @@ class ExcelLoader:
         self.filepath = filepath
 
 
-def load_matches():
+def load_matches(wbpath: str):
     warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
-    wb = load_workbook(
-        "/mnt/c/Users/mikew/Documents/TOCC/Averages/TOCC Averages 2022.xlsm"
-    )
+    wb = load_workbook(wbpath)
 
     sh = wb["Matches"]
 

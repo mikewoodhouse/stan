@@ -53,7 +53,9 @@ class MatchBatting:
         obj = MatchBatting(name=name)
         if not entry:
             return obj
-        match = batre.search(entry)
+        if not (match := batre.search(entry)):
+            return obj
+
         fields = match.groupdict()
         obj.position = int(fields["position"])
         obj.runs = int(fields["runs"])
@@ -145,12 +147,5 @@ class BattingImporter:
             col = match_idx + 4
             for player_idx, player in enumerate(players):
                 row = player_idx + 5
-                cel = self.sheet.cell(row, col).value
-                if cel:
+                if cel := self.sheet.cell(row, col).value:
                     match.bat_card.append(MatchBatting.from_worksheet(player, cel))
-
-        print(matches[0].card())
-        # bid match list
-        # for cell in data area
-        # if not empty
-        # - parse & add to card
