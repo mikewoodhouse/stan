@@ -2,8 +2,9 @@ from dataclasses import dataclass
 from datetime import date
 
 
-@dataclass
+@dataclass(kw_only=True)
 class Match:
+    id: int = -1
     date: date
     oppo: str
     venue: str
@@ -27,29 +28,3 @@ class Match:
     opp_nb: int
     opp_b: int
     opp_lb: int
-
-
-@dataclass(kw_only=True)
-@dataclass
-class BestBowling:
-    player_id: int
-    year: int
-    code: str
-    date: date
-    inns: int
-    wkts: int
-    runs: int
-    opp: str
-
-
-@dataclass
-class Captain:
-    player_id: int
-    code: str
-    year: int
-    matches: int
-    won: int
-    lost: int
-    drawn: int
-    nodecision: int
-    tied: int

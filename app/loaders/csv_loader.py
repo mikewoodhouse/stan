@@ -18,7 +18,7 @@ class CsvLoader:
         loader.update_player_ids(load_def.player_id_cols)
 
     def read_csv(self, load_def: LoadDefinition) -> list[Any]:
-        with open(f"csvdata/{load_def.table}.csv") as f:
+        with open(f"data/csvdata/{load_def.table}.csv", "r") as f:
             reader = DataclassReader(f, load_def.klass)
             for hdr_in, hdr_out in load_def.header_map:
                 reader.map(hdr_in).to(hdr_out)

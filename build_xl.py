@@ -2,7 +2,7 @@ import os
 import pathlib
 import sqlite3
 
-from app.loaders.excel_loader import ExcelLoader
+from app.loaders.xl.excel_loader import ExcelLoader
 
 os.unlink("stanxl.sqlite")
 db = sqlite3.connect("stanxl.sqlite")

@@ -2,7 +2,7 @@ import warnings
 
 from openpyxl import load_workbook
 
-from app.types.classes import Match
+from app.types import Match
 
 
 class ExcelLoader:
@@ -56,7 +56,7 @@ def load_matches(wbpath: str):
     }
 
     def match_from_row(row) -> Match:
-        dict_0 = {v: row[k] for k, v in match_map.items()}
+        dict_0 = {value: row[column] for column, value in match_map.items()}
         return Match(**dict_0)  # type: ignore
 
     matches = [match_from_row(row) for row in match_rows]

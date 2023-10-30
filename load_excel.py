@@ -1,4 +1,8 @@
-from app.loaders.excel_loader import load_matches
+from pathlib import Path
+
+from app.loaders.xl.excel_loader import load_matches
 
 if __name__ == "__main__":
-    load_matches()
+    path = Path("./xldata")
+    for filepath in path.glob("*.xlsm"):
+        load_matches(str(filepath))

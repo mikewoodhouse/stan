@@ -1,4 +1,4 @@
-from app.loaders.batting_importer import MatchBatting
+from app.loaders.xl.batting_importer import MatchBatting
 
 
 def test_match_batting():
