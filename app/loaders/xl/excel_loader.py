@@ -5,11 +5,6 @@ from openpyxl import load_workbook
 from app.types import Match
 
 
-class ExcelLoader:
-    def __init__(self, filepath: str) -> None:
-        self.filepath = filepath
-
-
 def load_matches(wbpath: str):
     warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 

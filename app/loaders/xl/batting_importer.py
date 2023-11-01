@@ -13,16 +13,16 @@ class MatchInfo:
     """
 
     date: date
-    opp: str
-    venue: str
-    result: str
+    opp: str = ""
+    venue: str = ""
+    result: str = ""
 
     # individual batting data
     bat_card: list[MatchBatting] = field(default_factory=list)
 
     @property
     def is_empty(self) -> bool:
-        return not isinstance(self.opp, str)
+        return len(self.opp) == 0
 
     def card(self) -> str:
         top_line = (
