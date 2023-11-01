@@ -1,6 +1,8 @@
 from dataclasses import dataclass, field
-from app.types.classes import Player, Season, HundredPlus, Partnership
 from typing import Type
+
+from app.types import Partnership, Performance, Season, SeasonRecord
+from app.types.importables import HundredPlusImport, PlayerImport
 
 
 @dataclass
@@ -15,9 +17,14 @@ class LoadDefinition:
         return [(h, h.lower()) for h in self.headers.split("|")]
 
 
+#
+# TODO: no need for this to be a dict, key is always == table, if that ceases
+# to be the case (or we need a different filename) then the class definition
+# can always be extended
+#
 load_defs = {
     "players": LoadDefinition(
-        klass=Player,
+        klass=PlayerImport,
         table="players",
         headers="Code|Surname|Initial|Active|FirstName",
     ),
@@ -27,7 +34,7 @@ load_defs = {
         headers="Year|Played|Won|Lost|Drawn|Tied|NoResult|MaxPossibleGames",
     ),
     "hundred_plus": LoadDefinition(
-        klass=HundredPlus,
+        klass=HundredPlusImport,
         table="hundred_plus",
         headers="Year|Code|Date|Score|NotOut|Opponents|Minutes",
         player_id_cols={
@@ -42,5 +49,21 @@ load_defs = {
             "bat1_id": "bat1",
             "bat2_id": "bat2",
         },
+    ),
+    "performances": LoadDefinition(
+        klass=Performance,
+        table="performances",
+        headers="Code|Year|Matches|Innings|NotOut|Highest|HighestNotOut|RunsScored|Fours|Sixes"
+        "|Overs|Balls|Maidens|Wides|NoBalls|Runs|Wickets|FiveWktInn|Caught|Stumped|Fifties|Hundreds"
+        "|Fives|CaughtWkt|Captain|KeptWicket",
+        player_id_cols={
+            "player_id": "code",
+        },
+    ),
+    "season_records": LoadDefinition(
+        klass=SeasonRecord,
+        table="season_records",
+        headers="Year|Club|RunsScored|WicketsLost|Highest|HighestWkts|HighestDate|HighestOpps"
+        "|Lowest|LowestWkts|LowestDate|LowestOpps|Byes|LegByes|Wides|NoBalls|BallsBowled|BallsReceived",
     ),
 }

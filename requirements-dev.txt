@@ -1,0 +1,18 @@
+-r requirements.txt
+
+# for development
+flake8
+black
+isort
+mypy
+
+pytest
+pytest-cov
+pytest-watch
+
+openpyxl
+
+# if jupyter needed - development only?
+jupyter
+ipykernel
+
