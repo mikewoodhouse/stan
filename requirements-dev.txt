@@ -16,3 +16,5 @@ openpyxl
 jupyter
 ipykernel
 
+dataclass-csv
+dataclasses-json
