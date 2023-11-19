@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
+from datetime import date
 
 batre = re.compile(
     r"""(?P<position>\d+)/"""
@@ -16,6 +17,8 @@ batre = re.compile(
 class MatchBatting:
     id: int = -1
     match_id: int = -1
+    match_date: date = date(1900, 1, 1)
+    opp: str = ""
     name: str = ""
     position: int = 0
     runs: int = 0
@@ -50,12 +53,15 @@ class MatchBatting:
         return f"{self.position:2d} {self.capt_wkt_flags} {name_plus:40}{self.how_out:^3} {run_str}"
 
     @staticmethod
-    def from_worksheet(name: str, entry: str) -> MatchBatting:
+    def from_string(name: str, entry: str, match_date: date, opp: str) -> MatchBatting:
         obj = MatchBatting(name=name)
         if not entry:
             return obj
         if not (match := batre.search(entry)):
             return obj
+
+        obj.match_date = match_date
+        obj.opp = opp
 
         fields = match.groupdict()
         obj.position = int(fields["position"])

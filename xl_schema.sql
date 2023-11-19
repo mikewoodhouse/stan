@@ -31,6 +31,8 @@ CREATE TABLE
   IF NOT EXISTS "match_batting" (
     "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL
   , "match_id" INTEGER
+  , "match_date" DATE
+  , "opp" VARCHAR
   , "name" VARCHAR
   , "position" INTEGER
   , "runs" INTEGER
