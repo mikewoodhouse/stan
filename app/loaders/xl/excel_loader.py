@@ -1,14 +1,16 @@
 import warnings
+from pathlib import Path
 
+from dataclass_csv import DataclassWriter
 from openpyxl import load_workbook
 
 from app.types import Match
 
 
-def load_matches(wbpath: str):
+def load_matches(wbpath: Path):
     warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
-    wb = load_workbook(wbpath)
+    wb = load_workbook(str(wbpath))
 
     sh = wb["Matches"]
 
@@ -55,3 +57,21 @@ def load_matches(wbpath: str):
         return Match(**dict_0)  # type: ignore
 
     matches = [match_from_row(row) for row in match_rows]
+
+    output_path = wbpath.parent.parent / "csvdata" / "matches.csv"
+
+    print(f"writing to {output_path}")
+
+    skip_header = output_path.exists()
+
+    with output_path.open("a") as f:
+        writer = DataclassWriter(f, [match for match in matches if match.result], Match)
+        writer.write(skip_header=skip_header)
+
+
+def load_match_batting(wbpath: Path) -> None:
+    warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
+
+    wb = load_workbook(str(wbpath))
+
+    sh = wb["Batting"]
