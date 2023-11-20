@@ -21,4 +21,4 @@ def test_match_batting():
 
 def test_empty_cell():
     entry = MatchBatting.from_string("Abc D", "", date.today(), "banana")
-    assert entry == MatchBatting(name="Abc D")
+    assert entry == MatchBatting(name="Abc D", match_date=date.today(), opp="banana")

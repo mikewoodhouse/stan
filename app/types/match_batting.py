@@ -6,7 +6,7 @@ from datetime import date
 
 batre = re.compile(
     r"""(?P<position>\d+)/"""
-    r"""(?P<runs>\d+)(?P<out>\*?)/"""
+    r"""(?P<runs>\d+)/"""
     r"""(?P<how_out>[a-z]+)(?P<capt_kept>[\*\+]*)/"""
     r"""(?P<fielded>[0-9.]+)/"""
     r"""(?P<bdries>[0-9.]+)"""
@@ -54,19 +54,16 @@ class MatchBatting:
 
     @staticmethod
     def from_string(name: str, entry: str, match_date: date, opp: str) -> MatchBatting:
-        obj = MatchBatting(name=name)
+        obj = MatchBatting(name=name, match_date=match_date, opp=opp)
         if not entry:
             return obj
         if not (match := batre.search(entry)):
             return obj
 
-        obj.match_date = match_date
-        obj.opp = opp
-
         fields = match.groupdict()
         obj.position = int(fields["position"])
         obj.runs = int(fields["runs"])
-        obj.out = fields["out"] != "*"
+        obj.out = fields["how_out"] not in ["no", "dnb"]
         obj.how_out = fields["how_out"]
         obj.captain = "*" in fields["capt_kept"]
         obj.kept_wicket = "+" in fields["capt_kept"]
