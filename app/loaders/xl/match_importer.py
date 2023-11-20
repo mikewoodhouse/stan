@@ -1,4 +1,4 @@
-from app.loaders.xl.xl_importer_base import XlImporter
+from app.loaders.xl.importer_base import XlImporter
 from app.types import Match
 
 

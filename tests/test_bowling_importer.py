@@ -1,3 +1,5 @@
+from datetime import date
+
 import pytest
 
 from app.types.match_bowling import MatchBowling
@@ -13,7 +15,7 @@ from app.types.match_bowling import MatchBowling
 )
 def test_parse_from_string(input, expected):
     o, b, m, r, w, wd, nb = expected
-    obj = MatchBowling.from_string(input)
+    obj = MatchBowling.from_string("", input, date.today(), "None")
 
     assert obj.overs == o
     assert obj.balls == b

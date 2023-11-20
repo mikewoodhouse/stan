@@ -20,11 +20,14 @@ class MatchBowling:
     noballs: int = 0
 
     @staticmethod
-    def from_string(input: str) -> MatchBowling:
+    def from_string(name: str, input: str, match_date: date, opp: str) -> MatchBowling:
         parts = input.split("/")
         ob, m, r, w, wd, nb = parts + ([""] * (6 - len(parts)))
-        o, b = ob.split(".")
+        o, b = ob.split(".") if "." in ob else (int(ob), 0)
         return MatchBowling(
+            match_date=match_date,
+            opp=opp,
+            name=name,
             overs=int(o),
             balls=int(b) if b else 0,
             maidens=int(m),
