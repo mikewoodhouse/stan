@@ -20,6 +20,9 @@ loader.load_schema()
 for tablename, load_def in load_defs.items():
     print("loading", load_def.table)
     loader.load(load_def)
+loader.set_match_ids()
+loader.set_player_ids()
+
 for table in load_defs.keys():
     print(table, count(db, table))
 db.commit()

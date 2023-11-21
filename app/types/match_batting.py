@@ -4,6 +4,8 @@ import re
 from dataclasses import dataclass
 from datetime import date
 
+from dataclass_csv import dateformat
+
 batre = re.compile(
     r"""(?P<position>\d+)/"""
     r"""(?P<runs>\d+)/"""
@@ -13,6 +15,7 @@ batre = re.compile(
 )
 
 
+@dateformat("%Y-%m-%d %H:%M:%S")
 @dataclass
 class MatchBatting:
     id: int = -1

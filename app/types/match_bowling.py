@@ -3,7 +3,10 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import date
 
+from dataclass_csv import dateformat
 
+
+@dateformat("%Y-%m-%d %H:%M:%S")
 @dataclass
 class MatchBowling:
     id: int = -1

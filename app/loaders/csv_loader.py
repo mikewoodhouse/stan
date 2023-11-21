@@ -27,3 +27,25 @@ class CsvLoader:
     def load_schema(self) -> None:
         with open("db_schema.sql") as f:
             self.conn.executescript(f.read())
+
+    def set_match_ids(self) -> None:
+        for tbl in ["match_batting", "match_bowling"]:
+            sql = f"""
+                UPDATE {tbl}
+                SET match_id =
+                (
+                    SELECT id FROM matches WHERE date = match_date AND oppo = opp
+                )
+            """
+            self.conn.execute(sql)
+
+    def set_player_ids(self) -> None:
+        for tbl in ["match_batting", "match_bowling"]:
+            sql = f"""
+                UPDATE {tbl} t
+                SET player_id =
+                (
+                    SELECT id FROM players p WHERE p.name = t.name
+                )
+            """
+            self.conn.execute(sql)
