@@ -10,9 +10,9 @@ class Player:
     id: int = -1
     code: str = ""
     surname: str = ""
-    active: bool = False
     initial: str = ""
     firstname: str = ""
+    active: bool = False
 
     @property
     def name(self) -> str:
