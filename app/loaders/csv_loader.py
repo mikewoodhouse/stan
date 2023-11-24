@@ -85,6 +85,16 @@ class CsvLoader:
                     for possible in possibles:
                         if possible.initial == initial:
                             self.update_player_id(tbl, name, possible.id)
+            print(f"{tbl} has {self.null_player_id_count(tbl)} NULL player_ids")
+
+    def null_player_id_count(self, tbl: str) -> int:
+        csr = self.conn.execute(
+            f"SELECT name, count(*) AS row_count FROM {tbl} WHERE player_id IS NULL GROUP BY name"
+        )
+        rows = [csr.fetchall()]
+        for row in rows:
+            print(row)
+        return len(rows)
 
     def update_player_id(self, tbl: str, name: str, player_id: int) -> None:
         escaped_name = name.replace("'", "''")
