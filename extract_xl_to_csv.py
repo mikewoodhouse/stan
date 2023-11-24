@@ -27,3 +27,4 @@ if __name__ == "__main__":
         XlMatchImporter(workbook, csv_path, "matches", Match).ingest()
         XlBattingImporter(workbook, csv_path, "match_batting", MatchBatting).ingest()
         XlBowlingImporter(workbook, csv_path, "match_bowling", MatchBowling).ingest()
+    print("done!")

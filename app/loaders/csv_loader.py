@@ -91,10 +91,11 @@ class CsvLoader:
         csr = self.conn.execute(
             f"SELECT name, count(*) AS row_count FROM {tbl} WHERE player_id IS NULL GROUP BY name"
         )
-        rows = [csr.fetchall()]
-        for row in rows:
+        nulls = 0
+        for row in csr.fetchall():
             print(row)
-        return len(rows)
+            nulls += 1
+        return nulls
 
     def update_player_id(self, tbl: str, name: str, player_id: int) -> None:
         escaped_name = name.replace("'", "''")
