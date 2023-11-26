@@ -12,9 +12,6 @@ pytest-watch
 
 openpyxl
 
-# if jupyter needed - development only?
-jupyter
-ipykernel
 
 dataclass-csv
 dataclasses-json
