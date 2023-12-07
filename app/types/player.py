@@ -10,9 +10,9 @@ class Player:
     id: int = -1
     code: str = ""
     surname: str = ""
-    active: bool = False
     initial: str = ""
     firstname: str = ""
+    active: bool = False
 
     @property
     def name(self) -> str:
@@ -30,8 +30,13 @@ class Player:
             return Player(**row)
 
     @classmethod
-    def all(cls, db: sqlite3.Connection) -> dict[int, Player]:
+    def all(cls, db: sqlite3.Connection, surname_like: str = "%") -> dict[int, Player]:
         with closing(db.cursor()) as csr:
-            csr.execute("SELECT * FROM players")
+            csr.execute(
+                """SELECT *
+                FROM players WHERE surname LIKE :surname_like ORDER BY surname, initial
+                """,
+                {"surname_like": surname_like},
+            )
             rows: list[dict] = csr.fetchall()
             return {row["id"]: Player(**row) for row in rows}

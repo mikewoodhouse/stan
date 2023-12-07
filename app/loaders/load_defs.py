@@ -1,7 +1,15 @@
 from dataclasses import dataclass, field
 from typing import Type
 
-from app.types import Partnership, Performance, Season, SeasonRecord
+from app.types import (
+    Match,
+    MatchBatting,
+    MatchBowling,
+    Partnership,
+    Performance,
+    Season,
+    SeasonRecord,
+)
 from app.types.importables import HundredPlusImport, PlayerImport
 
 
@@ -65,5 +73,23 @@ load_defs = {
         table="season_records",
         headers="Year|Club|RunsScored|WicketsLost|Highest|HighestWkts|HighestDate|HighestOpps"
         "|Lowest|LowestWkts|LowestDate|LowestOpps|Byes|LegByes|Wides|NoBalls|BallsBowled|BallsReceived",
+    ),
+    "matches": LoadDefinition(
+        klass=Match,
+        table="matches",
+        headers="date|oppo|venue|result|bat_first|first_runs|first_wkts|first_all_out|first_notes"
+        "|second_runs|second_wkts|second_all_out|second_notes|overs_opp|overs_tocc|tocc_w|tocc_nb"
+        "|tocc_b|tocc_lb|opp_w|opp_nb|opp_b|opp_lb",
+    ),
+    "match_batting": LoadDefinition(
+        klass=MatchBatting,
+        table="match_batting",
+        headers="match_date|opp|name|position|runs|out|how_out|captain|kept_wicket|caught"
+        "|caught_wkt|stumped|fours|sixes",
+    ),
+    "match_bowling": LoadDefinition(
+        klass=MatchBowling,
+        table="match_bowling",
+        headers="match_date|opp|name|overs|balls|maidens|runs_conceded|wickets|wides|noballs",
     ),
 }

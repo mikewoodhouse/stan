@@ -41,26 +41,27 @@ def show_batting(min_innings, players, averages, show_position=True):
     for average in averages:
         average.name = players[average.player_id].name
     records = [asdict(row) for row in averages]
-    with ui.table(
+    table = ui.table(
         rows=records,
         columns=BattingAverage.table_cols(),
         title=f"Batting (min {min_innings} innings)"
         if show_position
         else "Also batted",
-    ).props("dense") as table:
-        table.add_slot(
-            "body-cell-name",
-            r"""
+    ).props("dense")
+
+    table.add_slot(
+        "body-cell-name",
+        r"""
                 <td :props="props">
                     <a :href="'/players/' + props.row.player_id">{{props.row.name}}</a>
                 </td>
                 """,
+    )
+    if not show_position:
+        table.add_slot(
+            "body-cell-position",
+            r"""<td>&nbsp;</td>""",
         )
-        if not show_position:
-            table.add_slot(
-                "body-cell-position",
-                r"""<td>&nbsp;</td>""",
-            )
 
 
 def show_bowling(min_wickets, players, averages, show_position=True):

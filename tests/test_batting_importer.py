@@ -1,8 +1,10 @@
-from app.loaders.xl.batting_importer import MatchBatting
+from datetime import date
+
+from app.loaders.xl.match_batting_importer import MatchBatting
 
 
 def test_match_batting():
-    entry = MatchBatting.from_worksheet("Abc D", "6/4/b/0/1")
+    entry = MatchBatting.from_string("Abc D", "6/4/b/0/1", date.today(), "banana")
     assert entry.name == "Abc D"
     assert entry.position == 6
     assert entry.runs == 4
@@ -18,5 +20,5 @@ def test_match_batting():
 
 
 def test_empty_cell():
-    entry = MatchBatting.from_worksheet("Abc D", "")
-    assert entry == MatchBatting(name="Abc D")
+    entry = MatchBatting.from_string("Abc D", "", date.today(), "banana")
+    assert entry == MatchBatting(name="Abc D", match_date=date.today(), opp="banana")

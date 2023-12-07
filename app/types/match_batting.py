@@ -2,20 +2,26 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
+from datetime import date
+
+from dataclass_csv import dateformat
 
 batre = re.compile(
     r"""(?P<position>\d+)/"""
-    r"""(?P<runs>\d+)(?P<out>\*?)/"""
+    r"""(?P<runs>\d+)/"""
     r"""(?P<how_out>[a-z]+)(?P<capt_kept>[\*\+]*)/"""
     r"""(?P<fielded>[0-9.]+)/"""
     r"""(?P<bdries>[0-9.]+)"""
 )
 
 
+@dateformat("%Y-%m-%d %H:%M:%S")
 @dataclass
 class MatchBatting:
     id: int = -1
     match_id: int = -1
+    match_date: date = date(1900, 1, 1)
+    opp: str = ""
     name: str = ""
     position: int = 0
     runs: int = 0
@@ -50,8 +56,8 @@ class MatchBatting:
         return f"{self.position:2d} {self.capt_wkt_flags} {name_plus:40}{self.how_out:^3} {run_str}"
 
     @staticmethod
-    def from_worksheet(name: str, entry: str) -> MatchBatting:
-        obj = MatchBatting(name=name)
+    def from_string(name: str, entry: str, match_date: date, opp: str) -> MatchBatting:
+        obj = MatchBatting(name=name, match_date=match_date, opp=opp)
         if not entry:
             return obj
         if not (match := batre.search(entry)):
@@ -60,7 +66,7 @@ class MatchBatting:
         fields = match.groupdict()
         obj.position = int(fields["position"])
         obj.runs = int(fields["runs"])
-        obj.out = fields["out"] != "*"
+        obj.out = fields["how_out"] not in ["no", "dnb"]
         obj.how_out = fields["how_out"]
         obj.captain = "*" in fields["capt_kept"]
         obj.kept_wicket = "+" in fields["capt_kept"]
