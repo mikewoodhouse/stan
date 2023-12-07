@@ -40,15 +40,3 @@ class Player:
             )
             rows: list[dict] = csr.fetchall()
             return {row["id"]: Player(**row) for row in rows}
-
-    @staticmethod
-    def table_cols() -> list[dict]:
-        return [
-            {
-                "name": "surname",
-                "label": "surname",
-                "field": "surname",
-                "sortable": True,
-                "align": "center",
-            },
-        ]

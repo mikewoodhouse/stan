@@ -2,7 +2,13 @@ import sqlite3
 
 from nicegui import ui
 
-from app.pages import hundreds_report, show_player, show_season, show_seasons
+from app.pages import (
+    hundreds_report,
+    show_player,
+    show_player_list,
+    show_season,
+    show_seasons,
+)
 from app.pages.sidebar_menu import sidebar
 
 
@@ -23,6 +29,11 @@ def main_page():
 @ui.page("/players/{player_id}", title="player • Stan")
 def players(player_id: int):
     show_player(db, player_id)
+
+
+@ui.page("/players", title="players • Stan")
+def player_search():
+    show_player_list(db)
 
 
 @ui.page("/hundreds", title="hundreds • Stan")

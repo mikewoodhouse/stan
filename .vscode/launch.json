@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Main",
             "type": "python",
             "request": "launch",
-            "program": "build_db.py",
+            "program": "main.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }
