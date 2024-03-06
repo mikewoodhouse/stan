@@ -131,6 +131,20 @@ Summarises everything to the left. Parts are linked to, e.g the `BowlAves` sheet
 
 #### Partnerships
 
+I make a note of any partnership that might be worth reporting, all of (I think) 50 and above (or is it 75?) plus anything else noteworthy, especially at the tail end. Inputs go in acolumns A-J:
+
+| Col   | Heading     | Description                                                                                                     |
+| ----- | ----------- | --------------------------------------------------------------------------------------------------------------- |
+| A     | Match       | Index to `Matches` sheet, fills in columns K & L                                                                |
+| B     | Wkt         | Which wicket the partnership represented                                                                        |
+| C     | Total       | Partnership runs                                                                                                |
+| D     | Unbtn       | '*' if both batsmen were not out, otherwise leave blank                                                         |
+| E     | Bat1        | Score for the first batter - I tend to make this the one appearing earlier in the order (doesn't really matter) |
+| F     | Sc1         | Runs for batter 1 from scorebook                                                                                |
+| G     | NO          | '*' if batter 1 was not out                                                                                     |
+| H,I,J | Bat2/Sc2/NO | Batter 2, as above                                                                                              |
+
+
 #### BatAves
 
 #### BowlAves
