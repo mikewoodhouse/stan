@@ -147,9 +147,28 @@ I make a note of any partnership that might be worth reporting, all of (I think)
 
 #### BatAves
 
+As a rule, this should be calculate/read-only. It takes the information in the "player summary" section of the Batting sheet and reworks it into a form more helpful for presentation.
+
+Particularly "interesting" columns are:
+
+| Col | Description                                                                                   |
+| --- | --------------------------------------------------------------------------------------------- |
+| A   | "Raw" position in the averages (ignoring any qualification criteria)                          |
+| B-H | From Batting sheet, offset from the top by # of rows indicated by column I                    |
+| I   | Location of the average in the position indicated by column A                                 |
+| J   | Sort key, taking into account minimum number of innings to qualify (5, since time immemorial) |
+| K   | Sort position from values in column J                                                         |
+| L   | Where innings < qualifying figure, brief description for "Also batted"                        |
+| N-T | Re-sequenced averages, qualifiers first, qualifiers will re-appear in `To_Word-Doc`           |
+
+
 #### BowlAves
 
+Works in a very similar fashion to `BatAves` above, sorting initially by average, then qualifiers (10 wickets or more) first.
+
 #### Capts
+
+Transposes the "Capt Name" and "Result" rows from the `Batting` sheet. Totalling is done via a small pivot table - to update that, right-click (pretty much) anywhere in the table and select "Refresh".
 
 #### (other)
 
