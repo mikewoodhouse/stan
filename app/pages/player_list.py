@@ -47,7 +47,7 @@ def players_like(db: sqlite3.Connection, starts_with: str = "") -> list[dict]:
 
 def show_player_list(db: sqlite3.Connection) -> None:
     with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label("players").style("color: gold")
+        ui.label("Players").style("color: gold")
 
     sidebar()
 
@@ -74,15 +74,15 @@ def show_player_list(db: sqlite3.Connection) -> None:
 
     players = players_like(db, "%")
 
-    tbl = (
-        ui.table(
-            rows=players,
-            columns=table_cols,
-            row_key="id",
-            pagination=30,
-        )
-        .props("dense")
-        .add_slot(
+    with ui.table(columns=table_cols, rows=players, pagination=30).props(
+        "dense"
+    ) as table:
+        with table.add_slot("top-right"):
+            with ui.input(placeholder="Search").props("type=search").bind_value(
+                table, "filter"
+            ).add_slot("append"):
+                ui.icon("search")
+        table.add_slot(
             "body-cell-name",
             r"""
             <td :props="props">
@@ -92,12 +92,3 @@ def show_player_list(db: sqlite3.Connection) -> None:
             </td>
         """,
         )
-    )
-
-    def refresh_table():
-        tbl.children.clear()
-        tbl.options.append(players_like(db, name_search.value))
-
-    with ui.row():
-        name_search = ui.input(label="Name").props("clearable")
-        ui.button("search", on_click=refresh_table)
