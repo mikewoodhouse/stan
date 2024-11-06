@@ -5,8 +5,13 @@ from nicegui import ui
 
 from app.types import BattingAverage, BowlingAverage, Player, Season, SeasonRecord
 
+from .sidebar_menu import sidebar
+
 
 def show_season(db: sqlite3.Connection, year: int) -> None:
+
+    sidebar()
+
     min_innings = 5
     min_wickets = 10
     players = Player.all(db)
@@ -44,9 +49,9 @@ def show_batting(min_innings, players, averages, show_position=True):
     table = ui.table(
         rows=records,
         columns=BattingAverage.table_cols(),
-        title=f"Batting (min {min_innings} innings)"
-        if show_position
-        else "Also batted",
+        title=(
+            f"Batting (min {min_innings} innings)" if show_position else "Also batted"
+        ),
     ).props("dense")
 
     table.add_slot(
@@ -71,9 +76,9 @@ def show_bowling(min_wickets, players, averages, show_position=True):
     with ui.table(
         rows=records,
         columns=BowlingAverage.table_cols(),
-        title=f"Bowling (min {min_wickets} wickets)"
-        if show_position
-        else "Also bowled",
+        title=(
+            f"Bowling (min {min_wickets} wickets)" if show_position else "Also bowled"
+        ),
     ).props("dense") as table:
         table.add_slot(
             "body-cell-name",

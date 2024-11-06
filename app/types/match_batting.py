@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+import sqlite3
+from contextlib import closing
+from dataclasses import asdict, dataclass
 from datetime import date
 
 from dataclass_csv import dateformat
@@ -83,3 +85,16 @@ class MatchBatting:
         obj.fours, obj.sixes = split_dotted(fields["bdries"])
 
         return obj
+
+    @classmethod
+    def for_player(cls, db: sqlite3.Connection, player_id: int) -> list[MatchBatting]:
+        with closing(db.cursor()) as csr:
+            csr.execute(
+                "SELECT * FROM match_batting WHERE player_id = :player_id ORDER BY match_date",
+                {"player_id": player_id},
+            )
+            rows = csr.fetchall()
+        return [MatchBatting(**row) for row in rows]
+
+    def row_dict(self) -> dict:
+        return asdict(self)

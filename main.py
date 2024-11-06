@@ -6,6 +6,7 @@ from app.pages import (
     hundreds_report,
     show_player,
     show_player_list,
+    show_player_year,
     show_season,
     show_seasons,
 )
@@ -49,6 +50,11 @@ def seasons():
 @ui.page("/season/{year}", title="season • Stan")
 def season(year: int):
     show_season(db, year)
+
+
+@ui.page("/players/{player_id}/{year}", title="player in season • Stan")
+def player_year(player_id: int, year: int):
+    show_player_year(db, player_id, year)
 
 
 ui.run()
