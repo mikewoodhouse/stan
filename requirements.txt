@@ -3,5 +3,3 @@ dataclass-csv
 openpyxl
 
 nicegui
-
-
