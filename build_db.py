@@ -1,6 +1,7 @@
 import os
 import sqlite3
 from contextlib import closing
+from datetime import date
 
 from app.loaders.csv_loader import CsvLoader
 from app.loaders.load_defs import load_defs
@@ -11,6 +12,10 @@ os.unlink("stan.sqlite")
 def dict_factory(cursor, row):
     fields = [column[0] for column in cursor.description]
     return dict(zip(fields, row))
+
+
+sqlite3.register_adapter(date, lambda d: d.isoformat())
+sqlite3.register_converter("DATE", lambda s: date.fromisoformat(s.decode("utf-8")))
 
 
 db = sqlite3.connect("stan.sqlite")

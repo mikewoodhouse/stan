@@ -1,4 +1,5 @@
 import sqlite3
+from datetime import date
 
 from nicegui import ui
 
@@ -19,7 +20,10 @@ def dict_factory(cursor, row):
     return dict(zip(fields, row))
 
 
-db = sqlite3.connect("stan.sqlite")
+sqlite3.register_adapter(date, lambda d: d.isoformat())
+sqlite3.register_converter("DATE", lambda s: date.fromisoformat(s.decode("utf-8")))
+
+db = sqlite3.connect("stan.sqlite", detect_types=sqlite3.PARSE_DECLTYPES)
 db.row_factory = dict_factory
 
 
