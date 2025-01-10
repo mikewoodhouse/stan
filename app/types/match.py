@@ -1,3 +1,7 @@
+from __future__ import annotations
+
+import sqlite3
+from contextlib import closing
 from dataclasses import dataclass
 from datetime import date
 
@@ -31,3 +35,14 @@ class Match:
     opp_nb: int = 0
     opp_b: int = 0
     opp_lb: int = 0
+
+    @classmethod
+    def for_year(cls, db: sqlite3.Connection, year: int) -> list[Match]:
+        with closing(db.cursor()) as csr:
+            csr.execute(
+                "SELECT * FROM matches WHERE date between :soy AND :eoy ORDER BY date",
+                {"soy": f"{year}-01-01", "eoy": f"{year}-12-31"},
+            )
+            rows = csr.fetchall()
+        matches = [Match(**row) for row in rows]
+        return matches
