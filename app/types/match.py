@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import sqlite3
 from contextlib import closing
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from datetime import date
 
 from dataclass_csv import dateformat
@@ -36,6 +36,20 @@ class Match:
     opp_b: int = 0
     opp_lb: int = 0
 
+    def overs(self, inns: int) -> str:
+        if self.bat_first == "Opp":
+            ov = self.overs_tocc if inns == 1 else self.overs_opp
+        else:
+            ov = self.overs_tocc if inns == 2 else self.overs_opp
+        return f"{ov:.1f}"
+
+    def row_dict(self) -> dict:
+        return asdict(self) | {
+            "match_date": self.date.strftime("%d-%b"),
+            "score_1": f"{self.first_runs}-{self.first_wkts} ({self.overs(1)})",
+            "score_2": f"{self.second_runs}-{self.second_wkts} ({self.overs(2)})",
+        }
+
     @classmethod
     def for_year(cls, db: sqlite3.Connection, year: int) -> list[Match]:
         with closing(db.cursor()) as csr:
@@ -46,3 +60,26 @@ class Match:
             rows = csr.fetchall()
         matches = [Match(**row) for row in rows]
         return matches
+
+    @staticmethod
+    def table_cols() -> list[dict]:
+        return [
+            {"name": "match_date", "label": "Date", "field": "match_date", "sortable": True, "align": "center"},
+            {"name": "oppo", "label": "Opponents", "field": "oppo", "sortable": True, "align": "left"},
+            {"name": "venue", "label": "H/A", "field": "venue", "sortable": False, "align": "center"},
+            {"name": "result", "label": "Result", "field": "result", "sortable": True, "align": "center"},
+            {"name": "bat_first", "label": "1st Inns", "field": "bat_first", "sortable": False, "align": "center"},
+            {"name": "score_1", "label": "Score", "field": "score_1", "sortable": False, "align": "center"},
+            {"name": "first_notes", "label": "", "field": "first_notes", "sortable": False, "align": "left"},
+            {"name": "score_2", "label": "2nd Inns", "field": "score_2", "sortable": False, "align": "center"},
+            {"name": "second_notes", "label": "", "field": "second_notes", "sortable": False, "align": "left"},
+            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
+            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
+            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
+            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
+            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
+            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
+            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
+            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
+            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
+        ]

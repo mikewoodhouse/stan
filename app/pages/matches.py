@@ -1,5 +1,4 @@
 import sqlite3
-from dataclasses import asdict
 
 from nicegui import ui
 
@@ -14,7 +13,9 @@ def show_matches(db: sqlite3.Connection, year: int) -> None:
     with ui.row():
         ui.label(f"{year} Matches")
 
-    matches = Match.for_year(db, year)
-    table_rows = [asdict(match) for match in matches]
+    table_rows = [match.row_dict() for match in Match.for_year(db, year)]
     with ui.row():
-        ui.table(rows=table_rows).props("dense")
+        ui.table(
+            rows=table_rows,
+            columns=Match.table_cols(),
+        ).props("dense")
