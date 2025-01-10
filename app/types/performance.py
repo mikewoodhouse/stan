@@ -12,7 +12,7 @@ class Performance:
     id: int = -1
     player_id: int = -1
     code: str
-    year: int
+    year: int | str
     matches: int
     innings: int = 0
     notout: int = 0
@@ -77,6 +77,10 @@ class Performance:
             "bowling_average": self.bowling_average,
         }
 
+    @staticmethod
+    def sumof(field_name: str, perfs: list[Performance]):
+        return sum(getattr(p, field_name) for p in perfs)
+
     @classmethod
     def for_player(cls, db: sqlite3.Connection, player_id: int) -> list[Performance]:
         with closing(db.cursor()) as csr:
@@ -85,7 +89,36 @@ class Performance:
                 {"player_id": player_id},
             )
             rows = csr.fetchall()
-        return [Performance(**row) for row in rows]
+        perfs = [Performance(**row) for row in rows]
+
+        totals = Performance(
+            code="",
+            year="Total",
+            matches=Performance.sumof("matches", perfs),
+            innings=Performance.sumof("innings", perfs),
+            notout=Performance.sumof("notout", perfs),
+            runsscored=Performance.sumof("runsscored", perfs),
+            fours=Performance.sumof("fours", perfs),
+            sixes=Performance.sumof("sixes", perfs),
+            overs=Performance.sumof("overs", perfs),
+            balls=Performance.sumof("balls", perfs),
+            maidens=Performance.sumof("maidens", perfs),
+            runs=Performance.sumof("runs", perfs),
+            wickets=Performance.sumof("wickets", perfs),
+            fivewktinn=Performance.sumof("fivewktinn", perfs),
+            caught=Performance.sumof("caught", perfs),
+            stumped=Performance.sumof("stumped", perfs),
+            fifties=Performance.sumof("fifties", perfs),
+            hundreds=Performance.sumof("hundreds", perfs),
+            caughtwkt=Performance.sumof("caughtwkt", perfs),
+            captain=Performance.sumof("captain", perfs),
+            keptwicket=Performance.sumof("keptwicket", perfs),
+        )
+
+        totals.highest, totals.highestnotout = max((p.highest, p.highestnotout) for p in perfs)
+
+        perfs.append(totals)
+        return perfs
 
     @classmethod
     def for_year(cls, db: sqlite3.Connection, year: int) -> list[Performance]:
