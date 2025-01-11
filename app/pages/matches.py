@@ -8,10 +8,10 @@ from .sidebar_menu import sidebar
 
 
 def show_matches(db: sqlite3.Connection, year: int) -> None:
-    sidebar()
+    with ui.header(elevated=True).style("background-color: maroon"):
+        ui.label(f"Season {year} matches").style("color: gold").style("font-size: 200%")
 
-    with ui.row():
-        ui.label(f"{year} Matches")
+    sidebar()
 
     table_rows = [match.row_dict() for match in Match.for_year(db, year)]
     with ui.row():

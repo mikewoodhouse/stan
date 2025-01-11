@@ -11,7 +11,7 @@ def hundreds_report(db: sqlite3.Connection):
     sidebar()
 
     with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label("Hundreds").style("color: gold")
+        ui.label("Hundreds").style("color: gold").style("font-size: 200%")
 
     with ui.row():
         ui.link("Back", "/")

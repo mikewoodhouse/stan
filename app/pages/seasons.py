@@ -9,7 +9,7 @@ from .sidebar_menu import sidebar
 
 def show_seasons(db):
     with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label("Seasons").style("color: gold")
+        ui.label("Seasons").style("color: gold").style("font-size: 200%")
 
     sidebar()
 

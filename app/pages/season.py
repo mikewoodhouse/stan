@@ -14,7 +14,7 @@ def show_season(db: sqlite3.Connection, year: int) -> None:
     players = Player.all(db)
 
     with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label(f"{year} Season").style("color: gold")
+        ui.label(f"{year} Season").style("color: gold").style("font-size: 200%")
 
     sidebar()
 

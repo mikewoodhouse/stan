@@ -10,7 +10,7 @@ from .sidebar_menu import sidebar
 def show_player(db: sqlite3.Connection, player_id: int) -> None:
     player = Player.get(db, player_id)
     with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label(player.name).style("color: gold")
+        ui.label(player.name).style("color: gold").style("font-size: 200%")
 
     sidebar()
 

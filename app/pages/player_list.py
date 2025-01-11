@@ -47,7 +47,7 @@ def players_like(db: sqlite3.Connection, starts_with: str = "") -> list[dict]:
 
 def show_player_list(db: sqlite3.Connection) -> None:
     with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label("Players").style("color: gold")
+        ui.label("Players").style("color: gold").style("font-size: 200%")
 
     sidebar()
 

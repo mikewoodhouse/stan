@@ -48,6 +48,7 @@ class Match:
             "match_date": self.date.strftime("%d-%b"),
             "score_1": f"{self.first_runs}-{self.first_wkts} ({self.overs(1)})",
             "score_2": f"{self.second_runs}-{self.second_wkts} ({self.overs(2)})",
+            "bat_second": "TOCC" if self.bat_first == "Opp" else self.oppo,
         }
 
     @classmethod
