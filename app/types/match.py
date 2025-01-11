@@ -61,6 +61,17 @@ class Match:
         matches = [Match(**row) for row in rows]
         return matches
 
+    @classmethod
+    def for_id(cls, db: sqlite3.Connection, match_id: int) -> list[Match]:
+        with closing(db.cursor()) as csr:
+            csr.execute(
+                "SELECT * FROM matches WHERE id = :match_id",
+                {"match_id": match_id},
+            )
+            rows = csr.fetchall()
+        matches = [Match(**row) for row in rows]
+        return matches
+
     @staticmethod
     def table_cols() -> list[dict]:
         return [
@@ -73,13 +84,4 @@ class Match:
             {"name": "first_notes", "label": "", "field": "first_notes", "sortable": False, "align": "left"},
             {"name": "score_2", "label": "2nd Inns", "field": "score_2", "sortable": False, "align": "center"},
             {"name": "second_notes", "label": "", "field": "second_notes", "sortable": False, "align": "left"},
-            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
-            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
-            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
-            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
-            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
-            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
-            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
-            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
-            {"name": "", "label": "", "field": "", "sortable": True, "align": ""},
         ]

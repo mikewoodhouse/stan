@@ -25,6 +25,7 @@ class MatchBatting:
     match_date: date = date(1900, 1, 1)
     opp: str = ""
     name: str = ""
+    player_id: int = 0
     position: int = 0
     runs: int = 0
     out: bool = False
@@ -96,5 +97,103 @@ class MatchBatting:
             rows = csr.fetchall()
         return [MatchBatting(**row) for row in rows]
 
+    def how_out_text(self) -> str:
+        return {
+            "b": "bowled",
+            "c": "caught",
+            "lb": "lbw",
+            "st": "stumped",
+            "ro": "run out",
+            "no": "not out",
+            "dnb": "did not bat",
+        }.get(self.how_out, self.how_out)
+
     def row_dict(self) -> dict:
-        return asdict(self)
+        fldg = []
+        if self.caught > 0:
+            fldg.append(f"{self.caught}c")
+        if self.caught_wkt > 0:
+            fldg.append(f"{self.caught_wkt}c")
+        if self.stumped > 0:
+            fldg.append(f"{self.stumped}st")
+        return asdict(self) | {
+            "how_out_text": self.how_out_text(),
+            "fancy_name": f"{'*' if self.captain else ''}{'+' if self.kept_wicket else ''}{self.name}",
+            "fielding": ",".join(fldg),
+        }
+
+    @staticmethod
+    def for_match_id(db: sqlite3.Connection, match_id: int) -> list[MatchBatting]:
+        with closing(db.cursor()) as csr:
+            csr.execute(
+                "SELECT * FROM match_batting WHERE match_id = :match_id ORDER BY position",
+                {"match_id": match_id},
+            )
+            rows = csr.fetchall()
+        return [MatchBatting(**row) for row in rows]
+
+    @staticmethod
+    def table_cols() -> list[dict]:
+        return [
+            {
+                "name": "position",
+                "label": "Pos",
+                "field": "position",
+                "sortable": False,
+            },
+            {
+                "name": "name",
+                "label": "Name",
+                "field": "fancy_name",
+                "sortable": False,
+                "align": "left",
+            },
+            {
+                "name": "how_out",
+                "label": "How Out",
+                "field": "how_out_text",
+                "sortable": False,
+            },
+            {
+                "name": "runs",
+                "label": "Runs",
+                "field": "runs",
+                "sortable": False,
+            },
+            {
+                "name": "fours",
+                "label": "4s",
+                "field": "fours",
+                "sortable": False,
+            },
+            {
+                "name": "sixes",
+                "label": "6s",
+                "field": "sixes",
+                "sortable": False,
+            },
+            {
+                "name": "fielding",
+                "label": "",
+                "field": "fielding",
+                "sortable": False,
+            },
+            {
+                "name": "",
+                "label": "",
+                "field": "",
+                "sortable": False,
+            },
+            {
+                "name": "",
+                "label": "",
+                "field": "",
+                "sortable": False,
+            },
+            {
+                "name": "",
+                "label": "",
+                "field": "",
+                "sortable": False,
+            },
+        ]

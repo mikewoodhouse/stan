@@ -15,7 +15,16 @@ def show_matches(db: sqlite3.Connection, year: int) -> None:
 
     table_rows = [match.row_dict() for match in Match.for_year(db, year)]
     with ui.row():
-        ui.table(
+        table = ui.table(
             rows=table_rows,
             columns=Match.table_cols(),
         ).props("dense")
+
+        table.add_slot(
+            "body-cell-oppo",
+            r"""
+            <td :props="props" style="text-align:center">
+                <a :href="'/match/' + props.row.id">{{props.row.oppo}}</a>
+            </td>
+            """,
+        )

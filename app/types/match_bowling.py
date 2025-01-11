@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import sqlite3
 from dataclasses import dataclass
 from datetime import date
 
@@ -39,3 +40,11 @@ class MatchBowling:
             wides=int(wd) if wd else 0,
             noballs=int(nb) if nb else 0,
         )
+
+    @staticmethod
+    def for_match_id(db: sqlite3.Connection, match_id: int) -> list[MatchBowling]:
+        return []
+
+    @staticmethod
+    def table_cols() -> list[dict]:
+        return []
