@@ -20,7 +20,7 @@ class Season:
     @classmethod
     def all(cls, db: sqlite3.Connection) -> list[Season]:
         with closing(db.cursor()) as csr:
-            csr.execute("SELECT * FROM seasons ORDER BY year")
+            csr.execute("SELECT * FROM seasons ORDER BY year DESC")
             rows = list(csr.fetchall())
             return [Season(**row) for row in rows]
 

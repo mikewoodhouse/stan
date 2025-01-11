@@ -24,7 +24,7 @@ def show_matches(db: sqlite3.Connection, year: int) -> None:
             "body-cell-oppo",
             r"""
             <td :props="props" style="text-align:center">
-                <a :href="'/match/' + props.row.id">{{props.row.oppo}}</a>
+                <a :href="'/match/' + props.row.id" class='nicegui-link'>{{props.row.oppo}}</a>
             </td>
             """,
         )

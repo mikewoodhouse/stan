@@ -25,23 +25,18 @@ def hundreds_report(db: sqlite3.Connection):
 
 # TODO Rename this here and in `hundreds_report`
 def show_hundreds_data_row(rows: list[dict], players: dict[int, Player]):
-    ui.table(rows=rows, columns=HundredPlus.table_cols(), row_key="id").props(
-        "dense"
-    ).add_slot(
+    ui.table(rows=rows, columns=HundredPlus.table_cols(), row_key="id").props("dense").add_slot(
         "body-cell-name",
         r"""
                 <td :props="props">
-                    <a :href="'/players/' + props.row.player_id">{{props.row.name}}</a>
+                    <a :href="'/players/' + props.row.player_id" class='nicegui-link'>{{props.row.name}}</a>
                 </td>
                 """,
     )
 
     players_by_name = {p.name: p.id for p in players.values()}
     ton_count = Counter(row["name"] for row in rows)
-    ton_rows = [
-        {"name": k, "hundreds": v, "player_id": players_by_name[k]}
-        for k, v in ton_count.items()
-    ]
+    ton_rows = [{"name": k, "hundreds": v, "player_id": players_by_name[k]} for k, v in ton_count.items()]
     ton_cols = [
         {
             "name": "name",
@@ -61,7 +56,7 @@ def show_hundreds_data_row(rows: list[dict], players: dict[int, Player]):
         "body-cell-name",
         r"""
                 <td :props="props">
-                    <a :href="'/players/' + props.row.player_id">{{props.row.name}}</a>
+                    <a :href="'/players/' + props.row.player_id" class='nicegui-link'>{{props.row.name}}</a>
                 </td>
                 """,
     )

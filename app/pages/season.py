@@ -9,8 +9,6 @@ from .sidebar_menu import sidebar
 
 
 def show_season(db: sqlite3.Connection, year: int) -> None:
-    sidebar()
-
     min_innings = 5
     min_wickets = 10
     players = Player.all(db)
@@ -18,9 +16,7 @@ def show_season(db: sqlite3.Connection, year: int) -> None:
     with ui.header(elevated=True).style("background-color: maroon"):
         ui.label(f"{year} Season").style("color: gold")
 
-    with ui.left_drawer():
-        with ui.column():
-            ui.link("Hundreds", "/hundreds")
+    sidebar()
 
     with ui.row():
         season = Season.for_year(db, year)
@@ -57,7 +53,7 @@ def show_batting(min_innings, players, averages, show_position=True):
         "body-cell-name",
         r"""
                 <td :props="props">
-                    <a :href="'/players/' + props.row.player_id">{{props.row.name}}</a>
+                    <a :href="'/players/' + props.row.player_id" class='nicegui-link'>{{props.row.name}}</a>
                 </td>
                 """,
     )
@@ -81,7 +77,7 @@ def show_bowling(min_wickets, players, averages, show_position=True):
             "body-cell-name",
             r"""
                 <td :props="props">
-                    <a :href="'/players/' + props.row.player_id">{{props.row.name}}</a>
+                    <a :href="'/players/' + props.row.player_id" class='nicegui-link'>{{props.row.name}}</a>
                 </td>
                 """,
         )

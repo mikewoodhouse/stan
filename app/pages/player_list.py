@@ -74,19 +74,15 @@ def show_player_list(db: sqlite3.Connection) -> None:
 
     players = players_like(db, "%")
 
-    with ui.table(columns=table_cols, rows=players, pagination=30).props(
-        "dense"
-    ) as table:
+    with ui.table(columns=table_cols, rows=players, pagination=30).props("dense") as table:
         with table.add_slot("top-right"):
-            with ui.input(placeholder="Search").props("type=search").bind_value(
-                table, "filter"
-            ).add_slot("append"):
+            with ui.input(placeholder="Search").props("type=search").bind_value(table, "filter").add_slot("append"):
                 ui.icon("search")
         table.add_slot(
             "body-cell-name",
             r"""
             <td :props="props">
-                <a :href="'/players/' + props.row.player_id">
+                <a :href="'/players/' + props.row.player_id" class='nicegui-link'>
                     {{props.row.name}}
                 </a>
             </td>

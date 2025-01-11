@@ -19,14 +19,14 @@ def show_seasons(db):
         table = ui.table(
             rows=[asdict(season) for season in seasons],
             columns=Season.table_cols(),
-            pagination=20,
+            pagination=30,
         ).props("dense")
 
         table.add_slot(
             "body-cell-year",
             r"""
             <td :props="props" style="text-align:center">
-                <a :href="'/season/' + props.row.year">{{props.row.year}}</a>
+                <a :href="'/season/' + props.row.year" class='nicegui-link'>{{props.row.year}}</a>
             </td>
             """,
         )
