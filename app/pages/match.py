@@ -1,5 +1,4 @@
 import sqlite3
-from dataclasses import asdict
 
 from nicegui import ui
 
@@ -11,7 +10,7 @@ def show_match(db: sqlite3.Connection, match_id: int) -> None:
     bowling = MatchBowling.for_match_id(db, match_id)
     table_rows = [match.row_dict() for match in Match.for_id(db, match_id)]
     with ui.row():
-        table = ui.table(
+        ui.table(
             rows=table_rows,
             columns=Match.table_cols(),
         ).props("dense")
@@ -24,6 +23,6 @@ def show_match(db: sqlite3.Connection, match_id: int) -> None:
 
     with ui.row():
         ui.table(
-            rows=[asdict(row) for row in bowling],
+            rows=[row.row_dict() for row in bowling],
             columns=MatchBowling.table_cols(),
         ).props("dense")

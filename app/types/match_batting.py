@@ -178,22 +178,4 @@ class MatchBatting:
                 "field": "fielding",
                 "sortable": False,
             },
-            {
-                "name": "",
-                "label": "",
-                "field": "",
-                "sortable": False,
-            },
-            {
-                "name": "",
-                "label": "",
-                "field": "",
-                "sortable": False,
-            },
-            {
-                "name": "",
-                "label": "",
-                "field": "",
-                "sortable": False,
-            },
         ]
