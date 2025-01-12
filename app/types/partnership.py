@@ -62,7 +62,7 @@ class Partnership:
             {"name": "bat1score", "label": "", "field": "bat1score", "sortable": False, "align": "right"},
             {"name": "bat1no", "label": "", "field": "display_bat1_notout", "sortable": False, "align": "left"},
             {"name": "bat_2", "label": "Bat 2", "field": "bat2_name", "sortable": False, "align": "left"},
-            {"name": "bat2score", "label": "", "field": "bat1score", "sortable": False, "align": "right"},
+            {"name": "bat2score", "label": "", "field": "bat2score", "sortable": False, "align": "right"},
             {"name": "bat2no", "label": "", "field": "display_bat2_notout", "sortable": False, "align": "left"},
             {"name": "opp", "label": "Vs", "field": "opp", "sortable": False, "align": "left"},
             {"name": "date", "label": "Date", "field": "date", "sortable": True, "align": "center"},

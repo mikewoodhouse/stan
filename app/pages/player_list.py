@@ -41,7 +41,7 @@ def players_like(db: sqlite3.Connection, starts_with: str = "") -> list[dict]:
             {"starts_with": f"{starts_with}%"},
         )
         players = csr.fetchall()
-    print(f"got {len(players)} players")
+    # print(f"got {len(players)} players")
     return players
 
 
