@@ -7,9 +7,9 @@ from app.pages import (
     hundreds_report,
     show_match,
     show_matches,
+    show_partnerships,
     show_player,
     show_player_list,
-    show_partnerships,
     show_player_year,
     show_season,
     show_seasons,
@@ -74,9 +74,9 @@ def match(match_id: int):
     show_match(db, match_id)
 
 
-@ui.page("/partnerships", title="Partnerships • Stan")
-def partnerships():
-    show_partnerships(db)
+@ui.page("/partnerships/{wicket}", title="Partnerships • Stan")
+def partnerships(wicket: int):
+    show_partnerships(db, wicket)
 
 
 ui.run()
