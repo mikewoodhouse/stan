@@ -15,3 +15,5 @@ openpyxl
 
 dataclass-csv
 dataclasses-json
+
+ruff
