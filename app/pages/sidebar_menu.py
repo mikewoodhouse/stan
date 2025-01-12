@@ -8,3 +8,4 @@ def sidebar() -> None:
             ui.link("Hundreds", "/hundreds")
             ui.link("Seasons", "/seasons")
             ui.link("Players", "/players")
+            ui.link("Partnerships", "/partnerships")

@@ -6,3 +6,4 @@ from .player_list import show_player_list
 from .player_year import show_player_year
 from .season import show_season
 from .seasons import show_seasons
+from .partnerships import show_partnerships

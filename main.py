@@ -9,6 +9,7 @@ from app.pages import (
     show_matches,
     show_player,
     show_player_list,
+    show_partnerships,
     show_player_year,
     show_season,
     show_seasons,
@@ -71,6 +72,11 @@ def matches(year: int):
 @ui.page("/match/{match_id}", title="Matches • Stan")
 def match(match_id: int):
     show_match(db, match_id)
+
+
+@ui.page("/partnerships", title="Partnerships • Stan")
+def partnerships():
+    show_partnerships(db)
 
 
 ui.run()
