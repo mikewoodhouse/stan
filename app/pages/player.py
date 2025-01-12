@@ -16,10 +16,11 @@ def show_player(db: sqlite3.Connection, player_id: int) -> None:
 
     rows = [row.row_dict() for row in Performance.for_player(db, player_id)]
     with ui.row():
-        with ui.table(rows=rows, columns=Performance.table_cols(), row_key="year").props("dense") as table:
+        with ui.table(
+            rows=rows, columns=Performance.table_cols(), row_key="year"
+        ).props("dense") as table:
             table.add_slot(
                 "body-cell-year",
-                r"""
-                <td :props="props"><a :href="'/season/' + props.row.year" class='nicegui-link'>{{props.row.year}}</a></td>
-                """,
+                r"""<td :props="props"><a :href="'/season/' + props.row.year" """
+                r"""class='nicegui-link'>{{props.row.year}}</a></td>""",
             )
