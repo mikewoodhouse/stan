@@ -3,7 +3,7 @@ from dataclasses import asdict
 
 from nicegui import ui
 
-from app.types import BattingAverage, BowlingAverage, Player, Season, SeasonRecord
+from app.types import BattingAverage, BowlingAverage, Partnership, Player, Season, SeasonRecord
 
 from .sidebar_menu import sidebar
 
@@ -11,6 +11,7 @@ from .sidebar_menu import sidebar
 def show_season(db: sqlite3.Connection, year: int) -> None:
     min_innings = 5
     min_wickets = 10
+    min_partnership_total = 75
     players = Player.all(db)
 
     with ui.header(elevated=True).style("background-color: maroon"):
@@ -35,8 +36,13 @@ def show_season(db: sqlite3.Connection, year: int) -> None:
             bowl_aves, also_bowled = BowlingAverage.for_year(db, year, min_wickets)
             show_bowling(min_wickets, players, bowl_aves, show_position=True)
             show_bowling(min_wickets, players, also_bowled, show_position=False)
+    with ui.row():
         with ui.card():
-            ui.label("other stats")
+            ui.label(f"Where recorded, best for each wicket and any others of {min_partnership_total} or over").style(
+                "font-style: italic"
+            )
+            rows = [row.row_dict() for row in Partnership.for_season(db, year, min_partnership_total)]
+            ui.table(rows=rows, columns=Partnership.table_cols(True), title="Partnerships").props("dense")
 
 
 def show_batting(min_innings, players, averages, show_position=True):
