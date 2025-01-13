@@ -493,7 +493,7 @@ id,match_id,match_date,opp,name,position,runs,out,how_out,captain,kept_wicket,ca
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Middleton J,9,0,True,c,True,False,0,0,0,0,0
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Ottey A,2,3,True,b,False,False,0,0,0,0,0
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Pascoe N,10,6,False,no,False,False,0,0,0,0,0
--1,-1,2014-04-27 00:00:00,Deando-Ruxley,Seymour C,3,5,True,lm,False,False,0,0,0,0,0
+-1,-1,2014-04-27 00:00:00,Deando-Ruxley,Seymour C,3,5,True,lb,False,False,0,0,0,0,0
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Sharpe D,1,50,True,st,False,True,0,2,0,2,2
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Smith C,11,4,True,ro,False,False,0,0,0,1,0
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Springer T,4,24,True,c,False,False,0,0,0,1,0
@@ -1230,7 +1230,7 @@ id,match_id,match_date,opp,name,position,runs,out,how_out,captain,kept_wicket,ca
 -1,-1,2010-08-29 00:00:00,LESSA Wanderers,Wiseman R,7,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2010-09-05 00:00:00,Churchleigh,Bowers M,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2010-09-05 00:00:00,Churchleigh,Clark C,11,0,False,dnb,True,False,0,0,0,0,0
--1,-1,2010-09-05 00:00:00,Churchleigh,de Souza C,8,0,True,nb,False,False,0,0,0,0,0
+-1,-1,2010-09-05 00:00:00,Churchleigh,de Souza C,8,0,True,no,False,False,0,0,0,0,0
 -1,-1,2010-09-05 00:00:00,Churchleigh,Johnson A,5,0,True,b,False,False,0,0,0,0,0
 -1,-1,2010-09-05 00:00:00,Churchleigh,Middleton J,4,35,False,no,False,False,0,0,0,4,0
 -1,-1,2010-09-05 00:00:00,Churchleigh,Nair S,6,12,False,no,False,False,0,0,0,0,0

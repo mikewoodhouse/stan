@@ -101,11 +101,15 @@ class MatchBatting:
         return {
             "b": "bowled",
             "c": "caught",
-            "lb": "lbw",
-            "st": "stumped",
-            "ro": "run out",
-            "no": "not out",
             "dnb": "did not bat",
+            "hw": "hit wicket",
+            "lb": "lbw",
+            "lbw": "lbw",
+            "no": "not out",
+            "ret": "retired",
+            "rh": "retired hurt",
+            "ro": "run out",
+            "st": "stumped",
         }.get(self.how_out, self.how_out)
 
     def row_dict(self) -> dict:

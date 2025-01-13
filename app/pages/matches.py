@@ -23,7 +23,7 @@ def show_matches(db: sqlite3.Connection, year: int) -> None:
         table.add_slot(
             "body-cell-oppo",
             r"""
-            <td :props="props" style="text-align:center">
+            <td :props="props" style="text-align:left">
                 <a :href="'/match/' + props.row.id" class='nicegui-link'>{{props.row.oppo}}</a>
             </td>
             """,
