@@ -15,7 +15,7 @@ class CsvLoader:
 
     def load(self, load_def: LoadDefinition) -> None:
         csv_rows = self.read_csv(load_def)
-        loader = TableLoader(self.conn, load_def.table, load_def.klass)
+        loader = TableLoader(self.conn, load_def.table, load_def.klass, load_def.exclude_from_insert)
         loader.load(csv_rows)
         loader.update_player_ids(load_def.player_id_cols)
 
@@ -88,9 +88,7 @@ class CsvLoader:
             print(f"{tbl} has {self.null_player_id_count(tbl)} NULL player_ids")
 
     def null_player_id_count(self, tbl: str) -> int:
-        csr = self.conn.execute(
-            f"SELECT name, count(*) AS row_count FROM {tbl} WHERE player_id IS NULL GROUP BY name"
-        )
+        csr = self.conn.execute(f"SELECT name, count(*) AS row_count FROM {tbl} WHERE player_id IS NULL GROUP BY name")
         nulls = 0
         for row in csr.fetchall():
             print(row)

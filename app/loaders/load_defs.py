@@ -2,6 +2,7 @@ from dataclasses import dataclass, field
 from typing import Type
 
 from app.types import (
+    BestBowling,
     Match,
     MatchBatting,
     MatchBowling,
@@ -19,6 +20,7 @@ class LoadDefinition:
     table: str
     headers: str
     player_id_cols: dict = field(default_factory=dict)
+    exclude_from_insert: list[str] = field(default_factory=list)
 
     @property
     def header_map(self) -> list[tuple]:
@@ -57,6 +59,10 @@ load_defs = {
             "bat1_id": "bat1",
             "bat2_id": "bat2",
         },
+        exclude_from_insert=[
+            "bat1_name",
+            "bat2_name",
+        ],
     ),
     "performances": LoadDefinition(
         klass=Performance,
@@ -91,5 +97,13 @@ load_defs = {
         klass=MatchBowling,
         table="match_bowling",
         headers="match_date|opp|name|overs|balls|maidens|runs_conceded|wickets|wides|noballs",
+    ),
+    "best_bowling": LoadDefinition(
+        klass=BestBowling,
+        table="best_bowling",
+        headers="Year|Code|Date|Inns|Wkts|Runs|Opp",
+        player_id_cols={
+            "player_id": "code",
+        },
     ),
 }

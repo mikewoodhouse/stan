@@ -11,9 +11,9 @@ from app.utils import balls_to_overs
 class Performance:
     id: int = -1
     player_id: int = -1
-    code: str
-    year: int | str
-    matches: int
+    code: str = ""
+    year: str = ""
+    matches: int = 0
     innings: int = 0
     notout: int = 0
     highest: int = 0
