@@ -64,7 +64,7 @@ CREATE TABLE
   );
 
 CREATE TABLE
-  IF NOT EXISTS "best_bowlings" (
+  IF NOT EXISTS "best_bowling" (
     "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL
   , "player_id" INTEGER DEFAULT NULL
   , "year" INTEGER DEFAULT NULL
@@ -77,7 +77,7 @@ CREATE TABLE
   , CONSTRAINT "fk_bb_player_id" FOREIGN KEY ("player_id") REFERENCES "players" ("id")
   );
 
-CREATE INDEX "index_best_bowlings_on_player_id" ON "best_bowlings" ("player_id");
+CREATE INDEX "index_best_bowlings_on_player_id" ON "best_bowling" ("player_id");
 
 CREATE TABLE
   IF NOT EXISTS "captains" (
