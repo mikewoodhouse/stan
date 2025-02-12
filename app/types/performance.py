@@ -40,16 +40,45 @@ WITH
 	,	w.year
 	,	w.wickets
 )
+, maxed AS (
+	SELECT
+		player_id
+	,	year
+	,	wkts AS wickets
+	,	runs
+	,	wkts * 1000 - runs AS sort_key
+	FROM best_bowling
+	WHERE player_id = :player_id
+	AND year < 1997
+),
+by_year AS (
+	SELECT
+		player_id
+	,	year
+	,	MAX(sort_key) AS best
+	FROM maxed
+	GROUP BY
+		player_id
+	,	year
+)
 SELECT
 	bb.year
 ,   bb.wickets
 ,   bb.runs
+,   bb.wickets * 1000 - bb.runs AS sort_key
 FROM bb
 	LEFT JOIN mb ON bb.player_id = mb.player_id
     AND bb.wickets = mb.wickets
     AND bb.runs = mb.runs
     AND bb.year = mb.year
-ORDER BY bb.year
+UNION
+SELECT
+	x.year
+,	x.wickets
+,	x.runs
+,	x.sort_key
+FROM maxed x
+	JOIN by_year y ON y.player_id = x.player_id AND y.year = x.year AND y.best = x.sort_key
 """
 
 
@@ -145,6 +174,7 @@ class Performance:
                 {"player_id": player_id},
             ).fetchall()
             best_bowling_by_year = {row["year"]: f"{row['wickets']}-{row['runs']}" for row in rows}
+            best_bb = max(rows, key=lambda bb: bb["sort_key"])
         for perf in perfs:
             perf.best_bowling = best_bowling_by_year.get(perf.year, "")
 
@@ -170,7 +200,7 @@ class Performance:
             caughtwkt=Performance.sumof("caughtwkt", perfs),
             captain=Performance.sumof("captain", perfs),
             keptwicket=Performance.sumof("keptwicket", perfs),
-            best_bowling="",
+            best_bowling=f"{best_bb['wickets']}-{best_bb['runs']}",
         )
 
         totals.highest, totals.highestnotout = max((p.highest, p.highestnotout) for p in perfs)
