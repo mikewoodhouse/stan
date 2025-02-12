@@ -6,6 +6,52 @@ from dataclasses import asdict, dataclass
 
 from app.utils import balls_to_overs
 
+BEST_BOWLING_SQL = """
+WITH
+	mb AS (
+	SELECT
+		CAST(player_id AS integer) AS player_id
+	,	CAST(strftime('%Y', datetime(match_date)) AS integer) AS year
+	,	CAST(wickets AS INTEGER) AS wickets
+	,	CAST(runs_conceded AS INTEGER) AS runs
+	,	match_date
+	,	opp
+	FROM match_bowling
+)
+, most_wickets AS (
+	SELECT
+		player_id
+	,	year
+	,	MAX(wickets) AS wickets
+	FROM mb
+	WHERE player_id = :player_id
+	GROUP BY player_id, year
+)
+, bb AS (
+	SELECT
+		w.player_id
+	,	w.year
+	,	w.wickets
+	,	MIN(mb.runs) AS runs
+	FROM most_wickets w
+		JOIN mb ON mb.player_id = w.player_id AND mb.year = w.year AND w.wickets = mb.wickets
+	GROUP BY
+		w.player_id
+	,	w.year
+	,	w.wickets
+)
+SELECT
+	bb.year
+,   bb.wickets
+,   bb.runs
+FROM bb
+	LEFT JOIN mb ON bb.player_id = mb.player_id
+    AND bb.wickets = mb.wickets
+    AND bb.runs = mb.runs
+    AND bb.year = mb.year
+ORDER BY bb.year
+"""
+
 
 @dataclass(kw_only=True)
 class Performance:
@@ -37,6 +83,8 @@ class Performance:
     caughtwkt: int = 0
     captain: int = 0
     keptwicket: int = 0
+
+    best_bowling: str = ""
 
     @property
     def high_score(self) -> str:
@@ -91,6 +139,17 @@ class Performance:
             rows = csr.fetchall()
         perfs = [Performance(**row) for row in rows]
 
+        with closing(db.cursor()) as csr:
+            rows = csr.execute(
+                BEST_BOWLING_SQL,
+                {"player_id": player_id},
+            ).fetchall()
+            print(rows)
+            best_bowling_by_year = {row["year"]: f"{row['wickets']}-{row['runs']}" for row in rows}
+        print(best_bowling_by_year)
+        for perf in perfs:
+            perf.best_bowling = best_bowling_by_year.get(perf.year, "")
+
         totals = Performance(
             code="",
             year="Total",
@@ -113,6 +172,7 @@ class Performance:
             caughtwkt=Performance.sumof("caughtwkt", perfs),
             captain=Performance.sumof("captain", perfs),
             keptwicket=Performance.sumof("keptwicket", perfs),
+            best_bowling="",
         )
 
         totals.highest, totals.highestnotout = max((p.highest, p.highestnotout) for p in perfs)
@@ -152,7 +212,12 @@ class Performance:
                 "field": "innings",
                 "sortable": True,
             },
-            {"name": "notout", "label": "not out", "field": "notout", "sortable": True},
+            {
+                "name": "notout",
+                "label": "not out",
+                "field": "notout",
+                "sortable": True,
+            },
             {
                 "name": "high_score",
                 "label": "highest",
@@ -171,8 +236,18 @@ class Performance:
                 "field": "batting_average",
                 "sortable": True,
             },
-            {"name": "fours", "label": "fours", "field": "fours", "sortable": True},
-            {"name": "sixes", "label": "sixes", "field": "sixes", "sortable": True},
+            {
+                "name": "fours",
+                "label": "fours",
+                "field": "fours",
+                "sortable": True,
+            },
+            {
+                "name": "sixes",
+                "label": "sixes",
+                "field": "sixes",
+                "sortable": True,
+            },
             {
                 "name": "overs_bowled",
                 "label": "overs",
@@ -185,7 +260,12 @@ class Performance:
                 "field": "maidens",
                 "sortable": True,
             },
-            {"name": "runs", "label": "runs", "field": "runs", "sortable": True},
+            {
+                "name": "runs",
+                "label": "runs",
+                "field": "runs",
+                "sortable": True,
+            },
             {
                 "name": "wickets",
                 "label": "wickets",
@@ -204,7 +284,19 @@ class Performance:
                 "field": "fivewktinn",
                 "sortable": True,
             },
-            {"name": "caught", "label": "caught", "field": "caught", "sortable": True},
+            {
+                "name": "best",
+                "label": "best",
+                "field": "best_bowling",
+                "sortable": False,
+                "align": "center",
+            },
+            {
+                "name": "caught",
+                "label": "caught",
+                "field": "caught",
+                "sortable": True,
+            },
             {
                 "name": "stumped",
                 "label": "stumped",
