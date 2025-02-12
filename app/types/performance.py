@@ -144,9 +144,7 @@ class Performance:
                 BEST_BOWLING_SQL,
                 {"player_id": player_id},
             ).fetchall()
-            print(rows)
             best_bowling_by_year = {row["year"]: f"{row['wickets']}-{row['runs']}" for row in rows}
-        print(best_bowling_by_year)
         for perf in perfs:
             perf.best_bowling = best_bowling_by_year.get(perf.year, "")
 
