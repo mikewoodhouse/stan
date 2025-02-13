@@ -34,7 +34,7 @@ class LoadDefinition:
 #
 load_defs = {
     "players": LoadDefinition(
-        klass=PlayerImport,
+        klass=PlayerImport,  # type: ignore
         table="players",
         headers="Code|Surname|Initial|Active|FirstName",
     ),
@@ -44,7 +44,7 @@ load_defs = {
         headers="Year|Played|Won|Lost|Drawn|Tied|NoResult|MaxPossibleGames",
     ),
     "hundred_plus": LoadDefinition(
-        klass=HundredPlusImport,
+        klass=HundredPlusImport,  # type: ignore
         table="hundred_plus",
         headers="Year|Code|Date|Score|NotOut|Opponents|Minutes",
         player_id_cols={
@@ -73,6 +73,9 @@ load_defs = {
         player_id_cols={
             "player_id": "code",
         },
+        exclude_from_insert=[
+            "best_bowling",
+        ],
     ),
     "season_records": LoadDefinition(
         klass=SeasonRecord,
