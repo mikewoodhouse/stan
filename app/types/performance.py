@@ -4,7 +4,8 @@ import sqlite3
 from contextlib import closing
 from dataclasses import asdict, dataclass
 
-from app.utils import balls_to_overs
+from app.config import config
+from app.utils import balls_to_overs, player_name
 
 BEST_BOWLING_SQL = """
 WITH
@@ -218,6 +219,35 @@ class Performance:
             )
             rows = csr.fetchall()
         return [Performance(**row) for row in rows]
+
+    @staticmethod
+    def career_appearances(db: sqlite3.Connection) -> list[dict]:
+        with closing(db.cursor()) as csr:
+            csr.execute(
+                """
+                SELECT
+                    pl.id AS player_id
+                ,	pl.surname
+                ,	pl.initial
+                ,	pl.firstname
+                ,	Sum(pe.matches) AS appearances
+                ,	MIN(pe.year) AS from_year
+                ,	MAX(pe.year) AS to_year
+                FROM players pl JOIN performances pe ON pe.player_id = pl.id
+                GROUP BY
+                    pl.id
+                ,	pl.surname
+                ,	pl.initial
+                ,	pl.firstname
+                HAVING SUM(pe.matches) >= :min_apps
+                ORDER BY 5 DESC
+            """,
+                {"min_apps": config.MIN_APPS},
+            )
+            rows = [dict(row) for row in csr.fetchall()]
+            for row in rows:
+                row["player_name"] = player_name(row["firstname"], row["initial"], row["surname"])
+            return rows
 
     @staticmethod
     def table_cols() -> list[dict]:

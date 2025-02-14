@@ -5,6 +5,8 @@ from contextlib import closing
 from dataclasses import asdict, dataclass
 from datetime import date
 
+from app.utils import player_name
+
 YEAR_PERFS_SQL = """
 WITH batting_plus_year AS (
 	SELECT
@@ -123,9 +125,7 @@ class Player:
 
     @property
     def name(self) -> str:
-        if forename := self.firstname or self.initial:
-            return f"{self.surname}, {forename}"
-        return self.surname
+        return player_name(self.firstname, self.initial, self.surname)
 
     @classmethod
     def get(cls, db: sqlite3.Connection, player_id: int) -> Player:
