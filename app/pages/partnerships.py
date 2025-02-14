@@ -12,7 +12,7 @@ def show_partnerships(db: sqlite3.Connection, wicket: int):
         """
         Nutty but fun function, from https://stackoverflow.com/questions/9647202/ordinal-numbers-replacement
         """
-        return "%d%s" % (n, "tsnrhtdd"[(n // 10 % 10 != 1) * (n % 10 < 4) * n % 10 :: 4])
+        return "%d%s" % (n, "tsnrhtdd"[(n // 10 % 10 != 1) * (n % 10 < 4) * n % 10 :: 4])  # noqa
 
     sidebar()
 
