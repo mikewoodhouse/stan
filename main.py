@@ -5,6 +5,7 @@ from nicegui import ui
 
 from app.pages import (
     hundreds_report,
+    show_appearances,
     show_match,
     show_matches,
     show_partnerships,
@@ -77,6 +78,11 @@ def match(match_id: int):
 @ui.page("/partnerships/{wicket}", title="Partnerships • Stan")
 def partnerships(wicket: int):
     show_partnerships(db, wicket)
+
+
+@ui.page("/appearances", title="appearances • Stan")
+def appearances():
+    show_appearances(db)
 
 
 ui.run()
