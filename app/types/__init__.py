@@ -8,6 +8,6 @@ from .match_batting import MatchBatting
 from .match_bowling import MatchBowling
 from .partnership import Partnership
 from .performance import Performance
-from .player import Player
+from .player import Player, PlayerMatchPerf
 from .season import Season
 from .season_record import SeasonRecord
