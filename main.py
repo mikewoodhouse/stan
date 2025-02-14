@@ -8,6 +8,7 @@ from app.pages import (
     show_appearances,
     show_match,
     show_matches,
+    show_captains,
     show_partnerships,
     show_player,
     show_player_list,
@@ -83,6 +84,11 @@ def partnerships(wicket: int):
 @ui.page("/appearances", title="appearances • Stan")
 def appearances():
     show_appearances(db)
+
+
+@ui.page("/captains", title="captains • Stan")
+def captains():
+    show_captains(db)
 
 
 ui.run()

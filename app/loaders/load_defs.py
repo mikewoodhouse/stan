@@ -3,6 +3,7 @@ from typing import Type
 
 from app.types import (
     BestBowling,
+    Captain,
     Match,
     MatchBatting,
     MatchBowling,
@@ -105,6 +106,14 @@ load_defs = {
         klass=BestBowling,
         table="best_bowling",
         headers="Year|Code|Date|Inns|Wkts|Runs|Opp",
+        player_id_cols={
+            "player_id": "code",
+        },
+    ),
+    "captains": LoadDefinition(
+        klass=Captain,
+        table="captains",
+        headers="Code|Year|Matches|Won|Lost|Drawn|NoDecision|Tied",
         player_id_cols={
             "player_id": "code",
         },
