@@ -19,7 +19,7 @@ def show_player(db: sqlite3.Connection, player_id: int) -> None:
         with ui.table(rows=rows, columns=Performance.table_cols(), row_key="year").props("dense") as table:
             table.add_slot(
                 "body-cell-year",
-                r"""<td :props="props"><a :href="'/season/' + props.row.year" """
+                r"""<td :props="props"><a :href="'/players/' + props.row.player_id + '/' + props.row.year" """
                 r"""class='nicegui-link'>{{props.row.year}}</a></td>""",
             )
     with ui.row():
