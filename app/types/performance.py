@@ -174,7 +174,8 @@ class Performance:
                 {"player_id": player_id},
             ).fetchall()
             best_bowling_by_year = {row["year"]: f"{row['wickets']}-{row['runs']}" for row in rows}
-            best_bb = max(rows, key=lambda bb: bb["sort_key"])
+
+            best_bb = max(rows, key=lambda bb: bb["sort_key"]) if best_bowling_by_year else None
         for perf in perfs:
             perf.best_bowling = best_bowling_by_year.get(perf.year, "")
 
@@ -200,7 +201,7 @@ class Performance:
             caughtwkt=Performance.sumof("caughtwkt", perfs),
             captain=Performance.sumof("captain", perfs),
             keptwicket=Performance.sumof("keptwicket", perfs),
-            best_bowling=f"{best_bb['wickets']}-{best_bb['runs']}",
+            best_bowling=f"{best_bb['wickets']}-{best_bb['runs']}" if best_bb else "",
         )
 
         totals.highest, totals.highestnotout = max((p.highest, p.highestnotout) for p in perfs)
