@@ -6,9 +6,10 @@ from nicegui import ui
 from app.pages import (
     hundreds_report,
     show_appearances,
+    show_captain,
+    show_captains,
     show_match,
     show_matches,
-    show_captains,
     show_partnerships,
     show_player,
     show_player_list,
@@ -61,22 +62,22 @@ def season(year: int):
     show_season(db, year)
 
 
-@ui.page("/players/{player_id}/{year}", title="player in season • Stan")
+@ui.page("/players/{player_id}/{year}", title="player • Stan")
 def player_year(player_id: int, year: int):
     show_player_year(db, player_id, year)
 
 
-@ui.page("/matches/{year}", title="Matches • Stan")
+@ui.page("/matches/{year}", title="matches • Stan")
 def matches(year: int):
     show_matches(db, year)
 
 
-@ui.page("/match/{match_id}", title="Matches • Stan")
+@ui.page("/match/{match_id}", title="matches • Stan")
 def match(match_id: int):
     show_match(db, match_id)
 
 
-@ui.page("/partnerships/{wicket}", title="Partnerships • Stan")
+@ui.page("/partnerships/{wicket}", title="partnerships • Stan")
 def partnerships(wicket: int):
     show_partnerships(db, wicket)
 
@@ -89,6 +90,11 @@ def appearances():
 @ui.page("/captains", title="captains • Stan")
 def captains():
     show_captains(db)
+
+
+@ui.page("/captains/{player_id}", title="captains • Stan")
+def captain(player_id: int):
+    show_captain(db, player_id)
 
 
 ui.run()

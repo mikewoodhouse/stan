@@ -1,4 +1,6 @@
 from .appearances import show_appearances
+from .captain_record import show_captain
+from .captains import show_captains
 from .hundreds import hundreds_report
 from .match import show_match
 from .matches import show_matches
@@ -8,11 +10,11 @@ from .player_list import show_player_list
 from .player_year import show_player_year
 from .season import show_season
 from .seasons import show_seasons
-from .captains import show_captains
 
 __all__ = [
     "hundreds_report",
     "show_appearances",
+    "show_captain",
     "show_captains",
     "show_match",
     "show_matches",

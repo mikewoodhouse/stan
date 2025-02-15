@@ -10,10 +10,6 @@ pytest
 pytest-cov
 pytest-watch
 
-openpyxl
 
-
-dataclass-csv
-dataclasses-json
 
 ruff
