@@ -18,6 +18,16 @@ def show_partnerships(wicket: int):
         ui.label(f"Partnerships for {ordinal(wicket)} wicket").style("color: gold").style("font-size: 200%")
 
     with ui.row():
+        ui.markdown(
+            """
+Note: for several decades the best partnership for each wicket was recorded,
+irrespective of score.
+
+More recently, beyond those registering 75+ runs, only partnerships recording
+a score deemed sufficiently interesting have been retained."""
+        )
+
+    with ui.row():
         for i in range(1, 12):
             ui.link(ordinal(i), target=f"/partnerships/{i}").style("margin: 10px")
 
