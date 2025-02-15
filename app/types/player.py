@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-import sqlite3
 from contextlib import closing
 from dataclasses import asdict, dataclass
 from datetime import date
 
+from app.config import config
 from app.utils import player_name
 
 YEAR_PERFS_SQL = """
@@ -128,8 +128,8 @@ class Player:
         return player_name(self.firstname, self.initial, self.surname)
 
     @classmethod
-    def get(cls, db: sqlite3.Connection, player_id: int) -> Player:
-        with closing(db.cursor()) as csr:
+    def get(cls, player_id: int) -> Player:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 "SELECT * FROM players WHERE id = :player_id",
                 {
@@ -140,8 +140,8 @@ class Player:
             return Player(**row)
 
     @classmethod
-    def all(cls, db: sqlite3.Connection, surname_like: str = "%") -> dict[int, Player]:
-        with closing(db.cursor()) as csr:
+    def all(cls, surname_like: str = "%") -> dict[int, Player]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 """SELECT *
                 FROM players WHERE surname LIKE :surname_like ORDER BY surname, initial
@@ -153,8 +153,8 @@ class Player:
             rows: list[dict] = csr.fetchall()
             return {row["id"]: Player(**row) for row in rows}
 
-    def match_perf_years(self, db: sqlite3.Connection) -> list[int]:
-        with closing(db.cursor()) as csr:
+    def match_perf_years(self) -> list[int]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 """
                 SELECT DISTINCT strftime('%Y', datetime(match_date)) AS yr
@@ -168,8 +168,8 @@ class Player:
             rows = csr.fetchall()
             return [int(row["yr"]) for row in rows]
 
-    def match_perfs(self, db: sqlite3.Connection, year: int) -> list[PlayerMatchPerf]:
-        with closing(db.cursor()) as csr:
+    def match_perfs(self, year: int) -> list[PlayerMatchPerf]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 YEAR_PERFS_SQL,
                 {

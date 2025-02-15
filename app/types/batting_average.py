@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import sqlite3
 from dataclasses import Field, dataclass, fields
 from typing import Any
 
@@ -23,19 +22,13 @@ class BattingAverage:
     sixes: int
 
     @classmethod
-    def for_year(
-        cls, db: sqlite3.Connection, year: int, min_innings: int = 1
-    ) -> tuple[list[BattingAverage], list[BattingAverage]]:
-        perfs = [perf for perf in Performance.for_year(db, year) if perf.innings > 0]
+    def for_year(cls, year: int, min_innings: int = 1) -> tuple[list[BattingAverage], list[BattingAverage]]:
+        perfs = [perf for perf in Performance.for_year(year) if perf.innings > 0]
         flds = fields(cls)
 
-        def build_row(
-            flds: tuple[Field[Any], ...], perf: Performance
-        ) -> BattingAverage:
+        def build_row(flds: tuple[Field[Any], ...], perf: Performance) -> BattingAverage:
             attrs = {field.name: getattr(perf, field.name, None) for field in flds}
-            item: BattingAverage = BattingAverage(
-                **{k: v for k, v in attrs.items() if v is not None}
-            )
+            item: BattingAverage = BattingAverage(**{k: v for k, v in attrs.items() if v is not None})
             item.average = perf.batting_average
             item.high_score = perf.high_score
             return item

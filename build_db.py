@@ -1,34 +1,20 @@
 import os
-import sqlite3
 from contextlib import closing
-from datetime import date
 
+from app.config import config
 from app.loaders.csv_loader import CsvLoader
 from app.loaders.load_defs import load_defs
 
 os.unlink("stan.sqlite")
 
 
-def dict_factory(cursor, row):
-    fields = [column[0] for column in cursor.description]
-    return dict(zip(fields, row))
-
-
-sqlite3.register_adapter(date, lambda d: d.isoformat())
-sqlite3.register_converter("DATE", lambda s: date.fromisoformat(s.decode("utf-8")))
-
-
-db = sqlite3.connect("stan.sqlite")
-db.row_factory = dict_factory
-
-
-def count(db: sqlite3.Connection, tablename: str) -> int:
-    with closing(db.cursor()) as csr:
+def count(tablename: str) -> int:
+    with closing(config.db.cursor()) as csr:
         csr.execute(f"SELECT count(*) AS row_count FROM {tablename}")
         return csr.fetchone()["row_count"]
 
 
-loader = CsvLoader(db)
+loader = CsvLoader(config.db)
 loader.load_schema()
 for tablename, load_def in load_defs.items():
     print("loading", load_def.table)
@@ -40,6 +26,6 @@ loader.set_player_ids()
 db.commit()
 
 for table in load_defs.keys():
-    print(table, count(db, table))
+    print(table, count(table))
 db.commit()
 db.close()

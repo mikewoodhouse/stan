@@ -1,11 +1,12 @@
 from __future__ import annotations
 
-import sqlite3
 from contextlib import closing
 from dataclasses import asdict, dataclass
 from datetime import date
 
 from dataclass_csv import dateformat
+
+from app.config import config
 
 
 @dateformat("%Y-%m-%d %H:%M:%S")
@@ -52,8 +53,8 @@ class Match:
         }
 
     @classmethod
-    def for_year(cls, db: sqlite3.Connection, year: int) -> list[Match]:
-        with closing(db.cursor()) as csr:
+    def for_year(cls, year: int) -> list[Match]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 "SELECT * FROM matches WHERE date between :soy AND :eoy ORDER BY date",
                 {"soy": f"{year}-01-01", "eoy": f"{year}-12-31"},
@@ -63,8 +64,8 @@ class Match:
         return matches
 
     @classmethod
-    def for_id(cls, db: sqlite3.Connection, match_id: int) -> list[Match]:
-        with closing(db.cursor()) as csr:
+    def for_id(cls, match_id: int) -> list[Match]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 "SELECT * FROM matches WHERE id = :match_id",
                 {"match_id": match_id},

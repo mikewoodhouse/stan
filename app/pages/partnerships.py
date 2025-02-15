@@ -1,5 +1,3 @@
-import sqlite3
-
 from nicegui import ui
 
 from app.types import Partnership
@@ -7,7 +5,7 @@ from app.types import Partnership
 from .sidebar_menu import sidebar
 
 
-def show_partnerships(db: sqlite3.Connection, wicket: int):
+def show_partnerships(wicket: int):
     def ordinal(n: int):
         """
         Nutty but fun function, from https://stackoverflow.com/questions/9647202/ordinal-numbers-replacement
@@ -23,6 +21,6 @@ def show_partnerships(db: sqlite3.Connection, wicket: int):
         for i in range(1, 12):
             ui.link(ordinal(i), target=f"/partnerships/{i}").style("margin: 10px")
 
-    rows = [row.row_dict() for row in Partnership.for_wicket(db, wicket)]
+    rows = [row.row_dict() for row in Partnership.for_wicket(wicket)]
 
     ui.table(rows=rows, columns=Partnership.table_cols()).props("dense")

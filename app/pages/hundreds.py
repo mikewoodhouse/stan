@@ -1,4 +1,3 @@
-import sqlite3
 from collections import Counter
 
 from nicegui import ui
@@ -7,7 +6,7 @@ from app.pages.sidebar_menu import sidebar
 from app.types import HundredPlus, Player
 
 
-def hundreds_report(db: sqlite3.Connection):
+def hundreds_report():
     sidebar()
 
     with ui.header(elevated=True).style("background-color: maroon"):
@@ -16,8 +15,8 @@ def hundreds_report(db: sqlite3.Connection):
     with ui.row():
         ui.link("Back", "/")
 
-    players = Player.all(db)
-    rows = [row.row_dict(players) for row in HundredPlus.all(db)]
+    players = Player.all()
+    rows = [row.row_dict(players) for row in HundredPlus.all()]
 
     with ui.row():
         show_hundreds_data_row(rows, players)

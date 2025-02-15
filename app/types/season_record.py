@@ -1,12 +1,12 @@
 from __future__ import annotations
 
-import sqlite3
 from contextlib import closing
 from dataclasses import asdict, dataclass
 from datetime import date
 
 from dataclass_csv import dateformat
 
+from app.config import config
 from app.utils import balls_to_overs
 
 
@@ -48,11 +48,9 @@ class SeasonRecord:
         }
 
     @classmethod
-    def for_year(cls, db: sqlite3.Connection, year: int) -> list[SeasonRecord]:
-        with closing(db.cursor()) as csr:
-            csr.execute(
-                "SELECT * FROM season_records WHERE year = :year", {"year": year}
-            )
+    def for_year(cls, year: int) -> list[SeasonRecord]:
+        with closing(config.db.cursor()) as csr:
+            csr.execute("SELECT * FROM season_records WHERE year = :year", {"year": year})
             rows: list[dict] = csr.fetchall()
             return [SeasonRecord(**row) for row in rows]
 

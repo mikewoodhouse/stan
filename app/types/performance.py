@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import sqlite3
 from contextlib import closing
 from dataclasses import asdict, dataclass
 
@@ -160,8 +159,8 @@ class Performance:
         return sum(getattr(p, field_name) for p in perfs)
 
     @classmethod
-    def for_player(cls, db: sqlite3.Connection, player_id: int) -> list[Performance]:
-        with closing(db.cursor()) as csr:
+    def for_player(cls, player_id: int) -> list[Performance]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 "SELECT * FROM performances WHERE player_id = :player_id ORDER BY year",
                 {"player_id": player_id},
@@ -169,7 +168,7 @@ class Performance:
             rows = csr.fetchall()
         perfs = [Performance(**row) for row in rows]
 
-        with closing(db.cursor()) as csr:
+        with closing(config.db.cursor()) as csr:
             rows = csr.execute(
                 BEST_BOWLING_SQL,
                 {"player_id": player_id},
@@ -211,8 +210,8 @@ class Performance:
         return perfs
 
     @classmethod
-    def for_year(cls, db: sqlite3.Connection, year: int) -> list[Performance]:
-        with closing(db.cursor()) as csr:
+    def for_year(cls, year: int) -> list[Performance]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 "SELECT * FROM performances WHERE year = :year",
                 {"year": year},
@@ -221,8 +220,8 @@ class Performance:
         return [Performance(**row) for row in rows]
 
     @staticmethod
-    def career_appearances(db: sqlite3.Connection) -> list[dict]:
-        with closing(db.cursor()) as csr:
+    def career_appearances() -> list[dict]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 """
                 SELECT

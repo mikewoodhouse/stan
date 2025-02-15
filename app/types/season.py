@@ -1,8 +1,9 @@
 from __future__ import annotations
 
-import sqlite3
 from contextlib import closing
 from dataclasses import dataclass
+
+from app.config import config
 
 
 @dataclass(kw_only=True)
@@ -18,15 +19,15 @@ class Season:
     maxpossiblegames: int
 
     @classmethod
-    def all(cls, db: sqlite3.Connection) -> list[Season]:
-        with closing(db.cursor()) as csr:
+    def all(cls) -> list[Season]:
+        with closing(config.db.cursor()) as csr:
             csr.execute("SELECT * FROM seasons ORDER BY year DESC")
             rows = list(csr.fetchall())
             return [Season(**row) for row in rows]
 
     @classmethod
-    def for_year(cls, db: sqlite3.Connection, year: int) -> Season:
-        with closing(db.cursor()) as csr:
+    def for_year(cls, year: int) -> Season:
+        with closing(config.db.cursor()) as csr:
             csr.execute("SELECT * FROM seasons WHERE year = :year", {"year": year})
             row = csr.fetchone()
             return Season(**row)

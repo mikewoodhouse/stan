@@ -1,12 +1,13 @@
 from __future__ import annotations
 
 import re
-import sqlite3
 from contextlib import closing
 from dataclasses import asdict, dataclass
 from datetime import date
 
 from dataclass_csv import dateformat
+
+from app.config import config
 
 batre = re.compile(
     r"""(?P<position>\d+)/"""
@@ -88,8 +89,8 @@ class MatchBatting:
         return obj
 
     @classmethod
-    def for_player(cls, db: sqlite3.Connection, player_id: int) -> list[MatchBatting]:
-        with closing(db.cursor()) as csr:
+    def for_player(cls, player_id: int) -> list[MatchBatting]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 "SELECT * FROM match_batting WHERE player_id = :player_id ORDER BY match_date",
                 {"player_id": player_id},
@@ -127,8 +128,8 @@ class MatchBatting:
         }
 
     @staticmethod
-    def for_match_id(db: sqlite3.Connection, match_id: int) -> list[MatchBatting]:
-        with closing(db.cursor()) as csr:
+    def for_match_id(match_id: int) -> list[MatchBatting]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 "SELECT * FROM match_batting WHERE match_id = :match_id ORDER BY position",
                 {"match_id": match_id},

@@ -1,16 +1,12 @@
-import sqlite3
-
 from app.types import Performance
 
 
 class Career:
     @classmethod
-    def summary(cls, db: sqlite3.Connection, player_id: int) -> Performance:
-        perfs = Performance.for_player(db, player_id)
+    def summary(cls, player_id: int) -> Performance:
+        perfs = Performance.for_player(player_id)
         highest = max(perf.highest for perf in perfs)
-        highestnotout = max(
-            perf.highestnotout for perf in perfs if perf.highest == highest
-        )
+        highestnotout = max(perf.highestnotout for perf in perfs if perf.highest == highest)
         runsscored = sum(perf.runsscored for perf in perfs)
         innings = sum(perf.innings for perf in perfs)
         notout = sum(perf.notout for perf in perfs)

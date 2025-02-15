@@ -1,5 +1,3 @@
-import sqlite3
-
 from nicegui import ui
 
 from app.pages.sidebar_menu import sidebar
@@ -18,15 +16,15 @@ COLS = [
 ]
 
 
-def show_captain(db: sqlite3.Connection, player_id: int):
-    player = Player.get(db, player_id)
+def show_captain(player_id: int):
+    player = Player.get(player_id)
 
     with ui.header(elevated=True).style("background-color: maroon"):
         ui.label(f"Captaincy by year: {player.name}").style("color: gold").style("font-size: 200%")
 
     sidebar()
 
-    rows = Captain.for_player(db, player_id)
+    rows = Captain.for_player(player_id)
 
     # weirdness: can't seem to construct the target in the add_slot() call, so putting it together outside
     for row in rows:

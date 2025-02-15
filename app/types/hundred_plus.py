@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import sqlite3
 from contextlib import closing
 from dataclasses import dataclass
 from datetime import date as pydate
@@ -9,6 +8,7 @@ from typing import Optional
 from dataclass_csv import dateformat
 
 import app.types
+from app.config import config
 
 
 @dataclass(kw_only=True)
@@ -36,8 +36,8 @@ class HundredPlus:
         }
 
     @classmethod
-    def all(cls, db: sqlite3.Connection) -> list[HundredPlus]:
-        with closing(db.cursor()) as csr:
+    def all(cls) -> list[HundredPlus]:
+        with closing(config.db.cursor()) as csr:
             csr.execute("SELECT * FROM hundred_plus ORDER BY date")
             rows = list(csr.fetchall())
             return [HundredPlus(**row) for row in rows]

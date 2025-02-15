@@ -1,11 +1,12 @@
 from __future__ import annotations
 
-import sqlite3
 from contextlib import closing
 from dataclasses import asdict, dataclass
 from datetime import date
 
 from dataclass_csv import dateformat
+
+from app.config import config
 
 
 @dateformat("%Y-%m-%d %H:%M:%S")
@@ -59,8 +60,8 @@ class MatchBowling:
         return (self.overs * 6 + self.balls) / self.wickets
 
     @staticmethod
-    def for_match_id(db: sqlite3.Connection, match_id: int) -> list[MatchBowling]:
-        with closing(db.cursor()) as csr:
+    def for_match_id(match_id: int) -> list[MatchBowling]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 "SELECT * FROM match_bowling WHERE match_id = :match_id ORDER BY id",
                 {"match_id": match_id},

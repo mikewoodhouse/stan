@@ -1,5 +1,3 @@
-import sqlite3
-
 from nicegui import ui
 
 from app.config import config
@@ -15,13 +13,13 @@ COLS = [
 ]
 
 
-def show_appearances(db: sqlite3.Connection):
+def show_appearances():
     with ui.header(elevated=True).style("background-color: maroon"):
         ui.label("Career Appearances").style("color: gold").style("font-size: 200%")
 
     sidebar()
 
-    rows = Performance.career_appearances(db)
+    rows = Performance.career_appearances()
     with ui.row():
         with ui.column():
             ui.label(f"All players with a minimum of {config.MIN_APPS} appearances")

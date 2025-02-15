@@ -1,11 +1,12 @@
 from __future__ import annotations
 
-import sqlite3
 from contextlib import closing
 from dataclasses import asdict, dataclass
 from datetime import date  # noqa
 
 from dataclass_csv import dateformat
+
+from app.config import config
 
 
 @dataclass(kw_only=True)
@@ -38,8 +39,8 @@ class Partnership:
         }
 
     @staticmethod
-    def for_wicket(db: sqlite3.Connection, wicket: int) -> list[Partnership]:
-        with closing(db.cursor()) as csr:
+    def for_wicket(wicket: int) -> list[Partnership]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 """
                 SELECT
@@ -58,7 +59,7 @@ class Partnership:
             return [Partnership(**row) for row in csr.fetchall()]
 
     @staticmethod
-    def for_season(db: sqlite3.Connection, year: int, min_total: int) -> list[Partnership]:
+    def for_season(year: int, min_total: int) -> list[Partnership]:
         sql = """WITH pt AS (
                 SELECT *
                 , ROW_NUMBER() OVER (PARTITION BY year, wicket ORDER BY total DESC) AS rank
@@ -74,7 +75,7 @@ class Partnership:
             WHERE total >= :min_total
             OR rank = 1
             ORDER BY wicket, total DESC"""
-        with closing(db.cursor()) as csr:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 sql,
                 {

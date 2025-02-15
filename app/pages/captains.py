@@ -1,5 +1,3 @@
-import sqlite3
-
 from nicegui import ui
 
 from app.pages.sidebar_menu import sidebar
@@ -18,10 +16,10 @@ COLS = [
 ]
 
 
-def show_captains(db: sqlite3.Connection):
+def show_captains():
     sidebar()
 
-    rows = Captain.all(db)
+    rows = Captain.all()
 
     with ui.column():
         ui.table(rows=rows, columns=COLS).props("dense").add_slot(

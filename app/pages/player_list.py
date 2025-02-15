@@ -1,15 +1,16 @@
-import sqlite3
 from contextlib import closing
 
 from nicegui import ui
+
+from app.config import config
 
 from .sidebar_menu import sidebar
 
 tbl = ui.table(columns=[], rows=[])
 
 
-def players_like(db: sqlite3.Connection, starts_with: str = "") -> list[dict]:
-    with closing(db.cursor()) as csr:
+def players_like(starts_with: str = "") -> list[dict]:
+    with closing(config.db.cursor()) as csr:
         csr.execute(
             """
             SELECT
@@ -45,7 +46,7 @@ def players_like(db: sqlite3.Connection, starts_with: str = "") -> list[dict]:
     return players
 
 
-def show_player_list(db: sqlite3.Connection) -> None:
+def show_player_list() -> None:
     with ui.header(elevated=True).style("background-color: maroon"):
         ui.label("Players").style("color: gold").style("font-size: 200%")
 
@@ -72,7 +73,7 @@ def show_player_list(db: sqlite3.Connection) -> None:
         },
     ]
 
-    players = players_like(db, "%")
+    players = players_like("%")
 
     with ui.table(columns=table_cols, rows=players, pagination=30).props("dense") as table:
         with table.add_slot("top-right"):

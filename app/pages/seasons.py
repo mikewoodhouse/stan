@@ -7,14 +7,14 @@ from app.types import Season
 from .sidebar_menu import sidebar
 
 
-def show_seasons(db):
+def show_seasons():
     with ui.header(elevated=True).style("background-color: maroon"):
         ui.label("Seasons").style("color: gold").style("font-size: 200%")
 
     sidebar()
 
     with ui.row():
-        seasons = Season.all(db)
+        seasons = Season.all()
 
         table = ui.table(
             rows=[asdict(season) for season in seasons],

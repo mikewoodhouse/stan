@@ -1,4 +1,3 @@
-import sqlite3
 from contextlib import closing
 from dataclasses import dataclass
 
@@ -22,8 +21,8 @@ class Captain:
     tied: int
 
     @classmethod
-    def all(cls, db: sqlite3.Connection) -> list[dict]:
-        with closing(db.cursor()) as csr:
+    def all(cls) -> list[dict]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 """
             SELECT
@@ -56,8 +55,8 @@ class Captain:
             return rows
 
     @classmethod
-    def for_player(cls, db: sqlite3.Connection, player_id: int) -> list[dict]:
-        with closing(db.cursor()) as csr:
+    def for_player(cls, player_id: int) -> list[dict]:
+        with closing(config.db.cursor()) as csr:
             csr.execute(
                 """
             SELECT

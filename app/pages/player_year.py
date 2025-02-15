@@ -1,5 +1,3 @@
-import sqlite3
-
 from nicegui import ui
 
 from app.types import Player, PlayerMatchPerf
@@ -7,16 +5,16 @@ from app.types import Player, PlayerMatchPerf
 from .sidebar_menu import sidebar
 
 
-def show_player_year(db: sqlite3.Connection, player_id: int, year: int):
-    player = Player.get(db, player_id)
+def show_player_year(player_id: int, year: int):
+    player = Player.get(player_id)
 
     with ui.header(elevated=True).style("background-color: maroon"):
         ui.label(f"{player.name}: Performances for {year}").style("color: gold").style("font-size: 200%")
 
     sidebar()
 
-    years = player.match_perf_years(db)
-    perfs = player.match_perfs(db, year)
+    years = player.match_perf_years()
+    perfs = player.match_perfs(year)
 
     with ui.row():
         for yr in years:
