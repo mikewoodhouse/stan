@@ -28,11 +28,9 @@ def show_captain(db: sqlite3.Connection, player_id: int):
 
     rows = Captain.for_player(db, player_id)
 
-    # weirdness: can't seem to construct the target in th add_slot() call, so putting it together outside
+    # weirdness: can't seem to construct the target in the add_slot() call, so putting it together outside
     for row in rows:
         row["player_year_addr"] = f"{player_id}/{row['year']}"
-
-    print(rows)
 
     with ui.column():
         with ui.table(rows=rows, columns=COLS).props("dense") as table:
