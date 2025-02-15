@@ -72,7 +72,6 @@ class PlayerMatchPerf:
             "overs_balls": self.overs_balls,
             "fielding": self.fielding,
         }
-        print(res)
         return res
 
     @property
