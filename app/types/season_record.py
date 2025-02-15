@@ -34,48 +34,44 @@ class SeasonRecord:
     ballsreceived: int = -1
 
     @property
-    def overs_bowled(self):
-        return balls_to_overs(self.ballsbowled)
+    def overs_bowled(self) -> str:
+        return balls_to_overs(self.ballsbowled) if self.ballsbowled > 0 else ""
 
     @property
-    def overs_faced(self):
-        return balls_to_overs(self.ballsreceived)
+    def overs_faced(self) -> str:
+        return balls_to_overs(self.ballsreceived) if self.ballsreceived > 0 else ""
 
     def row_dict(self) -> dict:
         return asdict(self) | {
             "overs_bowled": self.overs_bowled,
             "overs_faced": self.overs_faced,
+            "highest_score": f"{self.highest}-{self.highestwkts}",
+            "lowest_score": f"{self.lowest}-{self.lowestwkts}",
         }
 
     @classmethod
-    def for_year(cls, year: int) -> list[SeasonRecord]:
+    def for_year(cls, year: int) -> list[dict]:
         with closing(config.db.cursor()) as csr:
             csr.execute("SELECT * FROM season_records WHERE year = :year", {"year": year})
-            rows: list[dict] = csr.fetchall()
-            return [SeasonRecord(**row) for row in rows]
+            records = [SeasonRecord(**row) for row in csr.fetchall()]
+            return [record.row_dict() for record in records]
 
     @staticmethod
     def table_cols() -> list[dict]:
         return [
-            {"name": "club", "label": "club", "field": "club"},
-            {"name": "runsscored", "label": "runsscored", "field": "runsscored"},
-            {"name": "wicketslost", "label": "wicketslost", "field": "wicketslost"},
-            {"name": "highest", "label": "highest", "field": "highest"},
-            {"name": "highestwkts", "label": "highestwkts", "field": "highestwkts"},
-            {"name": "highestdate", "label": "highestdate", "field": "highestdate"},
-            {"name": "highestopps", "label": "highestopps", "field": "highestopps"},
-            {"name": "lowest", "label": "lowest", "field": "lowest"},
-            {"name": "lowestwkts", "label": "lowestwkts", "field": "lowestwkts"},
-            {"name": "lowestdate", "label": "lowestdate", "field": "lowestdate"},
-            {"name": "lowestopps", "label": "lowestopps", "field": "lowestopps"},
-            {"name": "byes", "label": "byes", "field": "byes"},
-            {"name": "legbyes", "label": "legbyes", "field": "legbyes"},
-            {"name": "wides", "label": "wides", "field": "wides"},
-            {"name": "noballs", "label": "noballs", "field": "noballs"},
-            {"name": "overs_bowled", "label": "overs_bowled", "field": "overs_bowled"},
-            {
-                "name": "overs_faced",
-                "label": "overs_faced",
-                "field": "overs_faced",
-            },
+            {"name": "club", "label": "Club", "field": "club"},
+            {"name": "runsscored", "label": "Runs", "field": "runsscored"},
+            {"name": "wicketslost", "label": "Wickets Lost", "field": "wicketslost"},
+            {"name": "highest", "label": "Highest", "field": "highest_score"},
+            {"name": "highestdate", "label": "Date", "field": "highestdate"},
+            {"name": "highestopps", "label": "Vs", "field": "highestopps"},
+            {"name": "lowest", "label": "Lowest", "field": "lowest_score"},
+            {"name": "lowestdate", "label": "Date", "field": "lowestdate"},
+            {"name": "lowestopps", "label": "Vs", "field": "lowestopps"},
+            {"name": "byes", "label": "Byes", "field": "byes"},
+            {"name": "legbyes", "label": "Legbyes", "field": "legbyes"},
+            {"name": "wides", "label": "Wides", "field": "wides"},
+            {"name": "noballs", "label": "Noballs", "field": "noballs"},
+            {"name": "overs_bowled", "label": "Overs Bowled", "field": "overs_bowled"},
+            {"name": "overs_faced", "label": "Overs Faced", "field": "overs_faced"},
         ]

@@ -45,56 +45,21 @@ class BattingAverage:
     @staticmethod
     def table_cols():
         return [
-            {
-                "name": "position",
-                "label": "position",
-                "field": "position",
-                "sortable": True,
-            },
-            {
-                "name": "name",
-                "label": "name",
-                "field": "name",
-                "align": "left",
-                "sortable": True,
-            },
-            {
-                "name": "innings",
-                "label": "innings",
-                "field": "innings",
-                "sortable": True,
-            },
-            {"name": "notout", "label": "notout", "field": "notout", "sortable": True},
-            {
-                "name": "high_score",
-                "label": "high_score",
-                "field": "high_score",
-                "sortable": True,
-            },
-            {
-                "name": "runsscored",
-                "label": "runsscored",
-                "field": "runsscored",
-                "sortable": True,
-            },
+            {"name": "position", "label": "Pos", "field": "position", "sortable": True},
+            {"name": "name", "field": "Name", "align": "left", "sortable": True},
+            {"name": "innings", "label": "Inns", "field": "innings", "sortable": True},
+            {"name": "notout", "label": "N/O", "field": "notout", "sortable": True},
+            {"name": "high_score", "label": "High", "field": "high_score", "sortable": True},
+            {"name": "runsscored", "label": "Runs", "field": "runsscored", "sortable": True},
             {
                 "name": "average",
-                "label": "average",
+                "label": "Avg",
                 "field": "average",
                 "sortable": True,
+                ":format": "value => value ? value.toFixed(2) : ''",
             },
-            {
-                "name": "fifties",
-                "label": "fifties",
-                "field": "fifties",
-                "sortable": True,
-            },
-            {
-                "name": "hundreds",
-                "label": "hundreds",
-                "field": "hundreds",
-                "sortable": True,
-            },
-            {"name": "fours", "label": "fours", "field": "fours", "sortable": True},
-            {"name": "sixes", "label": "sixes", "field": "sixes", "sortable": True},
+            {"name": "fifties", "label": "50s", "field": "fifties", "sortable": True},
+            {"name": "hundreds", "label": "100s", "field": "hundreds", "sortable": True},
+            {"name": "fours", "label": "4s", "field": "fours", "sortable": True},
+            {"name": "sixes", "label": "6s", "field": "sixes", "sortable": True},
         ]

@@ -24,7 +24,7 @@ def show_season(year: int) -> None:
         with ui.card():
             ui.link("Matches", f"/matches/{year}")
     with ui.row():
-        records = [row.row_dict() for row in SeasonRecord.for_year(year)]
+        records = SeasonRecord.for_year(year)
         ui.table(rows=records, columns=SeasonRecord.table_cols()).props("dense")
     with ui.row():
         with ui.card():

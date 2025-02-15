@@ -57,65 +57,32 @@ class BowlingAverage:
     @staticmethod
     def table_cols():
         return [
-            {
-                "name": "position",
-                "label": "position",
-                "field": "position",
-                "sortable": True,
-            },
-            {
-                "name": "name",
-                "label": "name",
-                "field": "name",
-                "align": "left",
-                "sortable": True,
-            },
-            {
-                "name": "overs",
-                "label": "overs",
-                "field": "overs_bowled",
-                "sortable": True,
-            },
-            {
-                "name": "maidens",
-                "label": "maidens",
-                "field": "maidens",
-                "sortable": True,
-            },
-            {
-                "name": "runs",
-                "label": "runs",
-                "field": "runs",
-                "sortable": True,
-            },
-            {
-                "name": "wickets",
-                "label": "wickets",
-                "field": "wickets",
-                "sortable": True,
-            },
+            {"name": "position", "label": "Pos", "field": "position", "sortable": True},
+            {"name": "name", "label": "Name", "field": "name", "align": "left", "sortable": True},
+            {"name": "overs", "label": "Overs", "field": "overs_bowled", "sortable": True},
+            {"name": "maidens", "label": "Maidens", "field": "maidens", "sortable": True},
+            {"name": "runs", "label": "Runs", "field": "runs", "sortable": True},
+            {"name": "wickets", "label": "Wickets", "field": "wickets", "sortable": True},
             {
                 "name": "average",
-                "label": "average",
+                "label": "Avg",
                 "field": "average",
                 "sortable": True,
+                ":format": "value => value ? value.toFixed(2) : ''",
             },
             {
                 "name": "strike",
-                "label": "strike",
+                "label": "Strike",
                 "field": "strike_rate",
                 "sortable": True,
+                ":format": "value => value ? value.toFixed(2) : ''",
             },
             {
                 "name": "economy",
-                "label": "economy",
+                "label": "Economy",
                 "field": "economy",
                 "sortable": True,
+                ":format": "value => value ? value.toFixed(2) : ''",
             },
-            {
-                "name": "five+",
-                "label": "five+",
-                "field": "five+",
-                "sortable": True,
-            },
+            {"name": "five+", "label": "5+", "field": "five+", "sortable": True},
         ]
