@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date as pydate
+from datetime import time
 
 
 @dataclass
@@ -17,7 +18,7 @@ class XlMatchCard:
 
     @property
     def is_empty(self) -> bool:
-        return self.opp == 0
+        return self.date == time(0, 0)
 
     @staticmethod
     def from_worksheet(ws, col: int) -> XlMatchCard:

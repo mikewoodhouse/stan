@@ -58,38 +58,26 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-05-11 00:00:00,Falcon,Brocks,0,5,3,True,c,False,False,1,0,0,0,0
 -1,-1,1997-05-11 00:00:00,Falcon,Dugdale E,0,2,27,True,c,False,True,0,1,0,2,0
 -1,-1,1997-05-11 00:00:00,Falcon,Hawksworth A,0,1,0,True,c,False,False,1,0,0,0,0
--1,-1,1997-05-11 00:00:00,Falcon,Lestrelle J,0,11,0,False,no,False,False,0,0,0,0,0
 -1,-1,1997-05-11 00:00:00,Falcon,Mander A,0,8,11,True,c,False,False,0,0,0,3,0
 -1,-1,1997-05-11 00:00:00,Falcon,Mander C,0,10,6,True,b,False,False,0,0,0,0,0
 -1,-1,1997-05-11 00:00:00,Falcon,Merritt,0,7,1,True,b,False,False,0,0,0,0,0
 -1,-1,1997-05-11 00:00:00,Falcon,Patel N,0,4,10,True,b,False,False,1,0,0,0,0
 -1,-1,1997-05-11 00:00:00,Falcon,Shewan,0,9,20,True,c,True,False,0,0,0,3,0
 -1,-1,1997-05-11 00:00:00,Falcon,Woodhouse,0,3,11,True,b,False,False,0,0,0,0,0
--1,-1,1997-05-17 00:00:00,West Wickham,Bastin,0,8,0,True,ro,False,False,0,0,0,0,0
+-1,-1,1997-05-11 00:00:00,Falcon,Lestrelle J,0,11,0,False,no,False,False,0,0,0,0,0
 -1,-1,1997-05-17 00:00:00,West Wickham,Clark C,0,10,0,False,no,False,False,0,0,0,0,0
 -1,-1,1997-05-17 00:00:00,West Wickham,Dugdale E,0,1,34,True,c,False,False,1,0,0,5,0
--1,-1,1997-05-17 00:00:00,West Wickham,Dugdale T,0,9,1,True,b,False,False,0,0,0,0,0
 -1,-1,1997-05-17 00:00:00,West Wickham,Hawksworth A,0,7,15,True,c,False,False,0,0,0,1,0
 -1,-1,1997-05-17 00:00:00,West Wickham,Hosking,0,6,25,True,ro,False,False,1,0,0,2,0
 -1,-1,1997-05-17 00:00:00,West Wickham,Oakes,0,4,4,True,b,False,False,0,0,0,0,0
 -1,-1,1997-05-17 00:00:00,West Wickham,Shewan,0,3,16,True,st,False,False,0,0,0,2,0
 -1,-1,1997-05-17 00:00:00,West Wickham,Woodhouse,0,2,0,True,b,True,False,0,0,0,0,0
 -1,-1,1997-05-17 00:00:00,West Wickham,Worthington,0,5,2,True,c,False,True,0,0,1,0,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Bowers M,0,4,9,True,b,False,False,0,0,0,1,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Ching,0,5,0,True,c,False,False,0,0,0,0,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Cooper G,0,3,68,False,no,False,False,0,0,0,11,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Dugdale E,0,2,2,True,b,False,True,0,0,1,0,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Dugdale S,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Elliston,0,10,0,False,dnb,False,False,1,0,0,0,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Morris D,0,9,0,False,dnb,True,False,1,0,0,0,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Oakes,0,7,18,False,no,False,False,0,0,0,2,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Springer T,0,6,12,True,b,False,False,1,0,0,2,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Thomas C,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1997-05-18 00:00:00,Merton Saints,Woodhouse,0,1,8,True,c,False,False,0,0,0,1,0
+-1,-1,1997-05-17 00:00:00,West Wickham,Bastin,0,8,0,True,ro,False,False,0,0,0,0,0
+-1,-1,1997-05-17 00:00:00,West Wickham,Dugdale T,0,9,1,True,b,False,False,0,0,0,0,0
 -1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Hamilton,0,2,25,True,ro,False,True,0,0,0,3,0
 -1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Hickey,0,6,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Leadley J,0,1,88,False,no,False,False,1,0,0,12,1
--1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Lestrelle J,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Patel N,0,3,8,True,b,False,False,0,0,0,1,0
 -1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Reid,0,5,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Sharpe D,0,4,42,False,no,False,False,0,0,0,6,2
@@ -97,6 +85,18 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Snow D,0,7,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Worthington,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Worthy R,0,11,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,1997-05-18 00:00:00,Thurlow Park RAFA,Lestrelle J,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Bowers M,0,4,9,True,b,False,False,0,0,0,1,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Cooper G,0,3,68,False,no,False,False,0,0,0,11,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Dugdale E,0,2,2,True,b,False,True,0,0,1,0,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Elliston,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Morris D,0,9,0,False,dnb,True,False,1,0,0,0,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Oakes,0,7,18,False,no,False,False,0,0,0,2,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Springer T,0,6,12,True,b,False,False,1,0,0,2,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Woodhouse,0,1,8,True,c,False,False,0,0,0,1,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Ching,0,5,0,True,c,False,False,0,0,0,0,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Thomas C,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-05-18 00:00:00,Merton Saints,Dugdale S,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-24 00:00:00,Frensham,Brocks,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-24 00:00:00,Frensham,Dugdale E,0,2,13,True,b,False,True,0,0,0,2,0
 -1,-1,1997-05-24 00:00:00,Frensham,Elliston,0,10,0,False,dnb,False,False,0,0,0,0,0
@@ -144,14 +144,14 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-05-31 00:00:00,Deansbank,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-31 00:00:00,Deansbank,Dugdale E,0,5,9,False,no,False,False,1,0,0,1,0
 -1,-1,1997-05-31 00:00:00,Deansbank,Elliston,0,4,12,False,no,False,False,1,0,0,2,0
--1,-1,1997-05-31 00:00:00,Deansbank,Haynes,0,6,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-31 00:00:00,Deansbank,Leadley J,0,1,59,True,b,False,False,0,0,0,13,0
--1,-1,1997-05-31 00:00:00,Deansbank,Lestrelle J,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-31 00:00:00,Deansbank,Middleton,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-31 00:00:00,Deansbank,Reid,0,3,13,True,c,False,False,0,0,0,2,0
 -1,-1,1997-05-31 00:00:00,Deansbank,Shewan,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-05-31 00:00:00,Deansbank,Woodhouse,0,2,5,True,b,True,False,1,0,0,1,0
 -1,-1,1997-05-31 00:00:00,Deansbank,Worthington,0,7,0,False,dnb,False,True,0,0,0,0,0
+-1,-1,1997-05-31 00:00:00,Deansbank,Lestrelle J,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-05-31 00:00:00,Deansbank,Haynes,0,6,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-01 00:00:00,Bromley Common II,Brocks,0,2,2,True,b,False,False,0,0,0,0,0
 -1,-1,1997-06-01 00:00:00,Bromley Common II,Hamilton,0,4,0,False,dnb,False,True,0,0,0,0,0
 -1,-1,1997-06-01 00:00:00,Bromley Common II,Hawksworth R,0,3,81,False,no,False,False,0,0,0,13,0
@@ -163,7 +163,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-06-01 00:00:00,Bromley Common II,Snow D,0,7,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-01 00:00:00,Bromley Common II,Worthy J,0,9,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,1997-06-01 00:00:00,Bromley Common II,Worthy R,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Ching,0,6,10,True,b,False,False,0,0,0,1,0
 -1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Cooper G,0,5,12,True,st,False,False,0,0,0,1,0
 -1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Dugdale E,0,2,7,True,c,False,True,0,2,0,0,0
 -1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Elliston,0,7,21,True,b,False,False,1,0,0,3,0
@@ -172,11 +171,11 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Merritt,0,10,5,True,c,False,False,0,0,0,0,0
 -1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Morris D,0,11,2,False,no,True,False,0,0,0,0,0
 -1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Sharpe D,0,4,12,True,b,False,False,0,0,0,0,1
--1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Thomas C,0,9,10,True,st,False,False,0,0,0,2,0
 -1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Woodhouse,0,3,7,True,b,False,False,0,0,0,0,0
+-1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Ching,0,6,10,True,b,False,False,0,0,0,1,0
+-1,-1,1997-06-01 00:00:00,Surrey Gymkhana,Thomas C,0,9,10,True,st,False,False,0,0,0,2,0
 -1,-1,1997-06-07 00:00:00,Merton,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-07 00:00:00,Merton,Hawksworth A,0,3,16,True,c,False,False,0,0,0,0,0
--1,-1,1997-06-07 00:00:00,Merton,Lestrelle J,0,7,8,False,no,False,False,0,0,0,0,0
 -1,-1,1997-06-07 00:00:00,Merton,Mander A,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-07 00:00:00,Merton,Mander C,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-07 00:00:00,Merton,Middleton,0,6,82,False,no,False,True,0,0,1,10,2
@@ -185,18 +184,18 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-06-07 00:00:00,Merton,Woodhouse,0,1,30,True,c,True,False,1,0,0,3,0
 -1,-1,1997-06-07 00:00:00,Merton,Worthington,0,4,4,True,c,False,False,1,0,0,1,0
 -1,-1,1997-06-07 00:00:00,Merton,Young,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-06-07 00:00:00,Merton,Lestrelle J,0,7,8,False,no,False,False,0,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Frensham,Bowers M,0,6,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Frensham,Brocks,0,5,0,False,dnb,True,False,2,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Frensham,Hamilton,0,2,48,True,c,False,True,0,1,0,6,0
 -1,-1,1997-06-08 00:00:00,Frensham,Hawksworth A,0,1,43,True,c,False,False,1,0,0,4,3
 -1,-1,1997-06-08 00:00:00,Frensham,Hickey,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1997-06-08 00:00:00,Frensham,Lestrelle J,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Frensham,Oakes,0,7,0,False,dnb,False,False,1,0,0,0,0
--1,-1,1997-06-08 00:00:00,Frensham,Sewell K,0,4,4,False,no,False,False,1,0,0,1,0
 -1,-1,1997-06-08 00:00:00,Frensham,Woodhouse,0,3,11,False,no,False,False,0,0,0,1,0
 -1,-1,1997-06-08 00:00:00,Frensham,Worthy J,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Frensham,Worthy R,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1997-06-08 00:00:00,Merton Saints,Ching,0,4,10,True,b,False,False,0,0,0,0,0
+-1,-1,1997-06-08 00:00:00,Frensham,Lestrelle J,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-06-08 00:00:00,Frensham,Sewell K,0,4,4,False,no,False,False,1,0,0,1,0
 -1,-1,1997-06-08 00:00:00,Merton Saints,Cooper G,0,2,5,True,b,False,False,0,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Merton Saints,Davies B,0,6,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Merton Saints,Dugdale E,0,1,16,True,b,False,True,0,0,0,2,0
@@ -206,6 +205,7 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-06-08 00:00:00,Merton Saints,Morris D,0,11,0,False,dnb,True,False,0,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Merton Saints,Sharpe D,0,3,6,True,b,False,False,0,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Merton Saints,Springer T,0,8,24,True,c,False,False,0,0,0,4,0
+-1,-1,1997-06-08 00:00:00,Merton Saints,Ching,0,4,10,True,b,False,False,0,0,0,0,0
 -1,-1,1997-06-08 00:00:00,Merton Saints,Thomas C,0,9,3,False,no,False,False,0,0,0,0,0
 -1,-1,1997-06-14 00:00:00,Caterham,Bowers M,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-14 00:00:00,Caterham,Dugdale E,0,2,90,True,b,False,True,0,2,0,10,0
@@ -220,19 +220,18 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-06-14 00:00:00,Caterham,Young,0,11,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,1997-06-15 00:00:00,4 C's,Brocks,0,8,2,True,b,False,False,0,0,0,0,0
 -1,-1,1997-06-15 00:00:00,4 C's,Chick,0,5,0,True,c,False,False,0,0,0,0,0
--1,-1,1997-06-15 00:00:00,4 C's,Coloe,0,9,6,False,no,False,False,1,0,0,1,0
 -1,-1,1997-06-15 00:00:00,4 C's,Cooper G,0,2,23,True,c,False,False,0,0,0,2,0
 -1,-1,1997-06-15 00:00:00,4 C's,Elliston,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-15 00:00:00,4 C's,Hawksworth A,0,1,24,True,c,False,False,1,0,0,3,0
 -1,-1,1997-06-15 00:00:00,4 C's,Leadley J,0,7,39,False,no,False,True,0,0,2,4,1
 -1,-1,1997-06-15 00:00:00,4 C's,Morris D,0,10,0,False,dnb,True,False,1,0,0,0,0
 -1,-1,1997-06-15 00:00:00,4 C's,Reid,0,3,0,True,c,False,False,0,0,0,0,0
--1,-1,1997-06-15 00:00:00,4 C's,Wiseman,0,6,18,True,b,False,False,0,0,0,2,0
 -1,-1,1997-06-15 00:00:00,4 C's,Worthington,0,4,8,True,lb,False,False,0,0,0,1,0
+-1,-1,1997-06-15 00:00:00,4 C's,Wiseman,0,6,18,True,b,False,False,0,0,0,2,0
+-1,-1,1997-06-15 00:00:00,4 C's,Coloe,0,9,6,False,no,False,False,1,0,0,1,0
 -1,-1,1997-06-21 00:00:00,Hamsey Green,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-06-21 00:00:00,Hamsey Green,Clark C,0,5,4,True,b,False,False,0,0,0,0,0
 -1,-1,1997-06-21 00:00:00,Hamsey Green,Dugdale E,0,2,47,False,no,False,True,0,1,0,5,0
--1,-1,1997-06-21 00:00:00,Hamsey Green,Lestrelle J,0,7,4,True,c,False,False,1,0,0,0,0
 -1,-1,1997-06-21 00:00:00,Hamsey Green,Middleton,0,8,13,False,no,False,False,0,0,0,1,1
 -1,-1,1997-06-21 00:00:00,Hamsey Green,Oakes,0,6,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-06-21 00:00:00,Hamsey Green,Sharpe D,0,3,8,True,c,False,False,0,0,0,0,1
@@ -240,40 +239,40 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-06-21 00:00:00,Hamsey Green,Woodhouse,0,1,1,True,b,True,False,0,0,0,0,0
 -1,-1,1997-06-21 00:00:00,Hamsey Green,Worthington,0,4,12,True,c,False,False,0,0,0,2,0
 -1,-1,1997-06-21 00:00:00,Hamsey Green,Young,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,1997-06-21 00:00:00,Hamsey Green,Lestrelle J,0,7,4,True,c,False,False,1,0,0,0,0
 -1,-1,1997-06-22 00:00:00,Addington,Cooper G,0,2,2,True,b,False,False,0,0,0,0,0
 -1,-1,1997-06-22 00:00:00,Addington,Dugdale E,0,1,22,True,ro,False,True,0,0,0,1,0
 -1,-1,1997-06-22 00:00:00,Addington,Elliston,0,7,5,True,c,False,False,0,0,0,1,0
 -1,-1,1997-06-22 00:00:00,Addington,Hickey,0,6,3,True,b,False,False,0,0,0,0,0
--1,-1,1997-06-22 00:00:00,Addington,Lestrelle J,0,8,3,True,ro,False,False,0,0,0,0,0
 -1,-1,1997-06-22 00:00:00,Addington,Merritt,0,11,2,False,no,False,False,0,0,0,0,0
 -1,-1,1997-06-22 00:00:00,Addington,Morris D,0,10,9,True,b,True,False,0,0,0,0,0
 -1,-1,1997-06-22 00:00:00,Addington,Patel N,0,4,2,True,ro,False,False,0,0,0,0,0
 -1,-1,1997-06-22 00:00:00,Addington,Snow D,0,5,6,True,lb,False,False,0,0,0,1,0
 -1,-1,1997-06-22 00:00:00,Addington,Worthington,0,3,30,True,c,False,False,0,0,0,3,1
 -1,-1,1997-06-22 00:00:00,Addington,Worthy J,0,9,49,False,no,False,False,0,0,0,4,3
--1,-1,1997-07-06 00:00:00,Murray,Ching,0,4,0,True,b,False,False,1,0,0,0,0
+-1,-1,1997-06-22 00:00:00,Addington,Lestrelle J,0,8,3,True,ro,False,False,0,0,0,0,0
 -1,-1,1997-07-06 00:00:00,Murray,Cooper G,0,1,75,True,b,False,False,1,0,0,10,0
--1,-1,1997-07-06 00:00:00,Murray,Lestrelle J,0,9,1,False,no,False,False,0,0,0,0,0
 -1,-1,1997-07-06 00:00:00,Murray,Oakes,0,7,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-07-06 00:00:00,Murray,Reid,0,5,34,True,c,False,True,0,0,0,6,0
 -1,-1,1997-07-06 00:00:00,Murray,Simmons M,0,10,10,True,b,False,False,0,0,0,2,0
 -1,-1,1997-07-06 00:00:00,Murray,Springer T,0,3,18,True,b,False,False,1,0,0,2,0
--1,-1,1997-07-06 00:00:00,Murray,Thomas C,0,6,0,True,b,False,False,1,0,0,0,0
 -1,-1,1997-07-06 00:00:00,Murray,Woodhouse,0,2,4,True,b,True,False,0,0,0,1,0
 -1,-1,1997-07-06 00:00:00,Murray,Young,0,8,6,True,c,False,False,0,0,0,1,0
+-1,-1,1997-07-06 00:00:00,Murray,Lestrelle J,0,9,1,False,no,False,False,0,0,0,0,0
+-1,-1,1997-07-06 00:00:00,Murray,Ching,0,4,0,True,b,False,False,1,0,0,0,0
+-1,-1,1997-07-06 00:00:00,Murray,Thomas C,0,6,0,True,b,False,False,1,0,0,0,0
 -1,-1,1997-07-20 00:00:00,Falcon,Cooper G,0,3,1,True,c,False,False,1,0,0,0,0
 -1,-1,1997-07-20 00:00:00,Falcon,Dugdale E,0,2,8,True,b,False,False,1,0,0,1,0
 -1,-1,1997-07-20 00:00:00,Falcon,Elliston,0,10,10,False,no,False,False,2,0,0,2,0
 -1,-1,1997-07-20 00:00:00,Falcon,Hamilton,0,7,12,True,ro,False,True,0,0,0,2,0
 -1,-1,1997-07-20 00:00:00,Falcon,Hawksworth A,0,1,0,True,c,False,False,0,0,0,0,0
--1,-1,1997-07-20 00:00:00,Falcon,Lestrelle J,0,9,7,True,c,False,False,0,0,0,1,0
 -1,-1,1997-07-20 00:00:00,Falcon,Sharpe D,0,4,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-07-20 00:00:00,Falcon,Shewan,0,8,36,True,b,True,False,2,0,0,5,1
 -1,-1,1997-07-20 00:00:00,Falcon,Thatcher,0,6,19,True,c,False,False,1,0,0,4,0
--1,-1,1997-07-20 00:00:00,Falcon,Thomas C,0,5,10,True,c,False,False,0,0,0,2,0
 -1,-1,1997-07-20 00:00:00,Falcon,Young,0,11,8,False,no,False,False,0,0,0,2,0
+-1,-1,1997-07-20 00:00:00,Falcon,Lestrelle J,0,9,7,True,c,False,False,0,0,0,1,0
+-1,-1,1997-07-20 00:00:00,Falcon,Thomas C,0,5,10,True,c,False,False,0,0,0,2,0
 -1,-1,1997-08-02 00:00:00,Flying Wickets,Chick,0,6,12,True,c,False,False,0,0,0,1,1
--1,-1,1997-08-02 00:00:00,Flying Wickets,Coloe,0,8,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-08-02 00:00:00,Flying Wickets,Hamilton,0,2,9,True,b,False,True,0,1,0,0,0
 -1,-1,1997-08-02 00:00:00,Flying Wickets,Hawksworth A,0,1,24,True,st,False,False,1,0,0,3,0
 -1,-1,1997-08-02 00:00:00,Flying Wickets,Hickey,0,11,0,False,dnb,False,False,0,0,0,0,0
@@ -283,6 +282,7 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-08-02 00:00:00,Flying Wickets,Sharpe D,0,3,6,True,c,False,False,0,0,0,1,0
 -1,-1,1997-08-02 00:00:00,Flying Wickets,Shewan,0,7,3,True,b,True,False,0,0,0,0,0
 -1,-1,1997-08-02 00:00:00,Flying Wickets,Springer T,0,5,25,True,b,False,False,0,0,0,5,0
+-1,-1,1997-08-02 00:00:00,Flying Wickets,Coloe,0,8,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-08-03 00:00:00,Whyteleaf,Dugdale E,0,2,102,False,no,False,False,0,0,0,12,0
 -1,-1,1997-08-03 00:00:00,Whyteleaf,Hamilton,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-08-03 00:00:00,Whyteleaf,Leadley J,0,1,31,True,b,False,True,0,2,0,3,2
@@ -294,7 +294,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-08-03 00:00:00,Whyteleaf,Woodhouse,0,3,2,True,c,True,False,0,0,0,0,0
 -1,-1,1997-08-03 00:00:00,Whyteleaf,Worthington,0,4,28,True,b,False,False,0,0,0,4,0
 -1,-1,1997-08-03 00:00:00,Whyteleaf,Young,0,9,5,True,c,False,False,2,0,0,1,0
--1,-1,1997-08-09 00:00:00,Sutton,Coloe,0,6,11,True,b,False,False,0,0,0,1,0
 -1,-1,1997-08-09 00:00:00,Sutton,Hamilton,0,2,50,True,c,False,True,0,0,0,7,0
 -1,-1,1997-08-09 00:00:00,Sutton,Hawksworth A,0,1,15,True,c,False,False,0,0,0,0,0
 -1,-1,1997-08-09 00:00:00,Sutton,Hickey,0,8,0,True,b,False,False,0,0,0,0,0
@@ -305,6 +304,7 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-08-09 00:00:00,Sutton,Simmons M,0,10,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,1997-08-09 00:00:00,Sutton,Snow D,0,4,10,True,b,False,False,0,0,0,0,0
 -1,-1,1997-08-09 00:00:00,Sutton,Worthy R,0,9,6,False,no,False,False,0,0,0,1,0
+-1,-1,1997-08-09 00:00:00,Sutton,Coloe,0,6,11,True,b,False,False,0,0,0,1,0
 -1,-1,1997-08-10 00:00:00,Addington,Dugdale E,0,2,30,True,b,False,True,0,0,0,3,0
 -1,-1,1997-08-10 00:00:00,Addington,Elliston,0,10,8,False,no,False,False,0,0,0,0,0
 -1,-1,1997-08-10 00:00:00,Addington,Mander A,0,11,13,True,b,False,False,0,0,0,2,0
@@ -317,7 +317,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-08-10 00:00:00,Addington,Worthington,0,1,11,True,b,False,False,0,0,0,1,0
 -1,-1,1997-08-10 00:00:00,Addington,Young,0,5,5,True,b,False,False,0,0,0,0,0
 -1,-1,1997-08-16 00:00:00,Riverside,Brocks,0,6,4,True,b,True,False,0,0,0,0,0
--1,-1,1997-08-16 00:00:00,Riverside,Coloe,0,11,0,False,no,False,False,0,0,0,0,0
 -1,-1,1997-08-16 00:00:00,Riverside,Hamilton,0,3,17,True,c,False,True,0,0,1,2,0
 -1,-1,1997-08-16 00:00:00,Riverside,Hawksworth A,0,2,40,True,b,False,False,3,0,0,3,2
 -1,-1,1997-08-16 00:00:00,Riverside,Hickey,0,10,0,True,c,False,False,0,0,0,0,0
@@ -327,8 +326,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-08-16 00:00:00,Riverside,Sharpe D,0,9,23,False,no,False,False,0,0,0,2,1
 -1,-1,1997-08-16 00:00:00,Riverside,Snow D,0,4,3,True,ro,False,False,0,0,0,0,0
 -1,-1,1997-08-16 00:00:00,Riverside,Springer T,0,7,1,True,b,False,False,0,0,0,0,0
+-1,-1,1997-08-16 00:00:00,Riverside,Coloe,0,11,0,False,no,False,False,0,0,0,0,0
 -1,-1,1997-08-17 00:00:00,Hextable,Dugdale E,0,2,8,True,b,False,False,0,0,0,1,0
--1,-1,1997-08-17 00:00:00,Hextable,Dugdale J,0,9,4,True,st,False,False,0,0,0,0,0
 -1,-1,1997-08-17 00:00:00,Hextable,Elliston,0,8,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-08-17 00:00:00,Hextable,Hamilton,0,4,13,True,b,False,True,0,0,0,2,0
 -1,-1,1997-08-17 00:00:00,Hextable,Hawksworth A,0,1,12,True,b,False,False,1,0,0,3,0
@@ -338,6 +337,7 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-08-17 00:00:00,Hextable,Snow D,0,6,32,True,b,False,False,0,0,0,4,0
 -1,-1,1997-08-17 00:00:00,Hextable,Woodhouse,0,5,5,True,c,True,False,1,0,0,0,0
 -1,-1,1997-08-17 00:00:00,Hextable,Young,0,7,9,False,no,False,False,0,0,0,2,0
+-1,-1,1997-08-17 00:00:00,Hextable,Dugdale J,0,9,4,True,st,False,False,0,0,0,0,0
 -1,-1,1997-08-23 00:00:00,Central YMCA,Brocks,0,7,13,True,c,False,False,0,0,0,3,0
 -1,-1,1997-08-23 00:00:00,Central YMCA,Dugdale E,0,2,7,True,c,False,False,0,0,0,1,0
 -1,-1,1997-08-23 00:00:00,Central YMCA,Elliston,0,10,0,False,dnb,False,False,0,0,0,0,0
@@ -353,13 +353,13 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-08-24 00:00:00,Eltham,Dugdale E,0,6,18,False,no,False,True,0,0,1,2,0
 -1,-1,1997-08-24 00:00:00,Eltham,Hawksworth A,0,1,1,True,b,False,False,0,0,0,0,0
 -1,-1,1997-08-24 00:00:00,Eltham,Leadley J,0,4,52,True,b,False,False,0,0,0,8,1
--1,-1,1997-08-24 00:00:00,Eltham,Lestrelle J,0,10,5,False,no,False,False,0,0,0,0,0
 -1,-1,1997-08-24 00:00:00,Eltham,Morris D,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-08-24 00:00:00,Eltham,Oakes,0,7,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-08-24 00:00:00,Eltham,Snow D,0,3,3,True,b,False,False,0,0,0,0,0
 -1,-1,1997-08-24 00:00:00,Eltham,Springer T,0,5,32,True,b,False,False,0,0,0,4,1
 -1,-1,1997-08-24 00:00:00,Eltham,Woodhouse,0,2,51,True,b,True,False,0,0,0,7,0
 -1,-1,1997-08-24 00:00:00,Eltham,Young,0,8,0,True,b,False,False,0,0,0,0,0
+-1,-1,1997-08-24 00:00:00,Eltham,Lestrelle J,0,10,5,False,no,False,False,0,0,0,0,0
 -1,-1,1997-09-06 00:00:00,LESSA Wanderers,Bowers M,0,6,4,True,b,False,False,0,0,0,1,0
 -1,-1,1997-09-06 00:00:00,LESSA Wanderers,Cooper G,0,7,50,False,no,False,False,1,0,0,3,0
 -1,-1,1997-09-06 00:00:00,LESSA Wanderers,Hamilton,0,1,3,True,c,False,True,0,1,1,0,0
@@ -371,28 +371,28 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-09-06 00:00:00,LESSA Wanderers,Shewan,0,9,18,True,b,True,False,0,0,0,0,0
 -1,-1,1997-09-06 00:00:00,LESSA Wanderers,Springer T,0,4,2,True,lb,False,False,0,0,0,0,0
 -1,-1,1997-09-06 00:00:00,LESSA Wanderers,Worthington,0,3,10,True,c,False,False,0,0,0,2,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Angell,0,5,2,True,b,False,False,0,0,0,0,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Ching,0,7,2,False,no,False,False,1,0,0,0,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Cooper G,0,4,21,False,no,False,False,0,0,0,4,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Hamilton,0,1,59,True,lb,False,True,0,3,0,5,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Lestrelle J,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Ligory,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Oakes,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Sharpe D,0,2,81,True,b,False,False,1,0,0,9,4
--1,-1,1997-09-07 00:00:00,Morden 2nds,Shewan,0,6,1,True,b,True,False,0,0,0,0,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Worthington,0,3,0,True,c,False,False,0,0,0,0,0
--1,-1,1997-09-07 00:00:00,Morden 2nds,Worthy R,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-09-07 00:00:00,Selsdon,Cooper G,0,4,16,False,no,False,False,0,0,0,1,0
 -1,-1,1997-09-07 00:00:00,Selsdon,Hawksworth R,0,6,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-09-07 00:00:00,Selsdon,Leadley J,0,5,55,False,no,False,True,0,2,0,10,0
--1,-1,1997-09-07 00:00:00,Selsdon,Lestrelle J,0,3,2,True,b,False,False,1,0,0,0,0
 -1,-1,1997-09-07 00:00:00,Selsdon,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1997-09-07 00:00:00,Selsdon,Mander N,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-09-07 00:00:00,Selsdon,Oakes,0,7,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-09-07 00:00:00,Selsdon,Shewan,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-09-07 00:00:00,Selsdon,Woodhouse,0,1,4,True,b,True,False,1,0,0,1,0
 -1,-1,1997-09-07 00:00:00,Selsdon,Worthington,0,2,12,True,b,False,False,0,0,0,2,0
 -1,-1,1997-09-07 00:00:00,Selsdon,Young,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Selsdon,Lestrelle J,0,3,2,True,b,False,False,1,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Selsdon,Mander N,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Angell,0,5,2,True,b,False,False,0,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Cooper G,0,4,21,False,no,False,False,0,0,0,4,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Hamilton,0,1,59,True,lb,False,True,0,3,0,5,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Oakes,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Sharpe D,0,2,81,True,b,False,False,1,0,0,9,4
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Shewan,0,6,1,True,b,True,False,0,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Worthington,0,3,0,True,c,False,False,0,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Worthy R,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Lestrelle J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Ching,0,7,2,False,no,False,False,1,0,0,0,0
+-1,-1,1997-09-07 00:00:00,Morden 2nds,Ligory,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-09-13 00:00:00,Graveney,Bowers M,0,8,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-09-13 00:00:00,Graveney,Dugdale E,0,2,50,False,no,False,True,0,3,0,6,0
 -1,-1,1997-09-13 00:00:00,Graveney,Elliston,0,10,2,True,ro,True,False,0,0,0,0,0
@@ -409,35 +409,34 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-09-14 00:00:00,Beddington,Hawksworth R,0,1,13,True,b,False,False,0,0,0,2,0
 -1,-1,1997-09-14 00:00:00,Beddington,Mander A,0,7,19,False,no,False,False,0,0,0,3,0
 -1,-1,1997-09-14 00:00:00,Beddington,Mander C,0,8,4,False,no,False,False,0,0,0,0,0
--1,-1,1997-09-14 00:00:00,Beddington,Mander N,0,5,3,True,b,False,False,1,0,0,0,0
 -1,-1,1997-09-14 00:00:00,Beddington,Merritt,0,6,17,True,b,False,False,0,0,0,0,0
 -1,-1,1997-09-14 00:00:00,Beddington,Middleton,0,3,64,True,c,False,False,0,0,0,9,1
 -1,-1,1997-09-14 00:00:00,Beddington,Morris D,0,4,9,True,c,False,False,0,0,0,1,0
 -1,-1,1997-09-14 00:00:00,Beddington,Woodhouse,0,2,4,True,c,True,True,0,1,1,1,0
 -1,-1,1997-09-14 00:00:00,Beddington,Young,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-09-14 00:00:00,Beddington,Mander N,0,5,3,True,b,False,False,1,0,0,0,0
 -1,-1,1997-09-14 00:00:00,East Cheam,Bailey,0,3,0,True,b,False,False,1,0,0,0,0
--1,-1,1997-09-14 00:00:00,East Cheam,Ching,0,5,0,True,b,False,False,0,0,0,0,0
--1,-1,1997-09-14 00:00:00,East Cheam,Coloe,0,6,8,False,no,False,False,0,0,0,1,0
 -1,-1,1997-09-14 00:00:00,East Cheam,Cooper G,0,7,1,False,no,False,False,0,0,0,0,0
 -1,-1,1997-09-14 00:00:00,East Cheam,Hamilton,0,2,65,True,lb,False,True,0,1,0,5,0
 -1,-1,1997-09-14 00:00:00,East Cheam,Hawksworth A,0,1,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-09-14 00:00:00,East Cheam,Patel N,0,4,19,True,b,False,False,1,0,0,0,0
 -1,-1,1997-09-14 00:00:00,East Cheam,Shewan,0,9,0,False,dnb,True,False,2,0,0,0,0
--1,-1,1997-09-14 00:00:00,East Cheam,Thomas C,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-09-14 00:00:00,East Cheam,Worthy R,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-09-14 00:00:00,East Cheam,Ching,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,1997-09-14 00:00:00,East Cheam,Thomas C,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1997-09-14 00:00:00,East Cheam,Coloe,0,6,8,False,no,False,False,0,0,0,1,0
 -1,-1,1997-09-20 00:00:00,Mad Hatters,Dugdale E,0,2,44,True,st,False,False,0,0,0,7,0
 -1,-1,1997-09-20 00:00:00,Mad Hatters,Elliston,0,6,32,False,no,False,False,0,0,0,6,0
 -1,-1,1997-09-20 00:00:00,Mad Hatters,Hickey,0,5,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-09-20 00:00:00,Mad Hatters,Hosking,0,4,22,True,lb,False,False,1,0,0,3,0
--1,-1,1997-09-20 00:00:00,Mad Hatters,Lestrelle J,0,7,2,True,c,False,False,0,0,0,0,0
--1,-1,1997-09-20 00:00:00,Mad Hatters,Ligory,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-09-20 00:00:00,Mad Hatters,Morris D,0,11,0,False,dnb,True,False,0,0,0,0,0
 -1,-1,1997-09-20 00:00:00,Mad Hatters,Sharpe D,0,8,9,True,c,False,False,0,0,0,2,0
 -1,-1,1997-09-20 00:00:00,Mad Hatters,Snow D,0,3,12,True,c,False,False,1,0,0,2,0
 -1,-1,1997-09-20 00:00:00,Mad Hatters,Woodhouse,0,1,38,True,c,False,False,0,0,0,6,0
 -1,-1,1997-09-20 00:00:00,Mad Hatters,Worthington,0,9,7,False,no,False,True,0,1,0,1,0
+-1,-1,1997-09-20 00:00:00,Mad Hatters,Lestrelle J,0,7,2,True,c,False,False,0,0,0,0,0
+-1,-1,1997-09-20 00:00:00,Mad Hatters,Ligory,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1997-09-21 00:00:00,Murray,Bowers M,0,10,0,False,no,False,False,0,0,0,0,0
--1,-1,1997-09-21 00:00:00,Murray,Coloe,0,4,5,True,c,False,False,0,0,0,0,0
 -1,-1,1997-09-21 00:00:00,Murray,Dugdale E,0,2,53,True,b,False,True,0,0,0,9,0
 -1,-1,1997-09-21 00:00:00,Murray,Hosking,0,3,0,True,b,False,False,0,0,0,0,0
 -1,-1,1997-09-21 00:00:00,Murray,Leadley J,0,1,31,True,c,False,True,0,0,0,5,0
@@ -447,6 +446,7 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1997-09-21 00:00:00,Murray,Shewan,0,7,17,False,no,False,False,0,0,0,2,0
 -1,-1,1997-09-21 00:00:00,Murray,Woodhouse,0,5,0,True,b,True,False,0,0,0,0,0
 -1,-1,1997-09-21 00:00:00,Murray,Young,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,1997-09-21 00:00:00,Murray,Coloe,0,4,5,True,c,False,False,0,0,0,0,0
 -1,-1,1998-05-02 00:00:00,West Wickham,Dugdale E,0,2,15,True,c,False,True,0,0,0,0,0
 -1,-1,1998-05-02 00:00:00,West Wickham,Elliston J,0,7,11,True,c,False,False,0,0,0,1,0
 -1,-1,1998-05-02 00:00:00,West Wickham,Hawksworth A,0,1,12,True,b,False,False,0,0,0,2,0
@@ -491,17 +491,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1998-05-09 00:00:00,Norwood Exiles,Reid V,0,5,1,True,c,False,False,2,0,0,0,0
 -1,-1,1998-05-09 00:00:00,Norwood Exiles,Woodhouse M,0,3,16,True,b,True,False,0,0,0,1,0
 -1,-1,1998-05-09 00:00:00,Norwood Exiles,Worthington R,0,4,5,True,lb,False,False,0,0,0,0,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Angell G,0,7,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Hickey L,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Leadley J,0,3,88,False,no,False,False,0,0,0,13,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Morris D,0,10,0,False,dnb,True,False,1,0,0,0,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Sharpe D,0,1,35,True,lb,False,True,0,1,0,4,1
--1,-1,1998-05-10 00:00:00,Corner Pin,Snow D,0,4,2,True,c,False,False,1,0,0,0,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Springer T,0,2,1,True,lb,False,False,0,0,0,0,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Thomas C,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Thomas N,0,5,0,True,b,False,False,0,0,0,0,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Worthy J,0,8,0,False,dnb,False,False,1,0,0,0,0
--1,-1,1998-05-10 00:00:00,Corner Pin,Worthy R,0,6,32,False,no,False,False,0,0,0,3,1
 -1,-1,1998-05-10 00:00:00,Falcon,Cooper G,0,4,0,True,b,False,False,0,0,0,0,0
 -1,-1,1998-05-10 00:00:00,Falcon,Mander A,0,11,16,False,no,False,False,0,0,0,2,0
 -1,-1,1998-05-10 00:00:00,Falcon,Mander C,0,9,0,True,b,False,False,0,0,0,0,0
@@ -513,6 +502,17 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1998-05-10 00:00:00,Falcon,Shewan D,0,2,2,True,b,True,False,1,0,0,0,0
 -1,-1,1998-05-10 00:00:00,Falcon,Woodhouse M,0,1,0,True,b,False,False,0,0,0,0,0
 -1,-1,1998-05-10 00:00:00,Falcon,Worthington R,0,7,25,True,b,False,True,0,2,1,3,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Angell G,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Hickey L,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Leadley J,0,3,88,False,no,False,False,0,0,0,13,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Morris D,0,10,0,False,dnb,True,False,1,0,0,0,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Sharpe D,0,1,35,True,lb,False,True,0,1,0,4,1
+-1,-1,1998-05-10 00:00:00,Corner Pin,Snow D,0,4,2,True,c,False,False,1,0,0,0,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Springer T,0,2,1,True,lb,False,False,0,0,0,0,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Thomas C,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Thomas N,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Worthy J,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,1998-05-10 00:00:00,Corner Pin,Worthy R,0,6,32,False,no,False,False,0,0,0,3,1
 -1,-1,1998-05-16 00:00:00,Burgh Heath,Brocks D,0,3,18,True,b,False,False,0,0,0,3,0
 -1,-1,1998-05-16 00:00:00,Burgh Heath,Clark C,0,11,3,True,b,False,False,0,0,0,0,0
 -1,-1,1998-05-16 00:00:00,Burgh Heath,Elliston J,0,10,0,False,no,False,False,0,0,0,0,0
@@ -524,17 +524,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1998-05-16 00:00:00,Burgh Heath,Woodhouse M,0,1,18,True,b,True,True,0,1,0,2,0
 -1,-1,1998-05-16 00:00:00,Burgh Heath,Worthington R,0,6,36,True,c,False,True,0,0,0,8,0
 -1,-1,1998-05-16 00:00:00,Burgh Heath,Young R,0,9,0,True,c,False,False,1,0,0,0,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Bowers M,0,1,1,True,c,False,False,0,0,0,0,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Bromley ,0,5,2,True,b,False,False,0,0,0,0,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Hickey L,0,9,14,False,no,False,False,0,0,0,2,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Hosking M,0,3,11,True,lb,False,True,0,0,0,2,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Mander A,0,8,25,True,b,False,False,0,0,0,2,1
--1,-1,1998-05-17 00:00:00,Merton Saints,Mander C,0,6,1,True,b,False,False,0,0,0,0,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Mander N,0,11,1,False,no,False,False,0,0,0,0,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Morris D,0,10,7,True,b,True,False,0,0,0,1,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Oakes P,0,4,0,True,c,False,False,0,0,0,0,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Reid V,0,2,20,True,b,False,False,3,0,0,3,0
--1,-1,1998-05-17 00:00:00,Merton Saints,Worthy J,0,7,1,True,b,False,False,0,0,0,0,0
 -1,-1,1998-05-17 00:00:00,Thurlow Park RAFA,Coloe A,0,7,2,True,lb,False,False,1,0,0,0,0
 -1,-1,1998-05-17 00:00:00,Thurlow Park RAFA,Cooper G,0,2,7,True,st,False,False,0,0,0,0,0
 -1,-1,1998-05-17 00:00:00,Thurlow Park RAFA,Leadley J,0,1,76,True,c,False,False,0,0,0,11,0
@@ -546,6 +535,17 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1998-05-17 00:00:00,Thurlow Park RAFA,Thomas C,0,11,0,False,no,False,False,0,0,0,0,0
 -1,-1,1998-05-17 00:00:00,Thurlow Park RAFA,Woodhouse M,0,4,19,True,ro,False,False,0,0,0,2,0
 -1,-1,1998-05-17 00:00:00,Thurlow Park RAFA,Worthy R,0,10,8,True,b,False,False,0,0,0,1,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Bowers M,0,1,1,True,c,False,False,0,0,0,0,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Bromley ,0,5,2,True,b,False,False,0,0,0,0,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Hickey L,0,9,14,False,no,False,False,0,0,0,2,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Hosking M,0,3,11,True,lb,False,True,0,0,0,2,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Mander A,0,8,25,True,b,False,False,0,0,0,2,1
+-1,-1,1998-05-17 00:00:00,Merton Saints,Mander C,0,6,1,True,b,False,False,0,0,0,0,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Mander N,0,11,1,False,no,False,False,0,0,0,0,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Morris D,0,10,7,True,b,True,False,0,0,0,1,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Oakes P,0,4,0,True,c,False,False,0,0,0,0,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Reid V,0,2,20,True,b,False,False,3,0,0,3,0
+-1,-1,1998-05-17 00:00:00,Merton Saints,Worthy J,0,7,1,True,b,False,False,0,0,0,0,0
 -1,-1,1998-05-23 00:00:00,Frensham,Dugdale E,0,1,17,True,b,False,True,0,1,0,3,0
 -1,-1,1998-05-23 00:00:00,Frensham,Elliston J,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1998-05-23 00:00:00,Frensham,Hosking M,0,3,20,True,c,False,False,0,0,0,3,0
@@ -678,17 +678,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1998-06-20 00:00:00,Beckenham IV,Springer T,0,5,37,True,c,False,False,1,0,0,6,0
 -1,-1,1998-06-20 00:00:00,Beckenham IV,Woodhouse M,0,2,4,True,c,True,False,0,0,0,0,0
 -1,-1,1998-06-20 00:00:00,Beckenham IV,Young R,0,11,14,False,no,False,False,0,0,0,2,0
--1,-1,1998-06-21 00:00:00,Addington,Brocks D,0,6,2,True,lb,False,False,0,0,0,0,0
--1,-1,1998-06-21 00:00:00,Addington,Cooper D,0,8,4,True,b,False,False,0,0,0,0,0
--1,-1,1998-06-21 00:00:00,Addington,Cooper G,0,2,7,True,c,False,False,0,0,0,0,0
--1,-1,1998-06-21 00:00:00,Addington,Elliston J,0,10,5,True,b,False,False,1,0,0,0,0
--1,-1,1998-06-21 00:00:00,Addington,Hamilton A,0,1,2,True,c,False,True,0,1,0,0,0
--1,-1,1998-06-21 00:00:00,Addington,Hickey L,0,7,0,True,b,False,False,1,0,0,0,0
--1,-1,1998-06-21 00:00:00,Addington,Lestrelle J,0,5,1,True,b,False,False,0,0,0,0,0
--1,-1,1998-06-21 00:00:00,Addington,Morris D,0,11,0,True,c,True,False,0,0,0,0,0
--1,-1,1998-06-21 00:00:00,Addington,Patel N,0,4,12,True,c,False,False,1,0,0,0,1
--1,-1,1998-06-21 00:00:00,Addington,Snow D,0,3,1,True,b,False,False,0,0,0,0,0
--1,-1,1998-06-21 00:00:00,Addington,Worthy J,0,9,8,False,no,False,False,0,0,0,0,1
 -1,-1,1998-06-21 00:00:00,Carshalton,Angell G,0,5,8,True,b,False,False,0,0,0,0,0
 -1,-1,1998-06-21 00:00:00,Carshalton,Mander C,0,9,0,False,no,False,False,0,0,0,0,0
 -1,-1,1998-06-21 00:00:00,Carshalton,Mander N,0,2,2,True,c,False,False,0,0,0,0,0
@@ -700,6 +689,17 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1998-06-21 00:00:00,Carshalton,Thomas C,0,11,0,True,b,False,False,1,0,0,0,0
 -1,-1,1998-06-21 00:00:00,Carshalton,Woodhouse M,0,1,15,True,c,False,False,0,0,0,3,0
 -1,-1,1998-06-21 00:00:00,Carshalton,Worthington R,0,4,37,True,b,False,True,0,0,0,5,1
+-1,-1,1998-06-21 00:00:00,Addington,Brocks D,0,6,2,True,lb,False,False,0,0,0,0,0
+-1,-1,1998-06-21 00:00:00,Addington,Cooper D,0,8,4,True,b,False,False,0,0,0,0,0
+-1,-1,1998-06-21 00:00:00,Addington,Cooper G,0,2,7,True,c,False,False,0,0,0,0,0
+-1,-1,1998-06-21 00:00:00,Addington,Elliston J,0,10,5,True,b,False,False,1,0,0,0,0
+-1,-1,1998-06-21 00:00:00,Addington,Hamilton A,0,1,2,True,c,False,True,0,1,0,0,0
+-1,-1,1998-06-21 00:00:00,Addington,Hickey L,0,7,0,True,b,False,False,1,0,0,0,0
+-1,-1,1998-06-21 00:00:00,Addington,Lestrelle J,0,5,1,True,b,False,False,0,0,0,0,0
+-1,-1,1998-06-21 00:00:00,Addington,Morris D,0,11,0,True,c,True,False,0,0,0,0,0
+-1,-1,1998-06-21 00:00:00,Addington,Patel N,0,4,12,True,c,False,False,1,0,0,0,1
+-1,-1,1998-06-21 00:00:00,Addington,Snow D,0,3,1,True,b,False,False,0,0,0,0,0
+-1,-1,1998-06-21 00:00:00,Addington,Worthy J,0,9,8,False,no,False,False,0,0,0,0,1
 -1,-1,1998-06-27 00:00:00,Central YMCA,Bowers M,0,9,0,False,dnb,False,False,3,0,0,0,0
 -1,-1,1998-06-27 00:00:00,Central YMCA,Clark C,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1998-06-27 00:00:00,Central YMCA,Leadley J,0,1,4,True,b,False,True,0,0,0,1,0
@@ -881,16 +881,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1998-08-30 00:00:00,Blendon,Springer T,0,4,24,True,c,True,True,0,0,0,4,0
 -1,-1,1998-08-30 00:00:00,Blendon,Thomas C,0,5,1,True,ro,False,False,0,0,0,0,0
 -1,-1,1998-08-30 00:00:00,Blendon,Woodhouse M,0,1,37,True,b,False,False,0,0,0,5,0
--1,-1,1998-09-06 00:00:00,Corner Pin,Angell G,0,2,28,False,no,False,False,2,0,0,3,0
--1,-1,1998-09-06 00:00:00,Corner Pin,Cooper D,0,7,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1998-09-06 00:00:00,Corner Pin,Cooper G,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1998-09-06 00:00:00,Corner Pin,Elliston J,0,11,0,False,dnb,True,False,1,0,0,0,0
--1,-1,1998-09-06 00:00:00,Corner Pin,Hamilton A,0,5,0,False,dnb,False,True,0,1,0,0,0
--1,-1,1998-09-06 00:00:00,Corner Pin,Leadley J,0,1,77,False,no,False,False,2,0,0,11,2
--1,-1,1998-09-06 00:00:00,Corner Pin,Lestrelle J,0,4,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1998-09-06 00:00:00,Corner Pin,Ligory K,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1998-09-06 00:00:00,Corner Pin,Thomas C,0,6,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1998-09-06 00:00:00,Corner Pin,Woodhouse M,0,3,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1998-09-06 00:00:00,Selsdon,Foster K,0,5,0,True,b,False,False,1,0,0,0,0
 -1,-1,1998-09-06 00:00:00,Selsdon,Hammond P,0,9,3,False,no,False,False,0,0,0,0,0
 -1,-1,1998-09-06 00:00:00,Selsdon,Hickey L,0,11,0,True,c,False,False,0,0,0,0,0
@@ -902,6 +892,16 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1998-09-06 00:00:00,Selsdon,Springer T,0,4,36,True,c,True,False,0,0,0,2,2
 -1,-1,1998-09-06 00:00:00,Selsdon,Worthington R,0,3,7,True,b,False,True,0,0,0,0,0
 -1,-1,1998-09-06 00:00:00,Selsdon,Worthy R,0,8,10,True,c,False,False,0,0,0,1,0
+-1,-1,1998-09-06 00:00:00,Corner Pin,Angell G,0,2,28,False,no,False,False,2,0,0,3,0
+-1,-1,1998-09-06 00:00:00,Corner Pin,Cooper D,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1998-09-06 00:00:00,Corner Pin,Cooper G,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1998-09-06 00:00:00,Corner Pin,Elliston J,0,11,0,False,dnb,True,False,1,0,0,0,0
+-1,-1,1998-09-06 00:00:00,Corner Pin,Hamilton A,0,5,0,False,dnb,False,True,0,1,0,0,0
+-1,-1,1998-09-06 00:00:00,Corner Pin,Leadley J,0,1,77,False,no,False,False,2,0,0,11,2
+-1,-1,1998-09-06 00:00:00,Corner Pin,Lestrelle J,0,4,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1998-09-06 00:00:00,Corner Pin,Ligory K,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1998-09-06 00:00:00,Corner Pin,Thomas C,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,1998-09-06 00:00:00,Corner Pin,Woodhouse M,0,3,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1998-09-13 00:00:00,Beddington,Cooper G,0,6,10,False,no,False,False,0,0,0,2,0
 -1,-1,1998-09-13 00:00:00,Beddington,Leadley J,0,1,52,True,b,False,True,0,0,0,6,0
 -1,-1,1998-09-13 00:00:00,Beddington,Mander A,0,5,21,True,c,False,False,0,0,0,1,0
@@ -1283,8 +1283,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,1999-09-05 00:00:00,Selsdon,Worthington R,0,5,1,False,no,False,False,0,0,0,0,0
 -1,-1,1999-09-05 00:00:00,Selsdon,Worthy R,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,1999-09-11 00:00:00,Prospect Park,Afonso S,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,1999-09-11 00:00:00,Prospect Park,Cooper G,0,1,4,True,c,False,False,0,0,0,0,0
 -1,-1,1999-09-11 00:00:00,Prospect Park,Crisford J,0,4,26,True,b,False,False,0,0,0,2,0
+-1,-1,1999-09-11 00:00:00,Prospect Park,Cooper G,0,1,4,True,c,False,False,0,0,0,0,0
 -1,-1,1999-09-11 00:00:00,Prospect Park,Hamilton A,0,3,42,True,c,False,True,0,1,0,6,0
 -1,-1,1999-09-11 00:00:00,Prospect Park,Lestrelle J,0,7,5,False,no,False,False,0,0,0,1,0
 -1,-1,1999-09-11 00:00:00,Prospect Park,Mander C,0,2,45,True,c,False,False,0,0,0,5,1
@@ -1511,6 +1511,187 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2000-07-02 00:00:00,Sunderland Supporters,Morris D,0,9,21,False,no,False,False,0,0,0,3,0
 -1,-1,2000-07-02 00:00:00,Sunderland Supporters,Sharpe D,0,1,0,True,c,True,True,0,0,0,0,0
 -1,-1,2000-07-02 00:00:00,Sunderland Supporters,Woodhouse M,0,7,5,True,c,False,False,2,0,0,1,0
+-1,-1,2000-07-22 00:00:00,The Priory,Corrigan D,0,8,0,False,dnb,False,False,2,0,0,0,0
+-1,-1,2000-07-22 00:00:00,The Priory,Dugdale E,0,2,63,False,no,False,True,0,1,0,12,0
+-1,-1,2000-07-22 00:00:00,The Priory,Elliston J,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-07-22 00:00:00,The Priory,Hosking M,0,3,2,True,lb,False,False,0,0,0,0,0
+-1,-1,2000-07-22 00:00:00,The Priory,Middleton J,0,7,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-07-22 00:00:00,The Priory,Morris D,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-07-22 00:00:00,The Priory,Odeneal R,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-07-22 00:00:00,The Priory,Springer T,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-07-22 00:00:00,The Priory,Woodhouse M,0,1,19,True,c,True,False,0,0,0,4,0
+-1,-1,2000-07-22 00:00:00,The Priory,Worthington R,0,4,11,False,no,False,False,0,0,0,2,0
+-1,-1,2000-07-22 00:00:00,The Priory,Young R,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-07-23 00:00:00,Falcon,Bowers M,0,10,11,False,no,False,False,0,0,0,1,0
+-1,-1,2000-07-23 00:00:00,Falcon,Clark C,0,11,20,True,c,False,False,2,0,0,3,0
+-1,-1,2000-07-23 00:00:00,Falcon,Cooper G,0,1,14,True,c,False,False,1,0,0,3,0
+-1,-1,2000-07-23 00:00:00,Falcon,Crisford J,0,5,2,True,b,False,False,2,0,0,0,0
+-1,-1,2000-07-23 00:00:00,Falcon,Lestrelle J,0,3,6,True,b,False,False,0,0,0,0,0
+-1,-1,2000-07-23 00:00:00,Falcon,Mander A,0,9,6,True,c,False,False,0,0,0,1,0
+-1,-1,2000-07-23 00:00:00,Falcon,Mander C,0,8,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-07-23 00:00:00,Falcon,Mander N,0,6,22,True,c,False,False,0,0,0,3,0
+-1,-1,2000-07-23 00:00:00,Falcon,Newell,0,7,10,True,c,False,False,0,0,0,1,0
+-1,-1,2000-07-23 00:00:00,Falcon,Sharpe D,0,2,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-07-23 00:00:00,Falcon,Springer T,0,4,94,True,c,True,True,0,1,0,13,2
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Clark C,0,11,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Corrigan D,0,6,3,True,c,False,False,1,0,0,0,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Dugdale E,0,2,0,True,b,False,True,0,0,0,0,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Elliston J,0,10,1,True,c,False,False,0,0,0,0,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Hosking M,0,7,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Lestrelle J,0,3,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Lilley G,0,8,14,True,st,False,False,0,0,0,0,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Odeneal R,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Woodhouse M,0,1,18,True,b,True,False,0,0,0,1,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Worthington R,0,4,2,True,b,False,False,1,0,0,0,0
+-1,-1,2000-07-29 00:00:00,Old Dunstonians,Young R,0,9,0,True,c,False,False,0,0,0,0,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Clark M,0,9,2,True,b,False,False,0,0,0,0,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Coloe A,0,3,2,True,lb,False,False,0,0,0,0,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Cooper G,0,5,7,True,c,False,False,1,0,0,1,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Mander C,0,6,4,True,c,False,False,1,0,0,2,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Morris D,0,10,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Oakes P,0,7,11,True,c,False,False,1,0,0,1,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Sharpe D,0,1,12,True,c,False,False,1,0,0,2,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Snow D,0,4,1,True,c,False,False,0,0,0,0,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Springer T,0,2,18,True,c,True,True,0,0,0,4,0
+-1,-1,2000-07-30 00:00:00,Wild Geese,Worthy J,0,8,6,False,no,False,False,0,0,0,0,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Coloe A,0,3,2,True,c,False,False,0,0,0,0,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Cooper G,0,6,7,False,no,False,False,0,0,0,1,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Corrigan D,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Hosking M,0,8,6,False,no,False,True,0,4,1,1,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Morris D,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Oakes P,0,7,2,True,c,False,False,0,0,0,0,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Sharpe D,0,5,23,True,b,False,False,0,0,0,1,1
+-1,-1,2000-08-05 00:00:00,Old Josephians,Springer T,0,1,64,True,c,False,False,0,0,0,11,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Woodhouse M,0,2,41,True,c,True,False,1,0,0,7,0
+-1,-1,2000-08-05 00:00:00,Old Josephians,Young R,0,4,8,True,c,False,False,1,0,0,2,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Bowers M,0,9,6,True,c,False,False,0,0,0,1,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Clark M,0,11,2,False,no,False,False,0,0,0,0,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Leadley J,0,1,5,True,c,False,True,0,0,2,0,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Morris D,0,10,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Oakes P,0,6,5,True,c,False,False,1,0,0,0,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Sharpe D,0,3,4,True,b,False,False,1,0,0,0,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Shewan D,0,5,3,True,b,False,False,0,0,0,0,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Springer T,0,2,59,True,c,True,False,0,0,0,7,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Worthington R,0,4,9,True,b,False,False,1,0,0,1,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Worthy J,0,7,14,True,c,False,False,0,0,0,2,0
+-1,-1,2000-08-06 00:00:00,Whyteleaf,Worthy R,0,8,9,True,b,False,False,0,0,0,2,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Afonso S,0,5,6,True,c,False,False,1,0,0,0,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Clark C,0,7,20,False,no,False,False,0,0,0,1,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Elliston J,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Mander A,0,8,0,False,dnb,False,False,2,0,0,0,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Mander N,0,4,4,True,c,False,True,0,0,1,0,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Morris D,0,2,2,True,lb,False,False,0,0,0,0,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Oakes P,0,6,25,False,no,False,False,2,0,0,0,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Simmons M,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Woodhouse M,0,1,5,True,b,True,False,0,0,0,1,0
+-1,-1,2000-08-12 00:00:00,Lessa Wanderers,Worthington R,0,3,18,True,b,False,False,0,0,0,2,0
+-1,-1,2000-08-13 00:00:00,Addington,Coloe A,0,4,23,True,c,False,False,0,0,0,4,0
+-1,-1,2000-08-13 00:00:00,Addington,Cooper G,0,2,8,True,c,False,False,0,0,0,2,0
+-1,-1,2000-08-13 00:00:00,Addington,Crisford J,0,6,8,True,c,False,False,0,0,0,2,0
+-1,-1,2000-08-13 00:00:00,Addington,Dugdale E,0,1,10,True,c,False,False,0,0,0,2,0
+-1,-1,2000-08-13 00:00:00,Addington,Mander A,0,11,0,False,no,False,False,0,0,0,0,0
+-1,-1,2000-08-13 00:00:00,Addington,Mander C,0,8,7,True,c,False,True,0,1,2,1,0
+-1,-1,2000-08-13 00:00:00,Addington,Patel N,0,3,5,True,c,False,False,1,0,0,0,0
+-1,-1,2000-08-13 00:00:00,Addington,Sharpe D,0,7,24,True,c,False,False,1,0,0,5,0
+-1,-1,2000-08-13 00:00:00,Addington,Shewan D,0,10,0,False,no,False,False,1,0,0,0,0
+-1,-1,2000-08-13 00:00:00,Addington,Springer T,0,5,90,True,c,True,False,1,0,0,16,0
+-1,-1,2000-08-13 00:00:00,Addington,Worthy J,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-08-19 00:00:00,Riverside,Bowers M,0,9,5,True,b,False,False,0,0,0,1,0
+-1,-1,2000-08-19 00:00:00,Riverside,Cooper G,0,1,18,True,rh,False,False,1,0,0,1,0
+-1,-1,2000-08-19 00:00:00,Riverside,Crisford J,0,3,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-08-19 00:00:00,Riverside,Dugdale E,0,2,16,True,b,False,True,0,0,0,3,0
+-1,-1,2000-08-19 00:00:00,Riverside,Elliston J,0,8,0,True,b,True,False,1,0,0,0,0
+-1,-1,2000-08-19 00:00:00,Riverside,Hogan,0,6,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-08-19 00:00:00,Riverside,Mander N,0,7,2,True,b,False,False,2,0,0,0,0
+-1,-1,2000-08-19 00:00:00,Riverside,Morris D,0,11,18,False,no,False,False,0,0,0,3,0
+-1,-1,2000-08-19 00:00:00,Riverside,Oakes P,0,5,13,True,c,False,False,0,0,0,1,0
+-1,-1,2000-08-19 00:00:00,Riverside,Worthy J,0,10,1,True,c,False,False,1,0,0,0,0
+-1,-1,2000-08-19 00:00:00,Riverside,Young R,0,4,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-08-20 00:00:00,Hextable,Brocks D,0,8,26,True,c,False,False,1,0,0,3,0
+-1,-1,2000-08-20 00:00:00,Hextable,Crisford J,0,7,15,True,b,False,False,0,0,0,2,0
+-1,-1,2000-08-20 00:00:00,Hextable,Dugdale E,0,2,20,True,c,False,False,0,0,0,2,0
+-1,-1,2000-08-20 00:00:00,Hextable,Leadley J,0,1,31,True,c,False,True,0,1,1,2,0
+-1,-1,2000-08-20 00:00:00,Hextable,Mander A,0,9,11,True,b,False,False,0,0,0,2,0
+-1,-1,2000-08-20 00:00:00,Hextable,Mander C,0,10,0,False,dnb,False,False,2,0,0,0,0
+-1,-1,2000-08-20 00:00:00,Hextable,Mander N,0,6,30,False,no,False,False,1,0,0,1,0
+-1,-1,2000-08-20 00:00:00,Hextable,Sabine G,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-08-20 00:00:00,Hextable,Sharpe D,0,5,6,True,c,False,False,0,0,0,1,0
+-1,-1,2000-08-20 00:00:00,Hextable,Springer T,0,4,28,True,b,True,False,0,0,0,2,1
+-1,-1,2000-08-20 00:00:00,Hextable,Woodhouse M,0,3,35,True,c,False,False,1,0,0,4,0
+-1,-1,2000-08-26 00:00:00,Legless XI,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-08-26 00:00:00,Legless XI,Cooper G,0,7,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-08-26 00:00:00,Legless XI,Dugdale E,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-08-26 00:00:00,Legless XI,Elliston J,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-08-26 00:00:00,Legless XI,Leadley J,0,1,113,False,no,False,True,0,1,0,20,0
+-1,-1,2000-08-26 00:00:00,Legless XI,Oakes P,0,4,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-08-26 00:00:00,Legless XI,Shewan D,0,5,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-08-26 00:00:00,Legless XI,Springer T,0,3,103,False,no,False,False,1,0,0,19,1
+-1,-1,2000-08-26 00:00:00,Legless XI,Woodhouse M,0,2,25,True,c,True,False,0,0,0,0,0
+-1,-1,2000-08-26 00:00:00,Legless XI,Young R,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-09-03 00:00:00,Beddington,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-09-03 00:00:00,Beddington,Cooper G,0,7,3,True,b,False,False,0,0,0,0,0
+-1,-1,2000-09-03 00:00:00,Beddington,Leadley J,0,1,85,True,ro,False,True,0,2,1,7,1
+-1,-1,2000-09-03 00:00:00,Beddington,Lestrelle J,0,8,7,False,no,False,False,0,0,0,0,0
+-1,-1,2000-09-03 00:00:00,Beddington,Morris D,0,9,6,False,no,False,False,0,0,0,1,0
+-1,-1,2000-09-03 00:00:00,Beddington,Patel N,0,0,0,False,,False,False,0,0,0,0,0
+-1,-1,2000-09-03 00:00:00,Beddington,Sharpe D,0,6,1,True,b,False,False,0,0,0,0,0
+-1,-1,2000-09-03 00:00:00,Beddington,Springer T,0,5,43,True,c,True,False,0,0,0,7,0
+-1,-1,2000-09-03 00:00:00,Beddington,Woodhouse M,0,2,0,True,c,False,False,0,0,0,0,0
+-1,-1,2000-09-03 00:00:00,Beddington,Worthington R,0,4,8,True,b,False,False,0,0,0,0,0
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Cooper G,0,5,0,True,c,False,False,0,0,0,0,0
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Elliston J,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Leadley J,0,1,18,True,c,False,True,0,0,1,2,0
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Mander A,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Mander N,0,4,64,False,no,False,False,0,0,0,9,1
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Morris D,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Oakes P,0,6,21,False,no,False,False,0,0,0,2,0
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Springer T,0,3,14,True,c,False,False,1,0,0,2,1
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Woodhouse M,0,2,26,True,c,True,False,0,0,0,1,0
+-1,-1,2000-09-09 00:00:00,Lessa Wanderers,Young R,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Clark C,0,10,10,True,b,False,False,0,0,0,2,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Cooper G,0,9,3,False,no,False,False,0,0,0,0,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Crisford J,0,5,0,True,st,False,False,0,0,0,0,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Mander A,0,11,2,True,ro,False,False,1,0,0,0,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Mander C,0,2,8,True,c,False,True,0,5,0,2,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Mander N,0,1,20,True,b,False,False,0,0,0,1,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Oakes P,0,6,0,True,b,False,False,1,0,0,0,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Patel N,0,3,1,True,st,False,False,2,0,0,0,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Sharpe D,0,8,0,True,b,False,False,1,0,0,0,0
+-1,-1,2000-09-10 00:00:00,Selsdon,Springer T,0,7,32,True,c,True,False,0,0,0,3,1
+-1,-1,2000-09-10 00:00:00,Selsdon,Worthington R,0,4,9,True,b,False,False,0,0,0,2,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Bowers M,0,11,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Clark C,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Coloe A,0,3,4,True,b,False,False,0,0,0,1,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Lestrelle J,0,6,8,False,no,False,False,1,0,0,2,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Mander A,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Mander C,0,7,18,False,no,False,True,0,2,1,3,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Mander N,0,2,19,True,b,False,False,0,0,0,1,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Morris D,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Sharpe D,0,5,8,True,b,False,False,1,0,0,1,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Springer T,0,4,15,True,c,True,False,1,0,0,3,0
+-1,-1,2000-09-17 00:00:00,East Cheam,Woodhouse M,0,1,9,True,c,False,False,0,0,0,0,0
+-1,-1,2000-09-23 00:00:00,The Priory,Cooper G,0,2,4,True,b,False,False,0,0,0,0,0
+-1,-1,2000-09-23 00:00:00,The Priory,Corrigan D,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-09-23 00:00:00,The Priory,Crisford J,0,3,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-09-23 00:00:00,The Priory,Hosking M,0,5,3,False,no,False,True,0,1,0,0,0
+-1,-1,2000-09-23 00:00:00,The Priory,Lilley G,0,6,0,True,b,False,False,0,0,0,0,0
+-1,-1,2000-09-23 00:00:00,The Priory,Mander N,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2000-09-23 00:00:00,The Priory,Oakes P,0,4,3,True,c,False,False,1,0,0,0,0
+-1,-1,2000-09-23 00:00:00,The Priory,Springer T,0,7,24,False,no,False,False,2,0,0,5,0
+-1,-1,2000-09-23 00:00:00,The Priory,Woodhouse M,0,1,4,True,b,True,False,0,0,0,0,0
+-1,-1,2000-09-23 00:00:00,The Priory,Young R,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Bowers M,0,9,12,True,c,False,False,0,0,0,0,0
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Cooper G,0,7,4,False,no,False,False,3,0,0,0,0
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Crisford J,0,8,0,True,c,False,False,0,0,0,0,0
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Lestrelle J,0,4,12,True,b,False,False,0,0,0,1,0
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Morris D,0,2,4,True,c,False,False,0,0,0,0,0
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Sharpe D,0,5,5,True,c,False,False,0,0,0,1,0
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Springer T,0,3,32,True,b,False,False,0,0,0,6,1
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Woodhouse M,0,1,3,True,c,True,False,0,0,0,0,0
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Worthington R,0,6,0,True,c,False,True,0,0,1,0,0
+-1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Young R,0,10,1,True,b,False,False,1,0,0,0,0
 -1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Bowers M,0,8,1,False,no,False,False,1,0,0,0,0
 -1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Coloe A,0,4,26,True,c,False,False,1,0,0,1,0
 -1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Corrigan D,0,7,11,False,no,False,False,1,0,0,0,0
@@ -1960,6 +2141,351 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2002-05-25 00:00:00,Deansbank,Shewan D,0,6,14,True,b,False,False,0,0,0,0,0
 -1,-1,2002-05-25 00:00:00,Deansbank,Simmons M,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2002-05-25 00:00:00,Deansbank,Young R,0,9,15,False,no,True,False,0,0,0,3,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Bowers M,0,7,0,False,no,False,False,0,0,0,0,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Clark C,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Elliston J,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Leadley J,0,1,71,True,c,False,False,0,0,0,10,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Lestrelle A,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Lestrelle J,0,3,8,True,b,False,True,0,0,1,2,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Murphy P,0,6,0,True,st,False,False,0,0,0,0,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Odeneal R,0,5,5,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Springer T,0,4,65,False,no,False,False,0,0,0,12,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Woodhouse M,0,2,32,True,b,True,False,0,0,0,5,0
+-1,-1,2002-06-01 00:00:00,Old Wimbledonians,Young R,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-02 00:00:00,Woodgreen,Brocks D,0,9,0,False,dnb,False,False,3,0,0,0,0
+-1,-1,2002-06-02 00:00:00,Woodgreen,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-02 00:00:00,Woodgreen,Cooper G,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-02 00:00:00,Woodgreen,Hawksworth A,0,3,16,True,b,False,False,0,0,0,2,0
+-1,-1,2002-06-02 00:00:00,Woodgreen,Leadley J,0,1,42,True,b,False,False,0,0,0,7,1
+-1,-1,2002-06-02 00:00:00,Woodgreen,Lestrelle J,0,2,5,True,c,False,False,0,0,0,1,0
+-1,-1,2002-06-02 00:00:00,Woodgreen,Mander C,0,8,55,True,c,False,False,0,0,0,3,3
+-1,-1,2002-06-02 00:00:00,Woodgreen,Mander N,0,5,58,False,no,False,True,0,1,1,5,0
+-1,-1,2002-06-02 00:00:00,Woodgreen,Odeneal R,0,4,1,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-02 00:00:00,Woodgreen,Springer T,0,7,10,True,c,True,False,0,0,0,2,0
+-1,-1,2002-06-02 00:00:00,Woodgreen,Woodhouse M,0,6,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Bowers M,0,10,1,True,c,False,False,0,0,0,0,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Brocks D,0,1,7,True,b,False,False,2,0,0,0,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Clark C,0,11,0,True,c,True,False,0,0,0,0,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Cooper G,0,8,2,True,ro,False,False,0,0,0,0,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Howe V,0,5,5,True,c,False,False,0,0,0,1,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Leadley J,0,5,8,True,b,False,True,0,0,0,1,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Lestrelle J,0,2,4,True,c,False,False,0,0,0,0,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Odeneal R,0,4,7,True,c,False,False,0,0,0,1,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Springer T,0,3,1,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Woodhouse M,0,7,21,False,no,False,False,0,0,0,5,0
+-1,-1,2002-06-03 00:00:00,Steeple Langford,Worthy J,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-04 00:00:00,Cove,Bowers M,0,10,2,False,no,False,False,1,0,0,0,0
+-1,-1,2002-06-04 00:00:00,Cove,Brocks D,0,8,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2002-06-04 00:00:00,Cove,Clark C,0,11,1,True,ro,False,False,0,0,0,0,0
+-1,-1,2002-06-04 00:00:00,Cove,Hawksworth A,0,3,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-04 00:00:00,Cove,Leadley J,0,2,16,True,c,False,True,0,0,0,1,0
+-1,-1,2002-06-04 00:00:00,Cove,Lestrelle J,0,5,27,True,b,False,False,0,0,0,1,0
+-1,-1,2002-06-04 00:00:00,Cove,Mander A,0,12,4,False,no,False,False,0,0,0,0,0
+-1,-1,2002-06-04 00:00:00,Cove,Mander C,0,9,20,True,c,True,False,0,0,0,4,0
+-1,-1,2002-06-04 00:00:00,Cove,Mander N,0,1,98,True,b,False,False,0,0,0,5,0
+-1,-1,2002-06-04 00:00:00,Cove,Odeneal R,0,8,3,True,ro,False,False,0,0,0,0,0
+-1,-1,2002-06-04 00:00:00,Cove,Springer T,0,6,1,True,ro,False,False,1,0,0,0,0
+-1,-1,2002-06-04 00:00:00,Cove,Woodhouse M,0,4,7,True,b,False,False,0,0,0,1,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Leadley J,0,1,101,False,no,False,False,0,0,0,13,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Lestrelle A,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Mander A,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Mander C,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Mander N,0,2,15,True,lb,False,True,0,0,0,3,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Patel N,0,4,5,False,no,False,False,0,0,0,0,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Springer T,0,6,0,False,dnb,True,False,1,0,0,0,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Woodhouse M,0,3,17,True,ro,False,False,0,0,0,0,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Worthington R,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-09 00:00:00,CYPOS,Worthy J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-15 00:00:00,Sanderstead,Bowers M,0,7,1,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-15 00:00:00,Sanderstead,Clark C,0,10,0,True,ro,False,False,2,0,0,0,0
+-1,-1,2002-06-15 00:00:00,Sanderstead,Coloe A,0,3,12,True,lb,False,False,0,0,0,1,0
+-1,-1,2002-06-15 00:00:00,Sanderstead,Edghill C,0,4,17,False,no,False,False,1,0,0,1,0
+-1,-1,2002-06-15 00:00:00,Sanderstead,Elliston J,0,8,1,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-15 00:00:00,Sanderstead,Leadley J,0,1,57,True,c,False,True,0,2,0,5,1
+-1,-1,2002-06-15 00:00:00,Sanderstead,Murphy P,0,6,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-15 00:00:00,Sanderstead,Springer T,0,5,19,True,c,False,False,0,0,0,1,0
+-1,-1,2002-06-15 00:00:00,Sanderstead,Woodhouse M,0,2,0,True,b,True,False,0,0,0,0,0
+-1,-1,2002-06-15 00:00:00,Sanderstead,Young R,0,9,1,True,ro,False,False,1,0,0,0,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Bowers M,0,10,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Elliston J,0,11,1,False,no,False,False,0,0,0,0,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Mander A,0,9,1,True,b,False,False,2,0,0,0,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Mander C,0,6,20,True,c,False,False,0,0,0,1,2
+-1,-1,2002-06-16 00:00:00,Vishwa,Mander N,0,1,33,True,hw,False,True,0,2,0,1,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Murphy P,0,7,5,True,c,False,False,1,0,0,0,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Odeneal R,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Patel N,0,2,30,True,lb,False,False,0,0,0,0,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Snow D,0,3,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Springer T,0,4,45,True,c,True,False,0,0,0,4,0
+-1,-1,2002-06-16 00:00:00,Vishwa,Worthy J,0,8,5,False,no,False,False,0,0,0,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Clark C,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Cooper G,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Edghill C,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Lashley W,0,4,0,False,no,False,False,0,0,0,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Lestrelle J,0,2,47,True,c,False,True,0,0,2,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Murphy P,0,6,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Odeneal R,0,7,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Woodhouse M,0,1,8,True,ro,True,False,0,0,0,0,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Worthington R,0,3,35,False,no,False,False,0,0,0,2,0
+-1,-1,2002-06-22 00:00:00,Churchleigh,Young R,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Coloe A,0,1,4,True,c,False,False,2,0,0,0,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Crisford J,0,2,4,True,c,False,False,0,0,0,0,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Elliston J,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Leadley J,0,7,0,False,dnb,False,True,0,1,0,0,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Lestrelle A,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Mander A,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Patel N,0,4,12,False,no,False,False,0,0,0,0,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Snow D,0,3,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Springer T,0,5,40,False,no,True,False,1,0,0,4,0
+-1,-1,2002-06-23 00:00:00,Northwood Nomads,Worthy J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-30 00:00:00,Saints,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-06-30 00:00:00,Saints,Greyling R,0,7,43,True,b,False,False,0,0,0,6,1
+-1,-1,2002-06-30 00:00:00,Saints,Hawksworth A,0,1,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-30 00:00:00,Saints,Lestrelle A,0,9,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-06-30 00:00:00,Saints,Lestrelle J,0,4,19,True,b,False,False,1,0,0,0,0
+-1,-1,2002-06-30 00:00:00,Saints,Mander A,0,10,0,False,no,False,False,0,0,0,0,0
+-1,-1,2002-06-30 00:00:00,Saints,Murphy P,0,8,4,True,st,False,False,1,0,0,1,0
+-1,-1,2002-06-30 00:00:00,Saints,Patel N,0,3,10,True,c,False,False,0,0,0,0,0
+-1,-1,2002-06-30 00:00:00,Saints,Springer T,0,6,35,True,c,True,True,0,0,0,6,1
+-1,-1,2002-06-30 00:00:00,Saints,Woodhouse M,0,2,2,True,c,False,True,0,0,0,0,0
+-1,-1,2002-06-30 00:00:00,Saints,Worthington R,0,5,71,False,no,False,False,0,0,0,10,0
+-1,-1,2002-07-07 00:00:00,Worcester Park,Bowers M,0,11,8,True,ro,False,False,0,0,0,1,0
+-1,-1,2002-07-07 00:00:00,Worcester Park,Cooper G,0,2,7,True,c,False,False,0,0,0,1,0
+-1,-1,2002-07-07 00:00:00,Worcester Park,Edghill C,0,6,0,True,b,False,False,1,0,0,0,0
+-1,-1,2002-07-07 00:00:00,Worcester Park,Leadley J,0,1,36,True,c,False,True,0,0,3,4,1
+-1,-1,2002-07-07 00:00:00,Worcester Park,Mander A,0,10,33,True,b,False,False,0,0,0,3,3
+-1,-1,2002-07-07 00:00:00,Worcester Park,Mander C,0,8,0,True,c,False,False,1,0,0,0,0
+-1,-1,2002-07-07 00:00:00,Worcester Park,Murphy P,0,7,2,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-07 00:00:00,Worcester Park,Odeneal R,0,4,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-07-07 00:00:00,Worcester Park,Patel N,0,3,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-07 00:00:00,Worcester Park,Springer T,0,5,57,True,st,True,False,0,0,0,7,2
+-1,-1,2002-07-07 00:00:00,Worcester Park,Worthy J,0,9,26,False,no,False,False,0,0,0,4,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Cooper G,0,4,32,False,no,False,False,0,0,0,1,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Edghill C,0,3,12,True,c,False,False,1,0,0,1,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Elliston J,0,5,3,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Lestrelle A,0,8,0,False,no,False,False,0,0,0,0,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Mander A,0,6,12,True,c,False,False,0,0,0,2,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Murphy P,0,7,6,True,b,False,False,0,0,0,0,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Woodhouse M,0,1,0,True,b,True,True,0,0,0,0,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Worthington R,0,2,51,True,c,False,True,0,0,1,4,0
+-1,-1,2002-07-13 00:00:00,Addiscombe,Young R,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-07-14 00:00:00,Spencer,Cooper G,0,9,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-07-14 00:00:00,Spencer,Hawksworth A,0,1,13,True,st,False,False,0,0,0,0,0
+-1,-1,2002-07-14 00:00:00,Spencer,Leadley J,0,3,47,True,b,False,True,0,1,0,6,0
+-1,-1,2002-07-14 00:00:00,Spencer,Lestrelle J,0,8,7,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-14 00:00:00,Spencer,Odeneal R,0,6,2,True,ro,False,False,1,0,0,0,0
+-1,-1,2002-07-14 00:00:00,Spencer,Patel N,0,2,18,True,lb,False,False,0,0,0,0,0
+-1,-1,2002-07-14 00:00:00,Spencer,Sharpe D,0,7,7,True,c,False,False,1,0,0,0,0
+-1,-1,2002-07-14 00:00:00,Spencer,Snow D,0,4,17,True,ro,False,False,0,0,0,0,0
+-1,-1,2002-07-14 00:00:00,Spencer,Springer T,0,5,10,True,b,True,False,0,0,0,1,0
+-1,-1,2002-07-14 00:00:00,Spencer,Worthy J,0,10,0,False,no,False,False,1,0,0,0,0
+-1,-1,2002-07-20 00:00:00,Seven O,Clark C,0,10,33,False,no,False,False,1,0,0,7,0
+-1,-1,2002-07-20 00:00:00,Seven O,Davis M,0,6,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-07-20 00:00:00,Seven O,Edghill C,0,3,3,True,b,False,False,1,0,0,0,0
+-1,-1,2002-07-20 00:00:00,Seven O,Greyling R,0,4,2,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-20 00:00:00,Seven O,Lestrelle A,0,8,13,True,b,False,False,0,0,0,1,0
+-1,-1,2002-07-20 00:00:00,Seven O,Murphy P,0,9,4,True,c,False,False,0,0,0,1,0
+-1,-1,2002-07-20 00:00:00,Seven O,Odeneal R,0,7,0,True,lb,False,False,1,0,0,0,0
+-1,-1,2002-07-20 00:00:00,Seven O,Snow D,0,5,6,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-20 00:00:00,Seven O,Woodhouse M,0,1,9,True,b,True,True,0,1,0,0,0
+-1,-1,2002-07-20 00:00:00,Seven O,Worthington R,0,2,3,True,b,False,False,0,0,0,0,0
+-1,-1,2002-07-20 00:00:00,Seven O,Young R,0,11,34,True,b,False,False,0,0,0,5,0
+-1,-1,2002-07-21 00:00:00,Downsiders,Cooper G,0,2,0,True,c,False,False,1,0,0,0,0
+-1,-1,2002-07-21 00:00:00,Downsiders,Elliston J,0,10,0,False,no,False,False,1,0,0,0,0
+-1,-1,2002-07-21 00:00:00,Downsiders,Greyling R,0,7,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-21 00:00:00,Downsiders,Leadley J,0,1,82,True,lb,False,True,0,1,1,8,0
+-1,-1,2002-07-21 00:00:00,Downsiders,Lestrelle A,0,8,5,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-21 00:00:00,Downsiders,Murphy P,0,6,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-07-21 00:00:00,Downsiders,Penfold N,0,3,17,True,c,False,False,0,0,0,3,0
+-1,-1,2002-07-21 00:00:00,Downsiders,Sharpe D,0,5,28,True,c,False,False,0,0,0,2,2
+-1,-1,2002-07-21 00:00:00,Downsiders,Springer T,0,4,0,True,c,True,False,2,0,0,0,0
+-1,-1,2002-07-21 00:00:00,Downsiders,Worthy J,0,9,3,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Bowers M,0,10,2,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Coloe A,0,6,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Cooper G,0,7,1,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Edghill C,0,5,1,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Murphy P,0,8,1,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Odeneal R,0,2,4,True,b,False,False,0,0,0,1,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Snow D,0,4,5,True,b,False,False,0,0,0,1,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Woodhouse M,0,1,0,True,c,True,True,0,0,0,0,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Worthington R,0,3,13,True,c,False,False,0,0,0,1,0
+-1,-1,2002-07-27 00:00:00,LESSA Wanderers,Worthy J,0,9,4,False,no,False,False,0,0,0,0,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Brocks D,0,11,13,False,no,False,False,0,0,0,3,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Cooper G,0,8,2,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Cox M,0,5,10,True,b,False,False,0,0,0,2,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Elliston J,0,10,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Greyling R,0,7,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Lestrelle J,0,3,8,True,c,False,False,3,0,0,0,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Mander A,0,9,10,True,c,False,False,0,0,0,1,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Mander C,0,4,9,True,b,False,False,0,0,0,1,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Moore K,0,6,1,True,b,False,False,1,0,0,0,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Murphy P,0,2,5,True,ro,False,False,0,0,0,0,0
+-1,-1,2002-07-28 00:00:00,Worcester Park,Springer T,0,1,12,True,c,True,True,0,0,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Coloe A,0,4,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Cooper G,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Edghill C,0,5,17,True,b,False,False,1,0,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Elliston J,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Lestrelle J,0,2,38,False,no,False,True,0,1,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Mander A,0,7,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Murphy P,0,3,2,True,b,False,False,1,0,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Odeneal R,0,8,1,True,ro,False,False,0,0,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Penfold N,0,6,46,True,b,False,False,0,0,0,7,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Woodhouse M,0,1,2,True,b,True,False,0,0,0,0,0
+-1,-1,2002-08-03 00:00:00,Old Josephians,Young R,0,9,1,False,no,False,False,1,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Cooper G,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Greyling R,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Mander A,0,3,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Mander C,0,4,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Mander N,0,9,0,False,dnb,False,True,0,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Murphy P,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Patel N,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Snow D,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Springer T,0,1,0,False,dnb,True,False,3,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Worthington R,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-04 00:00:00,Whyteleaf,Worthy J,0,2,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Bowers M,0,10,9,False,no,False,False,0,0,0,0,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Coloe A,0,6,18,True,c,False,False,0,0,0,1,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Cooper G,0,3,6,True,lb,False,False,0,0,0,0,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Davis M,0,9,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Elliston J,0,7,8,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Lestrelle J,0,2,1,True,b,False,True,0,0,0,0,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Odeneal R,0,9,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Snow D,0,4,6,True,b,False,False,0,0,0,1,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Woodhouse M,0,1,37,True,b,True,True,0,0,0,4,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Worthington R,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-08-10 00:00:00,Prospect Park,Young R,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Cooper G,0,1,17,False,no,False,False,1,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Cox M,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Elliston J,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Greyling R,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Leadley J,0,4,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Mander C,0,5,0,False,dnb,False,False,2,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Mander N,0,7,0,False,dnb,False,True,0,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Murphy P,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Penfold N,0,2,5,True,b,False,False,0,0,0,0,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Springer T,0,3,38,False,no,True,False,1,0,0,4,0
+-1,-1,2002-08-11 00:00:00,Addiscombe,Worthy J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-17 00:00:00,Riverside,Bowers M,0,9,4,True,b,False,False,0,0,0,0,0
+-1,-1,2002-08-17 00:00:00,Riverside,Cooper G,0,1,4,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-17 00:00:00,Riverside,Davis M,0,8,0,True,c,False,False,1,0,0,0,0
+-1,-1,2002-08-17 00:00:00,Riverside,Edghill C,0,4,22,True,st,False,False,1,0,0,1,0
+-1,-1,2002-08-17 00:00:00,Riverside,Greyling R,0,3,6,True,b,False,False,1,0,0,0,0
+-1,-1,2002-08-17 00:00:00,Riverside,Lestrelle A,0,7,6,True,b,False,False,0,0,0,1,0
+-1,-1,2002-08-17 00:00:00,Riverside,Odeneal R,0,2,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-08-17 00:00:00,Riverside,Simmons M,0,11,5,True,b,False,False,0,0,0,1,0
+-1,-1,2002-08-17 00:00:00,Riverside,Snow D,0,5,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-17 00:00:00,Riverside,Woodhouse M,0,6,1,True,c,True,True,0,0,0,0,0
+-1,-1,2002-08-17 00:00:00,Riverside,Young R,0,10,12,False,no,False,False,0,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Clark C,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Coloe A,0,3,1,True,c,False,False,1,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Cox M,0,7,0,False,dnb,False,False,3,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Elliston J,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Greyling R,0,2,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Howe V,0,1,3,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Mander A,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Mander C,0,9,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Mander N,0,6,50,False,no,False,True,0,1,0,4,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Murphy P,0,4,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-08-18 00:00:00,Flying Wickets,Worthy J,0,5,22,False,no,False,False,1,0,0,3,0
+-1,-1,2002-08-24 00:00:00,Purley,Clark C,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2002-08-24 00:00:00,Purley,Coloe A,0,4,12,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-24 00:00:00,Purley,Cooper G,0,7,5,False,no,False,False,1,0,0,0,0
+-1,-1,2002-08-24 00:00:00,Purley,Greyling R,0,6,7,True,ro,False,False,1,0,0,1,0
+-1,-1,2002-08-24 00:00:00,Purley,Leadley J,0,1,22,True,c,False,True,0,0,0,4,0
+-1,-1,2002-08-24 00:00:00,Purley,Lestrelle A,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-08-24 00:00:00,Purley,Murphy P,0,8,4,False,no,False,False,0,0,0,0,0
+-1,-1,2002-08-24 00:00:00,Purley,Shewan D,0,3,44,True,c,False,False,0,0,0,3,0
+-1,-1,2002-08-24 00:00:00,Purley,Snow D,0,5,6,True,c,False,False,0,0,0,1,0
+-1,-1,2002-08-24 00:00:00,Purley,Woodhouse M,0,2,17,True,lb,True,False,0,0,0,0,0
+-1,-1,2002-08-24 00:00:00,Purley,Young R,0,10,0,False,dnb,False,False,2,0,0,0,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Bowers M,0,10,3,False,no,False,False,0,0,0,0,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Cooper G,0,2,2,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Edghill C,0,5,0,True,c,False,False,1,0,0,0,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Elliston J,0,11,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Greyling R,0,4,7,True,c,False,False,0,0,0,1,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Leadley J,0,8,1,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Mander A,0,9,10,True,b,False,False,0,0,0,2,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Mander C,0,7,9,True,c,True,False,0,0,0,1,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Mander N,0,1,19,True,c,False,True,0,2,0,2,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Murphy P,0,6,8,True,b,False,False,0,0,0,1,0
+-1,-1,2002-08-25 00:00:00,Old Josephians,Worthy J,0,3,18,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Cooper G,0,8,0,True,lb,False,False,1,0,0,0,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Crisford J,0,6,9,True,c,False,False,0,0,0,0,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Davis M,0,9,11,False,no,False,False,0,0,0,2,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Edghill C,0,5,4,True,b,False,False,0,0,0,0,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Hawksworth A,0,2,43,True,b,False,False,0,0,0,8,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Leadley J,0,1,9,True,b,False,True,0,0,3,1,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Lestrelle A,0,7,10,True,lb,False,False,0,0,0,0,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Lestrelle J,0,3,4,True,b,False,False,0,0,0,1,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Woodhouse M,0,4,16,True,c,True,False,1,0,0,2,0
+-1,-1,2002-08-31 00:00:00,Blackheath Select XI,Young R,0,10,3,True,c,False,False,0,0,0,0,0
+-1,-1,2002-09-01 00:00:00,Beddington,Bowers M,0,11,8,True,c,False,False,0,0,0,1,0
+-1,-1,2002-09-01 00:00:00,Beddington,Cooper G,0,7,6,True,b,False,False,0,0,0,0,0
+-1,-1,2002-09-01 00:00:00,Beddington,Greyling R,0,8,17,True,b,False,False,0,0,0,3,0
+-1,-1,2002-09-01 00:00:00,Beddington,Lestrelle J,0,2,11,True,b,False,False,0,0,0,1,0
+-1,-1,2002-09-01 00:00:00,Beddington,Mander A,0,9,12,True,c,False,False,1,0,0,1,0
+-1,-1,2002-09-01 00:00:00,Beddington,Mander C,0,6,8,True,b,False,False,0,0,0,2,0
+-1,-1,2002-09-01 00:00:00,Beddington,Mander N,0,1,23,True,c,False,True,0,0,0,4,0
+-1,-1,2002-09-01 00:00:00,Beddington,Patel N,0,3,19,True,st,False,False,0,0,0,3,0
+-1,-1,2002-09-01 00:00:00,Beddington,Springer T,0,4,19,True,c,True,False,0,0,0,4,0
+-1,-1,2002-09-01 00:00:00,Beddington,Worthington R,0,5,19,True,c,False,False,0,0,0,2,0
+-1,-1,2002-09-01 00:00:00,Beddington,Worthy J,0,10,12,False,no,False,False,0,0,0,2,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Clark C,0,11,5,False,no,False,False,0,0,0,0,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Davis M,0,10,6,True,c,False,False,0,0,0,1,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Edghill C,0,6,0,True,b,False,False,1,0,0,0,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Elliston J,0,9,8,True,c,False,False,1,0,0,0,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Howe V,0,5,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Lestrelle J,0,3,13,True,b,False,False,0,0,0,0,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Murphy P,0,8,0,True,b,False,False,1,0,0,0,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Odeneal R,0,7,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Woodhouse M,0,1,9,True,b,True,True,0,3,0,1,0
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Worthington R,0,4,25,True,c,False,False,0,0,0,3,1
+-1,-1,2002-09-07 00:00:00,LESSA Wanderers,Young R,0,2,17,True,c,False,False,0,0,0,2,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Bowers M,0,11,8,False,no,False,False,0,0,0,0,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Coloe A,0,1,11,True,c,False,False,0,0,0,0,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Cooper G,0,2,4,True,c,False,False,1,0,0,0,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Cox M,0,8,5,True,st,False,False,1,0,0,0,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Crisford J,0,6,0,True,b,False,False,0,0,0,0,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Greyling R,0,9,37,True,b,False,False,0,0,0,2,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Lestrelle A,0,7,2,True,ro,False,False,0,0,0,0,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Patel N,0,3,8,True,c,False,False,0,0,0,0,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Penfold N,0,5,20,True,c,False,False,1,0,0,2,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Springer T,0,4,9,True,lb,True,True,0,0,0,1,0
+-1,-1,2002-09-08 00:00:00,Selsdon,Worthy J,0,10,12,False,no,False,False,0,0,0,0,0
+-1,-1,2002-09-14 00:00:00,4C's,Clark C,0,9,3,True,b,False,False,0,0,0,0,0
+-1,-1,2002-09-14 00:00:00,4C's,Edghill C,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2002-09-14 00:00:00,4C's,Elliston J,0,7,0,True,c,False,False,0,0,0,0,0
+-1,-1,2002-09-14 00:00:00,4C's,Lestrelle A,0,8,1,True,b,False,False,0,0,0,0,0
+-1,-1,2002-09-14 00:00:00,4C's,Lestrelle J,0,2,22,True,b,False,False,0,0,0,2,0
+-1,-1,2002-09-14 00:00:00,4C's,Mander C,0,5,14,True,c,False,False,1,0,0,3,0
+-1,-1,2002-09-14 00:00:00,4C's,Mander N,0,1,36,True,c,False,True,0,1,2,4,0
+-1,-1,2002-09-14 00:00:00,4C's,Odeneal R,0,6,0,True,b,False,False,1,0,0,0,0
+-1,-1,2002-09-14 00:00:00,4C's,Woodhouse M,0,4,8,True,c,True,False,0,0,0,0,0
+-1,-1,2002-09-14 00:00:00,4C's,Worthington R,0,3,7,True,ro,False,False,1,0,0,1,0
+-1,-1,2002-09-14 00:00:00,4C's,Young R,0,10,2,False,no,False,False,0,0,0,0,0
+-1,-1,2002-09-15 00:00:00,Giltec,Bowers M,0,10,4,False,no,False,False,0,0,0,1,0
+-1,-1,2002-09-15 00:00:00,Giltec,Coloe A,0,2,4,True,b,False,False,0,0,0,0,0
+-1,-1,2002-09-15 00:00:00,Giltec,Greyling R,0,6,29,True,b,False,False,0,0,0,3,1
+-1,-1,2002-09-15 00:00:00,Giltec,Lestrelle A,0,7,2,True,b,False,False,0,0,0,0,0
+-1,-1,2002-09-15 00:00:00,Giltec,Mander A,0,9,11,True,c,False,False,1,0,0,1,0
+-1,-1,2002-09-15 00:00:00,Giltec,Mander C,0,5,8,True,c,False,False,0,0,0,1,0
+-1,-1,2002-09-15 00:00:00,Giltec,Mander N,0,1,54,True,c,False,True,0,2,0,8,0
+-1,-1,2002-09-15 00:00:00,Giltec,Patel N,0,3,9,True,lb,False,False,0,0,0,0,0
+-1,-1,2002-09-15 00:00:00,Giltec,Springer T,0,4,7,True,b,True,False,1,0,0,0,0
+-1,-1,2002-09-15 00:00:00,Giltec,Worthy J,0,8,21,False,no,False,False,0,0,0,3,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Clark C,0,11,4,False,no,False,False,0,0,0,0,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Cooper G,0,8,3,True,lb,False,False,0,0,0,0,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Greyling R,0,6,17,True,c,False,False,0,0,0,3,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Lestrelle A,0,9,0,True,ro,False,False,0,0,0,0,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Lestrelle J,0,1,5,True,lb,False,False,0,0,0,0,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Oakes,0,7,4,True,c,False,False,1,0,0,0,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Patel N,0,3,9,True,lb,False,False,0,0,0,1,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Springer T,0,5,18,True,b,True,False,1,0,0,3,1
+-1,-1,2002-09-22 00:00:00,Bromley Common,Woodhouse M,0,2,0,True,c,False,True,0,0,0,0,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Worthington R,0,4,38,True,b,False,False,0,0,0,5,0
+-1,-1,2002-09-22 00:00:00,Bromley Common,Worthy J,0,10,4,True,c,False,False,0,0,0,1,0
 -1,-1,2003-05-03 00:00:00,Blackheath Select,Clark C,0,11,0,False,dnb,True,False,0,0,0,0,0
 -1,-1,2003-05-03 00:00:00,Blackheath Select,Cooper G,0,7,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2003-05-03 00:00:00,Blackheath Select,Edghill C,0,3,8,False,no,False,False,0,0,0,0,0
@@ -2004,6 +2530,337 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2003-05-11 00:00:00,Gold Leaf,Murphy P,0,6,0,True,c,False,False,1,0,0,0,0
 -1,-1,2003-05-11 00:00:00,Gold Leaf,Springer T,0,4,1,True,c,True,False,0,0,0,0,0
 -1,-1,2003-05-11 00:00:00,Gold Leaf,Worthy J,0,10,9,False,no,False,False,1,0,0,1,0
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Coloe A,0,2,1,True,b,False,False,0,0,0,0,0
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Cooper G,0,10,4,True,b,False,False,0,0,0,1,0
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Greyling R,0,9,15,True,b,False,False,1,0,0,0,2
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Heckroodt,0,7,1,True,b,False,False,0,0,0,0,0
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Lestrelle A,0,8,0,True,ro,False,False,0,0,0,0,0
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Lestrelle J,0,3,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Luxford J,0,4,10,True,b,False,False,0,0,0,1,0
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Mander N,0,1,12,True,c,False,True,0,1,0,2,0
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Springer T,0,5,100,False,no,True,False,0,0,0,8,8
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Worthy J,0,11,0,False,no,False,False,0,0,0,0,0
+-1,-1,2003-05-18 00:00:00,Thurlow Park RAFA,Wrenn S,0,6,25,True,b,False,False,0,0,0,3,1
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Clark C,0,11,4,True,st,True,False,0,0,0,1,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Cooper G,0,9,17,True,c,False,False,0,0,0,3,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Edghill C,0,4,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Greyling R,0,8,2,True,b,False,False,0,0,0,0,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Heckroodt,0,3,17,True,c,False,False,0,0,0,3,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Lestrelle J,0,7,18,True,c,False,True,0,0,0,3,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Murphy P,0,10,8,False,no,False,False,0,0,0,1,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Odeneal R,0,5,0,True,c,False,False,1,0,0,0,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Piper-Masha S,0,2,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Springer T,0,6,4,True,c,False,False,1,0,0,1,0
+-1,-1,2003-05-24 00:00:00,Blindley Heath,Woodhouse M,0,1,5,True,ro,False,False,1,0,0,1,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Clark C,0,2,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Greyling R,0,8,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Heckroodt,0,6,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Leadley J,0,1,6,True,c,False,True,0,0,0,0,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Lestrelle J,0,5,1,True,c,False,False,0,0,0,0,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Mander A,0,9,35,True,ro,False,False,0,0,0,6,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Oakes P,0,7,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Odeneal R,0,4,0,True,ro,False,False,0,0,0,0,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Springer T,0,5,27,True,c,True,False,0,0,0,4,0
+-1,-1,2003-05-25 00:00:00,Woodgreen,Woodhouse M,0,3,4,True,b,False,False,0,0,0,0,0
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Brocks D,0,7,10,True,b,False,False,0,0,0,2,0
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Cooper G,0,10,1,False,no,False,False,0,0,0,0,0
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Greyling R,0,8,10,True,b,False,False,0,0,0,1,1
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Heckroodt,0,3,19,True,b,False,False,0,0,0,1,1
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Lestrelle A,0,9,2,False,no,False,False,0,0,0,0,0
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Lestrelle J,0,5,27,True,b,True,True,0,2,0,1,0
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Oakes P,0,6,28,True,ro,False,False,0,0,0,3,0
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Piper-Masha S,0,4,4,True,c,False,False,1,0,0,0,0
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Springer T,0,2,15,True,c,False,False,1,0,0,3,0
+-1,-1,2003-05-26 00:00:00,Steeple Langford,Woodhouse M,0,1,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-05-27 00:00:00,Cove,Brocks D,0,8,17,True,c,False,False,0,0,0,3,0
+-1,-1,2003-05-27 00:00:00,Cove,Clark C,0,11,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-05-27 00:00:00,Cove,Greyling R,0,9,9,True,c,False,False,0,0,0,0,1
+-1,-1,2003-05-27 00:00:00,Cove,Mander A,0,10,15,False,no,False,False,0,0,0,3,0
+-1,-1,2003-05-27 00:00:00,Cove,Mander C,0,6,14,True,lb,True,False,0,0,0,1,0
+-1,-1,2003-05-27 00:00:00,Cove,Mander N,0,1,62,True,c,False,True,0,2,0,6,0
+-1,-1,2003-05-27 00:00:00,Cove,Oakes P,0,7,4,True,st,False,False,0,0,0,0,0
+-1,-1,2003-05-27 00:00:00,Cove,Odeneal R,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-05-27 00:00:00,Cove,Piper-Masha S,0,4,1,True,c,False,False,0,0,0,0,0
+-1,-1,2003-05-27 00:00:00,Cove,Springer T,0,3,13,True,c,False,False,0,0,0,0,0
+-1,-1,2003-05-27 00:00:00,Cove,Woodhouse M,0,2,7,True,ro,False,False,0,0,0,0,0
+-1,-1,2003-06-01 00:00:00,Giltec,Angell A,0,3,7,True,ro,False,False,0,0,0,0,0
+-1,-1,2003-06-01 00:00:00,Giltec,Cooper G,0,1,1,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-01 00:00:00,Giltec,Elliston J,0,11,1,False,no,False,False,0,0,0,0,0
+-1,-1,2003-06-01 00:00:00,Giltec,Greyling R,0,9,6,True,b,False,False,0,0,0,1,0
+-1,-1,2003-06-01 00:00:00,Giltec,Heckroodt,0,6,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-01 00:00:00,Giltec,Lestrelle A,0,7,2,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-01 00:00:00,Giltec,Lestrelle J,0,5,11,True,b,False,True,0,0,0,1,0
+-1,-1,2003-06-01 00:00:00,Giltec,Murphy P,0,10,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-01 00:00:00,Giltec,Springer T,0,2,18,True,b,True,False,0,0,0,2,0
+-1,-1,2003-06-01 00:00:00,Giltec,Worthington R,0,4,29,True,b,False,False,0,0,0,1,1
+-1,-1,2003-06-01 00:00:00,Giltec,Worthy J,0,8,6,True,lb,False,False,0,0,0,0,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Clark C,0,11,3,True,b,True,False,0,0,0,0,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Cooper G,0,2,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Greyling R,0,1,53,True,lb,False,False,0,0,0,8,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Heckroodt,0,3,2,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Lestrelle A,0,9,2,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Lestrelle J,0,6,3,True,c,False,True,0,0,0,0,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Murphy P,0,5,4,True,b,False,False,0,0,0,1,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Odeneal R,0,4,4,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Simmons M,0,10,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Wiseman R,0,8,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-07 00:00:00,Norwood Exiles,Woodhouse M,0,7,14,False,no,False,False,0,0,0,0,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Cooper G,0,9,0,False,no,False,False,1,0,0,0,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Edghill C,0,2,11,True,c,False,False,2,0,0,0,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Elliston J,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Greyling R,0,8,10,True,c,False,False,1,0,0,2,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Heckroodt,0,5,2,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Lestrelle A,0,6,2,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Lestrelle J,0,1,27,True,b,False,True,0,0,0,2,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Mander A,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Murphy P,0,7,7,True,b,False,False,0,0,0,1,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Patel N,0,3,27,True,lb,False,False,0,0,0,4,0
+-1,-1,2003-06-08 00:00:00,CYPOS,Springer T,0,4,131,False,no,True,False,0,0,0,19,2
+-1,-1,2003-06-14 00:00:00,Legless XI,Clark C,0,11,0,False,no,True,False,0,0,0,0,0
+-1,-1,2003-06-14 00:00:00,Legless XI,Cooper G,0,9,21,True,lb,False,False,1,0,0,4,0
+-1,-1,2003-06-14 00:00:00,Legless XI,Greyling R,0,2,8,True,c,False,False,1,0,0,2,0
+-1,-1,2003-06-14 00:00:00,Legless XI,Heckroodt,0,5,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-14 00:00:00,Legless XI,Lestrelle J,0,3,9,True,lb,False,False,1,0,0,2,0
+-1,-1,2003-06-14 00:00:00,Legless XI,Murphy P,0,10,12,True,b,False,False,0,0,0,3,0
+-1,-1,2003-06-14 00:00:00,Legless XI,Odeneal R,0,6,4,True,b,False,False,0,0,0,1,0
+-1,-1,2003-06-14 00:00:00,Legless XI,Wiseman R,0,7,4,True,b,False,False,1,0,0,0,0
+-1,-1,2003-06-14 00:00:00,Legless XI,Woodhouse M,0,1,8,True,c,False,False,0,0,0,1,0
+-1,-1,2003-06-14 00:00:00,Legless XI,Worthington R,0,4,35,True,lb,False,True,0,0,0,5,1
+-1,-1,2003-06-14 00:00:00,Legless XI,Young R,0,8,12,True,b,False,False,0,0,0,2,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Cooper G,0,7,5,True,st,False,False,0,0,0,0,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Elliston J,0,10,26,False,no,False,False,0,0,0,2,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Greyling R,0,6,0,True,b,False,False,1,0,0,0,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Heckroodt,0,2,1,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Lestrelle A,0,4,2,True,c,False,False,1,0,0,0,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Lestrelle J,0,1,6,True,lb,False,True,0,0,1,0,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Mander A,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Murphy P,0,5,4,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Springer T,0,3,32,True,b,True,False,0,0,0,3,0
+-1,-1,2003-06-15 00:00:00,Vishwa,Worthy J,0,8,26,False,no,False,False,0,0,0,2,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Clark C,0,11,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Coloe A,0,3,5,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Cooper G,0,5,15,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Edghill C,0,2,4,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Greyling R,0,7,4,False,no,False,False,0,0,0,0,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Murphy P,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Odeneal R,0,6,14,True,b,False,False,0,0,0,2,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Piper-Masha S,0,1,6,True,c,False,False,1,0,0,0,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Wiseman R,0,8,4,False,no,False,False,0,0,0,0,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Worthington R,0,4,65,True,b,False,True,0,0,0,8,0
+-1,-1,2003-06-21 00:00:00,Churchleigh,Young R,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-06-22 00:00:00,Worcester Park,Cooper G,0,11,1,True,c,False,False,1,0,0,0,0
+-1,-1,2003-06-22 00:00:00,Worcester Park,Elliston J,0,10,0,False,no,False,False,0,0,0,0,0
+-1,-1,2003-06-22 00:00:00,Worcester Park,Greyling R,0,6,30,True,b,False,False,1,0,0,2,1
+-1,-1,2003-06-22 00:00:00,Worcester Park,Heckroodt,0,3,2,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-22 00:00:00,Worcester Park,Lestrelle A,0,7,3,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-22 00:00:00,Worcester Park,Mander A,0,8,2,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-22 00:00:00,Worcester Park,Mander C,0,1,32,True,c,False,False,2,0,0,6,1
+-1,-1,2003-06-22 00:00:00,Worcester Park,Murphy P,0,5,5,True,c,False,False,0,0,0,1,0
+-1,-1,2003-06-22 00:00:00,Worcester Park,Patel N,0,2,5,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-22 00:00:00,Worcester Park,Springer T,0,4,52,True,c,True,True,0,3,0,5,2
+-1,-1,2003-06-22 00:00:00,Worcester Park,Worthy J,0,9,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2003-06-29 00:00:00,Saints,Angell A,0,2,5,True,c,False,False,0,0,0,0,0
+-1,-1,2003-06-29 00:00:00,Saints,Brocks D,0,5,16,True,b,False,False,1,0,0,3,0
+-1,-1,2003-06-29 00:00:00,Saints,Elliston J,0,11,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2003-06-29 00:00:00,Saints,Greyling R,0,8,0,True,b,False,False,1,0,0,0,0
+-1,-1,2003-06-29 00:00:00,Saints,Lestrelle A,0,6,5,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-29 00:00:00,Saints,Lestrelle J,0,1,5,True,b,False,False,0,0,0,1,0
+-1,-1,2003-06-29 00:00:00,Saints,Mander A,0,9,18,False,no,False,False,0,0,0,4,0
+-1,-1,2003-06-29 00:00:00,Saints,Mander N,0,7,2,False,no,False,True,0,2,0,0,0
+-1,-1,2003-06-29 00:00:00,Saints,Murphy P,0,4,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-06-29 00:00:00,Saints,Springer T,0,3,37,True,b,True,False,2,0,0,5,0
+-1,-1,2003-06-29 00:00:00,Saints,Worthy J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Angell A,0,4,1,True,c,False,False,0,0,0,0,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Clark C,0,11,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Coloe A,0,8,7,False,no,False,False,0,0,0,0,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Edghill C,0,5,15,True,st,False,False,0,0,0,1,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Elliston J,0,6,14,True,b,False,False,0,0,0,1,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Greyling R,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Lestrelle J,0,7,11,False,no,False,True,0,1,0,0,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Piper-Masha S,0,3,2,True,c,False,False,0,0,0,0,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Wiseman R,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Woodhouse M,0,1,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2003-07-05 00:00:00,Central YMCA,Young R,0,2,0,True,b,False,False,1,0,0,0,0
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Bowers M,0,10,3,True,b,False,False,0,0,0,0,0
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Clark C,0,8,31,True,c,False,False,0,0,0,6,0
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Cooper G,0,5,1,True,lb,False,False,0,0,0,0,0
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Cox M,0,4,1,True,b,False,False,2,0,0,0,0
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Lestrelle A,0,6,6,True,c,False,False,0,0,0,0,0
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Mander A,0,7,6,True,c,False,False,0,0,0,1,0
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Mander C,0,2,20,True,c,False,True,0,1,1,1,2
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Mander N,0,1,12,True,c,False,False,0,0,0,1,0
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Springer T,0,3,3,True,b,True,False,0,0,0,0,0
+-1,-1,2003-07-06 00:00:00,Commonwealth Offices,Worthy J,0,9,31,False,no,False,False,0,0,0,5,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Angell A,0,2,5,True,b,False,False,0,0,0,1,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Cooper G,0,8,40,True,b,False,False,0,0,0,7,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Elliston J,0,11,0,False,no,False,False,0,0,0,0,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Greyling R,0,6,10,True,b,False,False,0,0,0,2,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Heckroodt,0,4,19,True,b,False,False,1,0,0,3,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Lestrelle A,0,7,10,True,c,False,False,0,0,0,0,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Lestrelle J,0,5,16,True,lb,True,False,0,0,0,2,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Murphy P,0,3,3,True,c,False,False,0,0,0,0,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Simmons M,0,9,10,True,ro,False,False,0,0,0,1,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Woodhouse M,0,1,8,True,b,False,True,0,0,0,1,0
+-1,-1,2003-07-13 00:00:00,Downsiders,Worthy J,0,10,8,True,hw,False,False,0,0,0,0,1
+-1,-1,2003-07-19 00:00:00,Sanderstead,Bowers M,0,10,2,True,b,False,False,0,0,0,0,0
+-1,-1,2003-07-19 00:00:00,Sanderstead,Clark C,0,9,10,True,c,True,False,0,0,0,2,0
+-1,-1,2003-07-19 00:00:00,Sanderstead,Coloe A,0,1,6,True,b,False,False,0,0,0,0,0
+-1,-1,2003-07-19 00:00:00,Sanderstead,Cooper G,0,2,18,True,c,False,False,0,0,0,1,0
+-1,-1,2003-07-19 00:00:00,Sanderstead,Greyling R,0,6,0,True,lb,False,False,2,0,0,0,0
+-1,-1,2003-07-19 00:00:00,Sanderstead,Heckroodt,0,8,10,True,c,False,False,1,0,0,1,0
+-1,-1,2003-07-19 00:00:00,Sanderstead,Odeneal R,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-07-19 00:00:00,Sanderstead,Wiseman R,0,3,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-07-19 00:00:00,Sanderstead,Worthington R,0,4,30,False,no,False,True,0,0,1,4,0
+-1,-1,2003-07-19 00:00:00,Sanderstead,Young R,0,7,13,True,b,False,False,1,0,0,3,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Bowers M,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Coloe A,0,1,35,True,c,False,False,0,0,0,6,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Cooper G,0,6,4,False,no,False,False,0,0,0,1,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Elliston J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Greyling R,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Heckroodt,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Lestrelle A,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Lestrelle J,0,4,5,False,no,False,True,0,0,0,0,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Springer T,0,3,70,True,b,True,False,1,0,0,14,0
+-1,-1,2003-07-20 00:00:00,Seven-O,Worthington R,0,2,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2003-07-26 00:00:00,Lessa Wanderers,Bowers M,0,6,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2003-07-26 00:00:00,Lessa Wanderers,Clark C,0,9,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2003-07-26 00:00:00,Lessa Wanderers,Cooper G,0,3,5,False,no,False,False,0,0,0,0,0
+-1,-1,2003-07-26 00:00:00,Lessa Wanderers,Heckroodt,0,2,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-07-26 00:00:00,Lessa Wanderers,Piper-Masha S,0,1,18,False,no,False,False,0,0,0,3,0
+-1,-1,2003-07-26 00:00:00,Lessa Wanderers,Springer T,0,4,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-07-26 00:00:00,Lessa Wanderers,Wiseman R,0,7,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2003-07-26 00:00:00,Lessa Wanderers,Woodhouse M,0,5,0,False,dnb,False,True,0,2,0,0,0
+-1,-1,2003-07-26 00:00:00,Lessa Wanderers,Young R,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Angell A,0,2,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Clark C,0,9,1,True,b,True,False,0,0,0,0,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Cooper G,0,8,17,False,no,False,False,2,0,0,0,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Edghill C,0,6,10,True,lb,False,False,0,0,0,0,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Greyling R,0,5,2,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Lestrelle J,0,3,0,True,c,False,True,0,2,2,0,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Piper-Masha S,0,4,2,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Wiseman R,0,7,25,True,b,False,False,0,0,0,2,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Woodhouse M,0,1,9,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-02 00:00:00,Old Tennysonians,Young R,0,10,0,False,no,False,False,0,0,0,0,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Angell A,0,2,5,True,c,False,False,0,0,0,1,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Bowers M,0,10,0,False,no,False,False,0,0,0,0,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Coloe A,0,1,12,True,c,False,False,0,0,0,2,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Cooper G,0,7,19,True,c,False,False,0,0,0,3,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Fish R,0,8,52,True,b,False,False,0,0,0,9,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Greyling R,0,4,12,True,b,False,False,0,0,0,3,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Lestrelle J,0,5,7,True,c,True,True,0,2,0,0,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Mander A,0,9,0,True,b,False,False,1,0,0,0,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Mander N,0,6,15,True,c,False,False,1,0,0,2,0
+-1,-1,2003-08-03 00:00:00,Whyteleaf,Worthington R,0,3,6,True,ro,False,False,1,0,0,1,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Angell A,0,2,24,True,c,False,False,0,0,0,3,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Bowers M,0,11,9,True,c,False,False,0,0,0,2,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Cooper G,0,8,4,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Davis M,0,9,4,True,b,False,False,0,0,0,1,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Murphy P,0,6,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Piper-Masha S,0,4,24,True,b,False,False,0,0,0,4,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Springer T,0,3,2,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Wiseman R,0,7,3,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Woodhouse M,0,1,3,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Worthington R,0,5,41,True,c,False,True,0,0,0,6,0
+-1,-1,2003-08-09 00:00:00,Seven-O,Young R,0,10,2,False,no,True,False,1,0,0,0,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Coloe A,0,3,20,True,b,False,False,0,0,0,2,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Cooper G,0,6,12,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Cox M,0,5,0,True,b,False,False,2,0,0,0,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Elliston J,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Lestrelle A,0,9,0,True,ro,False,False,1,0,0,0,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Lestrelle J,0,2,0,True,b,False,False,2,0,0,0,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Mander A,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Mander C,0,8,15,False,no,False,False,0,0,0,3,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Mander N,0,1,93,True,ro,False,True,0,0,1,14,1
+-1,-1,2003-08-10 00:00:00,Addington 1743,Murphy P,0,7,4,True,b,False,False,0,0,0,1,0
+-1,-1,2003-08-10 00:00:00,Addington 1743,Springer T,0,4,36,True,c,True,False,1,0,0,5,0
+-1,-1,2003-08-16 00:00:00,Riverside,Alain,0,6,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-16 00:00:00,Riverside,Cooper G,0,9,1,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-16 00:00:00,Riverside,Fish R,0,3,5,True,b,False,False,0,0,0,1,0
+-1,-1,2003-08-16 00:00:00,Riverside,Ganesh,0,1,4,True,c,False,False,1,0,0,1,0
+-1,-1,2003-08-16 00:00:00,Riverside,Lestrelle A,0,10,0,False,no,False,False,0,0,0,0,0
+-1,-1,2003-08-16 00:00:00,Riverside,Odeneal R,0,7,0,True,c,False,False,1,0,0,0,0
+-1,-1,2003-08-16 00:00:00,Riverside,Piper-Masha S,0,2,27,True,c,False,False,0,0,0,4,0
+-1,-1,2003-08-16 00:00:00,Riverside,Springer T,0,4,91,True,c,False,False,2,0,0,18,0
+-1,-1,2003-08-16 00:00:00,Riverside,Wiseman R,0,8,9,False,no,False,False,1,0,0,1,0
+-1,-1,2003-08-16 00:00:00,Riverside,Woodhouse M,0,5,7,True,lb,False,True,0,1,0,0,0
+-1,-1,2003-08-16 00:00:00,Riverside,Young R,0,11,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Angell A,0,1,1,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Cooper G,0,7,9,False,no,False,False,0,0,0,1,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Cox M,0,4,3,True,b,False,False,1,0,0,0,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Elliston J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Lestrelle A,0,8,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Lestrelle J,0,3,20,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Mander A,0,9,21,False,no,False,False,1,0,0,1,2
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Mander C,0,6,19,True,b,False,True,0,3,1,3,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Mander N,0,5,44,True,b,False,False,0,0,0,4,0
+-1,-1,2003-08-17 00:00:00,Mixed Caribbean,Springer T,0,2,6,True,c,True,False,1,0,0,0,0
+-1,-1,2003-08-23 00:00:00,Mixed Caribbean,Bowers M,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-08-23 00:00:00,Mixed Caribbean,Cooper G,0,7,2,False,no,False,False,0,0,0,0,0
+-1,-1,2003-08-23 00:00:00,Mixed Caribbean,Ganesh,0,1,52,True,b,False,False,0,0,0,4,0
+-1,-1,2003-08-23 00:00:00,Mixed Caribbean,Greyling R,0,6,14,True,c,False,False,0,0,0,3,0
+-1,-1,2003-08-23 00:00:00,Mixed Caribbean,Lestrelle A,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-08-23 00:00:00,Mixed Caribbean,Odeneal R,0,5,6,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-23 00:00:00,Mixed Caribbean,Piper-Masha S,0,2,10,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-23 00:00:00,Mixed Caribbean,Woodhouse M,0,3,8,True,b,True,False,1,0,0,0,0
+-1,-1,2003-08-23 00:00:00,Mixed Caribbean,Worthington R,0,4,28,False,no,False,True,0,0,0,2,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Cooper G,0,9,0,False,dnb,False,False,2,0,0,0,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Cox M,0,4,72,True,c,False,False,1,0,0,10,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Elliston J,0,2,3,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Greyling R,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Lestrelle A,0,1,6,True,lb,False,False,1,0,0,1,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Lestrelle J,0,6,1,False,no,False,False,0,0,0,0,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Mander A,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Mander C,0,7,0,False,no,False,True,0,0,0,0,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Patel N,0,3,8,True,c,False,False,0,0,0,0,0
+-1,-1,2003-08-24 00:00:00,East Cheam & St Helier,Springer T,0,5,35,True,b,True,False,0,0,0,5,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Bowers M,0,10,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Clark C,0,9,2,False,no,True,False,0,0,0,0,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Cooper G,0,7,11,True,lb,False,False,0,0,0,2,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Elliston J,0,8,14,True,c,False,False,0,0,0,1,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Fish R,0,5,2,True,b,False,False,3,0,0,0,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Greyling R,0,2,6,True,b,False,False,1,0,0,1,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Piper-Masha S,0,3,14,True,c,False,False,0,0,0,1,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Wiseman R,0,6,2,True,ro,False,False,0,0,0,0,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Woodhouse M,0,1,5,True,b,False,True,0,0,0,0,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Worthington R,0,4,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-08-30 00:00:00,Blackheath Select,Young R,0,11,1,True,c,False,False,0,0,0,0,0
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Clark C,0,10,9,True,c,True,False,0,0,0,2,0
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Coloe A,0,5,0,True,c,False,False,0,0,0,10,0
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Cooper G,0,7,20,False,no,False,False,0,0,0,3,0
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Ganesh,0,2,0,True,c,False,False,0,0,0,0,0
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Greyling R,0,8,38,True,c,False,False,1,0,0,5,2
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Lestrelle A,0,6,2,True,b,False,False,0,0,0,0,0
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Piper-Masha S,0,3,4,True,b,False,False,0,0,0,1,0
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Wiseman R,0,9,10,True,c,False,False,1,0,0,2,0
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Woodhouse M,0,1,18,True,c,False,False,0,0,0,3,0
+-1,-1,2003-09-06 00:00:00,Lessa Wanderers,Worthington R,0,4,6,True,lb,False,True,0,0,0,1,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Cooper G,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Davies A,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Greyling R,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Mander C,0,7,0,False,dnb,True,True,0,3,1,0,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Mander N,0,2,88,True,lb,False,False,0,0,0,15,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Marks J,0,4,3,False,no,False,False,0,0,0,0,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Owen B,0,1,60,False,no,False,False,0,0,0,8,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Worthington R,0,3,0,True,b,False,False,0,0,0,0,0
+-1,-1,2003-09-14 00:00:00,Pretenders,Worthy J,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Clark C,0,12,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Coloe A,0,3,1,True,lb,False,False,0,0,0,0,0
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Fish R,0,8,17,False,no,False,False,0,0,0,2,1
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Greyling R,0,7,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Mander A,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Mander C,0,6,17,False,no,False,True,0,1,1,4,0
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Mander N,0,1,75,True,c,False,False,0,0,0,12,1
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Springer T,0,5,12,True,b,False,False,0,0,0,0,1
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Woodhouse M,0,2,6,True,b,False,False,0,0,0,1,0
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Worthington R,0,4,14,True,c,False,False,0,0,0,2,0
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Worthy J,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2003-09-20 00:00:00,Malden Wanderers,Young R,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2004-05-01 00:00:00,Caribbean,Bowers M,0,10,3,True,b,False,False,0,0,0,0,0
 -1,-1,2004-05-01 00:00:00,Caribbean,Cooper G,0,9,2,True,c,False,False,1,0,0,0,0
 -1,-1,2004-05-01 00:00:00,Caribbean,Greyling R,0,4,28,True,b,False,False,0,0,0,5,1
@@ -2100,8 +2957,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2004-06-05 00:00:00,Norwood Exiles,Heckroodt,0,6,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2004-06-05 00:00:00,Norwood Exiles,Leadley J,0,4,31,False,no,True,False,0,0,0,1,0
 -1,-1,2004-06-05 00:00:00,Norwood Exiles,Worthy J,0,7,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2004-06-12 00:00:00,Spencer,Angell A,0,2,4,True,b,False,False,0,0,0,0,0
 -1,-1,2004-06-12 00:00:00,Spencer,Billy,0,4,8,True,ro,False,False,0,0,0,0,0
+-1,-1,2004-06-12 00:00:00,Spencer,Angell A,0,2,4,True,b,False,False,0,0,0,0,0
 -1,-1,2004-06-12 00:00:00,Spencer,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2004-06-12 00:00:00,Spencer,Cooper G,0,10,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2004-06-12 00:00:00,Spencer,Greyling R,0,8,0,False,dnb,False,False,2,0,0,0,0
@@ -2144,9 +3001,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2004-07-02 00:00:00,Central YMCA,Young R,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2004-07-10 00:00:00,Sanderstead,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2004-07-10 00:00:00,Sanderstead,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2004-07-10 00:00:00,Sanderstead,Collins N,0,5,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2004-07-10 00:00:00,Sanderstead,Coloe A,0,2,1,False,no,False,False,0,0,0,0,0
 -1,-1,2004-07-10 00:00:00,Sanderstead,Cooper G,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2004-07-10 00:00:00,Sanderstead,Collins N,0,5,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2004-07-10 00:00:00,Sanderstead,Hawksworth A,0,1,10,True,ro,False,False,0,0,0,2,0
 -1,-1,2004-07-10 00:00:00,Sanderstead,Lestrelle J,0,4,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2004-07-10 00:00:00,Sanderstead,Sharpe D,0,6,0,False,dnb,False,False,0,0,0,0,0
@@ -2164,17 +3021,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2004-07-17 00:00:00,Old Josephians,Woodhouse M,0,1,2,True,b,False,True,0,0,0,0,0
 -1,-1,2004-07-17 00:00:00,Old Josephians,Worthington R,0,3,0,True,c,False,False,1,0,0,0,0
 -1,-1,2004-07-17 00:00:00,Old Josephians,Young R,0,9,0,True,c,False,False,0,0,0,0,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Angell A,0,2,5,True,c,False,False,0,0,0,0,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Bowers M,0,8,0,True,b,False,False,0,0,0,0,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Collins N,0,6,0,True,c,False,False,0,0,0,0,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Lashley W,0,7,20,True,c,False,False,0,0,0,0,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Leadley J,0,1,2,True,c,False,True,0,0,1,0,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Lestrelle J,0,5,5,True,c,True,False,0,0,0,1,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Mander A,0,10,7,True,c,False,False,0,0,0,0,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Odeneal R,0,4,7,True,b,False,False,0,0,0,1,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Wiseman R,0,9,3,True,lb,False,False,0,0,0,0,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Woodhouse M,0,3,5,True,c,False,False,1,0,0,1,0
--1,-1,2004-07-25 00:00:00,Worcester Park,Worthy J,0,11,8,False,no,False,False,0,0,0,0,0
 -1,-1,2004-07-31 00:00:00,Old Josephians,Clark C,0,11,17,False,no,False,False,0,0,0,3,0
 -1,-1,2004-07-31 00:00:00,Old Josephians,Coloe A,0,6,1,True,c,False,False,0,0,0,0,0
 -1,-1,2004-07-31 00:00:00,Old Josephians,Cooper G,0,3,6,True,lb,False,False,1,0,0,1,0
@@ -2186,31 +3032,12 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2004-07-31 00:00:00,Old Josephians,Wiseman R,0,10,0,True,c,False,False,0,0,0,0,0
 -1,-1,2004-07-31 00:00:00,Old Josephians,Woodhouse M,0,2,2,True,b,False,False,0,0,0,0,0
 -1,-1,2004-07-31 00:00:00,Old Josephians,Young R,0,9,5,True,b,False,False,0,0,0,1,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Bowers M,0,7,0,True,b,False,False,0,0,0,0,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Clark C,0,9,0,True,b,False,False,0,0,0,0,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Collins N,0,4,5,True,b,False,False,0,0,0,0,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Cooper G,0,5,21,False,no,False,False,0,0,0,0,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Elliston J,0,8,23,True,lb,False,False,0,0,0,4,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Lestrelle A,0,10,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Lestrelle J,0,2,7,True,lb,True,False,0,0,0,1,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Mander N,0,1,42,True,b,False,False,0,0,0,9,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Worthington R,0,3,12,True,lb,False,True,0,0,0,2,0
--1,-1,2004-08-01 00:00:00,Whyteleaf,Worthy J,0,6,8,True,b,False,False,1,0,0,2,0
 -1,-1,2004-08-07 00:00:00,Seven O,Bowers M,0,10,3,False,no,False,False,1,0,0,0,0
 -1,-1,2004-08-07 00:00:00,Seven O,Clark C,0,11,0,False,dnb,True,False,0,0,0,0,0
--1,-1,2004-08-07 00:00:00,Seven O,Collins N,0,4,4,True,c,False,False,0,0,0,1,0
 -1,-1,2004-08-07 00:00:00,Seven O,Cooper G,0,9,15,False,no,False,False,0,0,0,2,0
 -1,-1,2004-08-07 00:00:00,Seven O,Edghill C,0,2,6,True,c,False,False,0,0,0,1,0
+-1,-1,2004-08-07 00:00:00,Seven O,Collins N,0,4,4,True,c,False,False,0,0,0,1,0
 -1,-1,2004-08-07 00:00:00,Seven O,Woodhouse M,0,1,15,True,lb,False,True,0,0,0,2,0
--1,-1,2004-08-14 00:00:00,Riverside,Bowers M,0,10,2,False,no,False,False,0,0,0,0,0
--1,-1,2004-08-14 00:00:00,Riverside,Cooper G,0,9,0,True,c,False,False,0,0,0,0,0
--1,-1,2004-08-14 00:00:00,Riverside,Edghill C,0,4,13,True,c,False,False,0,0,0,2,0
--1,-1,2004-08-14 00:00:00,Riverside,Lashley W,0,6,16,True,b,False,False,0,0,0,2,0
--1,-1,2004-08-14 00:00:00,Riverside,Leadley J,0,1,12,True,c,False,True,0,1,0,2,0
--1,-1,2004-08-14 00:00:00,Riverside,Lestrelle A,0,7,8,True,b,False,False,0,0,0,0,0
--1,-1,2004-08-14 00:00:00,Riverside,Lestrelle J,0,5,42,True,c,True,False,0,0,0,3,0
--1,-1,2004-08-14 00:00:00,Riverside,Woodhouse M,0,2,10,True,c,False,False,0,0,0,0,0
--1,-1,2004-08-14 00:00:00,Riverside,Worthington R,0,3,1,True,c,False,False,0,0,0,0,0
 -1,-1,2004-08-22 00:00:00,East Cheam,Bowers M,0,10,1,False,no,False,False,0,0,0,0,0
 -1,-1,2004-08-22 00:00:00,East Cheam,Coloe A,0,2,5,True,lb,False,False,0,0,0,1,0
 -1,-1,2004-08-22 00:00:00,East Cheam,Cooper G,0,8,11,True,c,False,False,0,0,0,1,0
@@ -2239,6 +3066,36 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2004-09-04 00:00:00,LESSA  Wdrs,Mander N,0,2,63,True,b,False,False,0,0,0,11,1
 -1,-1,2004-09-04 00:00:00,LESSA  Wdrs,Worthington R,0,4,18,False,no,False,False,0,0,0,2,0
 -1,-1,2004-09-04 00:00:00,LESSA  Wdrs,Young R,0,10,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Angell A,0,2,5,True,c,False,False,0,0,0,0,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Bowers M,0,8,0,True,b,False,False,0,0,0,0,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Collins N,0,6,0,True,c,False,False,0,0,0,0,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Lashley W,0,7,20,True,c,False,False,0,0,0,0,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Leadley J,0,1,2,True,c,False,True,0,0,1,0,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Lestrelle J,0,5,5,True,c,True,False,0,0,0,1,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Mander A,0,10,7,True,c,False,False,0,0,0,0,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Odeneal R,0,4,7,True,b,False,False,0,0,0,1,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Wiseman R,0,9,3,True,lb,False,False,0,0,0,0,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Woodhouse M,0,3,5,True,c,False,False,1,0,0,1,0
+-1,-1,2004-07-25 00:00:00,Worcester Park,Worthy J,0,11,8,False,no,False,False,0,0,0,0,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Bowers M,0,7,0,True,b,False,False,0,0,0,0,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Clark C,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Cooper G,0,5,21,False,no,False,False,0,0,0,0,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Elliston J,0,8,23,True,lb,False,False,0,0,0,4,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Collins N,0,4,5,True,b,False,False,0,0,0,0,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Lestrelle A,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Lestrelle J,0,2,7,True,lb,True,False,0,0,0,1,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Mander N,0,1,42,True,b,False,False,0,0,0,9,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Worthington R,0,3,12,True,lb,False,True,0,0,0,2,0
+-1,-1,2004-08-01 00:00:00,Whyteleaf,Worthy J,0,6,8,True,b,False,False,1,0,0,2,0
+-1,-1,2004-08-14 00:00:00,Riverside,Bowers M,0,10,2,False,no,False,False,0,0,0,0,0
+-1,-1,2004-08-14 00:00:00,Riverside,Cooper G,0,9,0,True,c,False,False,0,0,0,0,0
+-1,-1,2004-08-14 00:00:00,Riverside,Edghill C,0,4,13,True,c,False,False,0,0,0,2,0
+-1,-1,2004-08-14 00:00:00,Riverside,Lashley W,0,6,16,True,b,False,False,0,0,0,2,0
+-1,-1,2004-08-14 00:00:00,Riverside,Leadley J,0,1,12,True,c,False,True,0,1,0,2,0
+-1,-1,2004-08-14 00:00:00,Riverside,Lestrelle A,0,7,8,True,b,False,False,0,0,0,0,0
+-1,-1,2004-08-14 00:00:00,Riverside,Lestrelle J,0,5,42,True,c,True,False,0,0,0,3,0
+-1,-1,2004-08-14 00:00:00,Riverside,Woodhouse M,0,2,10,True,c,False,False,0,0,0,0,0
+-1,-1,2004-08-14 00:00:00,Riverside,Worthington R,0,3,1,True,c,False,False,0,0,0,0,0
 -1,-1,2004-09-05 00:00:00,Giltec,Bowers M,0,9,1,False,no,False,False,0,0,0,0,0
 -1,-1,2004-09-05 00:00:00,Giltec,Cooper G,0,2,4,True,lb,False,False,0,0,0,0,0
 -1,-1,2004-09-05 00:00:00,Giltec,Elliston J,0,10,4,True,c,False,False,0,0,0,1,0
@@ -2260,6 +3117,16 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2004-09-12 00:00:00,Pretenders,Lestrelle J,0,3,13,True,b,True,False,1,0,0,2,0
 -1,-1,2004-09-12 00:00:00,Pretenders,Mander N,0,2,65,True,c,False,False,1,0,0,10,1
 -1,-1,2004-09-12 00:00:00,Pretenders,Worthington R,0,4,25,True,b,False,False,0,0,0,3,1
+-1,-1,2005-05-21 00:00:00,Seven O,Bowers M,0,9,8,True,c,False,False,0,0,0,2,0
+-1,-1,2005-05-21 00:00:00,Seven O,Clark C,0,10,13,False,no,True,False,0,0,0,2,0
+-1,-1,2005-05-21 00:00:00,Seven O,Coloe A,0,8,0,True,c,False,False,0,0,0,0,0
+-1,-1,2005-05-21 00:00:00,Seven O,Cooper G,0,3,15,True,lb,False,False,0,0,0,1,0
+-1,-1,2005-05-21 00:00:00,Seven O,Leadley J,0,1,0,True,b,False,True,0,0,0,0,0
+-1,-1,2005-05-21 00:00:00,Seven O,Middleton,0,6,22,True,lb,False,False,1,0,0,2,0
+-1,-1,2005-05-21 00:00:00,Seven O,Rollins R,0,5,1,True,b,False,False,0,0,0,0,0
+-1,-1,2005-05-21 00:00:00,Seven O,Smith C,0,7,1,True,b,False,False,0,0,0,0,0
+-1,-1,2005-05-21 00:00:00,Seven O,Wiseman R,0,4,0,True,b,False,False,1,0,0,0,0
+-1,-1,2005-05-21 00:00:00,Seven O,Woodhouse M,0,2,0,True,ro,False,False,0,0,0,0,0
 -1,-1,2005-05-01 00:00:00,John Fisher/Lamgas,Bowers M,0,10,11,False,no,False,False,0,0,0,1,0
 -1,-1,2005-05-01 00:00:00,John Fisher/Lamgas,Clark C,0,11,10,False,no,False,False,0,0,0,1,0
 -1,-1,2005-05-01 00:00:00,John Fisher/Lamgas,Cooper G,0,6,7,True,c,False,False,0,0,0,0,0
@@ -2292,16 +3159,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2005-05-15 00:00:00,Thurlow Park RAFA,Middleton,0,5,49,True,b,False,False,0,0,0,4,1
 -1,-1,2005-05-15 00:00:00,Thurlow Park RAFA,Patel N,0,3,0,True,lb,False,False,0,0,0,0,0
 -1,-1,2005-05-15 00:00:00,Thurlow Park RAFA,Woodhouse M,0,1,20,True,c,False,False,1,0,0,4,0
--1,-1,2005-05-21 00:00:00,Seven O,Bowers M,0,9,8,True,c,False,False,0,0,0,2,0
--1,-1,2005-05-21 00:00:00,Seven O,Clark C,0,10,13,False,no,True,False,0,0,0,2,0
--1,-1,2005-05-21 00:00:00,Seven O,Coloe A,0,8,0,True,c,False,False,0,0,0,0,0
--1,-1,2005-05-21 00:00:00,Seven O,Cooper G,0,3,15,True,lb,False,False,0,0,0,1,0
--1,-1,2005-05-21 00:00:00,Seven O,Leadley J,0,1,0,True,b,False,True,0,0,0,0,0
--1,-1,2005-05-21 00:00:00,Seven O,Middleton,0,6,22,True,lb,False,False,1,0,0,2,0
--1,-1,2005-05-21 00:00:00,Seven O,Rollins R,0,5,1,True,b,False,False,0,0,0,0,0
--1,-1,2005-05-21 00:00:00,Seven O,Smith C,0,7,1,True,b,False,False,0,0,0,0,0
--1,-1,2005-05-21 00:00:00,Seven O,Wiseman R,0,4,0,True,b,False,False,1,0,0,0,0
--1,-1,2005-05-21 00:00:00,Seven O,Woodhouse M,0,2,0,True,ro,False,False,0,0,0,0,0
 -1,-1,2005-05-28 00:00:00,Old Alleynians,Brocks D,0,6,4,True,c,False,False,0,0,0,1,0
 -1,-1,2005-05-28 00:00:00,Old Alleynians,Clark C,0,11,10,False,no,True,False,0,0,0,2,0
 -1,-1,2005-05-28 00:00:00,Old Alleynians,Edghill C,0,4,28,True,c,False,False,0,0,0,6,0
@@ -2347,17 +3204,17 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2005-05-31 00:00:00,Cove,Woodhouse M,0,2,19,True,c,True,False,0,0,0,3,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Anand,0,4,30,True,b,False,False,1,0,0,0,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Clark C,0,11,24,False,no,True,False,0,0,0,3,0
--1,-1,2005-06-04 00:00:00,Central YMCA,Collins N,0,5,13,True,c,False,False,0,0,0,0,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Coloe A,0,8,24,True,lb,False,False,0,0,0,6,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Cooper G,0,10,21,False,no,False,False,1,0,0,2,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Edghill C,0,3,3,True,b,False,False,1,0,0,0,0
+-1,-1,2005-06-04 00:00:00,Central YMCA,Collins N,0,5,13,True,c,False,False,0,0,0,0,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Leadley J,0,6,17,True,lb,False,False,1,0,0,3,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Lestrelle J,0,7,9,True,c,False,True,0,1,0,0,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Smith C,0,9,7,True,ro,False,False,0,0,0,1,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Sudesh,0,2,0,True,c,False,False,0,0,0,0,0
 -1,-1,2005-06-04 00:00:00,Central YMCA,Woodhouse M,0,1,9,True,b,False,False,0,0,0,2,0
--1,-1,2005-06-11 00:00:00,Churchleigh,Anand,0,4,0,True,b,False,False,0,0,0,0,0
 -1,-1,2005-06-11 00:00:00,Churchleigh,Bowers M,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,2005-06-11 00:00:00,Churchleigh,Anand,0,4,0,True,b,False,False,0,0,0,0,0
 -1,-1,2005-06-11 00:00:00,Churchleigh,Clark C,0,11,1,False,no,True,False,0,0,0,0,0
 -1,-1,2005-06-11 00:00:00,Churchleigh,Coloe A,0,5,8,True,c,False,False,0,0,0,1,0
 -1,-1,2005-06-11 00:00:00,Churchleigh,Cooper G,0,2,5,True,b,False,False,0,0,0,1,0
@@ -2377,8 +3234,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2005-06-12 00:00:00,Giltec,Mander N,0,1,154,False,no,False,True,0,1,0,22,3
 -1,-1,2005-06-12 00:00:00,Giltec,Rollins R,0,3,9,True,b,False,False,0,0,0,2,0
 -1,-1,2005-06-12 00:00:00,Giltec,Smith C,0,5,0,True,lb,False,False,0,0,0,0,0
--1,-1,2005-06-18 00:00:00,Seven O,Anand,0,5,9,True,st,False,False,0,0,0,1,0
 -1,-1,2005-06-18 00:00:00,Seven O,Bowers M,0,10,2,False,no,False,False,0,0,0,0,0
+-1,-1,2005-06-18 00:00:00,Seven O,Anand,0,5,9,True,st,False,False,0,0,0,1,0
 -1,-1,2005-06-18 00:00:00,Seven O,Clark C,0,11,0,False,no,True,False,0,0,0,0,0
 -1,-1,2005-06-18 00:00:00,Seven O,Coloe A,0,1,49,True,b,False,False,2,0,0,7,0
 -1,-1,2005-06-18 00:00:00,Seven O,Cooper G,0,7,5,True,ro,False,False,0,0,0,1,0
@@ -3035,17 +3892,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2008-07-06 00:00:00,Norwood Exiles,Seymour C,0,9,5,True,c,False,False,0,0,0,1,0
 -1,-1,2008-07-06 00:00:00,Norwood Exiles,Sharpe D,0,3,11,True,b,False,False,0,0,0,2,0
 -1,-1,2008-07-06 00:00:00,Norwood Exiles,Smith C,0,5,1,True,c,False,False,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Clark C,0,11,0,False,dnb,True,False,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Cooper G,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Edghill C,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Greyling R,0,7,3,False,no,False,False,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Johnson A,0,1,9,True,ro,False,True,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Kiernan M,0,3,15,False,no,False,False,0,0,0,1,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Seymour C,0,5,1,True,c,False,False,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Sharpe D,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Singh R,0,4,1,True,c,False,False,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Smith C,0,2,7,True,c,False,False,0,0,0,0,0
--1,-1,2008-07-13 00:00:00,Old Josephians,Wright P,0,6,8,True,ro,False,False,1,0,0,0,1
 -1,-1,2008-07-13 00:00:00,Statics,Clark C,0,8,0,False,dnb,True,False,1,0,0,0,0
 -1,-1,2008-07-13 00:00:00,Statics,Cooper G,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2008-07-13 00:00:00,Statics,Edghill C,0,2,19,True,lb,False,False,0,0,0,1,0
@@ -3057,6 +3903,17 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2008-07-13 00:00:00,Statics,Singh R,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2008-07-13 00:00:00,Statics,Smith C,0,6,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2008-07-13 00:00:00,Statics,Wright P,0,4,12,False,no,False,False,0,0,0,1,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Clark C,0,11,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Cooper G,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Edghill C,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Greyling R,0,7,3,False,no,False,False,0,0,0,0,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Johnson A,0,1,9,True,ro,False,True,0,0,0,0,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Kiernan M,0,3,15,False,no,False,False,0,0,0,1,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Seymour C,0,5,1,True,c,False,False,0,0,0,0,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Sharpe D,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Singh R,0,4,1,True,c,False,False,0,0,0,0,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Smith C,0,2,7,True,c,False,False,0,0,0,0,0
+-1,-1,2008-07-13 00:00:00,Old Josephians,Wright P,0,6,8,True,ro,False,False,1,0,0,0,1
 -1,-1,2008-07-19 00:00:00,LESSA Wanderers,Chitnavis B,0,4,15,True,c,False,False,0,0,0,2,0
 -1,-1,2008-07-19 00:00:00,LESSA Wanderers,Clark C,0,11,4,True,b,True,False,0,0,0,1,0
 -1,-1,2008-07-19 00:00:00,LESSA Wanderers,Clarkson M,0,7,6,True,b,False,False,0,0,0,1,0
@@ -3304,8 +4161,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2009-07-19 00:00:00,Southern Railways,Walker G,0,9,1,True,b,False,False,0,0,0,0,0
 -1,-1,2009-07-26 00:00:00,Norwood,Bowers M,0,11,21,False,no,False,False,0,0,0,4,0
 -1,-1,2009-07-26 00:00:00,Norwood,Clark C,0,10,0,True,b,True,False,0,0,0,0,0
--1,-1,2009-07-26 00:00:00,Norwood,de Souza C,0,8,0,True,c,False,False,0,0,0,0,0
 -1,-1,2009-07-26 00:00:00,Norwood,Dickson G,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,2009-07-26 00:00:00,Norwood,de Souza C,0,8,0,True,c,False,False,0,0,0,0,0
 -1,-1,2009-07-26 00:00:00,Norwood,Greyling R,0,3,14,True,c,False,True,0,1,1,3,0
 -1,-1,2009-07-26 00:00:00,Norwood,Johnson A,0,5,0,True,ro,False,False,0,0,0,0,0
 -1,-1,2009-07-26 00:00:00,Norwood,Lovell A,0,7,0,True,b,False,False,1,0,0,0,0
@@ -3510,8 +4367,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2010-07-18 00:00:00,Sthn Rlways & Kenley,Bowers M,0,10,15,True,c,False,False,0,0,0,3,0
 -1,-1,2010-07-18 00:00:00,Sthn Rlways & Kenley,Childs S,0,5,3,True,c,False,False,0,0,0,0,0
 -1,-1,2010-07-18 00:00:00,Sthn Rlways & Kenley,Clark C,0,11,0,False,no,True,False,0,0,0,0,0
--1,-1,2010-07-18 00:00:00,Sthn Rlways & Kenley,de Souza C,0,6,2,True,b,False,False,0,0,0,0,0
 -1,-1,2010-07-18 00:00:00,Sthn Rlways & Kenley,Dickson G,0,7,12,True,c,False,False,0,0,0,3,0
+-1,-1,2010-07-18 00:00:00,Sthn Rlways & Kenley,de Souza C,0,6,2,True,b,False,False,0,0,0,0,0
 -1,-1,2010-07-18 00:00:00,Sthn Rlways & Kenley,Kiernan M,0,9,0,True,lb,False,False,0,0,0,0,0
 -1,-1,2010-07-18 00:00:00,Sthn Rlways & Kenley,Middleton J,0,4,2,True,lb,False,False,0,0,0,0,0
 -1,-1,2010-07-18 00:00:00,Sthn Rlways & Kenley,Nair S,0,8,51,True,b,False,False,0,0,0,9,0
@@ -3551,8 +4408,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2010-08-08 00:00:00,John Fisher Lamgas,Nair S,0,1,25,True,c,False,False,0,0,0,3,0
 -1,-1,2010-08-08 00:00:00,John Fisher Lamgas,Seymour C,0,2,5,True,lb,False,False,0,0,0,0,0
 -1,-1,2010-08-08 00:00:00,John Fisher Lamgas,Sunkara C,0,3,35,True,b,False,False,0,0,0,5,0
--1,-1,2010-08-15 00:00:00,YRG Eagles,Bennell N,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2010-08-15 00:00:00,YRG Eagles,Bowers M,0,3,0,True,c,False,False,0,0,0,0,0
+-1,-1,2010-08-15 00:00:00,YRG Eagles,Bennell N,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2010-08-15 00:00:00,YRG Eagles,Clark C,0,11,0,False,dnb,True,False,2,0,0,0,0
 -1,-1,2010-08-15 00:00:00,YRG Eagles,Clarkson M,0,5,4,True,ro,False,True,0,1,1,0,0
 -1,-1,2010-08-15 00:00:00,YRG Eagles,Kiernan M,0,10,0,False,dnb,False,False,0,0,0,0,0
@@ -3708,8 +4565,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2011-06-05 00:00:00,Carshalton,Bowers M,0,7,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-06-05 00:00:00,Carshalton,Clark C,0,11,0,False,dnb,True,False,0,0,0,0,0
 -1,-1,2011-06-05 00:00:00,Carshalton,Clarkson M,0,6,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2011-06-05 00:00:00,Carshalton,Edghill C,0,1,0,False,dnb,False,True,0,0,0,0,0
 -1,-1,2011-06-05 00:00:00,Carshalton,Edghill D,0,2,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2011-06-05 00:00:00,Carshalton,Edghill C,0,1,0,False,dnb,False,True,0,0,0,0,0
 -1,-1,2011-06-05 00:00:00,Carshalton,Mander A,0,5,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-06-05 00:00:00,Carshalton,Middleton J,0,4,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-06-05 00:00:00,Carshalton,Seymour C,0,3,0,False,dnb,False,False,0,0,0,0,0
@@ -3783,9 +4640,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2011-07-31 00:00:00,Carlton Sports,Sunkara C,0,3,44,True,b,False,False,0,0,0,5,0
 -1,-1,2011-08-07 00:00:00,West One,Ahmed A,0,8,11,True,b,False,False,0,0,0,2,0
 -1,-1,2011-08-07 00:00:00,West One,Clarkson M,0,6,8,True,c,False,False,0,0,0,0,0
--1,-1,2011-08-07 00:00:00,West One,Edghill C,0,4,36,True,b,False,False,0,0,0,5,0
 -1,-1,2011-08-07 00:00:00,West One,Edghill D,0,7,0,True,b,False,False,0,0,0,0,0
 -1,-1,2011-08-07 00:00:00,West One,Edghill R,0,9,2,True,b,False,False,0,0,0,0,0
+-1,-1,2011-08-07 00:00:00,West One,Edghill C,0,4,36,True,b,False,False,0,0,0,5,0
 -1,-1,2011-08-07 00:00:00,West One,Middleton J,0,10,19,False,no,True,False,1,0,0,3,1
 -1,-1,2011-08-07 00:00:00,West One,Rao A,0,1,33,True,c,False,True,0,0,0,5,0
 -1,-1,2011-08-07 00:00:00,West One,Seymour C,0,3,0,True,c,False,False,0,0,0,0,0
@@ -3795,8 +4652,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2011-08-14 00:00:00,Beddington,Clark C,0,11,0,False,dnb,True,False,2,0,0,0,0
 -1,-1,2011-08-14 00:00:00,Beddington,Colling N,0,5,19,False,no,False,True,0,1,0,2,0
 -1,-1,2011-08-14 00:00:00,Beddington,Davies R,0,6,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2011-08-14 00:00:00,Beddington,Edghill C,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-08-14 00:00:00,Beddington,Edghill R,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2011-08-14 00:00:00,Beddington,Edghill C,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-08-14 00:00:00,Beddington,Middleton J,0,4,14,True,c,False,False,2,0,0,2,1
 -1,-1,2011-08-14 00:00:00,Beddington,Rao A,0,3,46,False,no,False,False,1,0,0,6,0
 -1,-1,2011-08-14 00:00:00,Beddington,Seymour C,0,8,0,False,dnb,False,False,0,0,0,0,0
@@ -3817,9 +4674,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2011-08-28 00:00:00,LESSA Wanderers,Bowers M,0,10,0,True,c,False,False,0,0,0,0,0
 -1,-1,2011-08-28 00:00:00,LESSA Wanderers,Clark C,0,7,2,True,b,True,False,0,0,0,0,0
 -1,-1,2011-08-28 00:00:00,LESSA Wanderers,Colling N,0,8,0,True,c,False,True,0,0,0,0,0
--1,-1,2011-08-28 00:00:00,LESSA Wanderers,Edghill C,0,6,28,True,c,False,False,1,0,0,4,0
 -1,-1,2011-08-28 00:00:00,LESSA Wanderers,Edghill D,0,5,36,True,c,False,False,0,0,0,4,0
 -1,-1,2011-08-28 00:00:00,LESSA Wanderers,Edghill R,0,9,3,False,no,False,False,0,0,0,0,0
+-1,-1,2011-08-28 00:00:00,LESSA Wanderers,Edghill C,0,6,28,True,c,False,False,1,0,0,4,0
 -1,-1,2011-08-28 00:00:00,LESSA Wanderers,Rao A,0,1,0,True,c,False,False,0,0,0,0,0
 -1,-1,2011-08-28 00:00:00,LESSA Wanderers,Seymour C,0,4,27,True,c,False,False,0,0,0,3,0
 -1,-1,2011-08-28 00:00:00,LESSA Wanderers,Smith C,0,11,0,False,no,False,False,0,0,0,0,0
@@ -3838,9 +4695,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2011-09-04 00:00:00,Churchleigh,Woodhouse M,0,8,1,True,b,False,False,0,0,0,0,0
 -1,-1,2011-09-11 00:00:00,Sanderstead,Clark C,0,11,4,True,c,True,False,0,0,0,0,0
 -1,-1,2011-09-11 00:00:00,Sanderstead,Clarkson M,0,6,3,True,c,False,False,0,0,0,0,0
--1,-1,2011-09-11 00:00:00,Sanderstead,Edghill C,0,9,4,True,lb,False,False,0,0,0,1,0
 -1,-1,2011-09-11 00:00:00,Sanderstead,Edghill D,0,7,13,True,c,False,False,0,0,0,1,0
 -1,-1,2011-09-11 00:00:00,Sanderstead,Edghill R,0,8,3,True,b,False,False,1,0,0,0,0
+-1,-1,2011-09-11 00:00:00,Sanderstead,Edghill C,0,9,4,True,lb,False,False,0,0,0,1,0
 -1,-1,2011-09-11 00:00:00,Sanderstead,Middleton J,0,4,86,True,lb,False,False,0,0,0,12,3
 -1,-1,2011-09-11 00:00:00,Sanderstead,Seymour C,0,2,1,True,b,False,False,0,0,0,0,0
 -1,-1,2011-09-11 00:00:00,Sanderstead,Smith C,0,10,0,False,no,False,False,0,0,0,0,0
@@ -3849,8 +4706,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2011-09-11 00:00:00,Sanderstead,Worthington R,0,5,1,True,c,False,True,0,3,0,0,0
 -1,-1,2011-09-18 00:00:00,St Mary Cray,Bowers M,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-09-18 00:00:00,St Mary Cray,Clarkson M,0,1,2,True,lb,False,False,0,0,0,0,0
--1,-1,2011-09-18 00:00:00,St Mary Cray,Edghill C,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-09-18 00:00:00,St Mary Cray,Edghill R,0,6,22,False,no,False,False,0,0,0,3,0
+-1,-1,2011-09-18 00:00:00,St Mary Cray,Edghill C,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-09-18 00:00:00,St Mary Cray,Middleton J,0,4,1,True,c,False,False,0,0,0,0,0
 -1,-1,2011-09-18 00:00:00,St Mary Cray,Nair S,0,7,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2011-09-18 00:00:00,St Mary Cray,Rao A,0,3,29,True,c,False,False,1,0,0,6,0
@@ -3859,8 +4716,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2011-09-18 00:00:00,St Mary Cray,Singh G,0,8,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2011-09-18 00:00:00,St Mary Cray,Smith C,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-09-25 00:00:00,Bromley Town & Old Bromley,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2011-09-25 00:00:00,Bromley Town & Old Bromley,Edghill C,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-09-25 00:00:00,Bromley Town & Old Bromley,Edghill D,0,8,3,True,c,False,False,0,0,0,0,0
+-1,-1,2011-09-25 00:00:00,Bromley Town & Old Bromley,Edghill C,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2011-09-25 00:00:00,Bromley Town & Old Bromley,Middleton J,0,6,47,False,no,False,False,0,0,0,2,3
 -1,-1,2011-09-25 00:00:00,Bromley Town & Old Bromley,Rao A,0,3,19,True,c,False,False,0,0,0,3,0
 -1,-1,2011-09-25 00:00:00,Bromley Town & Old Bromley,Seymour C,0,2,33,True,c,False,False,1,0,0,4,0
@@ -3883,8 +4740,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2012-05-20 00:00:00,Lettsom XI,Clark C,0,11,0,False,dnb,True,False,0,0,0,0,0
 -1,-1,2012-05-20 00:00:00,Lettsom XI,Clarkson M,0,6,11,True,c,False,False,1,0,0,1,1
 -1,-1,2012-05-20 00:00:00,Lettsom XI,Cooper G,0,10,2,False,no,False,False,0,0,0,0,0
--1,-1,2012-05-20 00:00:00,Lettsom XI,Edghill C,0,8,6,True,lb,False,True,0,1,0,0,0
 -1,-1,2012-05-20 00:00:00,Lettsom XI,Edghill R,0,9,7,False,no,False,False,0,0,0,0,0
+-1,-1,2012-05-20 00:00:00,Lettsom XI,Edghill C,0,8,6,True,lb,False,True,0,1,0,0,0
 -1,-1,2012-05-20 00:00:00,Lettsom XI,Middleton J,0,5,0,True,lb,False,False,1,0,0,0,0
 -1,-1,2012-05-20 00:00:00,Lettsom XI,Seymour C,0,3,23,True,c,False,False,0,0,0,4,0
 -1,-1,2012-05-20 00:00:00,Lettsom XI,Sharpe D,0,1,86,True,c,False,False,0,0,0,13,3
@@ -3926,8 +4783,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2012-06-03 00:00:00,Woodgreen,Springer T,0,1,59,True,b,False,False,0,0,0,6,3
 -1,-1,2012-06-04 00:00:00,Steeple Langford,Azfar S,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2012-06-04 00:00:00,Steeple Langford,Clarkson M,0,4,8,True,lb,True,False,1,0,0,1,0
--1,-1,2012-06-04 00:00:00,Steeple Langford,Edghill C,0,2,13,True,b,False,True,0,1,0,2,0
 -1,-1,2012-06-04 00:00:00,Steeple Langford,Edghill R,0,7,0,False,dnb,False,False,3,0,0,0,0
+-1,-1,2012-06-04 00:00:00,Steeple Langford,Edghill C,0,2,13,True,b,False,True,0,1,0,2,0
 -1,-1,2012-06-04 00:00:00,Steeple Langford,Greyling R,0,3,29,True,b,False,False,0,0,0,4,0
 -1,-1,2012-06-04 00:00:00,Steeple Langford,Kiernan M,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2012-06-04 00:00:00,Steeple Langford,Lestrelle J,0,5,13,False,no,False,False,0,0,0,0,0
@@ -3978,9 +4835,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2012-06-24 00:00:00,Bromley Town & OB,Sunkara C,0,7,17,True,c,False,False,0,0,0,0,0
 -1,-1,2012-06-24 00:00:00,Bromley Town & OB,Vashisthta,0,10,5,True,st,False,False,0,0,0,1,0
 -1,-1,2012-07-01 00:00:00,RACS,Clarkson M,0,7,4,True,lb,False,False,0,0,0,1,0
--1,-1,2012-07-01 00:00:00,RACS,Edghill C,0,11,11,False,no,False,False,0,0,0,1,0
 -1,-1,2012-07-01 00:00:00,RACS,Edghill D,0,8,5,True,b,False,False,0,0,0,0,0
 -1,-1,2012-07-01 00:00:00,RACS,Edghill R,0,10,2,True,b,False,False,0,0,0,0,0
+-1,-1,2012-07-01 00:00:00,RACS,Edghill C,0,11,11,False,no,False,False,0,0,0,1,0
 -1,-1,2012-07-01 00:00:00,RACS,Middleton J,0,6,0,True,b,False,False,0,0,0,0,0
 -1,-1,2012-07-01 00:00:00,RACS,Nair S,0,2,0,True,b,False,False,0,0,0,0,0
 -1,-1,2012-07-01 00:00:00,RACS,Seymour C,0,5,5,True,c,False,False,0,0,0,0,0
@@ -3990,8 +4847,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2012-07-01 00:00:00,RACS,Woodhouse M,0,1,13,True,b,False,False,0,0,0,1,0
 -1,-1,2012-07-15 00:00:00,Sthn Rlways & Kenley,Clark C,0,11,2,False,no,False,False,0,0,0,0,0
 -1,-1,2012-07-15 00:00:00,Sthn Rlways & Kenley,Clarkson M,0,6,2,True,c,False,False,0,0,0,0,0
--1,-1,2012-07-15 00:00:00,Sthn Rlways & Kenley,Edghill C,0,9,2,True,b,False,False,0,0,0,0,0
 -1,-1,2012-07-15 00:00:00,Sthn Rlways & Kenley,Edghill R,0,10,2,True,b,False,False,0,0,0,0,0
+-1,-1,2012-07-15 00:00:00,Sthn Rlways & Kenley,Edghill C,0,9,2,True,b,False,False,0,0,0,0,0
 -1,-1,2012-07-15 00:00:00,Sthn Rlways & Kenley,Middleton J,0,3,66,True,b,False,False,0,0,0,9,2
 -1,-1,2012-07-15 00:00:00,Sthn Rlways & Kenley,Rao A,0,2,0,True,c,False,False,0,0,0,0,0
 -1,-1,2012-07-15 00:00:00,Sthn Rlways & Kenley,Seymour C,0,7,1,True,b,False,False,0,0,0,0,0
@@ -4031,8 +4888,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2012-08-19 00:00:00,Beddington,Sharpe D,0,2,49,True,c,True,True,0,0,1,11,0
 -1,-1,2012-08-19 00:00:00,Beddington,Smith C,0,5,0,True,lb,False,False,0,0,0,0,0
 -1,-1,2012-08-19 00:00:00,Beddington,Sunkara C,0,6,20,True,st,False,False,0,0,0,1,0
--1,-1,2012-08-26 00:00:00,Norwood Exiles,Edghill C,0,1,21,True,c,False,False,0,0,0,4,0
 -1,-1,2012-08-26 00:00:00,Norwood Exiles,Edghill D,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2012-08-26 00:00:00,Norwood Exiles,Edghill C,0,1,21,True,c,False,False,0,0,0,4,0
 -1,-1,2012-08-26 00:00:00,Norwood Exiles,Isaacs M,0,2,10,True,b,False,False,0,0,0,0,0
 -1,-1,2012-08-26 00:00:00,Norwood Exiles,Kiernan M,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2012-08-26 00:00:00,Norwood Exiles,Mander A,0,10,0,False,dnb,False,False,0,0,0,0,0
@@ -4042,8 +4899,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2012-08-26 00:00:00,Norwood Exiles,Smith C,0,5,1,False,no,False,False,0,0,0,0,0
 -1,-1,2012-08-26 00:00:00,Norwood Exiles,Vashisthta,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2012-08-26 00:00:00,Norwood Exiles,Winter T,0,7,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2012-09-02 00:00:00,Sanderstead,Edghill C,0,2,4,True,c,False,False,0,0,0,1,0
 -1,-1,2012-09-02 00:00:00,Sanderstead,Edghill D,0,8,4,False,no,False,False,0,0,0,0,0
+-1,-1,2012-09-02 00:00:00,Sanderstead,Edghill C,0,2,4,True,c,False,False,0,0,0,1,0
 -1,-1,2012-09-02 00:00:00,Sanderstead,Leadley J,0,10,0,False,no,False,False,0,0,0,0,0
 -1,-1,2012-09-02 00:00:00,Sanderstead,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2012-09-02 00:00:00,Sanderstead,Middleton J,0,5,27,True,ro,False,False,0,0,0,4,0
@@ -4065,9 +4922,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2012-09-09 00:00:00,Chadwick,Vashisthta,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2012-09-09 00:00:00,Chadwick,Woodhouse M,0,1,3,True,lb,False,False,0,0,0,0,0
 -1,-1,2012-09-16 00:00:00,Statics,Clark C,0,11,0,False,no,True,False,0,0,0,0,0
--1,-1,2012-09-16 00:00:00,Statics,Edghill C,0,5,0,True,b,False,False,0,0,0,0,0
 -1,-1,2012-09-16 00:00:00,Statics,Edghill D,0,8,0,True,c,False,False,0,0,0,0,0
 -1,-1,2012-09-16 00:00:00,Statics,Edghill R,0,7,11,True,b,False,False,2,0,0,1,0
+-1,-1,2012-09-16 00:00:00,Statics,Edghill C,0,5,0,True,b,False,False,0,0,0,0,0
 -1,-1,2012-09-16 00:00:00,Statics,Mander A,0,10,10,True,c,False,False,0,0,0,2,0
 -1,-1,2012-09-16 00:00:00,Statics,Middleton J,0,4,12,True,c,False,False,0,0,0,0,1
 -1,-1,2012-09-16 00:00:00,Statics,Rao A,0,2,4,True,b,False,True,0,1,1,0,0
@@ -4087,9 +4944,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-04-28 00:00:00,Sanderstead,Springer T,0,3,50,False,no,False,False,0,0,0,3,0
 -1,-1,2013-04-28 00:00:00,Sanderstead,Sunkara C,0,7,7,True,b,False,False,0,0,0,0,0
 -1,-1,2013-05-05 00:00:00,Churchleigh,Azfar S,0,6,12,False,no,False,False,0,0,0,2,0
--1,-1,2013-05-05 00:00:00,Churchleigh,Edghill C,0,5,15,True,lb,False,True,0,1,0,1,1
 -1,-1,2013-05-05 00:00:00,Churchleigh,Edghill D,0,3,31,True,c,False,False,1,0,0,4,0
 -1,-1,2013-05-05 00:00:00,Churchleigh,Edghill R,0,7,1,True,b,False,False,1,0,0,0,0
+-1,-1,2013-05-05 00:00:00,Churchleigh,Edghill C,0,5,15,True,lb,False,True,0,1,0,1,1
 -1,-1,2013-05-05 00:00:00,Churchleigh,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-05-05 00:00:00,Churchleigh,Middleton J,0,4,43,True,lb,True,False,0,0,0,7,1
 -1,-1,2013-05-05 00:00:00,Churchleigh,Mustafa M,0,8,11,True,b,False,False,1,0,0,2,0
@@ -4109,8 +4966,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-05-12 00:00:00,Beddington,Smith C,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-05-12 00:00:00,Beddington,Springer T,0,3,29,True,b,False,False,1,0,0,6,0
 -1,-1,2013-05-19 00:00:00,Shades,Brocks D,0,3,54,True,b,False,True,0,0,0,8,1
--1,-1,2013-05-19 00:00:00,Shades,Edghill C,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-05-19 00:00:00,Shades,Edghill D,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2013-05-19 00:00:00,Shades,Edghill C,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-05-19 00:00:00,Shades,Middleton J,0,1,6,True,b,True,False,0,0,0,1,0
 -1,-1,2013-05-19 00:00:00,Shades,Ottey A,0,5,20,True,b,False,False,0,0,0,0,0
 -1,-1,2013-05-19 00:00:00,Shades,Pascoe N,0,7,14,True,c,False,False,0,0,0,1,0
@@ -4163,8 +5020,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-06-02 00:00:00,LESSA Wanderers,Seymour C,0,3,20,True,ro,False,False,1,0,0,2,0
 -1,-1,2013-06-02 00:00:00,LESSA Wanderers,Smith C,0,9,0,True,b,False,False,1,0,0,0,0
 -1,-1,2013-06-09 00:00:00,Worcester Park,Clark C,0,11,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2013-06-09 00:00:00,Worcester Park,Edghill C,0,2,3,True,b,False,False,1,0,0,0,0
 -1,-1,2013-06-09 00:00:00,Worcester Park,Edghill D,0,3,31,False,no,False,False,0,0,0,3,0
+-1,-1,2013-06-09 00:00:00,Worcester Park,Edghill C,0,2,3,True,b,False,False,1,0,0,0,0
 -1,-1,2013-06-09 00:00:00,Worcester Park,Mander A,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-06-09 00:00:00,Worcester Park,Middleton J,0,7,0,False,dnb,True,False,2,0,0,0,0
 -1,-1,2013-06-09 00:00:00,Worcester Park,Pascoe N,0,4,0,False,dnb,False,False,0,0,0,0,0
@@ -4173,8 +5030,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-06-09 00:00:00,Worcester Park,Smith C,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-06-09 00:00:00,Worcester Park,Vashisthta,0,5,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-06-16 00:00:00,LESSA Wanderers,Clark C,0,11,7,False,no,False,False,0,0,0,1,0
--1,-1,2013-06-16 00:00:00,LESSA Wanderers,Edghill C,0,9,19,False,no,False,False,0,0,0,1,0
 -1,-1,2013-06-16 00:00:00,LESSA Wanderers,Edghill D,0,3,1,True,ro,False,False,0,0,0,0,0
+-1,-1,2013-06-16 00:00:00,LESSA Wanderers,Edghill C,0,9,19,False,no,False,False,0,0,0,1,0
 -1,-1,2013-06-16 00:00:00,LESSA Wanderers,Middleton J,0,4,19,True,b,True,False,0,0,0,2,1
 -1,-1,2013-06-16 00:00:00,LESSA Wanderers,Ottey A,0,5,4,True,b,False,False,0,0,0,0,0
 -1,-1,2013-06-16 00:00:00,LESSA Wanderers,Seymour C,0,7,11,True,b,False,False,0,0,0,0,0
@@ -4184,8 +5041,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-06-16 00:00:00,LESSA Wanderers,Wiseman R,0,10,0,True,b,False,False,0,0,0,0,0
 -1,-1,2013-06-16 00:00:00,LESSA Wanderers,Woodhouse M,0,1,2,True,c,False,False,0,0,0,0,0
 -1,-1,2013-06-30 00:00:00,RACS,Brocks D,0,5,37,True,b,False,True,0,0,0,4,1
--1,-1,2013-06-30 00:00:00,RACS,Edghill C,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-06-30 00:00:00,RACS,Edghill D,0,2,11,True,b,False,False,0,0,0,0,0
+-1,-1,2013-06-30 00:00:00,RACS,Edghill C,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-06-30 00:00:00,RACS,Middleton J,0,8,13,False,no,True,False,0,0,0,0,1
 -1,-1,2013-06-30 00:00:00,RACS,Pascoe N,0,7,7,True,b,False,False,0,0,0,0,0
 -1,-1,2013-06-30 00:00:00,RACS,Pascoe T,0,6,3,True,b,False,False,1,0,0,0,0
@@ -4229,9 +5086,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-07-28 00:00:00,Southbank,Brocks D,0,5,48,True,c,False,False,0,0,0,7,0
 -1,-1,2013-07-28 00:00:00,Southbank,Clarkson M,0,6,20,True,c,False,False,0,0,0,2,0
 -1,-1,2013-07-28 00:00:00,Southbank,Driver S,0,4,10,True,c,False,False,2,0,0,0,0
--1,-1,2013-07-28 00:00:00,Southbank,Edghill C,0,10,0,False,dnb,False,True,0,3,0,0,0
 -1,-1,2013-07-28 00:00:00,Southbank,Edghill D,0,3,8,True,c,False,False,2,0,0,0,0
 -1,-1,2013-07-28 00:00:00,Southbank,Edghill R,0,7,2,True,ro,False,False,0,0,0,0,0
+-1,-1,2013-07-28 00:00:00,Southbank,Edghill C,0,10,0,False,dnb,False,True,0,3,0,0,0
 -1,-1,2013-07-28 00:00:00,Southbank,Middleton J,0,8,5,False,no,True,False,0,0,0,1,0
 -1,-1,2013-07-28 00:00:00,Southbank,Seymour C,0,2,35,True,b,False,False,0,0,0,2,0
 -1,-1,2013-07-28 00:00:00,Southbank,Sharpe D,0,1,45,True,b,False,False,0,0,0,9,0
@@ -4259,9 +5116,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-08-11 00:00:00,Dulwich,Vashisthta,0,8,19,True,lb,False,False,0,0,0,5,0
 -1,-1,2013-08-11 00:00:00,Dulwich,Woodhouse M,0,1,17,True,b,False,False,0,0,0,2,0
 -1,-1,2013-08-18 00:00:00,Beddington,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2013-08-18 00:00:00,Beddington,Edghill C,0,11,0,False,dnb,False,True,0,1,0,0,0
 -1,-1,2013-08-18 00:00:00,Beddington,Edghill D,0,4,29,False,no,False,False,1,0,0,3,0
 -1,-1,2013-08-18 00:00:00,Beddington,Edghill R,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2013-08-18 00:00:00,Beddington,Edghill C,0,11,0,False,dnb,False,True,0,1,0,0,0
 -1,-1,2013-08-18 00:00:00,Beddington,Kiernan M,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-08-18 00:00:00,Beddington,Lovell A,0,6,15,False,no,False,False,0,0,0,1,0
 -1,-1,2013-08-18 00:00:00,Beddington,Middleton J,0,7,0,False,dnb,True,False,1,0,0,0,0
@@ -4270,9 +5127,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-08-18 00:00:00,Beddington,Springer T,0,3,37,True,c,False,False,1,0,0,6,0
 -1,-1,2013-08-18 00:00:00,Beddington,Vashisthta,0,5,0,True,b,False,False,0,0,0,0,0
 -1,-1,2013-08-25 00:00:00,Norwood Exiles,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2013-08-25 00:00:00,Norwood Exiles,Edghill C,0,3,7,True,c,False,True,0,1,1,1,0
 -1,-1,2013-08-25 00:00:00,Norwood Exiles,Edghill D,0,8,10,False,no,False,False,0,0,0,0,0
 -1,-1,2013-08-25 00:00:00,Norwood Exiles,Edghill R,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2013-08-25 00:00:00,Norwood Exiles,Edghill C,0,3,7,True,c,False,True,0,1,1,1,0
 -1,-1,2013-08-25 00:00:00,Norwood Exiles,Lovell A,0,5,1,True,b,False,False,1,0,0,0,0
 -1,-1,2013-08-25 00:00:00,Norwood Exiles,Middleton J,0,7,47,False,no,False,False,1,0,0,7,0
 -1,-1,2013-08-25 00:00:00,Norwood Exiles,Pascoe M,0,10,0,False,dnb,False,False,0,0,0,0,0
@@ -4281,8 +5138,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-08-25 00:00:00,Norwood Exiles,Sharpe D,0,4,28,True,c,True,False,0,0,0,4,1
 -1,-1,2013-08-25 00:00:00,Norwood Exiles,Smith C,0,6,19,True,c,False,False,0,0,0,2,0
 -1,-1,2013-09-01 00:00:00,Sanderstead,Bowers M,0,9,10,False,no,False,False,0,0,0,0,0
--1,-1,2013-09-01 00:00:00,Sanderstead,Edghill C,0,8,20,False,no,False,True,0,0,1,2,0
 -1,-1,2013-09-01 00:00:00,Sanderstead,Edghill D,0,3,9,True,b,False,False,0,0,0,1,0
+-1,-1,2013-09-01 00:00:00,Sanderstead,Edghill C,0,8,20,False,no,False,True,0,0,1,2,0
 -1,-1,2013-09-01 00:00:00,Sanderstead,Kiernan M,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-09-01 00:00:00,Sanderstead,Mander A,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2013-09-01 00:00:00,Sanderstead,Middleton J,0,7,53,True,c,True,False,0,0,0,5,1
@@ -4312,10 +5169,10 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2013-09-22 00:00:00,Bromley Town & Old Bromley,Springer T,0,4,49,False,no,False,False,1,0,0,8,0
 -1,-1,2013-09-22 00:00:00,Bromley Town & Old Bromley,Vashisthta,0,8,0,True,b,False,False,0,0,0,0,0
 -1,-1,2013-09-22 00:00:00,Bromley Town & Old Bromley,Woodhouse M,0,1,22,True,b,False,False,0,0,0,1,0
+-1,-1,2014-04-27 00:00:00,Deando-Ruxley,Morjada A,0,6,1,True,st,False,False,0,0,0,0,0
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Brocks D,0,8,17,True,c,False,False,0,0,0,1,1
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Clarkson M,0,7,3,True,lb,False,False,1,0,0,0,0
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Middleton J,0,9,0,True,c,True,False,0,0,0,0,0
--1,-1,2014-04-27 00:00:00,Deando-Ruxley,Morjada A,0,6,1,True,st,False,False,0,0,0,0,0
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Ottey A,0,2,3,True,b,False,False,0,0,0,0,0
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Pascoe N,0,10,6,False,no,False,False,0,0,0,0,0
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Seymour C,0,3,5,True,lm,False,False,0,0,0,0,0
@@ -4325,8 +5182,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2014-04-27 00:00:00,Deando-Ruxley,Winter T,0,5,0,True,st,False,False,0,0,0,0,0
 -1,-1,2014-05-04 00:00:00,Woodgreen,Bowers M,0,11,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2014-05-04 00:00:00,Woodgreen,Brocks D,0,6,1,True,b,False,False,2,0,0,0,0
--1,-1,2014-05-04 00:00:00,Woodgreen,Edghill C,0,9,0,False,no,False,False,0,0,0,0,0
 -1,-1,2014-05-04 00:00:00,Woodgreen,Edghill D,0,5,51,False,no,False,False,1,0,0,3,0
+-1,-1,2014-05-04 00:00:00,Woodgreen,Edghill C,0,9,0,False,no,False,False,0,0,0,0,0
 -1,-1,2014-05-04 00:00:00,Woodgreen,Middleton J,0,7,9,True,c,True,False,0,0,0,2,0
 -1,-1,2014-05-04 00:00:00,Woodgreen,Pascoe M,0,8,5,True,b,False,False,0,0,0,1,0
 -1,-1,2014-05-04 00:00:00,Woodgreen,Seymour C,0,4,30,True,b,False,False,0,0,0,1,0
@@ -4357,11 +5214,11 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2014-05-25 00:00:00,Woodgreen,Snow M,0,7,0,True,b,False,False,0,0,0,0,0
 -1,-1,2014-05-25 00:00:00,Woodgreen,Springer T,0,1,116,True,ret,False,False,0,0,0,11,4
 -1,-1,2014-06-01 00:00:00,Norwood Exiles,Ahmed B,0,6,1,True,c,False,False,0,0,0,0,0
+-1,-1,2014-06-01 00:00:00,Norwood Exiles,Morjada A,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2014-06-01 00:00:00,Norwood Exiles,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2014-06-01 00:00:00,Norwood Exiles,Clarkson M,0,7,30,False,no,False,True,0,0,0,3,1
 -1,-1,2014-06-01 00:00:00,Norwood Exiles,Edghill C,0,3,16,True,c,False,False,0,0,0,2,0
 -1,-1,2014-06-01 00:00:00,Norwood Exiles,Middleton J,0,4,31,True,lb,True,False,0,0,0,4,2
--1,-1,2014-06-01 00:00:00,Norwood Exiles,Morjada A,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2014-06-01 00:00:00,Norwood Exiles,Seymour C,0,2,14,True,c,False,False,1,0,0,1,0
 -1,-1,2014-06-01 00:00:00,Norwood Exiles,Sharpe D,0,1,54,True,c,False,False,0,0,0,4,3
 -1,-1,2014-06-01 00:00:00,Norwood Exiles,Smith C,0,5,0,True,c,False,False,0,0,0,0,0
@@ -4388,10 +5245,10 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2014-06-15 00:00:00,LESSA,Sharpe D,0,3,1,True,c,False,False,2,0,0,0,0
 -1,-1,2014-06-15 00:00:00,LESSA,Smith C,0,8,1,True,c,False,False,0,0,0,0,0
 -1,-1,2014-06-15 00:00:00,LESSA,Tiyagi V,0,6,5,True,b,False,False,0,0,0,1,0
+-1,-1,2014-06-22 00:00:00,Merstham,Morjada A,0,7,3,False,no,False,False,0,0,0,0,0
 -1,-1,2014-06-22 00:00:00,Merstham,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2014-06-22 00:00:00,Merstham,Clarkson M,0,6,0,True,c,False,True,0,1,0,0,0
 -1,-1,2014-06-22 00:00:00,Merstham,Middleton J,0,9,6,True,b,True,False,0,0,0,1,0
--1,-1,2014-06-22 00:00:00,Merstham,Morjada A,0,7,3,False,no,False,False,0,0,0,0,0
 -1,-1,2014-06-22 00:00:00,Merstham,Ottey A,0,5,2,True,ro,False,False,0,0,0,0,0
 -1,-1,2014-06-22 00:00:00,Merstham,Seymour C,0,3,59,True,c,False,False,0,0,0,6,0
 -1,-1,2014-06-22 00:00:00,Merstham,Sharpe D,0,1,64,True,ro,False,False,1,0,0,9,2
@@ -4439,8 +5296,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2014-07-20 00:00:00,LESSA,Tiyagi V,0,7,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2014-07-20 00:00:00,LESSA,Vashisthta,0,5,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2014-08-24 00:00:00,Norwood Exiles,Dalrymple A,0,6,8,True,b,False,False,0,0,0,1,0
--1,-1,2014-08-24 00:00:00,Norwood Exiles,Edghill C,0,9,13,False,no,False,True,0,1,0,2,0
 -1,-1,2014-08-24 00:00:00,Norwood Exiles,Edghill R,0,7,2,True,c,False,False,0,0,0,0,0
+-1,-1,2014-08-24 00:00:00,Norwood Exiles,Edghill C,0,9,13,False,no,False,True,0,1,0,2,0
 -1,-1,2014-08-24 00:00:00,Norwood Exiles,Mander A,0,10,16,False,no,False,False,0,0,0,2,0
 -1,-1,2014-08-24 00:00:00,Norwood Exiles,Mati,0,4,64,True,c,False,False,0,0,0,8,0
 -1,-1,2014-08-24 00:00:00,Norwood Exiles,Middleton J,0,2,12,True,lb,True,False,0,0,0,1,1
@@ -4448,13 +5305,13 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2014-08-24 00:00:00,Norwood Exiles,Sharpe D,0,1,40,True,c,False,False,1,0,0,8,0
 -1,-1,2014-08-24 00:00:00,Norwood Exiles,Smith C,0,3,4,True,b,False,False,0,0,0,0,0
 -1,-1,2014-08-24 00:00:00,Norwood Exiles,Wilson L,0,5,2,True,b,False,False,0,0,0,0,0
+-1,-1,2014-08-31 00:00:00,Sanderstead,Pearce R,0,11,4,False,no,False,False,0,0,0,0,0
 -1,-1,2014-08-31 00:00:00,Sanderstead,Clarkson M,0,8,10,True,c,False,False,0,0,0,2,0
--1,-1,2014-08-31 00:00:00,Sanderstead,Edghill C,0,4,6,True,b,False,True,0,0,0,1,0
 -1,-1,2014-08-31 00:00:00,Sanderstead,Edghill R,0,7,1,True,lb,False,False,0,0,0,0,0
+-1,-1,2014-08-31 00:00:00,Sanderstead,Edghill C,0,4,6,True,b,False,True,0,0,0,1,0
 -1,-1,2014-08-31 00:00:00,Sanderstead,Mander A,0,10,7,True,b,False,False,0,0,0,0,0
 -1,-1,2014-08-31 00:00:00,Sanderstead,Nair S,0,5,0,True,b,False,False,0,0,0,0,0
 -1,-1,2014-08-31 00:00:00,Sanderstead,Ottey A,0,3,0,True,b,False,False,0,0,0,0,0
--1,-1,2014-08-31 00:00:00,Sanderstead,Pearce R,0,11,4,False,no,False,False,0,0,0,0,0
 -1,-1,2014-08-31 00:00:00,Sanderstead,Seymour C,0,2,57,False,no,False,False,0,0,0,7,0
 -1,-1,2014-08-31 00:00:00,Sanderstead,Sharpe D,0,1,9,True,b,True,False,0,0,0,1,0
 -1,-1,2014-08-31 00:00:00,Sanderstead,Smith C,0,9,12,True,b,False,False,0,0,0,1,0
@@ -4599,8 +5456,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2015-06-21 00:00:00,Woldingham Village,Viveganandan R,0,2,13,True,c,False,False,1,0,0,3,0
 -1,-1,2015-06-28 00:00:00,RACS,Bartram,0,6,14,True,c,False,False,1,0,0,2,0
 -1,-1,2015-06-28 00:00:00,RACS,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2015-06-28 00:00:00,RACS,Edghill C,0,8,0,False,dnb,False,True,0,0,1,0,0
 -1,-1,2015-06-28 00:00:00,RACS,Edghill R,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2015-06-28 00:00:00,RACS,Edghill C,0,8,0,False,dnb,False,True,0,0,1,0,0
 -1,-1,2015-06-28 00:00:00,RACS,Giles M,0,7,4,False,no,False,False,0,0,0,1,0
 -1,-1,2015-06-28 00:00:00,RACS,Lestrelle A,0,9,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2015-06-28 00:00:00,RACS,Seymour C,0,1,12,True,c,False,False,0,0,0,0,0
@@ -4622,8 +5479,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2015-07-12 00:00:00,Headstone,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2015-07-12 00:00:00,Headstone,Broody,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2015-07-12 00:00:00,Headstone,Driver S,0,7,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2015-07-12 00:00:00,Headstone,Edghill C,0,8,0,False,dnb,False,True,0,1,0,0,0
 -1,-1,2015-07-12 00:00:00,Headstone,Edghill R,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2015-07-12 00:00:00,Headstone,Edghill C,0,8,0,False,dnb,False,True,0,1,0,0,0
 -1,-1,2015-07-12 00:00:00,Headstone,Middleton J,0,6,0,False,no,False,False,0,0,0,0,0
 -1,-1,2015-07-12 00:00:00,Headstone,Niran S,0,2,27,True,b,False,False,0,0,0,5,0
 -1,-1,2015-07-12 00:00:00,Headstone,Seymour C,0,1,44,True,b,False,False,0,0,0,5,0
@@ -4817,16 +5674,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2016-06-05 00:00:00,Richmond Legbreakers,Parboo R,0,2,2,True,b,False,False,0,0,0,0,0
 -1,-1,2016-06-05 00:00:00,Richmond Legbreakers,Seymour C,0,5,53,False,no,True,False,1,0,0,7,1
 -1,-1,2016-06-05 00:00:00,Richmond Legbreakers,Yadav S,0,9,2,False,no,False,False,0,0,0,0,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Castle I,0,3,28,True,rh,False,False,0,0,0,3,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Edghill D,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Mander A,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Niran S,0,2,27,True,c,False,False,0,0,0,4,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Parboo R,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Seymour C,0,7,9,False,no,False,False,1,0,0,0,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Sharpe D,0,1,8,True,c,False,True,0,1,0,1,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Springer T,0,4,43,True,c,True,False,0,0,0,8,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Viveganandan M,0,5,49,False,no,False,False,0,0,0,8,0
--1,-1,2016-06-17 00:00:00,Lessa Wanderers,Yadav S,0,6,1,True,lb,False,False,0,0,0,0,0
 -1,-1,2016-06-19 00:00:00,Giltec,Bhatt P,0,1,0,True,b,False,False,0,0,0,0,0
 -1,-1,2016-06-19 00:00:00,Giltec,Castle I,0,3,10,True,c,False,False,1,0,0,1,0
 -1,-1,2016-06-19 00:00:00,Giltec,Edghill C,0,4,18,True,b,False,True,0,0,0,3,0
@@ -4858,6 +5705,16 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2016-07-10 00:00:00,Woodmansterne,Viveganandan M,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2016-07-10 00:00:00,Woodmansterne,Wilson A,0,7,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2016-07-10 00:00:00,Woodmansterne,Yadav S,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Castle I,0,3,28,True,rh,False,False,0,0,0,3,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Edghill D,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Mander A,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Niran S,0,2,27,True,c,False,False,0,0,0,4,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Parboo R,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Seymour C,0,7,9,False,no,False,False,1,0,0,0,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Sharpe D,0,1,8,True,c,False,True,0,1,0,1,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Springer T,0,4,43,True,c,True,False,0,0,0,8,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Viveganandan M,0,5,49,False,no,False,False,0,0,0,8,0
+-1,-1,2016-06-17 00:00:00,Lessa Wanderers,Yadav S,0,6,1,True,lb,False,False,0,0,0,0,0
 -1,-1,2016-07-24 00:00:00,Southbank,Edghill C,0,8,2,True,c,False,False,0,0,0,0,0
 -1,-1,2016-07-24 00:00:00,Southbank,Edghill D,0,4,0,True,c,False,False,0,0,0,0,0
 -1,-1,2016-07-24 00:00:00,Southbank,Evans W,0,11,4,False,no,False,False,0,0,0,0,0
@@ -5235,12 +6092,12 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2018-05-13 00:00:00,SW United,Wilson A,0,8,3,True,c,False,False,1,0,0,0,0
 -1,-1,2018-05-20 00:00:00,South Bank,Greenall D,0,2,8,True,c,False,False,0,0,0,2,0
 -1,-1,2018-05-20 00:00:00,South Bank,Khan W,0,11,0,False,no,False,False,0,0,0,0,0
+-1,-1,2018-05-20 00:00:00,South Bank,Seymour D,0,1,4,True,b,False,False,0,0,0,1,0
 -1,-1,2018-05-20 00:00:00,South Bank,Middleton J,0,6,29,True,c,False,False,1,0,0,4,0
 -1,-1,2018-05-20 00:00:00,South Bank,Nair S,0,9,13,True,c,False,False,0,0,0,2,0
 -1,-1,2018-05-20 00:00:00,South Bank,Niran S,0,3,15,True,c,False,True,0,2,0,2,0
 -1,-1,2018-05-20 00:00:00,South Bank,Seev J,0,7,7,True,c,False,False,1,0,0,1,0
 -1,-1,2018-05-20 00:00:00,South Bank,Seymour C,0,10,15,True,c,False,False,0,0,0,3,0
--1,-1,2018-05-20 00:00:00,South Bank,Seymour D,0,1,4,True,b,False,False,0,0,0,1,0
 -1,-1,2018-05-20 00:00:00,South Bank,Springer T,0,5,53,True,c,True,False,2,0,0,8,1
 -1,-1,2018-05-20 00:00:00,South Bank,Wilson A,0,8,0,True,c,False,False,0,0,0,0,0
 -1,-1,2018-05-20 00:00:00,South Bank,Woodhouse M,0,4,1,True,c,False,False,0,0,0,0,0
@@ -5320,7 +6177,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2018-07-01 00:00:00,Monty,Springer T,0,5,24,True,b,True,True,0,0,1,3,1
 -1,-1,2018-07-01 00:00:00,Monty,Viveganandan M,0,11,8,True,c,False,False,0,0,0,2,0
 -1,-1,2018-07-01 00:00:00,Monty,Wilson A,0,7,0,True,b,False,False,0,0,0,0,0
--1,-1,2018-07-07 00:00:00,Beddington,"""Tareq""",0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2018-07-07 00:00:00,Beddington,Bhatt P,0,7,12,True,c,False,False,1,0,0,2,0
 -1,-1,2018-07-07 00:00:00,Beddington,Castle I,0,6,9,True,c,False,False,0,0,0,2,0
 -1,-1,2018-07-07 00:00:00,Beddington,Clarkson M,0,10,0,False,dnb,False,False,0,0,0,0,0
@@ -5330,6 +6186,7 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2018-07-07 00:00:00,Beddington,Seymour C,0,1,22,True,b,False,False,0,0,0,5,0
 -1,-1,2018-07-07 00:00:00,Beddington,Sharpe D,0,2,68,True,ro,False,False,0,0,0,13,1
 -1,-1,2018-07-07 00:00:00,Beddington,Springer T,0,5,16,True,lb,True,False,1,0,0,3,0
+-1,-1,2018-07-07 00:00:00,Beddington,"""Tareq""",0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2018-07-07 00:00:00,Beddington,Viveganandan M,0,8,29,False,no,False,False,0,0,0,5,0
 -1,-1,2018-07-15 00:00:00,Morden,Ahmed M,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2018-07-15 00:00:00,Morden,Bhatt P,0,6,7,True,lb,False,False,2,0,0,1,0
@@ -5496,6 +6353,7 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2019-06-16 00:00:00,Beddington,Siddiqui H,0,4,11,True,c,False,False,0,0,0,0,0
 -1,-1,2019-06-16 00:00:00,Beddington,Smith C,0,10,2,True,ro,False,False,0,0,0,0,0
 -1,-1,2019-06-16 00:00:00,Beddington,Woodhouse M,0,2,0,True,b,False,False,1,0,0,0,0
+-1,-1,2019-06-23 00:00:00,Churchleigh,Rohan ???,0,7,0,True,b,False,False,0,0,0,0,0
 -1,-1,2019-06-23 00:00:00,Churchleigh,Clarkson M,0,8,45,False,no,False,False,0,0,0,8,0
 -1,-1,2019-06-23 00:00:00,Churchleigh,Deol R,0,2,0,True,b,False,False,1,0,0,0,0
 -1,-1,2019-06-23 00:00:00,Churchleigh,Foxworthy P,0,5,4,True,b,False,False,1,0,0,1,0
@@ -5503,7 +6361,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2019-06-23 00:00:00,Churchleigh,Mander A,0,11,0,True,c,False,False,0,0,0,0,0
 -1,-1,2019-06-23 00:00:00,Churchleigh,Middleton J,0,9,6,True,c,False,False,1,0,0,0,0
 -1,-1,2019-06-23 00:00:00,Churchleigh,Niran S,0,3,54,True,b,False,True,0,0,0,10,1
--1,-1,2019-06-23 00:00:00,Churchleigh,Rohan ???,0,7,0,True,b,False,False,0,0,0,0,0
 -1,-1,2019-06-23 00:00:00,Churchleigh,Seymour C,0,1,4,True,lb,False,False,0,0,0,0,0
 -1,-1,2019-06-23 00:00:00,Churchleigh,Siddiqui H,0,4,18,True,c,False,False,0,0,0,1,0
 -1,-1,2019-06-23 00:00:00,Churchleigh,Springer T,0,6,9,True,b,True,False,0,0,0,2,0
@@ -5537,8 +6394,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2019-07-14 00:00:00,Morden,Middleton J,0,5,1,True,b,False,False,0,0,0,0,0
 -1,-1,2019-07-14 00:00:00,Morden,Seymour C,0,7,25,True,b,False,False,0,0,0,2,0
 -1,-1,2019-07-14 00:00:00,Morden,Sharpe D,0,2,0,True,b,False,False,0,0,0,0,0
--1,-1,2019-07-14 00:00:00,Morden,Siddiqui H,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2019-07-14 00:00:00,Morden,Singh S,0,4,15,True,lb,False,False,0,0,0,3,0
+-1,-1,2019-07-14 00:00:00,Morden,Siddiqui H,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2019-07-14 00:00:00,Morden,Springer T,0,3,2,True,b,True,False,0,0,0,0,0
 -1,-1,2019-07-21 00:00:00,Merton,Bhatt P,0,4,24,True,c,False,False,0,0,0,2,0
 -1,-1,2019-07-21 00:00:00,Merton,Deol R,0,7,9,False,no,False,False,0,0,0,0,0
@@ -5564,8 +6421,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2019-08-04 00:00:00,Southbank,Greenall D,0,1,0,True,b,False,True,0,1,0,0,0
 -1,-1,2019-08-04 00:00:00,Southbank,Seymour C,0,11,1,False,no,False,False,0,0,0,0,0
 -1,-1,2019-08-04 00:00:00,Southbank,Sharpe D,0,2,31,True,c,False,False,0,0,0,4,1
--1,-1,2019-08-04 00:00:00,Southbank,Siddiqui H,0,8,6,True,c,False,False,0,0,0,1,0
 -1,-1,2019-08-04 00:00:00,Southbank,Singh S,0,7,2,True,c,False,False,0,0,0,0,0
+-1,-1,2019-08-04 00:00:00,Southbank,Siddiqui H,0,8,6,True,c,False,False,0,0,0,1,0
 -1,-1,2019-08-04 00:00:00,Southbank,Smith C,0,10,1,True,b,False,False,0,0,0,0,0
 -1,-1,2019-08-04 00:00:00,Southbank,Springer T,0,3,14,True,c,True,False,0,0,0,2,0
 -1,-1,2019-08-04 00:00:00,Southbank,Viveganandan M,0,5,2,True,c,False,False,0,0,0,0,0
@@ -5630,9 +6487,9 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2020-07-19 00:00:00,Merton,Jenkins D,0,5,25,True,c,False,False,1,0,0,3,0
 -1,-1,2020-07-19 00:00:00,Merton,Kiernan M,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2020-07-19 00:00:00,Merton,Nair S,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2020-07-19 00:00:00,Merton,Sajjid A,0,2,0,True,ro,False,False,0,0,0,0,0
 -1,-1,2020-07-19 00:00:00,Merton,Sajjid K,0,10,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2020-07-19 00:00:00,Merton,Sajjid W,0,4,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2020-07-19 00:00:00,Merton,Sajjid A,0,2,0,True,ro,False,False,0,0,0,0,0
 -1,-1,2020-07-19 00:00:00,Merton,Seymour C,0,1,15,True,b,False,False,0,0,0,1,0
 -1,-1,2020-07-19 00:00:00,Merton,Springer T,0,3,115,True,c,True,True,0,0,1,17,1
 -1,-1,2020-07-19 00:00:00,Merton,Wilson A,0,8,5,False,no,False,False,0,0,0,1,0
@@ -5642,8 +6499,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2020-07-26 00:00:00,Beddington,Mander A,0,11,1,False,no,False,False,1,0,0,0,0
 -1,-1,2020-07-26 00:00:00,Beddington,Nair S,0,8,1,True,b,False,False,0,0,0,0,0
 -1,-1,2020-07-26 00:00:00,Beddington,Parboo R,0,9,7,True,b,False,False,1,0,0,1,0
--1,-1,2020-07-26 00:00:00,Beddington,Sajjid A,0,2,37,True,b,False,False,0,0,0,6,0
 -1,-1,2020-07-26 00:00:00,Beddington,Sajjid K,0,10,3,True,c,False,False,0,0,0,0,0
+-1,-1,2020-07-26 00:00:00,Beddington,Sajjid A,0,2,37,True,b,False,False,0,0,0,6,0
 -1,-1,2020-07-26 00:00:00,Beddington,Seymour C,0,1,20,True,c,False,False,0,0,0,1,0
 -1,-1,2020-07-26 00:00:00,Beddington,Springer T,0,3,5,True,b,True,False,1,0,0,1,0
 -1,-1,2020-07-26 00:00:00,Beddington,Viveganandan M,0,4,26,True,c,False,False,0,0,0,3,0
@@ -5654,8 +6511,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2020-08-02 00:00:00,Croydon Royals,Jenkins D,0,6,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2020-08-02 00:00:00,Croydon Royals,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2020-08-02 00:00:00,Croydon Royals,Nair S,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2020-08-02 00:00:00,Croydon Royals,Sajjid A,0,3,40,False,no,False,False,2,0,0,6,0
 -1,-1,2020-08-02 00:00:00,Croydon Royals,Sajjid K,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2020-08-02 00:00:00,Croydon Royals,Sajjid A,0,3,40,False,no,False,False,2,0,0,6,0
 -1,-1,2020-08-02 00:00:00,Croydon Royals,Seymour C,0,1,16,True,lb,False,False,0,0,0,3,0
 -1,-1,2020-08-02 00:00:00,Croydon Royals,Springer T,0,2,0,True,c,True,True,0,1,0,0,0
 -1,-1,2020-08-09 00:00:00,Wimbledon United,Bhatt P,0,9,21,True,c,False,False,0,0,0,3,0
@@ -5675,8 +6532,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2020-08-16 00:00:00,Norwood Exiles,Kogulathasan D,0,8,14,True,c,False,False,0,0,0,1,0
 -1,-1,2020-08-16 00:00:00,Norwood Exiles,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2020-08-16 00:00:00,Norwood Exiles,Safraz M,0,9,0,False,no,False,False,0,0,0,0,0
--1,-1,2020-08-16 00:00:00,Norwood Exiles,Sajjid A,0,4,51,False,no,False,False,0,0,0,7,0
 -1,-1,2020-08-16 00:00:00,Norwood Exiles,Sajjid K,0,6,6,True,b,False,False,1,0,0,1,0
+-1,-1,2020-08-16 00:00:00,Norwood Exiles,Sajjid A,0,4,51,False,no,False,False,0,0,0,7,0
 -1,-1,2020-08-16 00:00:00,Norwood Exiles,Seymour C,0,1,98,True,c,False,False,0,0,0,15,0
 -1,-1,2020-08-16 00:00:00,Norwood Exiles,Sharpe D,0,2,46,True,b,True,True,0,2,0,6,2
 -1,-1,2020-08-16 00:00:00,Norwood Exiles,Wilson A,0,7,0,True,b,False,False,0,0,0,0,0
@@ -5698,8 +6555,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2020-08-30 00:00:00,Rotten Livers,Jenkins D,0,7,1,False,no,False,False,1,0,0,0,0
 -1,-1,2020-08-30 00:00:00,Rotten Livers,Kogulathasan D,0,9,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2020-08-30 00:00:00,Rotten Livers,Niran S,0,2,10,True,c,False,False,0,0,0,1,0
--1,-1,2020-08-30 00:00:00,Rotten Livers,Sajjid A,0,3,26,True,ro,False,False,0,0,0,2,0
 -1,-1,2020-08-30 00:00:00,Rotten Livers,Sajjid K,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2020-08-30 00:00:00,Rotten Livers,Sajjid A,0,3,26,True,ro,False,False,0,0,0,2,0
 -1,-1,2020-08-30 00:00:00,Rotten Livers,Seymour C,0,1,21,True,lb,False,False,0,0,0,2,0
 -1,-1,2020-08-30 00:00:00,Rotten Livers,Springer T,0,5,73,True,b,True,False,1,0,0,10,0
 -1,-1,2020-09-06 00:00:00,Croydon Royals,Bhatt P,0,8,4,True,b,False,False,0,0,0,0,0
@@ -5708,8 +6565,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2020-09-06 00:00:00,Croydon Royals,Jenkins D,0,5,7,True,b,False,False,1,0,0,0,0
 -1,-1,2020-09-06 00:00:00,Croydon Royals,Kogulathasan D,0,1,11,True,lb,False,False,0,0,0,2,0
 -1,-1,2020-09-06 00:00:00,Croydon Royals,Safraz M,0,6,13,True,b,False,False,1,0,0,1,0
--1,-1,2020-09-06 00:00:00,Croydon Royals,Sajjid A,0,2,46,True,st,False,False,0,0,0,2,0
 -1,-1,2020-09-06 00:00:00,Croydon Royals,Sajjid K,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2020-09-06 00:00:00,Croydon Royals,Sajjid A,0,2,46,True,st,False,False,0,0,0,2,0
 -1,-1,2020-09-06 00:00:00,Croydon Royals,Seymour C,0,9,14,True,ro,False,False,0,0,0,3,0
 -1,-1,2020-09-06 00:00:00,Croydon Royals,Springer T,0,4,0,True,c,True,True,0,1,0,0,0
 -1,-1,2020-09-06 00:00:00,Croydon Royals,Turner R,0,10,0,False,no,False,False,0,0,0,0,0
@@ -5720,8 +6577,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2020-09-13 00:00:00,Catford Cyphers,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2020-09-13 00:00:00,Catford Cyphers,Parboo R,0,8,15,False,no,False,False,0,0,0,1,0
 -1,-1,2020-09-13 00:00:00,Catford Cyphers,Safraz M,0,3,59,True,st,False,False,0,0,0,8,0
--1,-1,2020-09-13 00:00:00,Catford Cyphers,Sajjid A,0,2,43,True,c,False,False,0,0,0,4,0
 -1,-1,2020-09-13 00:00:00,Catford Cyphers,Sajjid K,0,9,3,True,b,False,False,0,0,0,0,0
+-1,-1,2020-09-13 00:00:00,Catford Cyphers,Sajjid A,0,2,43,True,c,False,False,0,0,0,4,0
 -1,-1,2020-09-13 00:00:00,Catford Cyphers,Springer T,0,4,8,True,c,True,True,0,1,0,2,0
 -1,-1,2020-09-13 00:00:00,Catford Cyphers,Turner R,0,10,8,False,no,False,False,0,0,0,1,0
 -1,-1,2020-09-20 00:00:00,Sanderstead,Deol R,0,7,0,True,b,False,False,0,0,0,0,0
@@ -5742,8 +6599,8 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2020-09-27 00:00:00,Christchurch,Niran S,0,1,8,True,b,False,True,0,1,0,1,0
 -1,-1,2020-09-27 00:00:00,Christchurch,Parboo R,0,9,3,False,no,False,False,0,0,0,0,0
 -1,-1,2020-09-27 00:00:00,Christchurch,Safraz M,0,5,34,True,b,False,False,0,0,0,4,0
--1,-1,2020-09-27 00:00:00,Christchurch,Sajjid A,0,3,8,True,b,False,False,0,0,0,1,0
 -1,-1,2020-09-27 00:00:00,Christchurch,Sajjid K,0,10,1,True,c,False,False,0,0,0,0,0
+-1,-1,2020-09-27 00:00:00,Christchurch,Sajjid A,0,3,8,True,b,False,False,0,0,0,1,0
 -1,-1,2020-09-27 00:00:00,Christchurch,Seymour C,0,6,20,True,ro,False,False,0,0,0,1,0
 -1,-1,2020-09-27 00:00:00,Christchurch,Springer T,0,4,62,True,b,True,False,1,0,0,10,1
 -1,-1,2021-04-25 00:00:00,Worcester Park,Bhatt P,0,10,9,True,b,False,False,0,0,0,1,0
@@ -5944,12 +6801,12 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2021-08-29 00:00:00,Mitcham,Shome G,0,9,4,True,st,False,False,0,0,0,0,0
 -1,-1,2021-08-29 00:00:00,Mitcham,Springer T,0,4,1,True,b,True,False,2,0,0,0,0
 -1,-1,2021-08-29 00:00:00,Mitcham,Viveganandan M,0,3,26,True,c,False,False,0,0,0,4,0
--1,-1,2021-09-05 00:00:00,Wibbadune,"""Luca""",0,10,2,True,b,False,False,0,0,0,0,0
 -1,-1,2021-09-05 00:00:00,Wibbadune,Curling L,0,6,0,True,b,False,False,0,0,0,0,0
 -1,-1,2021-09-05 00:00:00,Wibbadune,De S,0,11,6,False,no,False,False,0,0,0,1,0
 -1,-1,2021-09-05 00:00:00,Wibbadune,Ffrench R,0,8,9,True,lb,False,False,0,0,0,1,0
 -1,-1,2021-09-05 00:00:00,Wibbadune,Kogulathasan D,0,5,14,True,b,False,False,0,0,0,3,0
 -1,-1,2021-09-05 00:00:00,Wibbadune,Low-Hughes A,0,7,19,True,b,False,False,0,0,0,2,0
+-1,-1,2021-09-05 00:00:00,Wibbadune,"""Luca""",0,10,2,True,b,False,False,0,0,0,0,0
 -1,-1,2021-09-05 00:00:00,Wibbadune,Niran S,0,1,22,True,b,False,True,0,0,0,4,0
 -1,-1,2021-09-05 00:00:00,Wibbadune,Rugg D,0,9,0,True,b,False,False,0,0,0,0,0
 -1,-1,2021-09-05 00:00:00,Wibbadune,Sharpe D,0,2,0,True,b,False,True,0,1,0,0,0
@@ -6043,17 +6900,6 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2022-05-22 00:00:00,Merton Bears,Sajjid K,0,9,0,False,no,False,False,0,0,0,0,0
 -1,-1,2022-05-22 00:00:00,Merton Bears,Seymour C,0,1,4,True,c,False,False,0,0,0,0,0
 -1,-1,2022-05-22 00:00:00,Merton Bears,Springer T,0,3,0,True,c,True,False,0,0,0,0,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,Ahmed M,0,8,22,False,no,False,False,0,0,0,2,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,Bhatt P,0,7,13,True,c,False,False,0,0,0,2,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,De S,0,8,31,True,ro,False,False,0,0,0,4,1
--1,-1,2022-06-02 00:00:00,Steeple Langford,Jenkins D,0,5,0,True,lb,False,False,0,0,0,0,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,Lindsay B,0,4,11,True,b,False,False,0,0,0,1,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,Nair S,0,10,0,False,dnb,True,False,1,0,0,0,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,Patel M,0,6,4,True,lb,False,False,1,0,0,1,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,Seymour C,0,1,15,True,b,False,False,0,0,0,3,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,Springer T,0,3,33,True,c,False,True,0,0,0,6,0
--1,-1,2022-06-02 00:00:00,Steeple Langford,Viveganandan M,0,2,43,True,c,False,False,0,0,0,10,0
 -1,-1,2022-06-03 00:00:00,Woodgreen,Bhatt P,0,10,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2022-06-03 00:00:00,Woodgreen,Brocks D,0,4,4,True,c,False,False,0,0,0,0,0
 -1,-1,2022-06-03 00:00:00,Woodgreen,Curling L,0,5,33,True,st,False,False,0,0,0,6,0
@@ -6065,6 +6911,17 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2022-06-03 00:00:00,Woodgreen,Seymour C,0,11,0,False,dnb,True,False,0,0,0,0,0
 -1,-1,2022-06-03 00:00:00,Woodgreen,Sharpe D,0,2,25,True,b,False,True,0,0,0,3,0
 -1,-1,2022-06-03 00:00:00,Woodgreen,Viveganandan M,0,1,2,True,b,False,False,0,0,0,0,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Ahmed M,0,8,22,False,no,False,False,0,0,0,2,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Bhatt P,0,7,13,True,c,False,False,0,0,0,2,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,De S,0,8,31,True,ro,False,False,0,0,0,4,1
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Jenkins D,0,5,0,True,lb,False,False,0,0,0,0,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Lindsay B,0,4,11,True,b,False,False,0,0,0,1,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Nair S,0,10,0,False,dnb,True,False,1,0,0,0,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Patel M,0,6,4,True,lb,False,False,1,0,0,1,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Seymour C,0,1,15,True,b,False,False,0,0,0,3,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Springer T,0,3,33,True,c,False,True,0,0,0,6,0
+-1,-1,2022-06-02 00:00:00,Steeple Langford,Viveganandan M,0,2,43,True,c,False,False,0,0,0,10,0
 -1,-1,2022-06-04 00:00:00,Fonthill Park,Bhatt P,0,3,7,True,c,True,False,0,0,0,1,0
 -1,-1,2022-06-04 00:00:00,Fonthill Park,Curling L,0,4,7,True,c,False,False,0,0,0,1,0
 -1,-1,2022-06-04 00:00:00,Fonthill Park,De S,0,9,0,True,c,False,False,0,0,0,0,0
@@ -6109,11 +6966,11 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2022-06-26 00:00:00,Norwood Exiles,Sharpe D,0,2,14,True,b,False,True,0,0,0,3,0
 -1,-1,2022-06-26 00:00:00,Norwood Exiles,Smith C,0,8,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2022-06-26 00:00:00,Norwood Exiles,Springer T,0,4,27,False,no,True,False,1,0,0,6,0
--1,-1,2022-07-03 00:00:00,London Leopards,"""Naveed""",0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2022-07-03 00:00:00,London Leopards,Bhatt P,0,7,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2022-07-03 00:00:00,London Leopards,Jain A,0,4,0,True,lb,False,False,0,0,0,0,0
 -1,-1,2022-07-03 00:00:00,London Leopards,Jenkins D,0,6,6,False,no,False,False,1,0,0,1,0
 -1,-1,2022-07-03 00:00:00,London Leopards,Middleton J,0,5,1,True,b,False,False,0,0,0,0,0
+-1,-1,2022-07-03 00:00:00,London Leopards,"""Naveed""",0,11,0,False,dnb,False,False,0,0,0,0,0
 -1,-1,2022-07-03 00:00:00,London Leopards,Patel M,0,8,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2022-07-03 00:00:00,London Leopards,Rugg D,0,10,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2022-07-03 00:00:00,London Leopards,Sajjid K,0,9,0,False,dnb,False,False,0,0,0,0,0

@@ -39,10 +39,6 @@ class XlBattingImporter(XlImporter):
             for player_idx, player in enumerate(players):
                 row = player_idx + ENTRY_OFFSET
                 if cel_value := sheet.cell(row, col).value:
-                    items.append(
-                        MatchBatting.from_string(
-                            player, str(cel_value), match.date, match.opp
-                        )
-                    )
+                    items.append(MatchBatting.from_string(player, str(cel_value), match.date, match.opp))
 
         self.write_csv(items)

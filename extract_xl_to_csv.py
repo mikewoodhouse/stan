@@ -3,8 +3,11 @@ from pathlib import Path
 
 from openpyxl import load_workbook
 
-from app.loaders.xl import XlBattingImporter  # XlPartnershipsImporter,
-from app.loaders.xl import XlBowlingImporter, XlMatchImporter
+from app.loaders.xl import (
+    XlBattingImporter,  # XlPartnershipsImporter,
+    XlBowlingImporter,
+    XlMatchImporter,
+)
 from app.types import Match, MatchBatting, MatchBowling  # , Partnership
 
 
@@ -20,10 +23,10 @@ if __name__ == "__main__":
     path = Path("./data/xldata")
     csv_path = Path("./data/csvdata")
 
-    clear_csv_files(path)
-
-    for filepath in path.glob("*.xlsm"):
+    for filepath in sorted(path.glob("*.xlsm"), key=lambda p: p.name):
         year = int(filepath.stem[-4:])
+        if filepath.name.startswith("~"):
+            continue
         print(f"importing {filepath} for {year}")
         workbook = load_workbook(str(filepath), data_only=True)
         XlMatchImporter(workbook, csv_path, "matches", Match).ingest()

@@ -7,6 +7,7 @@ from app.types import MatchBowling
 
 class XlBowlingImporter(XlImporter):
     def ingest(self) -> None:
+        print(self.csv_filename)
         sheet = self.wb["Bowling"]
 
         # build name list from column 3, starting at row 5. Note: 1-indexed.
@@ -39,9 +40,5 @@ class XlBowlingImporter(XlImporter):
             for player_idx, player in enumerate(players):
                 row = player_idx + ENTRY_OFFSET
                 if cel_value := sheet.cell(row, col).value:
-                    items.append(
-                        MatchBowling.from_string(
-                            player, str(cel_value), match.date, match.opp
-                        )
-                    )
+                    items.append(MatchBowling.from_string(player, str(cel_value), match.date, match.opp))
         self.write_csv(items)

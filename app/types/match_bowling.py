@@ -29,17 +29,21 @@ class MatchBowling:
     @staticmethod
     def from_string(name: str, input: str, match_date: date, opp: str) -> MatchBowling:
         parts = input.split("/")
-        ob, m, r, w, wd, nb = parts + ([""] * (6 - len(parts)))
-        o, b = ob.split(".") if "." in ob else (int(ob), 0)
+        try:
+            ob, m, r, w, wd, nb = parts + ([""] * (6 - len(parts)))
+        except Exception:
+            print(name, match_date, input)
+            exit()
+        o, b = ob.split(".") if "." in ob else (int(ob) if ob else 0, 0)
         return MatchBowling(
             match_date=match_date,
             opp=opp,
             name=name,
             overs=int(o),
             balls=int(b) if b else 0,
-            maidens=int(m),
-            runs_conceded=int(r),
-            wickets=int(w),
+            maidens=int(m) if m else 0,
+            runs_conceded=int(r) if r else 0,
+            wickets=int(w) if w else 0,
             wides=int(wd) if wd else 0,
             noballs=int(nb) if nb else 0,
         )
