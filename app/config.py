@@ -13,6 +13,7 @@ def dict_factory(cursor, row):
 class Configurator:
     MIN_APPS: int = 30
     MIN_CAPTAINED: int = 10
+    MIN_INNINGS: int = 50
 
     @property
     def db(self) -> sqlite3.Connection:

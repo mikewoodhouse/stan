@@ -9,7 +9,7 @@ def sidebar() -> None:
             ui.link("Players", "/players")
             ui.link("Partnerships", "/partnerships/1")
             ui.link("Appearances", "/appearances")
-            ui.label("Batting")
+            ui.link("Batting", "/batting")
             ui.label("Bowling")
             ui.label("Fielding")
             ui.link("Hundreds", "/hundreds")

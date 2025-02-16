@@ -18,7 +18,6 @@ class TableLoader:
 
     def insert_data(self, rows: list[Any]) -> None:
         sql = self.insert_sql()
-        print(sql)
         print(len(rows), "rows to load...")
         with closing(self.conn.cursor()) as csr:
             rows_as_dicts = [asdict(row) for row in rows]

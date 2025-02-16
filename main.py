@@ -3,6 +3,7 @@ from nicegui import ui
 from app.pages import (
     hundreds_report,
     show_appearances,
+    show_batting,
     show_captain,
     show_captains,
     show_match,
@@ -80,6 +81,11 @@ def captains():
 @ui.page("/captains/{player_id}", title="captains • Stan")
 def captain(player_id: int):
     show_captain(player_id)
+
+
+@ui.page("/batting", title="batting • Stan")
+def batting():
+    show_batting()
 
 
 ui.run()

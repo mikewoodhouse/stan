@@ -1,4 +1,5 @@
 from .appearances import show_appearances
+from .batting_averages import show_batting
 from .captain_record import show_captain
 from .captains import show_captains
 from .hundreds import hundreds_report
@@ -14,6 +15,7 @@ from .seasons import show_seasons
 __all__ = [
     "hundreds_report",
     "show_appearances",
+    "show_batting",
     "show_captain",
     "show_captains",
     "show_match",

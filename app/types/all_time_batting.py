@@ -1,9 +1,14 @@
+from __future__ import annotations
+
+from contextlib import closing
 from dataclasses import dataclass
 
-sql = """
+from app.config import config
+
+SQL = """
     WITH player_lookup AS
     (
-        SELECT id
+        SELECT id AS player_id
         , surname ||
             CASE
                 WHEN length(firstname) > 0 THEN ', ' || firstname
@@ -16,7 +21,7 @@ sql = """
         FROM players
     )
     SELECT
-      p.id
+      p.player_id
     , p.name
     , Min(perf.year) from_yr
     , Max(perf.year) to_yr
@@ -24,15 +29,15 @@ sql = """
     , Sum(perf.matches) matches
     , Sum(perf.innings) innings
     , Sum(perf.notout) notout
-    , (SELECT Max(pf.highest) FROM performances pf WHERE pf.player_id = p.id) ||
+    , (SELECT Max(pf.highest) FROM performances pf WHERE pf.player_id = p.player_id) ||
       CASE (
           SELECT Max(f.highestnotout)
           FROM performances f
-          WHERE f.player_id = p.id
+          WHERE f.player_id = p.player_id
           AND f.highest = (
               SELECT Max(ff.highest)
               FROM performances ff
-              WHERE ff.player_id = p.id)
+              WHERE ff.player_id = p.player_id)
       ) WHEN 1 THEN '*' ELSE '' END high_score
     , Sum(perf.runsscored) runsscored
     , CASE Sum(perf.innings)
@@ -46,9 +51,9 @@ sql = """
     FROM
         performances perf
         JOIN
-        player_lookup p ON p.id = perf.player_id
+        player_lookup p ON p.player_id = perf.player_id
     GROUP BY
-      p.id
+      p.player_id
     , p.name
     HAVING
       Sum(perf.innings) >= :min_innings
@@ -60,8 +65,8 @@ sql = """
 class AllTimeBatting:
     player_id: int
     name: str
-    from_year: int
-    to_year: int
+    from_yr: int
+    to_yr: int
     seasons: int
     matches: int
     innings: int
@@ -73,6 +78,17 @@ class AllTimeBatting:
     sixes: int
     fifties: int
     hundreds: int
+
+    @staticmethod
+    def all(min_innings: int) -> list[AllTimeBatting]:
+        with closing(config.db.cursor()) as csr:
+            csr.execute(
+                SQL,
+                {
+                    "min_innings": min_innings,
+                },
+            )
+            return [AllTimeBatting(**row) for row in csr.fetchall()]
 
     @staticmethod
     def table_cols():
