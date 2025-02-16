@@ -14,6 +14,7 @@ class Configurator:
     MIN_APPS: int = 30
     MIN_CAPTAINED: int = 10
     MIN_INNINGS: int = 50
+    MIN_WICKETS: int = 50
 
     def __init__(self) -> None:
         self._conn: sqlite3.Connection | None = None
