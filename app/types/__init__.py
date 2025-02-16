@@ -1,4 +1,6 @@
 from .all_time_batting import AllTimeBatting
+from .all_time_bowling import AllTimeBowling
+from .all_time_fielding import AllTimeFielding
 from .batting_average import BattingAverage
 from .best_bowling import BestBowling
 from .bowling_average import BowlingAverage
@@ -15,6 +17,8 @@ from .season_record import SeasonRecord
 
 __all__ = [
     "AllTimeBatting",
+    "AllTimeBowling",
+    "AllTimeFielding",
     "BattingAverage",
     "BestBowling",
     "BowlingAverage",

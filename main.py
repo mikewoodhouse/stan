@@ -4,8 +4,10 @@ from app.pages import (
     hundreds_report,
     show_appearances,
     show_batting,
+    show_bowling,
     show_captain,
     show_captains,
+    show_fielding,
     show_match,
     show_matches,
     show_partnerships,
@@ -86,6 +88,16 @@ def captain(player_id: int):
 @ui.page("/batting", title="batting • Stan")
 def batting():
     show_batting()
+
+
+@ui.page("/bowling", title="bowling • Stan")
+def bowling():
+    show_bowling()
+
+
+@ui.page("/fielding", title="fielding • Stan")
+def fielding():
+    show_fielding()
 
 
 ui.run(favicon="ico/tocc-32x32.png")
