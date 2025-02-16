@@ -1,6 +1,7 @@
 from nicegui import ui
 
 from app.types import Match, MatchBatting, MatchBowling
+from app.utils import page_header
 
 from .sidebar_menu import sidebar
 
@@ -12,8 +13,7 @@ def show_match(match_id: int) -> None:
 
     hdr = f"{match['date']} vs {match['oppo']} ({match['venue']}) - {match['result']} - {match['bat_first']} {match['score_1']} {match['bat_second']} {match['score_2']}"
 
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label(hdr).style("color: gold").style("font-size: 200%")
+    page_header(hdr)
 
     sidebar()
 

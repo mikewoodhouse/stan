@@ -4,13 +4,13 @@ from nicegui import ui
 
 from app.pages.sidebar_menu import sidebar
 from app.types import HundredPlus, Player
+from app.utils import add_slot_to_table, page_header
 
 
 def hundreds_report():
     sidebar()
 
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label("Hundreds").style("color: gold").style("font-size: 200%")
+    page_header("Hundreds")
 
     with ui.row():
         ui.link("Back", "/")
@@ -24,14 +24,8 @@ def hundreds_report():
 
 # TODO Rename this here and in `hundreds_report`
 def show_hundreds_data_row(rows: list[dict], players: dict[int, Player]):
-    ui.table(rows=rows, columns=HundredPlus.table_cols(), row_key="id").props("dense").add_slot(
-        "body-cell-name",
-        r"""
-                <td :props="props">
-                    <a :href="'/players/' + props.row.player_id" class='nicegui-link'>{{props.row.name}}</a>
-                </td>
-                """,
-    )
+    with ui.table(rows=rows, columns=HundredPlus.table_cols(), row_key="id").props("dense") as table:
+        add_slot_to_table(table, "name", "players", "player_id")
 
     players_by_name = {p.name: p.id for p in players.values()}
     ton_count = Counter(row["name"] for row in rows)
@@ -51,11 +45,5 @@ def show_hundreds_data_row(rows: list[dict], players: dict[int, Player]):
         },
     ]
 
-    ui.table(rows=ton_rows, columns=ton_cols).props("dense").add_slot(
-        "body-cell-name",
-        r"""
-                <td :props="props">
-                    <a :href="'/players/' + props.row.player_id" class='nicegui-link'>{{props.row.name}}</a>
-                </td>
-                """,
-    )
+    with ui.table(rows=ton_rows, columns=ton_cols).props("dense") as table:
+        add_slot_to_table(table, "name", "players", "player_id")

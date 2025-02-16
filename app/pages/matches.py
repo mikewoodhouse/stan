@@ -1,13 +1,13 @@
 from nicegui import ui
 
 from app.types import Match
+from app.utils import add_slot_to_table, page_header
 
 from .sidebar_menu import sidebar
 
 
 def show_matches(year: int) -> None:
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label(f"Season {year} matches").style("color: gold").style("font-size: 200%")
+    page_header(f"Season {year} matches")
 
     sidebar()
 
@@ -18,11 +18,4 @@ def show_matches(year: int) -> None:
             columns=Match.table_cols(),
         ).props("dense")
 
-        table.add_slot(
-            "body-cell-oppo",
-            r"""
-            <td :props="props" style="text-align:left">
-                <a :href="'/match/' + props.row.id" class='nicegui-link'>{{props.row.oppo}}</a>
-            </td>
-            """,
-        )
+        add_slot_to_table(table, "oppo", "match", "id")

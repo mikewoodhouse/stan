@@ -3,6 +3,7 @@ from dataclasses import asdict
 from nicegui import ui
 
 from app.types import BattingAverage, BowlingAverage, Partnership, Player, Season, SeasonRecord
+from app.utils import add_slot_to_table, page_header
 
 from .sidebar_menu import sidebar
 
@@ -13,8 +14,7 @@ def show_season(year: int) -> None:
     min_partnership_total = 75
     players = Player.all()
 
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label(f"{year} Season").style("color: gold").style("font-size: 200%")
+    page_header(f"{year} Season")
 
     sidebar()
 
@@ -53,15 +53,7 @@ def show_batting(min_innings, players, averages, show_position=True):
         columns=BattingAverage.table_cols(),
         title=(f"Batting (min {min_innings} innings)" if show_position else "Also batted"),
     ).props("dense")
-
-    table.add_slot(
-        "body-cell-name",
-        r"""
-                <td :props="props">
-                    <a :href="'/players/' + props.row.player_id" class='nicegui-link'>{{props.row.name}}</a>
-                </td>
-                """,
-    )
+    add_slot_to_table(table, "name", "players", "player_id")
     if not show_position:
         table.add_slot(
             "body-cell-position",
@@ -78,14 +70,7 @@ def show_bowling(min_wickets, players, averages, show_position=True):
         columns=BowlingAverage.table_cols(),
         title=(f"Bowling (min {min_wickets} wickets)" if show_position else "Also bowled"),
     ).props("dense") as table:
-        table.add_slot(
-            "body-cell-name",
-            r"""
-                <td :props="props">
-                    <a :href="'/players/' + props.row.player_id" class='nicegui-link'>{{props.row.name}}</a>
-                </td>
-                """,
-        )
+        add_slot_to_table(table, "name", "players", "player_id")
         if not show_position:
             table.add_slot(
                 "body-cell-position",

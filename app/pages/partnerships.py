@@ -1,6 +1,7 @@
 from nicegui import ui
 
 from app.types import Partnership
+from app.utils import page_header
 
 from .sidebar_menu import sidebar
 
@@ -14,8 +15,7 @@ def show_partnerships(wicket: int):
 
     sidebar()
 
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label(f"Partnerships for {ordinal(wicket)} wicket").style("color: gold").style("font-size: 200%")
+    page_header(f"Partnerships for {ordinal(wicket)} wicket")
 
     with ui.row():
         ui.markdown(

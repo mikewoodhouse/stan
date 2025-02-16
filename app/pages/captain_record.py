@@ -2,6 +2,7 @@ from nicegui import ui
 
 from app.pages.sidebar_menu import sidebar
 from app.types import Captain, Player
+from app.utils import add_slot_to_table, page_header
 
 COLS = [
     {"name": "year", "label": "Year", "field": "year", "sortable": True},
@@ -19,26 +20,12 @@ COLS = [
 def show_captain(player_id: int):
     player = Player.get(player_id)
 
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label(f"Captaincy by year: {player.name}").style("color: gold").style("font-size: 200%")
+    page_header(f"Captaincy by year: {player.name}")
 
     sidebar()
 
     rows = Captain.for_player(player_id)
 
-    # weirdness: can't seem to construct the target in the add_slot() call, so putting it together outside
-    for row in rows:
-        row["player_year_addr"] = f"{player_id}/{row['year']}"
-
     with ui.column():
         with ui.table(rows=rows, columns=COLS).props("dense") as table:
-            table.add_slot(
-                "body-cell-year",
-                r"""
-                <td :props="props">
-                    <a :href="'/players/' + props.row.player_year_addr" class='nicegui-link'>
-                        {{props.row.year}}
-                    </a>
-                </td>
-                """,
-            )
+            add_slot_to_table(table, "year", "players", ["player_id", "year"])

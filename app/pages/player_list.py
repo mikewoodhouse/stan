@@ -3,6 +3,7 @@ from contextlib import closing
 from nicegui import ui
 
 from app.config import config
+from app.utils import add_slot_to_table, page_header
 
 from .sidebar_menu import sidebar
 
@@ -46,8 +47,7 @@ def players_like(starts_with: str = "") -> list[dict]:
 
 
 def show_player_list() -> None:
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label("Players").style("color: gold").style("font-size: 200%")
+    page_header("Players")
 
     sidebar()
 
@@ -78,13 +78,4 @@ def show_player_list() -> None:
         with table.add_slot("top-right"):
             with ui.input(placeholder="Search").props("type=search").bind_value(table, "filter").add_slot("append"):
                 ui.icon("search")
-        table.add_slot(
-            "body-cell-name",
-            r"""
-            <td :props="props">
-                <a :href="'/players/' + props.row.player_id" class='nicegui-link'>
-                    {{props.row.name}}
-                </a>
-            </td>
-        """,
-        )
+        add_slot_to_table(table, "name", "players", "player_id")

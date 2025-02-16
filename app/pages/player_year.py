@@ -1,6 +1,7 @@
 from nicegui import ui
 
 from app.types import Player, PlayerMatchPerf
+from app.utils import page_header
 
 from .sidebar_menu import sidebar
 
@@ -8,8 +9,7 @@ from .sidebar_menu import sidebar
 def show_player_year(player_id: int, year: int):
     player = Player.get(player_id)
 
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label(f"{player.name}: Performances for {year}").style("color: gold").style("font-size: 200%")
+    page_header(f"{player.name}: Performances for {year}")
 
     sidebar()
 

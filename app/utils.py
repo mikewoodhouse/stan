@@ -35,5 +35,7 @@ def table_link_slot_html(cell_name_suffix: str, target: str, href_row_props: lis
     )
 
 
-def add_slot_to_table(table: ui.table, cell_name_suffix: str, target: str, href_row_props: list[str]) -> None:
+def add_slot_to_table(table: ui.table, cell_name_suffix: str, target: str, href_row_props: str | list[str]) -> None:
+    if isinstance(href_row_props, str):
+        href_row_props = [href_row_props]
     table.add_slot(f"body-cell-{cell_name_suffix}", table_link_slot_html(cell_name_suffix, target, href_row_props))

@@ -2,6 +2,7 @@ from nicegui import ui
 
 from app.pages.sidebar_menu import sidebar
 from app.types import Captain
+from app.utils import add_slot_to_table, page_header
 
 COLS = [
     {"name": "player_name", "label": "Name", "field": "player_name", "align": "left", "sortable": True},
@@ -17,16 +18,12 @@ COLS = [
 
 
 def show_captains():
+    page_header("Captains")
+
     sidebar()
 
     rows = Captain.all()
 
     with ui.column():
-        ui.table(rows=rows, columns=COLS).props("dense").add_slot(
-            "body-cell-player_name",
-            r"""
-                    <td :props="props">
-                        <a :href="'/captains/' + props.row.player_id" class='nicegui-link'>{{props.row.player_name}}</a>
-                    </td>
-                    """,
-        )
+        with ui.table(rows=rows, columns=COLS).props("dense") as table:
+            add_slot_to_table(table, "player_name", "captains", "player_id")

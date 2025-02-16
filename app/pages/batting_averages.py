@@ -5,6 +5,7 @@ from nicegui import ui
 from app.config import config
 from app.pages.sidebar_menu import sidebar
 from app.types import AllTimeBatting
+from app.utils import add_slot_to_table, page_header
 
 COLS = [
     {"name": "pos", "label": "", "field": "position", "align": "center", "sortable": True},
@@ -33,8 +34,7 @@ COLS = [
 
 
 def show_batting():
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label(f"Batting Averages (min: {config.MIN_INNINGS} innings)").style("color: gold").style("font-size: 200%")
+    page_header(f"Batting Averages (min: {config.MIN_INNINGS} innings)")
 
     sidebar()
 
@@ -42,11 +42,5 @@ def show_batting():
     rows = [asdict(row) | {"position": pos + 1} for pos, row in enumerate(records)]
 
     with ui.row():
-        ui.table(rows=rows, columns=COLS).props("dense").add_slot(
-            "body-cell-name",
-            r"""
-                <td :props="props">
-                    <a :href="'/players/' + props.row.player_id" class='nicegui-link'>{{props.row.name}}</a>
-                </td>
-                """,
-        )
+        with ui.table(rows=rows, columns=COLS).props("dense") as table:
+            add_slot_to_table(table, "name", "players", ["player_id"])

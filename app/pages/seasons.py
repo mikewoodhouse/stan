@@ -3,13 +3,13 @@ from dataclasses import asdict
 from nicegui import ui
 
 from app.types import Season
+from app.utils import add_slot_to_table, page_header
 
 from .sidebar_menu import sidebar
 
 
 def show_seasons():
-    with ui.header(elevated=True).style("background-color: maroon"):
-        ui.label("Seasons").style("color: gold").style("font-size: 200%")
+    page_header("Seasons")
 
     sidebar()
 
@@ -22,11 +22,4 @@ def show_seasons():
             pagination=30,
         ).props("dense")
 
-        table.add_slot(
-            "body-cell-year",
-            r"""
-            <td :props="props" style="text-align:center">
-                <a :href="'/season/' + props.row.year" class='nicegui-link'>{{props.row.year}}</a>
-            </td>
-            """,
-        )
+        add_slot_to_table(table, "year", "season", "year")
