@@ -88,4 +88,4 @@ def batting():
     show_batting()
 
 
-ui.run()
+ui.run(favicon="ico/tocc-32x32.png")
