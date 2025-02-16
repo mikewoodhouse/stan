@@ -1,5 +1,6 @@
 from nicegui import ui
 
+from app.config import config
 from app.pages.sidebar_menu import sidebar
 from app.types import Captain
 from app.utils import add_slot_to_table, page_header
@@ -18,7 +19,7 @@ COLS = [
 
 
 def show_captains():
-    page_header("Captains")
+    page_header(f"Captains ({config.MIN_CAPTAINED} or more games)")
 
     sidebar()
 
