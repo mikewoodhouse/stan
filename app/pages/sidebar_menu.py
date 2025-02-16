@@ -3,7 +3,7 @@ from nicegui import ui
 
 def sidebar() -> None:
     with ui.left_drawer() as sidebar:
-        sidebar.props("width=100")
+        sidebar.props("width=120").style("background-color: lemonchiffon;")
         with ui.column():
             ui.link("Seasons", "/seasons")
             ui.link("Players", "/players")
