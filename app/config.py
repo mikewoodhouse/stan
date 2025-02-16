@@ -15,11 +15,20 @@ class Configurator:
     MIN_CAPTAINED: int = 10
     MIN_INNINGS: int = 50
 
+    def __init__(self) -> None:
+        self._conn: sqlite3.Connection | None = None
+
     @property
     def db(self) -> sqlite3.Connection:
-        conn = sqlite3.connect("stan.sqlite", detect_types=sqlite3.PARSE_DECLTYPES)
-        conn.row_factory = dict_factory
-        return conn
+        if self._conn:
+            return self._conn
+        self._conn = sqlite3.connect("stan.sqlite", detect_types=sqlite3.PARSE_DECLTYPES)
+        self._conn.row_factory = dict_factory
+        return self._conn
+
+    @db.setter
+    def db(self, value: sqlite3.Connection) -> None:
+        self._conn = value
 
 
 config = Configurator()
