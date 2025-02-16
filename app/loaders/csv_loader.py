@@ -103,5 +103,4 @@ class CsvLoader:
     def update_player_id(self, tbl: str, name: str, player_id: int) -> None:
         escaped_name = name.replace("'", "''")
         sql = f"UPDATE {tbl} SET player_id={player_id} WHERE name = '{escaped_name}'"
-        print(sql)
         self.conn.execute(sql)
