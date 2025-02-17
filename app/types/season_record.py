@@ -7,7 +7,7 @@ from datetime import date
 from dataclass_csv import dateformat
 
 from app.config import config
-from app.utils import balls_to_overs
+from app.utils import balls_to_overs, sql_query
 
 
 @dataclass(kw_only=True)
@@ -52,26 +52,11 @@ class SeasonRecord:
     @classmethod
     def for_year(cls, year: int) -> list[dict]:
         with closing(config.db.cursor()) as csr:
-            csr.execute("SELECT * FROM season_records WHERE year = :year", {"year": year})
+            csr.execute(
+                sql_query("season_records"),
+                {
+                    "year": year,
+                },
+            )
             records = [SeasonRecord(**row) for row in csr.fetchall()]
             return [record.row_dict() for record in records]
-
-    @staticmethod
-    def table_cols() -> list[dict]:
-        return [
-            {"name": "club", "label": "Club", "field": "club"},
-            {"name": "runsscored", "label": "Runs", "field": "runsscored"},
-            {"name": "wicketslost", "label": "Wickets Lost", "field": "wicketslost"},
-            {"name": "highest", "label": "Highest", "field": "highest_score"},
-            {"name": "highestdate", "label": "Date", "field": "highestdate"},
-            {"name": "highestopps", "label": "Vs", "field": "highestopps"},
-            {"name": "lowest", "label": "Lowest", "field": "lowest_score"},
-            {"name": "lowestdate", "label": "Date", "field": "lowestdate"},
-            {"name": "lowestopps", "label": "Vs", "field": "lowestopps"},
-            {"name": "byes", "label": "Byes", "field": "byes"},
-            {"name": "legbyes", "label": "Legbyes", "field": "legbyes"},
-            {"name": "wides", "label": "Wides", "field": "wides"},
-            {"name": "noballs", "label": "Noballs", "field": "noballs"},
-            {"name": "overs_bowled", "label": "Overs Bowled", "field": "overs_bowled"},
-            {"name": "overs_faced", "label": "Overs Faced", "field": "overs_faced"},
-        ]

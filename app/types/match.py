@@ -7,6 +7,7 @@ from datetime import date
 from dataclass_csv import dateformat
 
 from app.config import config
+from app.utils import sql_query
 
 
 @dateformat("%Y-%m-%d %H:%M:%S")
@@ -56,7 +57,7 @@ class Match:
     def for_year(cls, year: int) -> list[Match]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                "SELECT * FROM matches WHERE date between :soy AND :eoy ORDER BY date",
+                sql_query("matches_for_year"),
                 {"soy": f"{year}-01-01", "eoy": f"{year}-12-31"},
             )
             rows = csr.fetchall()
@@ -67,7 +68,7 @@ class Match:
     def for_id(cls, match_id: int) -> list[Match]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                "SELECT * FROM matches WHERE id = :match_id",
+                sql_query("match_by_id"),
                 {"match_id": match_id},
             )
             rows = csr.fetchall()

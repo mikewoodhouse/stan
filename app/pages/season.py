@@ -3,9 +3,37 @@ from dataclasses import asdict
 from nicegui import ui
 
 from app.types import BattingAverage, BowlingAverage, Partnership, Player, Season, SeasonRecord
-from app.utils import add_slot_to_table, page_header, sortable
+from app.utils import add_slot_to_table, coldef, page_header, sortable
 
 from .sidebar_menu import sidebar
+
+SEASON_COLS = [
+    coldef("year", align="left"),
+    coldef("played", "P"),
+    coldef("won", "W"),
+    coldef("lost", "L"),
+    coldef("drawn", "D"),
+    coldef("tied", "T"),
+    coldef("noresult", "N/D"),
+]
+
+SEASON_RECORD_COLS = [
+    coldef("club"),
+    coldef("runsscored", "Runs"),
+    coldef("wicketslost", "Wickets Lost"),
+    coldef("highest_score", "Highest"),
+    coldef("highestdate", "Date"),
+    coldef("highestopps", "Vs", align="left"),
+    coldef("lowest_score", "Lowest"),
+    coldef("lowestdate", "Date"),
+    coldef("lowestopps", "Vs", align="left"),
+    coldef("byes"),
+    coldef("legbyes"),
+    coldef("wides"),
+    coldef("noballs"),
+    coldef("overs_bowled"),
+    coldef("overs_faced"),
+]
 
 BATTING_COLS = [
     sortable("position", "Pos"),
@@ -47,12 +75,12 @@ def show_season(year: int) -> None:
 
     with ui.row():
         season = Season.for_year(year)
-        ui.table(rows=[asdict(season)], columns=Season.table_cols()).props("dense")
+        ui.table(rows=[asdict(season)], columns=SEASON_COLS).props("dense")
         with ui.card():
             ui.link("Matches", f"/matches/{year}")
     with ui.row():
         records = SeasonRecord.for_year(year)
-        ui.table(rows=records, columns=SeasonRecord.table_cols()).props("dense")
+        ui.table(rows=records, columns=SEASON_RECORD_COLS).props("dense")
     with ui.row():
         with ui.card():
             averages, also_batted = BattingAverage.for_year(year, min_innings)

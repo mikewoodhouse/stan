@@ -7,7 +7,7 @@ from app.utils import add_slot_to_table, coldef, page_header
 
 from .sidebar_menu import sidebar
 
-COLS = [
+SEASON_COLS = [
     coldef("year", align="left"),
     coldef("played", "P"),
     coldef("won", "W"),
@@ -28,7 +28,7 @@ def show_seasons():
 
         table = ui.table(
             rows=[asdict(season) for season in seasons],
-            columns=COLS,
+            columns=SEASON_COLS,
             pagination=30,
         ).props("dense")
 

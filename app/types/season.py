@@ -31,15 +31,3 @@ class Season:
             csr.execute("SELECT * FROM seasons WHERE year = :year", {"year": year})
             row = csr.fetchone()
             return Season(**row)
-
-    @staticmethod
-    def table_cols() -> list[dict]:
-        return [
-            {"name": "year", "label": "Year", "field": "year", "align": "center"},
-            {"name": "played", "label": "P", "field": "played"},
-            {"name": "won", "label": "W", "field": "won"},
-            {"name": "lost", "label": "L", "field": "lost"},
-            {"name": "drawn", "label": "D", "field": "drawn"},
-            {"name": "tied", "label": "T", "field": "tied"},
-            {"name": "noresult", "label": "N/R", "field": "noresult"},
-        ]

@@ -7,6 +7,7 @@ from datetime import date
 from dataclass_csv import dateformat
 
 from app.config import config
+from app.utils import sql_query
 
 
 @dateformat("%Y-%m-%d %H:%M:%S")
@@ -67,7 +68,7 @@ class MatchBowling:
     def for_match_id(match_id: int) -> list[MatchBowling]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                "SELECT * FROM match_bowling WHERE match_id = :match_id ORDER BY id",
+                sql_query("match_bowling"),
                 {"match_id": match_id},
             )
             rows = csr.fetchall()

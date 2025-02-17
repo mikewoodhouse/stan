@@ -1,6 +1,6 @@
 import pytest
 
-from app.utils import coldef, table_link_slot_html
+from app.utils import coldef, extract_sql_parameters, table_link_slot_html
 
 
 def test_table_link_slot_html():
@@ -27,3 +27,10 @@ def test_table_link_slot_html():
 )
 def test_coldef(result, expected):
     assert result == expected
+
+
+def test_sql_query():
+    assert (
+        extract_sql_parameters("SELECT * FROM players WHERE id = ':id' AND name = ':name'")
+        == "SELECT * FROM players WHERE id = :id AND name = :name"
+    )

@@ -1,5 +1,7 @@
+import re
 from contextlib import closing
 from functools import partial
+from pathlib import Path
 from typing import Any
 
 from nicegui import ui
@@ -58,6 +60,16 @@ def coldef(
     if sortable:
         result["sortable"] = True
     return result
+
+
+def extract_sql_parameters(sql: str) -> str:
+    return re.sub(r"'(:[^']+)'", r"\1", sql)
+
+
+def sql_query(filename: str) -> str:
+    path = Path(__file__).parent / "types" / "sql" / f"{filename}.sql"
+    sql = path.read_text()
+    return extract_sql_parameters(sql)
 
 
 sortable = partial(coldef, sortable=True)

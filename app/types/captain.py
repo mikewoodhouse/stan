@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from dataclasses_json import Undefined, dataclass_json
 
 from app.config import config
-from app.utils import player_name
+from app.utils import player_name, sql_query
 
 
 @dataclass_json(undefined=Undefined.EXCLUDE)
@@ -24,27 +24,7 @@ class Captain:
     def all(cls) -> list[dict]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                """
-            SELECT
-                c.player_id
-            ,   p.surname
-            ,   p.firstname
-            ,   p.initial
-            ,   SUM(c.matches) as matches
-            ,   SUM(c.won) AS won
-            ,   SUM(c.lost) AS lost
-            ,   SUM(c.drawn) AS drawn
-            ,   SUM(c.nodecision) AS nodecision
-            ,   SUM(c.tied) AS tied
-            FROM captains c JOIN players p ON p.id = c.player_id
-            GROUP BY
-                c.player_id
-            ,   p.surname
-            ,   p.firstname
-            ,   p.initial
-            HAVING SUM(matches) >= :min_captained
-            ORDER BY 5 DESC
-            """,
+                sql_query("captain"),
                 {"min_captained": config.MIN_CAPTAINED},
             )
             rows = [dict(row) for row in csr.fetchall()]
@@ -58,13 +38,7 @@ class Captain:
     def for_player(cls, player_id: int) -> list[dict]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                """
-            SELECT
-                *
-            FROM captains
-            WHERE player_id = :player_id
-            ORDER BY year
-            """,
+                sql_query("captain_for_player"),
                 {"player_id": player_id},
             )
             rows = [dict(row) for row in csr.fetchall()]

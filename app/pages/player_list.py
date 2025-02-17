@@ -3,7 +3,7 @@ from contextlib import closing
 from nicegui import ui
 
 from app.config import config
-from app.utils import add_slot_to_table, coldef, page_header
+from app.utils import add_slot_to_table, coldef, page_header, sql_query
 
 from .sidebar_menu import sidebar
 
@@ -19,33 +19,7 @@ COLS = [
 def players_like(starts_with: str = "") -> list[dict]:
     with closing(config.db.cursor()) as csr:
         csr.execute(
-            """
-            SELECT
-                f.player_id
-            ,   p.surname ||
-                CASE
-                    WHEN p.firstname != ''
-                    THEN ', ' || p.firstname
-                    ELSE
-                        CASE
-                            WHEN p.initial != ''
-                            THEN ', ' || p.initial
-                            ELSE ''
-                        END
-                END AS name
-            ,   MIN(f.year) AS from_year
-            ,   MAX(f.year) AS to_year
-            FROM players p
-                JOIN performances f
-                ON f.player_id = p.id
-            WHERE p.surname LIKE :starts_with
-            GROUP BY
-                p.surname
-            ,   p.initial
-            ,   p.firstname
-            ,   f.player_id
-            ORDER BY p.surname, p.initial, p.firstname
-            """,
+            sql_query("player_list"),
             {"starts_with": f"{starts_with}%"},
         )
         players = csr.fetchall()

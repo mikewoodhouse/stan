@@ -5,41 +5,7 @@ from dataclasses import asdict, dataclass
 from datetime import date
 
 from app.config import config
-from app.utils import player_name
-
-YEAR_PERFS_SQL = """
-WITH batting_plus_year AS (
-	SELECT
-		*
-	,	CAST(STRFTIME('%Y', DATETIME(match_date)) AS INTEGER) AS year
-	FROM match_batting
-)
-SELECT
-	ba.match_date
-,	ba.opp
-,	ba.captain
-,	ba.kept_wicket AS keeper
-,	ba.position AS bat_pos
-,	ba.how_out
-,	ba.runs AS runs_scored
-,	ba.fours
-,	ba.sixes
-,	bo.overs
-,	bo.balls
-,	bo.maidens
-,	bo.runs_conceded
-,	bo.wickets
-,	ba.caught
-,	ba.caught_wkt
-,	ba.stumped
-FROM batting_plus_year ba
-	LEFT JOIN match_bowling bo
-	ON ba.player_id = bo.player_id
-	AND ba.match_id = bo.match_id
-WHERE ba.player_id = :player_id
-AND ba.year = :year
-ORDER BY ba.match_date
-"""
+from app.utils import player_name, sql_query
 
 
 @dataclass
@@ -112,7 +78,7 @@ class Player:
     def get(cls, player_id: int) -> Player:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                "SELECT * FROM players WHERE id = :player_id",
+                sql_query(("player_by_id")),
                 {
                     "player_id": player_id,
                 },
@@ -124,9 +90,7 @@ class Player:
     def all(cls, surname_like: str = "%") -> dict[int, Player]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                """SELECT *
-                FROM players WHERE surname LIKE :surname_like ORDER BY surname, initial
-                """,
+                sql_query("player_surname_like"),
                 {
                     "surname_like": surname_like,
                 },
@@ -137,11 +101,7 @@ class Player:
     def match_perf_years(self) -> list[int]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                """
-                SELECT DISTINCT strftime('%Y', datetime(match_date)) AS yr
-                FROM match_batting
-                WHERE player_id = :player_id
-                ORDER BY 1""",
+                sql_query("player_years_batted_in"),
                 {
                     "player_id": self.id,
                 },
@@ -152,7 +112,7 @@ class Player:
     def match_perfs(self, year: int) -> list[PlayerMatchPerf]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                YEAR_PERFS_SQL,
+                sql_query("player_perfs_for_year"),
                 {
                     "player_id": self.id,
                     "year": year,

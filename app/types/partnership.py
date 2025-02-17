@@ -7,6 +7,7 @@ from datetime import date  # noqa
 from dataclass_csv import dateformat
 
 from app.config import config
+from app.utils import sql_query
 
 
 @dataclass(kw_only=True)
@@ -42,42 +43,16 @@ class Partnership:
     def for_wicket(wicket: int) -> list[Partnership]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                """
-                SELECT
-                    pt.*
-                , b1.surname || CASE WHEN b1.initial BETWEEN 'A' AND 'Z' THEN ', '
-                    || b1.initial ELSE '' END AS bat1_name
-                , b2.surname || CASE WHEN b2.initial BETWEEN 'A' AND 'Z' THEN ', '
-                    || b2.initial ELSE '' END AS bat2_name
-                FROM partnerships pt
-                JOIN players b1 ON b1.id = pt.bat1_id
-                JOIN players b2 ON b2.id = pt.bat2_id
-                WHERE wicket = :wicket
-                ORDER BY wicket, total DESC""",
+                sql_query("partnerships_for_wicket"),
                 {"wicket": wicket},
             )
             return [Partnership(**row) for row in csr.fetchall()]
 
     @staticmethod
     def for_season(year: int, min_total: int) -> list[Partnership]:
-        sql = """WITH pt AS (
-                SELECT *
-                , ROW_NUMBER() OVER (PARTITION BY year, wicket ORDER BY total DESC) AS rank
-                FROM partnerships
-                WHERE year = :year
-            )
-            SELECT pt.*
-            , b1.surname || CASE WHEN b1.initial BETWEEN 'A' AND 'Z' THEN ', ' || b1.initial ELSE '' END AS bat1_name
-            , b2.surname || CASE WHEN b2.initial BETWEEN 'A' AND 'Z' THEN ', ' || b2.initial ELSE '' END AS bat2_name
-            FROM pt
-            JOIN players b1 ON b1.id = pt.bat1_id
-            JOIN players b2 ON b2.id = pt.bat2_id
-            WHERE total >= :min_total
-            OR rank = 1
-            ORDER BY wicket, total DESC"""
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                sql,
+                sql_query("partnerships_for_season"),
                 {
                     "year": year,
                     "min_total": min_total,
