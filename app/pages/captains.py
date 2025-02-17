@@ -1,20 +1,24 @@
+from functools import partial
+
 from nicegui import ui
 
 from app.config import config
 from app.pages.sidebar_menu import sidebar
 from app.types import Captain
-from app.utils import add_slot_to_table, page_header
+from app.utils import add_slot_to_table, coldef, page_header
+
+sortable = partial(coldef, sortable=True)
 
 COLS = [
-    {"name": "player_name", "label": "Name", "field": "player_name", "align": "left", "sortable": True},
-    {"name": "matches", "label": "Matches", "field": "matches", "sortable": True},
-    {"name": "won", "label": "W", "field": "won", "sortable": True},
-    {"name": "lost", "label": "L", "field": "lost", "sortable": True},
-    {"name": "drawn", "label": "D", "field": "drawn", "sortable": True},
-    {"name": "nodecision", "label": "N/D", "field": "nodecision", "sortable": True},
-    {"name": "tied", "label": "T", "field": "tied", "sortable": True},
-    {"name": "won_pct", "label": "Won", "field": "won_pct", "sortable": True},
-    {"name": "not_lost_pct", "label": "Not Lost", "field": "not_lost_pct", "sortable": True},
+    sortable("player_name", label="Name", align="left"),
+    sortable("matches"),
+    sortable("won", label="W"),
+    sortable("lost", label="L"),
+    sortable("drawn", label="D"),
+    sortable("nodecision", label="N/D"),
+    sortable("tied", label="T"),
+    sortable("won_pct", label="Won%"),
+    sortable("not_lost_pct", label="Not Lost%"),
 ]
 
 

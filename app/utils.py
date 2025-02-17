@@ -1,4 +1,5 @@
 from contextlib import closing
+from typing import Any
 
 from nicegui import ui
 
@@ -39,3 +40,20 @@ def add_slot_to_table(table: ui.table, cell_name_suffix: str, target: str, href_
     if isinstance(href_row_props, str):
         href_row_props = [href_row_props]
     table.add_slot(f"body-cell-{cell_name_suffix}", table_link_slot_html(cell_name_suffix, target, href_row_props))
+
+
+def coldef(
+    field: str, *, label: str = "", name: str = "", align: str = "", decimals: int = -1, sortable: bool = False
+) -> dict:
+    result: dict[str, Any] = {
+        "name": name or field,
+        "field": field,
+        "label": label if label else field.capitalize(),
+    }
+    if align:
+        result["align"] = align
+    if decimals > 0:
+        result[":format"] = f"value => value ? value.toFixed({decimals}) : ''"
+    if sortable:
+        result["sortable"] = True
+    return result
