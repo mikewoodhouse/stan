@@ -5,41 +5,20 @@ from nicegui import ui
 from app.config import config
 from app.pages.sidebar_menu import sidebar
 from app.types import AllTimeBowling
-from app.utils import add_slot_to_table, page_header, balls_to_overs
+from app.utils import add_slot_to_table, balls_to_overs, page_header, sortable
 
 COLS = [
-    {"name": "name", "label": "Name", "field": "name", "align": "left", "sortable": True},
-    {"name": "from", "label": "From", "field": "from_yr", "align": "", "sortable": True},
-    {"name": "to", "label": "To", "field": "to_yr", "align": "", "sortable": True},
-    {"name": "seasons", "label": "Seasons", "field": "seasons", "align": "", "sortable": True},
-    {"name": "overs", "label": "Overs", "field": "overs", "align": "", "sortable": True},
-    {"name": "maidens", "label": "Maidens", "field": "maidens", "align": "", "sortable": True},
-    {"name": "wickets", "label": "Wickets", "field": "wickets", "align": "", "sortable": True},
-    {"name": "runs", "label": "Runs", "field": "runs_conceded", "align": "", "sortable": True},
-    {
-        "name": "bowlave",
-        "label": "Avg",
-        "field": "bowlave",
-        "align": "",
-        "sortable": True,
-        ":format": "value => value ? value.toFixed(2) : ''",
-    },
-    {
-        "name": "strike",
-        "label": "Strike",
-        "field": "strike_rate",
-        "align": "",
-        "sortable": True,
-        ":format": "value => value ? value.toFixed(2) : ''",
-    },
-    {
-        "name": "econ",
-        "label": "Econ",
-        "field": "econ",
-        "align": "",
-        "sortable": True,
-        ":format": "value => value ? value.toFixed(2) : ''",
-    },
+    sortable("name", align="left"),
+    sortable("from_yr", "From"),
+    sortable("to_yr", "To"),
+    sortable("seasons"),
+    sortable("overs"),
+    sortable("maidens"),
+    sortable("wickets"),
+    sortable("runs_conceded", "Runs"),
+    sortable("bowlave", "Avg", decimals=2),
+    sortable("strike_rate", "Strike", decimals=2),
+    sortable("econ", decimals=2),
 ]
 
 

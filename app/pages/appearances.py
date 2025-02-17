@@ -2,15 +2,15 @@ from nicegui import ui
 
 from app.config import config
 from app.types import Performance
-from app.utils import add_slot_to_table, page_header
+from app.utils import add_slot_to_table, coldef, page_header
 
 from .sidebar_menu import sidebar
 
 COLS = [
-    {"name": "player_name", "label": "Name", "field": "player_name", "align": "left"},
-    {"name": "apps", "label": "Apps", "field": "appearances", "align": "right"},
-    {"name": "from_yr", "label": "From", "field": "from_year", "align": "center"},
-    {"name": "to_yr", "label": "To", "field": "to_year", "align": "center"},
+    coldef("player_name", "Name", align="left"),
+    coldef("appearances", "Apps"),
+    coldef("from_year", "From"),
+    coldef("to_year", "To"),
 ]
 
 

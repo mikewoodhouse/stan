@@ -1,9 +1,30 @@
 from nicegui import ui
 
 from app.types import Match, MatchBatting, MatchBowling
-from app.utils import page_header
+from app.utils import coldef, page_header
 
 from .sidebar_menu import sidebar
+
+BATTING_COLS = [
+    coldef("position"),
+    coldef("fancy_name", "Name"),
+    coldef("how_out_text", "How Out"),
+    coldef("runs"),
+    coldef("fours", "4s"),
+    coldef("sixes", "6s"),
+    coldef("fielding", "_"),
+]
+
+
+BOWLING_COLS = [
+    coldef("name"),
+    coldef("overs_and_balls", "Overs"),
+    coldef("maidens"),
+    coldef("runs_conceded", "Runs"),
+    coldef("wickets"),
+    coldef("econ"),
+    coldef("strike_rate"),
+]
 
 
 def show_match(match_id: int) -> None:
@@ -20,11 +41,11 @@ def show_match(match_id: int) -> None:
     with ui.row():
         ui.table(
             rows=[row.row_dict() for row in batting],
-            columns=MatchBatting.table_cols(),
+            columns=BATTING_COLS,
         ).props("dense")
 
     with ui.row():
         ui.table(
             rows=[row.row_dict() for row in bowling],
-            columns=MatchBowling.table_cols(),
+            columns=BOWLING_COLS,
         ).props("dense")

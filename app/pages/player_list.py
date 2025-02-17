@@ -3,11 +3,17 @@ from contextlib import closing
 from nicegui import ui
 
 from app.config import config
-from app.utils import add_slot_to_table, page_header
+from app.utils import add_slot_to_table, coldef, page_header
 
 from .sidebar_menu import sidebar
 
 tbl = ui.table(columns=[], rows=[])
+
+COLS = [
+    coldef("name", align="left"),
+    coldef("from_year", "From"),
+    coldef("to_year", "To"),
+]
 
 
 def players_like(starts_with: str = "") -> list[dict]:
@@ -51,30 +57,9 @@ def show_player_list() -> None:
 
     sidebar()
 
-    table_cols = [
-        {
-            "name": "name",
-            "label": "Name",
-            "field": "name",
-            "align": "left",
-        },
-        {
-            "name": "from_year",
-            "label": "From",
-            "field": "from_year",
-            "align": "center",
-        },
-        {
-            "name": "to_year",
-            "label": "To",
-            "field": "to_year",
-            "align": "center",
-        },
-    ]
-
     players = players_like("%")
 
-    with ui.table(columns=table_cols, rows=players, pagination=30).props("dense") as table:
+    with ui.table(columns=COLS, rows=players, pagination=30).props("dense") as table:
         with table.add_slot("top-right"):
             with ui.input(placeholder="Search").props("type=search").bind_value(table, "filter").add_slot("append"):
                 ui.icon("search")

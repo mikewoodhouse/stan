@@ -1,24 +1,20 @@
-from functools import partial
-
 from nicegui import ui
 
 from app.config import config
 from app.pages.sidebar_menu import sidebar
 from app.types import Captain
-from app.utils import add_slot_to_table, coldef, page_header
-
-sortable = partial(coldef, sortable=True)
+from app.utils import add_slot_to_table, page_header, sortable
 
 COLS = [
-    sortable("player_name", label="Name", align="left"),
+    sortable("player_name", "Name", align="left"),
     sortable("matches"),
-    sortable("won", label="W"),
-    sortable("lost", label="L"),
-    sortable("drawn", label="D"),
-    sortable("nodecision", label="N/D"),
-    sortable("tied", label="T"),
-    sortable("won_pct", label="Won%"),
-    sortable("not_lost_pct", label="Not Lost%"),
+    sortable("won", "W"),
+    sortable("lost", "L"),
+    sortable("drawn", "D"),
+    sortable("nodecision", "N/D"),
+    sortable("tied", "T"),
+    sortable("won_pct", "Won%"),
+    sortable("not_lost_pct", "Not Lost%"),
 ]
 
 

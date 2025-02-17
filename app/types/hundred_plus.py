@@ -41,36 +41,3 @@ class HundredPlus:
             csr.execute("SELECT * FROM hundred_plus ORDER BY date")
             rows = list(csr.fetchall())
             return [HundredPlus(**row) for row in rows]
-
-    @staticmethod
-    def table_cols() -> list[dict]:
-        return [
-            {
-                "name": "name",
-                "label": "Name",
-                "field": "name",
-                "sortable": True,
-                "align": "left",
-            },
-            {
-                "name": "score",
-                "label": "Score",
-                "field": "score",
-                "sortable": True,
-                "align": "center",
-            },
-            {
-                "name": "opps",
-                "label": "Vs",
-                "field": "opponents",
-                "sortable": True,
-                "align": "left",
-            },
-            {
-                "name": "date",
-                "label": "Date",
-                "field": "date",
-                "sortable": True,
-                "align": "center",
-            },
-        ]

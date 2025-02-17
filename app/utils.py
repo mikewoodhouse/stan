@@ -1,4 +1,5 @@
 from contextlib import closing
+from functools import partial
 from typing import Any
 
 from nicegui import ui
@@ -43,12 +44,12 @@ def add_slot_to_table(table: ui.table, cell_name_suffix: str, target: str, href_
 
 
 def coldef(
-    field: str, *, label: str = "", name: str = "", align: str = "", decimals: int = -1, sortable: bool = False
+    field: str, label: str = "", *, name: str = "", align: str = "", decimals: int = -1, sortable: bool = False
 ) -> dict:
     result: dict[str, Any] = {
         "name": name or field,
         "field": field,
-        "label": label if label else field.capitalize(),
+        "label": (label or field.capitalize()).replace("_", " "),
     }
     if align:
         result["align"] = align
@@ -57,3 +58,6 @@ def coldef(
     if sortable:
         result["sortable"] = True
     return result
+
+
+sortable = partial(coldef, sortable=True)

@@ -41,25 +41,3 @@ class BattingAverage:
             item.position = idx + 1
         also_batted.sort(key=lambda b: b.name)
         return main_set, also_batted
-
-    @staticmethod
-    def table_cols():
-        return [
-            {"name": "position", "label": "Pos", "field": "position", "sortable": True},
-            {"name": "name", "field": "Name", "align": "left", "sortable": True},
-            {"name": "innings", "label": "Inns", "field": "innings", "sortable": True},
-            {"name": "notout", "label": "N/O", "field": "notout", "sortable": True},
-            {"name": "high_score", "label": "High", "field": "high_score", "sortable": True},
-            {"name": "runsscored", "label": "Runs", "field": "runsscored", "sortable": True},
-            {
-                "name": "average",
-                "label": "Avg",
-                "field": "average",
-                "sortable": True,
-                ":format": "value => value ? value.toFixed(2) : ''",
-            },
-            {"name": "fifties", "label": "50s", "field": "fifties", "sortable": True},
-            {"name": "hundreds", "label": "100s", "field": "hundreds", "sortable": True},
-            {"name": "fours", "label": "4s", "field": "fours", "sortable": True},
-            {"name": "sixes", "label": "6s", "field": "sixes", "sortable": True},
-        ]

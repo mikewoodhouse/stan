@@ -73,17 +73,3 @@ class Match:
             rows = csr.fetchall()
         matches = [Match(**row) for row in rows]
         return matches
-
-    @staticmethod
-    def table_cols() -> list[dict]:
-        return [
-            {"name": "match_date", "label": "Date", "field": "match_date", "sortable": True, "align": "center"},
-            {"name": "oppo", "label": "Opponents", "field": "oppo", "sortable": True, "align": "left"},
-            {"name": "venue", "label": "H/A", "field": "venue", "sortable": False, "align": "center"},
-            {"name": "result", "label": "Result", "field": "result", "sortable": True, "align": "center"},
-            {"name": "bat_first", "label": "1st Inns", "field": "bat_first", "sortable": False, "align": "center"},
-            {"name": "score_1", "label": "Score", "field": "score_1", "sortable": False, "align": "center"},
-            {"name": "first_notes", "label": "", "field": "first_notes", "sortable": False, "align": "left"},
-            {"name": "score_2", "label": "2nd Inns", "field": "score_2", "sortable": False, "align": "center"},
-            {"name": "second_notes", "label": "", "field": "second_notes", "sortable": False, "align": "left"},
-        ]

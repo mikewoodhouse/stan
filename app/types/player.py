@@ -94,24 +94,6 @@ class PlayerMatchPerf:
         else:
             return f"ct: {self.caught}" if self.caught else ""
 
-    @classmethod
-    def table_cols(cls) -> list[dict]:
-        return [
-            {"name": "date", "label": "Date", "field": "match_date", "align": "center"},
-            {"name": "opp", "label": "Opp", "field": "opp", "align": "left"},
-            {"name": "pos", "label": "Pos", "field": "position", "align": "center"},
-            {"name": "how_out", "label": "How Out", "field": "how_out"},
-            {"name": "run", "label": "Runs", "field": "runs_scored"},
-            {"name": "fours", "label": "4s", "field": "fours"},
-            {"name": "sixes", "label": "6s", "field": "sixes"},
-            {"name": "overs_balls", "label": "Overs", "field": "overs_balls"},
-            {"name": "maidens", "label": "Maidens", "field": "maidens"},
-            {"name": "runs_conceded", "label": "Runs", "field": "runs_conceded"},
-            {"name": "wickets", "label": "Wickets", "field": "wickets"},
-            {"name": "caught", "label": "", "field": ""},
-            {"name": "fielding", "label": "Fielding", "field": "fielding", "align": "center"},
-        ]
-
 
 @dataclass(kw_only=True)
 class Player:

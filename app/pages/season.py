@@ -3,9 +3,36 @@ from dataclasses import asdict
 from nicegui import ui
 
 from app.types import BattingAverage, BowlingAverage, Partnership, Player, Season, SeasonRecord
-from app.utils import add_slot_to_table, page_header
+from app.utils import add_slot_to_table, page_header, sortable
 
 from .sidebar_menu import sidebar
+
+BATTING_COLS = [
+    sortable("position", "Pos"),
+    sortable("name", align="left"),
+    sortable("innings", "Inns"),
+    sortable("notout", "N/O"),
+    sortable("high_score", "High"),
+    sortable("runsscored", "Runs"),
+    sortable("average", "Avg", decimals=2),
+    sortable("fifties", "50s"),
+    sortable("hundreds", "100s"),
+    sortable("fours", "4s"),
+    sortable("sixes", "6s"),
+]
+
+BOWLING_COLS = [
+    sortable("position", "Pos"),
+    sortable("name", align="left"),
+    sortable("overs_bowled", "Overs"),
+    sortable("maidens"),
+    sortable("runs"),
+    sortable("wickets"),
+    sortable("average", "Avg", decimals=2),
+    sortable("strike_rate", decimals=2),
+    sortable("economy", decimals=2),
+    sortable("five+", "5+"),
+]
 
 
 def show_season(year: int) -> None:
@@ -50,7 +77,7 @@ def show_batting(min_innings, players, averages, show_position=True):
     records = [asdict(row) for row in averages]
     table = ui.table(
         rows=records,
-        columns=BattingAverage.table_cols(),
+        columns=BATTING_COLS,
         title=(f"Batting (min {min_innings} innings)" if show_position else "Also batted"),
     ).props("dense")
     add_slot_to_table(table, "name", "players", "player_id")
@@ -67,7 +94,7 @@ def show_bowling(min_wickets, players, averages, show_position=True):
     records = [asdict(row) for row in averages]
     with ui.table(
         rows=records,
-        columns=BowlingAverage.table_cols(),
+        columns=BOWLING_COLS,
         title=(f"Bowling (min {min_wickets} wickets)" if show_position else "Also bowled"),
     ).props("dense") as table:
         add_slot_to_table(table, "name", "players", "player_id")

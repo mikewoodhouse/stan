@@ -3,9 +3,19 @@ from dataclasses import asdict
 from nicegui import ui
 
 from app.types import Season
-from app.utils import add_slot_to_table, page_header
+from app.utils import add_slot_to_table, coldef, page_header
 
 from .sidebar_menu import sidebar
+
+COLS = [
+    coldef("year", align="left"),
+    coldef("played", "P"),
+    coldef("won", "W"),
+    coldef("lost", "L"),
+    coldef("drawn", "D"),
+    coldef("tied", "T"),
+    coldef("noresult", "N/D"),
+]
 
 
 def show_seasons():
@@ -18,7 +28,7 @@ def show_seasons():
 
         table = ui.table(
             rows=[asdict(season) for season in seasons],
-            columns=Season.table_cols(),
+            columns=COLS,
             pagination=30,
         ).props("dense")
 

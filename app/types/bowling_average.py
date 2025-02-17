@@ -53,36 +53,3 @@ class BowlingAverage:
             item.position = idx + 1
         also_bowled.sort(key=lambda b: b.name)
         return main_set, also_bowled
-
-    @staticmethod
-    def table_cols():
-        return [
-            {"name": "position", "label": "Pos", "field": "position", "sortable": True},
-            {"name": "name", "label": "Name", "field": "name", "align": "left", "sortable": True},
-            {"name": "overs", "label": "Overs", "field": "overs_bowled", "sortable": True},
-            {"name": "maidens", "label": "Maidens", "field": "maidens", "sortable": True},
-            {"name": "runs", "label": "Runs", "field": "runs", "sortable": True},
-            {"name": "wickets", "label": "Wickets", "field": "wickets", "sortable": True},
-            {
-                "name": "average",
-                "label": "Avg",
-                "field": "average",
-                "sortable": True,
-                ":format": "value => value ? value.toFixed(2) : ''",
-            },
-            {
-                "name": "strike",
-                "label": "Strike",
-                "field": "strike_rate",
-                "sortable": True,
-                ":format": "value => value ? value.toFixed(2) : ''",
-            },
-            {
-                "name": "economy",
-                "label": "Economy",
-                "field": "economy",
-                "sortable": True,
-                ":format": "value => value ? value.toFixed(2) : ''",
-            },
-            {"name": "five+", "label": "5+", "field": "five+", "sortable": True},
-        ]

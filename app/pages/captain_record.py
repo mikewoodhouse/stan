@@ -2,18 +2,18 @@ from nicegui import ui
 
 from app.pages.sidebar_menu import sidebar
 from app.types import Captain, Player
-from app.utils import add_slot_to_table, page_header
+from app.utils import add_slot_to_table, page_header, sortable
 
 COLS = [
-    {"name": "year", "label": "Year", "field": "year", "sortable": True},
-    {"name": "matches", "label": "Matches", "field": "matches", "sortable": True},
-    {"name": "won", "label": "W", "field": "won", "sortable": True},
-    {"name": "lost", "label": "L", "field": "lost", "sortable": True},
-    {"name": "drawn", "label": "D", "field": "drawn", "sortable": True},
-    {"name": "nodecision", "label": "N/D", "field": "nodecision", "sortable": True},
-    {"name": "tied", "label": "T", "field": "tied", "sortable": True},
-    {"name": "won_pct", "label": "Won", "field": "won_pct", "sortable": True},
-    {"name": "not_lost_pct", "label": "Not Lost", "field": "not_lost_pct", "sortable": True},
+    sortable("year"),
+    sortable("matches"),
+    sortable("won", "W"),
+    sortable("lost", "L"),
+    sortable("drawn", "D"),
+    sortable("nodecision", "N/D"),
+    sortable("tied", "T"),
+    sortable("won_pct", "Won%"),
+    sortable("not_lost_pct", "Not Lost%"),
 ]
 
 

@@ -1,9 +1,24 @@
 from nicegui import ui
 
-from app.types import Player, PlayerMatchPerf
-from app.utils import page_header
+from app.types import Player
+from app.utils import coldef, page_header
 
 from .sidebar_menu import sidebar
+
+COLS = [
+    coldef("match_date", "Date"),
+    coldef("opp", align="left"),
+    coldef("position", "Pos"),
+    coldef("how_out"),
+    coldef("runs_scored", "Runs"),
+    coldef("fours", "4s"),
+    coldef("sixes", "6s"),
+    coldef("overs_balls", "Overs"),
+    coldef("maidens"),
+    coldef("runs_conceded", "Runs"),
+    coldef("wickets"),
+    coldef("fielding"),
+]
 
 
 def show_player_year(player_id: int, year: int):
@@ -25,5 +40,5 @@ def show_player_year(player_id: int, year: int):
     with ui.row():
         ui.table(
             rows=[perf.row_dict() for perf in perfs],
-            columns=PlayerMatchPerf.table_cols(),
+            columns=COLS,
         ).props("dense")
