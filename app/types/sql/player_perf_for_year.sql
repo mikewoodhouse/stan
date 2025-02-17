@@ -29,7 +29,7 @@ FROM
     LEFT JOIN match_bowling bo ON ba.player_id = bo.player_id
     AND ba.match_id = bo.match_id
 WHERE
-    ba.player_id = ' :player_id'
+    ba.player_id = ':player_id'
     AND ba.year = ':year'
 ORDER BY
     ba.match_date

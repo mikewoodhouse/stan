@@ -112,7 +112,7 @@ class Player:
     def match_perfs(self, year: int) -> list[PlayerMatchPerf]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                sql_query("player_perfs_for_year"),
+                sql_query("player_perf_for_year"),
                 {
                     "player_id": self.id,
                     "year": year,

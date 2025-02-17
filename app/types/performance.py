@@ -4,82 +4,7 @@ from contextlib import closing
 from dataclasses import asdict, dataclass
 
 from app.config import config
-from app.utils import balls_to_overs, player_name
-
-BEST_BOWLING_SQL = """
-WITH
-	mb AS (
-	SELECT
-		CAST(player_id AS integer) AS player_id
-	,	CAST(strftime('%Y', datetime(match_date)) AS integer) AS year
-	,	CAST(wickets AS INTEGER) AS wickets
-	,	CAST(runs_conceded AS INTEGER) AS runs
-	,	match_date
-	,	opp
-	FROM match_bowling
-)
-, most_wickets AS (
-	SELECT
-		player_id
-	,	year
-	,	MAX(wickets) AS wickets
-	FROM mb
-	WHERE player_id = :player_id
-	GROUP BY player_id, year
-)
-, bb AS (
-	SELECT
-		w.player_id
-	,	w.year
-	,	w.wickets
-	,	MIN(mb.runs) AS runs
-	FROM most_wickets w
-		JOIN mb ON mb.player_id = w.player_id AND mb.year = w.year AND w.wickets = mb.wickets
-	GROUP BY
-		w.player_id
-	,	w.year
-	,	w.wickets
-)
-, maxed AS (
-	SELECT
-		player_id
-	,	year
-	,	wkts AS wickets
-	,	runs
-	,	wkts * 1000 - runs AS sort_key
-	FROM best_bowling
-	WHERE player_id = :player_id
-	AND year < 1997
-),
-by_year AS (
-	SELECT
-		player_id
-	,	year
-	,	MAX(sort_key) AS best
-	FROM maxed
-	GROUP BY
-		player_id
-	,	year
-)
-SELECT
-	bb.year
-,   bb.wickets
-,   bb.runs
-,   bb.wickets * 1000 - bb.runs AS sort_key
-FROM bb
-	LEFT JOIN mb ON bb.player_id = mb.player_id
-    AND bb.wickets = mb.wickets
-    AND bb.runs = mb.runs
-    AND bb.year = mb.year
-UNION
-SELECT
-	x.year
-,	x.wickets
-,	x.runs
-,	x.sort_key
-FROM maxed x
-	JOIN by_year y ON y.player_id = x.player_id AND y.year = x.year AND y.best = x.sort_key
-"""
+from app.utils import balls_to_overs, player_name, sql_query
 
 
 @dataclass(kw_only=True)
@@ -170,7 +95,7 @@ class Performance:
 
         with closing(config.db.cursor()) as csr:
             rows = csr.execute(
-                BEST_BOWLING_SQL,
+                sql_query("best_bowling"),
                 {"player_id": player_id},
             ).fetchall()
             best_bowling_by_year = {row["year"]: f"{row['wickets']}-{row['runs']}" for row in rows}
@@ -223,24 +148,7 @@ class Performance:
     def career_appearances() -> list[dict]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                """
-                SELECT
-                    pl.id AS player_id
-                ,	pl.surname
-                ,	pl.initial
-                ,	pl.firstname
-                ,	Sum(pe.matches) AS appearances
-                ,	MIN(pe.year) AS from_year
-                ,	MAX(pe.year) AS to_year
-                FROM players pl JOIN performances pe ON pe.player_id = pl.id
-                GROUP BY
-                    pl.id
-                ,	pl.surname
-                ,	pl.initial
-                ,	pl.firstname
-                HAVING SUM(pe.matches) >= :min_apps
-                ORDER BY 5 DESC
-            """,
+                sql_query("appearances"),
                 {"min_apps": config.MIN_APPS},
             )
             rows = [dict(row) for row in csr.fetchall()]
