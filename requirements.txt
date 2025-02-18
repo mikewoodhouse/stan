@@ -6,3 +6,5 @@ nicegui
 
 dataclass-csv
 dataclasses-json
+
+setuptools

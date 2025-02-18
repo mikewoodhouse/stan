@@ -1,3 +1,27 @@
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 filterwarnings = ["ignore::DeprecationWarning"]
+
+[project]
+name = "stan"
+version = "0.1.0"
+description = "Trinity (Oxley) Statistical Oracle"
+readme = "README.md"
+authors = [
+    { name = "Mike Woodhouse", email = "mikewoodhouse@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dataclass-csv>=1.4.0",
+    "dataclasses-json>=0.6.7",
+    "mypy>=1.15.0",
+    "nicegui>=2.11.1",
+    "openpyxl>=3.1.5",
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+    "pytest-watch>=4.2.0",
+    "ruff>=0.9.6",
+    "setuptools>=75.8.0",
+    "types-openpyxl>=3.1.5.20241225",
+]
+
