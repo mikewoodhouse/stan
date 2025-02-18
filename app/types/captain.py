@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from dataclasses_json import Undefined, dataclass_json
 
 from app.config import config
-from app.utils import player_name, sql_query
+from app.utils import sql_query
 
 
 @dataclass_json(undefined=Undefined.EXCLUDE)
@@ -29,7 +29,6 @@ class Captain:
             )
             rows = [dict(row) for row in csr.fetchall()]
             for row in rows:
-                row["player_name"] = player_name(row["firstname"], row["initial"], row["surname"])
                 row["won_pct"] = f"{row["won"] / row["matches"]:7.02%}"
                 row["not_lost_pct"] = f"{(row['matches'] - row['lost']) / row['matches']:7.02%}"
             return rows

@@ -7,8 +7,8 @@ from typing import Optional
 
 from dataclass_csv import dateformat
 
-import app.types
 from app.config import config
+from app.utils import sql_query
 
 
 @dataclass(kw_only=True)
@@ -16,6 +16,7 @@ from app.config import config
 class HundredPlus:
     id: int = -1
     player_id: int = -1
+    name: str = ""
     year: int
     code: str
     date: pydate
@@ -24,12 +25,10 @@ class HundredPlus:
     opponents: str
     minutes: Optional[int] = None
 
-    def row_dict(self, players: dict) -> dict:
-        player: app.types.Player = players[self.player_id]
-        name = player.name
+    def row_dict(self) -> dict:
         return {
             "player_id": self.player_id,
-            "name": name,
+            "name": self.name,
             "score": f"{self.score}{'*' if self.notout else ''}",
             "opponents": self.opponents,
             "date": self.date,
@@ -38,6 +37,6 @@ class HundredPlus:
     @classmethod
     def all(cls) -> list[HundredPlus]:
         with closing(config.db.cursor()) as csr:
-            csr.execute("SELECT * FROM hundred_plus ORDER BY date")
+            csr.execute(sql_query("hundreds"))
             rows = list(csr.fetchall())
             return [HundredPlus(**row) for row in rows]

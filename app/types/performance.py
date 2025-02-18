@@ -4,13 +4,14 @@ from contextlib import closing
 from dataclasses import asdict, dataclass
 
 from app.config import config
-from app.utils import balls_to_overs, player_name, sql_query
+from app.utils import balls_to_overs, sql_query
 
 
 @dataclass(kw_only=True)
 class Performance:
     id: int = -1
     player_id: int = -1
+    name: str = ""
     code: str = ""
     year: str = ""
     matches: int = 0
@@ -87,7 +88,7 @@ class Performance:
     def for_player(cls, player_id: int) -> list[Performance]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                "SELECT * FROM performances WHERE player_id = :player_id ORDER BY year",
+                sql_query("player_perfs"),
                 {"player_id": player_id},
             )
             rows = csr.fetchall()
@@ -138,7 +139,7 @@ class Performance:
     def for_year(cls, year: int) -> list[Performance]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                "SELECT * FROM performances WHERE year = :year",
+                sql_query("perfs_for_year"),
                 {"year": year},
             )
             rows = csr.fetchall()
@@ -152,6 +153,4 @@ class Performance:
                 {"min_apps": config.MIN_APPS},
             )
             rows = [dict(row) for row in csr.fetchall()]
-            for row in rows:
-                row["player_name"] = player_name(row["firstname"], row["initial"], row["surname"])
             return rows

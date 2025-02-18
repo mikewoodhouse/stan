@@ -6,7 +6,7 @@ from app.types import Captain
 from app.utils import add_slot_to_table, page_header, sortable
 
 COLS = [
-    sortable("player_name", "Name", align="left"),
+    sortable("name", align="left"),
     sortable("matches"),
     sortable("won", "W"),
     sortable("lost", "L"),
@@ -27,4 +27,4 @@ def show_captains():
 
     with ui.column():
         with ui.table(rows=rows, columns=COLS).props("dense") as table:
-            add_slot_to_table(table, "player_name", "captains", "player_id")
+            add_slot_to_table(table, "name", "captains", "player_id")

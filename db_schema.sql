@@ -222,3 +222,20 @@ CREATE TABLE
   );
 
 CREATE INDEX "index_match_bowl_on_player" ON "match_bowling" ("player_id");
+
+CREATE VIEW
+  player_lookup AS
+SELECT
+  id         AS player_id
+, surname || CASE
+    WHEN length (firstname) > 0 THEN ', ' || firstname
+    ELSE CASE
+      WHEN length (initial) > 0 THEN ', ' || initial
+      ELSE ''
+    END
+  END AS name
+, surname
+, initial
+, firstname
+FROM
+  players;

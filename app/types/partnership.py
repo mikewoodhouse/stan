@@ -60,7 +60,7 @@ class Partnership:
             )
             rows = csr.fetchall()
             for row in rows:
-                del row["rank"]
+                del row["rownum"]
             return [Partnership(**row) for row in rows]
 
     @staticmethod

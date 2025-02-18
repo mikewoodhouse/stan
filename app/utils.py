@@ -14,12 +14,6 @@ def balls_to_overs(balls: int) -> str:
     return f"{overs}.{balls}"
 
 
-def player_name(firstname: str, initial: str, surname: str) -> str:
-    if forename := firstname or initial:
-        return f"{surname}, {forename}"
-    return surname
-
-
 def count(tablename: str) -> int:
     with closing(config.db.cursor()) as csr:
         csr.execute(f"SELECT count(*) AS row_count FROM {tablename}")

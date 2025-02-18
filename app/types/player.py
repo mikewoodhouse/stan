@@ -5,7 +5,7 @@ from dataclasses import asdict, dataclass
 from datetime import date
 
 from app.config import config
-from app.utils import player_name, sql_query
+from app.utils import sql_query
 
 
 @dataclass
@@ -70,10 +70,6 @@ class Player:
     firstname: str = ""
     active: bool = False
 
-    @property
-    def name(self) -> str:
-        return player_name(self.firstname, self.initial, self.surname)
-
     @classmethod
     def get(cls, player_id: int) -> Player:
         with closing(config.db.cursor()) as csr:
@@ -112,7 +108,7 @@ class Player:
     def match_perfs(self, year: int) -> list[PlayerMatchPerf]:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                sql_query("player_perf_for_year"),
+                sql_query("player_match_perfs_for_year"),
                 {
                     "player_id": self.id,
                     "year": year,

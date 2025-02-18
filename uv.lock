@@ -816,14 +816,18 @@ source = { virtual = "." }
 dependencies = [
     { name = "dataclass-csv" },
     { name = "dataclasses-json" },
-    { name = "mypy" },
     { name = "nicegui" },
+    { name = "setuptools" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "mypy" },
     { name = "openpyxl" },
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "pytest-watch" },
     { name = "ruff" },
-    { name = "setuptools" },
     { name = "types-openpyxl" },
 ]
 
@@ -831,14 +835,18 @@ dependencies = [
 requires-dist = [
     { name = "dataclass-csv", specifier = ">=1.4.0" },
     { name = "dataclasses-json", specifier = ">=0.6.7" },
-    { name = "mypy", specifier = ">=1.15.0" },
     { name = "nicegui", specifier = ">=2.11.1" },
+    { name = "setuptools", specifier = ">=75.8.0" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "mypy", specifier = ">=1.15.0" },
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pytest", specifier = ">=8.3.4" },
     { name = "pytest-cov", specifier = ">=6.0.0" },
     { name = "pytest-watch", specifier = ">=4.2.0" },
     { name = "ruff", specifier = ">=0.9.6" },
-    { name = "setuptools", specifier = ">=75.8.0" },
     { name = "types-openpyxl", specifier = ">=3.1.5.20241225" },
 ]
 

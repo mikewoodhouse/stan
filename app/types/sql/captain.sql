@@ -1,23 +1,19 @@
 SELECT
-    c.player_id
-  , p.surname
-  , p.firstname
-  , p.initial
-  , SUM(c.matches)    AS matches
-  , SUM(c.won)        AS won
-  , SUM(c.lost)       AS lost
-  , SUM(c.drawn)      AS drawn
-  , SUM(c.nodecision) AS nodecision
-  , SUM(c.tied)       AS tied
+  c.player_id
+, p.name
+, SUM(c.matches)    AS matches
+, SUM(c.won)        AS won
+, SUM(c.lost)       AS lost
+, SUM(c.drawn)      AS drawn
+, SUM(c.nodecision) AS nodecision
+, SUM(c.tied)       AS tied
 FROM
-    captains c
-    JOIN players p ON p.id = c.player_id
+  captains c
+  JOIN player_lookup p ON p.player_id = c.player_id
 GROUP BY
-    c.player_id
-  , p.surname
-  , p.firstname
-  , p.initial
+  c.player_id
+, p.name
 HAVING
-    SUM(matches) >= ':min_captained'
+  SUM(matches) >= ':min_captained'
 ORDER BY
-    5 DESC
+  SUM(c.matches) DESC

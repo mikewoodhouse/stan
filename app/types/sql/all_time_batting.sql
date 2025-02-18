@@ -1,17 +1,3 @@
-WITH
-    player_lookup AS (
-        SELECT
-            id         AS player_id
-          , surname || CASE
-                WHEN length (firstname) > 0 THEN ', ' || firstname
-                ELSE CASE
-                    WHEN length (initial) > 0 THEN ', ' || initial
-                    ELSE ''
-                END
-            END AS name
-        FROM
-            players
-    )
 SELECT
     p.player_id
   , p.name

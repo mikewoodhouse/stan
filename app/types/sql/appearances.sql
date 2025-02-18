@@ -1,20 +1,16 @@
 SELECT
-    pl.id           AS player_id
-  , pl.surname
-  , pl.initial
-  , pl.firstname
-  , SUM(pe.matches) AS appearances
-  , MIN(pe.year)    AS from_year
-  , MAX(pe.year)    AS to_year
+  pl.player_id
+, pl.name
+, SUM(pe.matches) AS appearances
+, MIN(pe.year)    AS from_year
+, MAX(pe.year)    AS to_year
 FROM
-    players pl
-    JOIN performances pe ON pe.player_id = pl.id
+  player_lookup pl
+  JOIN performances pe ON pe.player_id = pl.player_id
 GROUP BY
-    pl.id
-  , pl.surname
-  , pl.initial
-  , pl.firstname
+  pl.player_id
+, pl.name
 HAVING
-    SUM(pe.matches) >= ':min_apps'
+  SUM(pe.matches) >= ':min_apps'
 ORDER BY
-    5 DESC
+  3 DESC
