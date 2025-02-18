@@ -49,7 +49,7 @@ class CsvLoader:
         for tbl in ["match_batting", "match_bowling"]:
             rows = self.conn.execute("SELECT * FROM players")
             players = [Player(**row) for row in rows]
-            lookup = defaultdict(list[Player])
+            lookup: dict[str, list] = defaultdict(list[Player])
             for player in players:
                 lookup[player.surname].append(player)
             print(f"setting player ids for {tbl} from {len(players)} players")

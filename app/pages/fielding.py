@@ -7,7 +7,9 @@ from app.pages.sidebar_menu import sidebar
 from app.types import AllTimeFielding
 from app.utils import add_slot_to_table, page_header
 
-COLS = []
+COLS: list[dict] = [
+    {},
+]
 
 
 def show_fielding():
