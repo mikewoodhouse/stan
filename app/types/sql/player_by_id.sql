@@ -1,6 +1,6 @@
 SELECT
     *
 FROM
-    players
+    player_lookup
 WHERE
-    id = ':player_id'
+    player_id = ':player_id'

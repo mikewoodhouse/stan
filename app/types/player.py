@@ -63,18 +63,19 @@ class PlayerMatchPerf:
 
 @dataclass(kw_only=True)
 class Player:
-    id: int = -1
+    player_id: int = -1
     code: str = ""
     surname: str = ""
     initial: str = ""
     firstname: str = ""
+    name: str = ""
     active: bool = False
 
     @classmethod
     def get(cls, player_id: int) -> Player:
         with closing(config.db.cursor()) as csr:
             csr.execute(
-                sql_query(("player_by_id")),
+                sql_query("player_by_id"),
                 {
                     "player_id": player_id,
                 },
@@ -99,7 +100,7 @@ class Player:
             csr.execute(
                 sql_query("player_years_batted_in"),
                 {
-                    "player_id": self.id,
+                    "player_id": self.player_id,
                 },
             )
             rows = csr.fetchall()
@@ -110,7 +111,7 @@ class Player:
             csr.execute(
                 sql_query("player_match_perfs_for_year"),
                 {
-                    "player_id": self.id,
+                    "player_id": self.player_id,
                     "year": year,
                 },
             )
