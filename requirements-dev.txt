@@ -11,3 +11,5 @@ pytest-cov
 pytest-watch
 
 ruff
+
+types-openpyxl
