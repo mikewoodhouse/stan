@@ -5,6 +5,38 @@
 1. The Access database, containing details from end-of-season averages since 1947
 2. The Excel spreadsheets, containing match-by-match data since 1994
 
+## The app
+
+...Contains 3 main folders:
+
+### `/loaders`
+
+Handles
+
+1. extraction of Excel spreadsheet data to CSV (script: `extract_xl_to_csv.py`)
+1. ingestion of CSV data dumped from the Access database and the CSV files from the step above (script: `build_db.py`)
+
+### `/pages`
+
+Contains the [`nicegui`](https://nicegui.io/) scripts that define the various pages. There are some helper methods used (`page_header`, `coldef`, for example) that are defined in `app.utils` (see below)
+
+### `/types`
+
+Classes defining data types and methods needed to support display. Database operations are (at time of writing) incorporated; there's an argument for extracting these into a set of Repository classes (or maybe just methods) but the value of such an effort has yet to become sufficiently pressing.
+
+### `app/config.py`
+
+Provides a global `config` object, which exposes
+
+* the database connection for the web app
+* constants used in database queries
+
+This seems to be a convenient way to deal with these issues, although I do have a sneaking suspicion that it may in fact be an anti-pattern of some sort...
+
+### `app/utils.py`
+
+Helper methods defined above, most of which arose through DRYing of heavily-repeated chunks of code.
+
 ## The Excel Season Averages Workbook(s)
 
 In general, the following refers to the 2022 workbook, which is the most "highly-evolved" example...
