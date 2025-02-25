@@ -1919,7 +1919,7 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2001-07-28 00:00:00,Lessa Wanderers,Bowers M,0,6,8,False,no,False,False,1,0,0,0,0
 -1,-1,2001-07-28 00:00:00,Lessa Wanderers,Coloe A,0,3,10,True,c,False,False,0,0,0,1,0
 -1,-1,2001-07-28 00:00:00,Lessa Wanderers,Elliston J,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Leadley J,0,0,0,False,,False,False,0,0,0,0,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Leadley J,0,1,32,True,c,False,True,0,1,2,5,0
 -1,-1,2001-07-28 00:00:00,Lessa Wanderers,Morris D,0,5,24,True,c,False,False,1,0,0,3,0
 -1,-1,2001-07-28 00:00:00,Lessa Wanderers,Shewan D,0,10,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2001-07-28 00:00:00,Lessa Wanderers,Springer T,0,4,39,True,lb,False,False,0,0,0,8,0
