@@ -1692,379 +1692,400 @@ id,match_id,match_date,opp,name,player_id,position,runs,out,how_out,captain,kept
 -1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Woodhouse M,0,1,3,True,c,True,False,0,0,0,0,0
 -1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Worthington R,0,6,0,True,c,False,True,0,0,1,0,0
 -1,-1,2000-09-30 00:00:00,Carshalton & Croydon Gas,Young R,0,10,1,True,b,False,False,1,0,0,0,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Bowers M,0,8,1,False,no,False,False,1,0,0,0,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Coloe A,0,4,26,True,c,False,False,1,0,0,1,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Corrigan D,0,7,11,False,no,False,False,1,0,0,0,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Elliston J,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Hosking M,0,2,0,True,b,False,True,0,0,0,0,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Lestrelle J,0,3,25,True,b,False,False,1,0,0,1,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Morris D,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Odeneal R,0,6,5,True,b,False,False,0,0,0,1,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Snow D,0,5,1,True,b,False,False,0,0,0,0,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Woodhouse M,0,1,10,True,b,True,False,1,0,0,1,0
--1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Young R,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Clark C,0,9,1,True,b,False,False,0,0,0,0,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Cooper G,0,1,26,True,ro,False,False,0,0,0,4,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Crisford J,0,7,0,True,ro,False,False,0,0,0,0,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Elliston J,0,11,1,True,b,False,False,0,0,0,0,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Mander A,0,10,4,True,c,False,False,0,0,0,1,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Mander C,0,5,38,True,b,False,False,0,0,0,5,1
--1,-1,2001-05-27 00:00:00,Woodgreen,Mander N,0,2,24,True,c,False,False,0,0,0,3,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Moore K,0,6,6,True,b,False,True,0,0,0,1,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Morris D,0,8,7,False,no,False,False,0,0,0,0,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Patel N,0,3,4,True,ro,False,False,0,0,0,1,0
--1,-1,2001-05-27 00:00:00,Woodgreen,Springer T,0,4,0,True,c,True,False,0,0,0,0,0
--1,-1,2001-05-28 00:00:00,Steeple Langford,Barry S,0,4,0,True,st,False,False,0,0,0,0,0
--1,-1,2001-05-28 00:00:00,Steeple Langford,Cooper G,0,1,1,True,b,False,False,0,0,0,0,0
--1,-1,2001-05-28 00:00:00,Steeple Langford,Crisford J,0,5,0,True,b,False,False,2,0,0,0,0
--1,-1,2001-05-28 00:00:00,Steeple Langford,Elliston J,0,8,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-05-28 00:00:00,Steeple Langford,Morris D,0,7,9,False,no,False,False,0,0,0,1,0
--1,-1,2001-05-28 00:00:00,Steeple Langford,Odeneal R,0,6,3,True,c,False,False,1,0,0,0,0
--1,-1,2001-05-28 00:00:00,Steeple Langford,Springer T,0,2,113,False,no,False,False,0,0,0,16,4
--1,-1,2001-05-28 00:00:00,Steeple Langford,Woodhouse M,0,3,4,True,c,True,True,0,0,0,0,0
--1,-1,2001-05-28 00:00:00,Steeple Langford,Young R,0,9,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-05-29 00:00:00,Cove,Angell G,0,8,1,True,lb,False,False,0,0,0,0,0
--1,-1,2001-05-29 00:00:00,Cove,Cooper G,0,1,9,True,c,False,False,0,0,0,0,0
--1,-1,2001-05-29 00:00:00,Cove,Elliston J,0,11,5,False,no,False,False,0,0,0,1,0
--1,-1,2001-05-29 00:00:00,Cove,Mander A,0,10,38,False,no,False,False,0,0,0,2,3
--1,-1,2001-05-29 00:00:00,Cove,Mander C,0,6,35,True,b,False,False,2,0,0,4,1
--1,-1,2001-05-29 00:00:00,Cove,Mander N,0,2,14,True,c,False,False,0,0,0,1,0
--1,-1,2001-05-29 00:00:00,Cove,Moore K,0,7,0,True,b,False,True,0,1,0,0,0
--1,-1,2001-05-29 00:00:00,Cove,Morris D,0,9,11,True,b,False,False,0,0,0,0,0
--1,-1,2001-05-29 00:00:00,Cove,Patel N,0,4,1,True,b,False,False,1,0,0,0,0
--1,-1,2001-05-29 00:00:00,Cove,Springer T,0,3,29,True,c,True,False,1,0,0,5,0
--1,-1,2001-05-29 00:00:00,Cove,Worthington R,0,5,9,True,b,False,False,1,0,0,2,0
--1,-1,2001-06-02 00:00:00,Deando,Bowers M,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-02 00:00:00,Deando,Brocks D,0,6,46,True,b,False,False,0,0,0,3,2
--1,-1,2001-06-02 00:00:00,Deando,Clark C,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-02 00:00:00,Deando,Lestrelle J,0,5,18,True,c,False,False,1,0,0,1,0
--1,-1,2001-06-02 00:00:00,Deando,Mander A,0,8,5,False,no,False,False,0,0,0,1,0
--1,-1,2001-06-02 00:00:00,Deando,Mander C,0,7,14,False,no,False,False,2,0,0,1,1
--1,-1,2001-06-02 00:00:00,Deando,Mander N,0,1,21,True,c,False,False,0,0,0,3,0
--1,-1,2001-06-02 00:00:00,Deando,Morris D,0,11,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-06-02 00:00:00,Deando,Odeneal R,0,3,1,True,c,False,False,0,0,0,0,0
--1,-1,2001-06-02 00:00:00,Deando,Springer T,0,4,0,True,c,True,True,0,1,0,0,0
--1,-1,2001-06-02 00:00:00,Deando,Woodhouse M,0,2,15,True,c,False,False,0,0,0,3,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Brocks D,0,4,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Clark C,0,11,0,False,dnb,True,False,1,0,0,0,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Cooper G,0,9,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Elliston J,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Hosking M,0,5,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Lestrelle J,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Bowers M,0,8,1,False,no,False,False,1,0,0,0,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Coloe A,0,4,26,True,c,False,False,1,0,0,1,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Corrigan D,0,7,11,False,no,False,False,1,0,0,0,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Elliston J,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Hosking M,0,2,0,True,b,False,True,0,0,0,0,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Lestrelle J,0,3,25,True,b,False,False,1,0,0,1,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Morris D,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Odeneal R,0,6,5,True,b,False,False,0,0,0,1,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Snow D,0,5,1,True,b,False,False,0,0,0,0,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Woodhouse M,0,1,10,True,b,True,False,1,0,0,1,0
+-1,-1,2001-05-12 00:00:00,Addington 1743,Young R,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Clark C,0,9,1,True,b,False,False,0,0,0,0,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Cooper G,0,1,26,True,ro,False,False,0,0,0,4,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Crisford J,0,7,0,True,ro,False,False,0,0,0,0,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Elliston J,0,11,1,True,b,False,False,0,0,0,0,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Mander A,0,10,4,True,c,False,False,0,0,0,1,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Mander C,0,5,38,True,b,False,False,0,0,0,5,1
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Mander N,0,2,24,True,c,False,False,0,0,0,3,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Moore K,0,6,6,True,b,False,True,0,0,0,1,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Morris D,0,8,7,False,no,False,False,0,0,0,0,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Patel N,0,3,4,True,ro,False,False,0,0,0,1,0
+-1,-1,2001-05-13 00:00:00,Scandinavian Wanderers,Springer T,0,4,0,True,c,True,False,0,0,0,0,0
+-1,-1,2001-05-19 00:00:00,Riverside,Barry S,0,4,0,True,st,False,False,0,0,0,0,0
+-1,-1,2001-05-19 00:00:00,Riverside,Cooper G,0,1,1,True,b,False,False,0,0,0,0,0
+-1,-1,2001-05-19 00:00:00,Riverside,Crisford J,0,5,0,True,b,False,False,2,0,0,0,0
+-1,-1,2001-05-19 00:00:00,Riverside,Elliston J,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-05-19 00:00:00,Riverside,Morris D,0,7,9,False,no,False,False,0,0,0,1,0
+-1,-1,2001-05-19 00:00:00,Riverside,Odeneal R,0,6,3,True,c,False,False,1,0,0,0,0
+-1,-1,2001-05-19 00:00:00,Riverside,Springer T,0,2,113,False,no,False,False,0,0,0,16,4
+-1,-1,2001-05-19 00:00:00,Riverside,Woodhouse M,0,3,4,True,c,True,True,0,0,0,0,0
+-1,-1,2001-05-19 00:00:00,Riverside,Young R,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Angell G,0,8,1,True,lb,False,False,0,0,0,0,0
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Cooper G,0,1,9,True,c,False,False,0,0,0,0,0
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Elliston J,0,11,5,False,no,False,False,0,0,0,1,0
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Mander A,0,10,38,False,no,False,False,0,0,0,2,3
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Mander C,0,6,35,True,b,False,False,2,0,0,4,1
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Mander N,0,2,14,True,c,False,False,0,0,0,1,0
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Moore K,0,7,0,True,b,False,True,0,1,0,0,0
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Morris D,0,9,11,True,b,False,False,0,0,0,0,0
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Patel N,0,4,1,True,b,False,False,1,0,0,0,0
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Springer T,0,3,29,True,c,True,False,1,0,0,5,0
+-1,-1,2001-05-20 00:00:00,Thurlow Park RAFA,Worthington R,0,5,9,True,b,False,False,1,0,0,2,0
+-1,-1,2001-05-27 00:00:00,Woodgreen,Bowers M,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-27 00:00:00,Woodgreen,Brocks D,0,6,46,True,b,False,False,0,0,0,3,2
+-1,-1,2001-05-27 00:00:00,Woodgreen,Clark C,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-27 00:00:00,Woodgreen,Lestrelle J,0,5,18,True,c,False,False,1,0,0,1,0
+-1,-1,2001-05-27 00:00:00,Woodgreen,Mander A,0,8,5,False,no,False,False,0,0,0,1,0
+-1,-1,2001-05-27 00:00:00,Woodgreen,Mander C,0,7,14,False,no,False,False,2,0,0,1,1
+-1,-1,2001-05-27 00:00:00,Woodgreen,Mander N,0,1,21,True,c,False,False,0,0,0,3,0
+-1,-1,2001-05-27 00:00:00,Woodgreen,Morris D,0,11,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-05-27 00:00:00,Woodgreen,Odeneal R,0,3,1,True,c,False,False,0,0,0,0,0
+-1,-1,2001-05-27 00:00:00,Woodgreen,Springer T,0,4,0,True,c,True,True,0,1,0,0,0
+-1,-1,2001-05-27 00:00:00,Woodgreen,Woodhouse M,0,2,15,True,c,False,False,0,0,0,3,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Brocks D,0,4,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Clark C,0,11,0,False,dnb,True,False,1,0,0,0,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Cooper G,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Elliston J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Hosking M,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Lestrelle J,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Mander C,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Mander N,0,1,58,False,no,False,True,0,1,0,10,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Patel N,0,3,11,False,no,False,False,0,0,0,2,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Springer T,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-05-28 00:00:00,Steeple Langford,Woodhouse M,0,2,11,True,b,False,False,0,0,0,2,0
+-1,-1,2001-05-29 00:00:00,Cove,Bowers M,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-05-29 00:00:00,Cove,Brocks D,0,5,43,True,c,False,False,0,0,0,7,1
+-1,-1,2001-05-29 00:00:00,Cove,Cooper G,0,8,14,False,no,False,False,0,0,0,1,0
+-1,-1,2001-05-29 00:00:00,Cove,Corrigan D,0,6,4,True,b,False,False,0,0,0,0,0
+-1,-1,2001-05-29 00:00:00,Cove,Hosking M,0,4,17,True,lb,False,True,0,1,0,3,0
+-1,-1,2001-05-29 00:00:00,Cove,Mander A,0,10,5,True,b,False,False,0,0,0,1,0
+-1,-1,2001-05-29 00:00:00,Cove,Mander C,0,2,42,True,c,False,False,0,0,0,9,0
+-1,-1,2001-05-29 00:00:00,Cove,Morris D,0,11,11,False,no,False,False,0,0,0,1,0
+-1,-1,2001-05-29 00:00:00,Cove,Odeneal R,0,7,0,True,c,False,False,0,0,0,0,0
+-1,-1,2001-05-29 00:00:00,Cove,Springer T,0,3,16,True,c,False,False,0,0,0,2,0
+-1,-1,2001-05-29 00:00:00,Cove,Woodhouse M,0,1,0,True,c,True,False,0,0,0,0,0
+-1,-1,2001-06-02 00:00:00,Deando,Bowers M,0,3,0,True,c,False,False,0,0,0,0,0
+-1,-1,2001-06-02 00:00:00,Deando,Clark C,0,9,0,True,b,False,False,3,0,0,0,0
+-1,-1,2001-06-02 00:00:00,Deando,Coloe A,0,4,39,True,c,False,True,0,0,0,5,0
+-1,-1,2001-06-02 00:00:00,Deando,Cooper G,0,1,12,True,c,False,False,0,0,0,2,0
+-1,-1,2001-06-02 00:00:00,Deando,Elliston J,0,8,3,False,no,False,False,0,0,0,0,0
+-1,-1,2001-06-02 00:00:00,Deando,Giles T,0,6,13,True,c,False,False,0,0,0,2,0
+-1,-1,2001-06-02 00:00:00,Deando,Morris D,0,2,1,True,c,False,False,1,0,0,0,0
+-1,-1,2001-06-02 00:00:00,Deando,Morris R,0,7,0,True,c,False,False,1,0,0,0,0
+-1,-1,2001-06-02 00:00:00,Deando,Young R,0,5,0,True,c,True,False,0,0,0,0,0
+-1,-1,2001-06-03 00:00:00,Northwood Nomads*,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-06-03 00:00:00,Northwood Nomads*,Crisford J,0,4,0,False,dnb,False,False,2,0,0,0,0
+-1,-1,2001-06-03 00:00:00,Northwood Nomads*,Elliston J,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-06-03 00:00:00,Northwood Nomads*,Leadley J,0,1,35,False,no,False,True,0,2,0,6,0
+-1,-1,2001-06-03 00:00:00,Northwood Nomads*,Mander A,0,10,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2001-06-03 00:00:00,Northwood Nomads*,Mander C,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Mander N,0,1,58,False,no,False,True,0,1,0,10,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Patel N,0,3,11,False,no,False,False,0,0,0,2,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Springer T,0,7,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-03 00:00:00,Northwood Nomads*,Woodhouse M,0,2,11,True,b,False,False,0,0,0,2,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Bowers M,0,9,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Brocks D,0,5,43,True,c,False,False,0,0,0,7,1
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Cooper G,0,8,14,False,no,False,False,0,0,0,1,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Corrigan D,0,6,4,True,b,False,False,0,0,0,0,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Hosking M,0,4,17,True,lb,False,True,0,1,0,3,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Mander A,0,10,5,True,b,False,False,0,0,0,1,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Mander C,0,2,42,True,c,False,False,0,0,0,9,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Morris D,0,11,11,False,no,False,False,0,0,0,1,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Odeneal R,0,7,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Springer T,0,3,16,True,c,False,False,0,0,0,2,0
--1,-1,2001-06-09 00:00:00,Norwood Exiles,Woodhouse M,0,1,0,True,c,True,False,0,0,0,0,0
--1,-1,2001-06-10 00:00:00,Cypos,Bowers M,0,3,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-06-10 00:00:00,Cypos,Clark C,0,9,0,True,b,False,False,3,0,0,0,0
--1,-1,2001-06-10 00:00:00,Cypos,Coloe A,0,4,39,True,c,False,True,0,0,0,5,0
--1,-1,2001-06-10 00:00:00,Cypos,Cooper G,0,1,12,True,c,False,False,0,0,0,2,0
--1,-1,2001-06-10 00:00:00,Cypos,Elliston J,0,8,3,False,no,False,False,0,0,0,0,0
--1,-1,2001-06-10 00:00:00,Cypos,Giles T,0,6,13,True,c,False,False,0,0,0,2,0
--1,-1,2001-06-10 00:00:00,Cypos,Morris D,0,2,1,True,c,False,False,1,0,0,0,0
--1,-1,2001-06-10 00:00:00,Cypos,Morris R,0,7,0,True,c,False,False,1,0,0,0,0
--1,-1,2001-06-10 00:00:00,Cypos,Young R,0,5,0,True,c,True,False,0,0,0,0,0
--1,-1,2001-06-16 00:00:00,Legless XI,Bowers M,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-16 00:00:00,Legless XI,Crisford J,0,4,0,False,dnb,False,False,2,0,0,0,0
--1,-1,2001-06-16 00:00:00,Legless XI,Elliston J,0,7,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-16 00:00:00,Legless XI,Leadley J,0,1,35,False,no,False,True,0,2,0,6,0
--1,-1,2001-06-16 00:00:00,Legless XI,Mander A,0,10,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-06-16 00:00:00,Legless XI,Mander C,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-16 00:00:00,Legless XI,Morris D,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-16 00:00:00,Legless XI,Patel N,0,2,20,False,no,False,False,0,0,0,3,0
--1,-1,2001-06-16 00:00:00,Legless XI,Snow D,0,5,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-16 00:00:00,Legless XI,Springer T,0,3,0,False,dnb,True,False,0,0,0,0,0
--1,-1,2001-06-17 00:00:00,4 C's,Clark C,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-17 00:00:00,4 C's,Cooper G,0,1,16,True,lb,False,False,1,0,0,3,0
--1,-1,2001-06-17 00:00:00,4 C's,Crisford J,0,5,20,True,c,False,False,0,0,0,4,0
--1,-1,2001-06-17 00:00:00,4 C's,Elliston J,0,6,1,True,b,False,False,0,0,0,0,0
--1,-1,2001-06-17 00:00:00,4 C's,Lestrelle J,0,2,28,True,b,False,False,1,0,0,4,0
--1,-1,2001-06-17 00:00:00,4 C's,Morris D,0,8,0,False,no,False,False,0,0,0,0,0
--1,-1,2001-06-17 00:00:00,4 C's,Snow D,0,4,2,True,b,False,False,0,0,0,0,0
--1,-1,2001-06-17 00:00:00,4 C's,Woodhouse M,0,10,0,False,dnb,True,True,0,0,0,0,0
--1,-1,2001-06-17 00:00:00,4 C's,Worthington R,0,3,50,False,no,False,True,0,0,0,7,0
--1,-1,2001-06-17 00:00:00,4 C's,Worthy J,0,7,10,True,c,False,False,0,0,0,2,0
--1,-1,2001-06-17 00:00:00,4 C's,Young R,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Bowers M,0,10,3,True,c,False,False,0,0,0,0,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Coloe A,0,4,10,True,lb,False,False,0,0,0,0,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Corrigan D,0,5,17,True,c,False,False,0,0,0,2,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Hawksworth A,0,2,36,True,c,False,False,0,0,0,3,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Leadley J,0,1,22,True,lb,False,False,0,0,0,4,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Lilley G,0,7,10,False,no,False,False,0,0,0,0,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Mander A,0,9,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Mander C,0,8,16,True,b,False,False,0,0,0,2,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Moore K,0,6,4,True,c,False,True,0,0,0,0,0
--1,-1,2001-06-23 00:00:00,Churchleigh,Springer T,0,4,20,True,b,True,False,1,0,0,3,0
--1,-1,2001-06-30 00:00:00,4 C's,Angell G,0,3,5,True,b,False,False,0,0,0,1,0
--1,-1,2001-06-30 00:00:00,4 C's,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-06-30 00:00:00,4 C's,Coloe A,0,4,14,True,b,False,False,0,0,0,2,0
+-1,-1,2001-06-03 00:00:00,Northwood Nomads*,Morris D,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-06-03 00:00:00,Northwood Nomads*,Patel N,0,2,20,False,no,False,False,0,0,0,3,0
+-1,-1,2001-06-03 00:00:00,Northwood Nomads*,Snow D,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-06-03 00:00:00,Northwood Nomads*,Springer T,0,3,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Clark C,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Cooper G,0,1,16,True,lb,False,False,1,0,0,3,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Crisford J,0,5,20,True,c,False,False,0,0,0,4,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Elliston J,0,6,1,True,b,False,False,0,0,0,0,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Lestrelle J,0,2,28,True,b,False,False,1,0,0,4,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Morris D,0,8,0,False,no,False,False,0,0,0,0,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Snow D,0,4,2,True,b,False,False,0,0,0,0,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Woodhouse M,0,10,0,False,dnb,True,True,0,0,0,0,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Worthington R,0,3,50,False,no,False,True,0,0,0,7,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Worthy J,0,7,10,True,c,False,False,0,0,0,2,0
+-1,-1,2001-06-09 00:00:00,Norwood Exiles,Young R,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-06-10 00:00:00,Cypos,Bowers M,0,10,3,True,c,False,False,0,0,0,0,0
+-1,-1,2001-06-10 00:00:00,Cypos,Coloe A,0,4,10,True,lb,False,False,0,0,0,0,0
+-1,-1,2001-06-10 00:00:00,Cypos,Corrigan D,0,5,17,True,c,False,False,0,0,0,2,0
+-1,-1,2001-06-10 00:00:00,Cypos,Hawksworth A,0,2,36,True,c,False,False,0,0,0,3,0
+-1,-1,2001-06-10 00:00:00,Cypos,Leadley J,0,1,22,True,lb,False,False,0,0,0,4,0
+-1,-1,2001-06-10 00:00:00,Cypos,Lilley G,0,7,10,False,no,False,False,0,0,0,0,0
+-1,-1,2001-06-10 00:00:00,Cypos,Mander A,0,9,0,True,c,False,False,0,0,0,0,0
+-1,-1,2001-06-10 00:00:00,Cypos,Mander C,0,8,16,True,b,False,False,0,0,0,2,0
+-1,-1,2001-06-10 00:00:00,Cypos,Moore K,0,6,4,True,c,False,True,0,0,0,0,0
+-1,-1,2001-06-10 00:00:00,Cypos,Springer T,0,4,20,True,b,True,False,1,0,0,3,0
+-1,-1,2001-06-17 00:00:00,4 C's,Angell G,0,3,5,True,b,False,False,0,0,0,1,0
+-1,-1,2001-06-17 00:00:00,4 C's,Clark C,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-06-17 00:00:00,4 C's,Coloe A,0,4,14,True,b,False,False,0,0,0,2,0
+-1,-1,2001-06-17 00:00:00,4 C's,Cooper D,0,7,0,True,c,False,False,0,0,0,0,0
+-1,-1,2001-06-17 00:00:00,4 C's,Cooper G,0,8,14,False,no,False,False,0,0,0,1,0
+-1,-1,2001-06-17 00:00:00,4 C's,Mander A,0,10,3,True,ro,False,False,2,0,0,0,0
+-1,-1,2001-06-17 00:00:00,4 C's,Patel N,0,2,0,True,c,False,False,0,0,0,0,0
+-1,-1,2001-06-17 00:00:00,4 C's,Sharpe D,0,5,1,True,lb,True,True,0,0,0,0,0
+-1,-1,2001-06-17 00:00:00,4 C's,Snow D,0,6,0,True,c,False,False,0,0,0,0,0
+-1,-1,2001-06-17 00:00:00,4 C's,Woodhouse M,0,1,32,True,b,False,False,0,0,0,4,0
+-1,-1,2001-06-17 00:00:00,4 C's,Worthy J,0,9,4,True,b,False,False,2,0,0,0,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Bowers M,0,10,4,True,c,False,False,0,0,0,1,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Coloe A,0,6,4,True,c,False,False,0,0,0,0,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Cooper D,0,7,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Cooper G,0,8,27,False,no,False,False,0,0,0,2,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Elliston J,0,11,18,True,b,False,False,0,0,0,3,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Leadley J,0,1,32,True,c,False,True,0,1,1,5,1
+-1,-1,2001-06-23 00:00:00,Churchleigh,Lestrelle J,0,4,4,True,c,False,False,0,0,0,0,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Reid V,0,5,22,True,c,False,False,0,0,0,5,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Woodhouse M,0,2,17,True,b,True,False,1,0,0,3,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Worthington R,0,3,0,True,c,False,False,0,0,0,0,0
+-1,-1,2001-06-23 00:00:00,Churchleigh,Young R,0,9,10,True,b,False,False,0,0,0,2,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Clark C,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Giles T,0,6,1,True,b,False,False,1,0,0,0,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Hosking M,0,5,6,True,lb,False,False,0,0,0,1,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Mander C,0,9,26,False,no,False,False,1,0,0,4,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Mander N,0,7,17,False,no,False,False,1,0,0,3,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Patel N,0,3,9,True,b,False,False,0,0,0,1,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Sharpe D,0,2,6,True,b,False,False,1,0,0,1,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Snow D,0,4,16,True,b,False,False,0,0,0,3,0
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Springer T,0,1,127,True,c,True,True,0,0,0,21,1
+-1,-1,2001-06-24 00:00:00,Northwood Nomads,Worthy J,0,8,0,True,lb,False,False,1,0,0,0,0
+-1,-1,2001-06-30 00:00:00,4 C's,Bowers M,0,9,6,True,c,False,False,2,0,0,1,0
 -1,-1,2001-06-30 00:00:00,4 C's,Cooper D,0,7,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-06-30 00:00:00,4 C's,Cooper G,0,8,14,False,no,False,False,0,0,0,1,0
--1,-1,2001-06-30 00:00:00,4 C's,Mander A,0,10,3,True,ro,False,False,2,0,0,0,0
--1,-1,2001-06-30 00:00:00,4 C's,Patel N,0,2,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-06-30 00:00:00,4 C's,Sharpe D,0,5,1,True,lb,True,True,0,0,0,0,0
--1,-1,2001-06-30 00:00:00,4 C's,Snow D,0,6,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-06-30 00:00:00,4 C's,Woodhouse M,0,1,32,True,b,False,False,0,0,0,4,0
--1,-1,2001-06-30 00:00:00,4 C's,Worthy J,0,9,4,True,b,False,False,2,0,0,0,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Bowers M,0,10,4,True,c,False,False,0,0,0,1,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Coloe A,0,6,4,True,c,False,False,0,0,0,0,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Cooper D,0,7,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Cooper G,0,8,27,False,no,False,False,0,0,0,2,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Elliston J,0,11,18,True,b,False,False,0,0,0,3,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Leadley J,0,1,32,True,c,False,True,0,1,1,5,1
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Lestrelle J,0,4,4,True,c,False,False,0,0,0,0,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Reid V,0,5,22,True,c,False,False,0,0,0,5,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Woodhouse M,0,2,17,True,b,True,False,1,0,0,3,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Worthington R,0,3,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-07-01 00:00:00,Sunderland Supporters,Young R,0,9,10,True,b,False,False,0,0,0,2,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Clark C,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Giles T,0,6,1,True,b,False,False,1,0,0,0,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Hosking M,0,5,6,True,lb,False,False,0,0,0,1,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Mander C,0,9,26,False,no,False,False,1,0,0,4,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Mander N,0,7,17,False,no,False,False,1,0,0,3,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Patel N,0,3,9,True,b,False,False,0,0,0,1,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Sharpe D,0,2,6,True,b,False,False,1,0,0,1,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Snow D,0,4,16,True,b,False,False,0,0,0,3,0
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Springer T,0,1,127,True,c,True,True,0,0,0,21,1
--1,-1,2001-07-07 00:00:00,Lessa Wanderers,Worthy J,0,8,0,True,lb,False,False,1,0,0,0,0
--1,-1,2001-07-08 00:00:00,North Croydon,Bowers M,0,9,6,True,c,False,False,2,0,0,1,0
--1,-1,2001-07-08 00:00:00,North Croydon,Cooper D,0,7,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-07-08 00:00:00,North Croydon,Cooper G,0,8,8,True,ro,False,False,1,0,0,2,0
--1,-1,2001-07-08 00:00:00,North Croydon,Dugdale E,0,2,8,True,c,False,False,0,0,0,1,0
--1,-1,2001-07-08 00:00:00,North Croydon,Hosking M,0,5,3,True,c,False,True,0,1,2,0,0
--1,-1,2001-07-08 00:00:00,North Croydon,Morris D,0,10,12,True,b,False,False,0,0,0,2,0
--1,-1,2001-07-08 00:00:00,North Croydon,Odeneal R,0,6,4,True,c,False,False,0,0,0,1,0
--1,-1,2001-07-08 00:00:00,North Croydon,Sharpe D,0,4,28,True,c,False,False,1,0,0,6,0
--1,-1,2001-07-08 00:00:00,North Croydon,Woodhouse M,0,1,26,True,c,True,False,0,0,0,5,0
--1,-1,2001-07-08 00:00:00,North Croydon,Worthington R,0,3,11,True,c,False,False,0,0,0,2,0
--1,-1,2001-07-08 00:00:00,North Croydon,Young R,0,11,8,False,no,False,False,0,0,0,2,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Angell G,0,3,5,True,b,False,False,2,0,0,1,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Brocks D,0,6,6,True,c,False,False,0,0,0,1,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Clark C,0,8,3,True,c,False,False,1,0,0,0,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Coloe A,0,1,12,True,c,False,True,0,0,1,2,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Elliston J,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Mander C,0,7,40,True,c,False,False,0,0,0,7,1
--1,-1,2001-07-14 00:00:00,HSBC IV,Patel N,0,5,62,False,no,False,False,0,0,0,9,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Snow D,0,4,26,True,ro,False,False,0,0,0,4,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Springer T,0,2,38,True,c,True,False,2,0,0,7,0
--1,-1,2001-07-14 00:00:00,HSBC IV,Worthy J,0,9,9,False,no,False,False,0,0,0,1,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Bowers M,0,2,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Clark C,0,3,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Coloe A,0,4,0,False,dnb,False,True,0,1,0,0,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Cooper D,0,5,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Cooper G,0,6,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Dugdale E,0,7,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Reid V,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Woodhouse M,0,1,0,False,dnb,True,False,0,0,0,0,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Worthy J,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-15 00:00:00,Wallington Tudor,Young R,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-21 00:00:00,Seven O,Brocks D,0,5,8,True,c,False,False,0,0,0,1,0
--1,-1,2001-07-21 00:00:00,Seven O,Crawford I*,0,9,2,True,ro,False,False,0,0,0,0,0
--1,-1,2001-07-21 00:00:00,Seven O,Fenn,0,10,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-07-21 00:00:00,Seven O,Giles T,0,8,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-07-21 00:00:00,Seven O,Leadley J,0,1,82,True,c,False,True,0,1,0,8,0
--1,-1,2001-07-21 00:00:00,Seven O,Lestrelle J,0,7,0,True,c,False,False,1,0,0,0,0
--1,-1,2001-07-21 00:00:00,Seven O,Morris D,0,11,1,False,no,False,False,0,0,0,0,0
--1,-1,2001-07-21 00:00:00,Seven O,Patel N,0,6,16,True,c,False,False,0,0,0,2,0
--1,-1,2001-07-21 00:00:00,Seven O,Springer T,0,2,9,True,b,True,False,0,0,0,2,0
--1,-1,2001-07-21 00:00:00,Seven O,Woodhouse M,0,3,2,True,c,False,False,0,0,0,0,0
--1,-1,2001-07-21 00:00:00,Seven O,Worthington R,0,4,5,True,c,False,False,0,0,0,0,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Brocks D,0,7,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Hamilton A,0,1,4,True,b,False,False,0,0,0,0,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Hawksworth A,0,2,2,True,b,False,False,0,0,0,0,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Leadley J,0,6,0,False,dnb,False,True,0,1,0,0,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Moore K,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Morris D,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Sharpe D,0,4,42,False,no,False,False,0,0,0,7,1
+-1,-1,2001-06-30 00:00:00,4 C's,Cooper G,0,8,8,True,ro,False,False,1,0,0,2,0
+-1,-1,2001-06-30 00:00:00,4 C's,Dugdale E,0,2,8,True,c,False,False,0,0,0,1,0
+-1,-1,2001-06-30 00:00:00,4 C's,Hosking M,0,5,3,True,c,False,True,0,1,2,0,0
+-1,-1,2001-06-30 00:00:00,4 C's,Morris D,0,10,12,True,b,False,False,0,0,0,2,0
+-1,-1,2001-06-30 00:00:00,4 C's,Odeneal R,0,6,4,True,c,False,False,0,0,0,1,0
+-1,-1,2001-06-30 00:00:00,4 C's,Sharpe D,0,4,28,True,c,False,False,1,0,0,6,0
+-1,-1,2001-06-30 00:00:00,4 C's,Woodhouse M,0,1,26,True,c,True,False,0,0,0,5,0
+-1,-1,2001-06-30 00:00:00,4 C's,Worthington R,0,3,11,True,c,False,False,0,0,0,2,0
+-1,-1,2001-06-30 00:00:00,4 C's,Young R,0,11,8,False,no,False,False,0,0,0,2,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Angell G,0,3,5,True,b,False,False,2,0,0,1,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Brocks D,0,6,6,True,c,False,False,0,0,0,1,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Clark C,0,8,3,True,c,False,False,1,0,0,0,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Coloe A,0,1,12,True,c,False,True,0,0,1,2,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Elliston J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Mander A,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Mander C,0,7,40,True,c,False,False,0,0,0,7,1
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Patel N,0,5,62,False,no,False,False,0,0,0,9,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Snow D,0,4,26,True,ro,False,False,0,0,0,4,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Springer T,0,2,38,True,c,True,False,2,0,0,7,0
+-1,-1,2001-07-01 00:00:00,Sunderland Supporters,Worthy J,0,9,9,False,no,False,False,0,0,0,1,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Bowers M,0,2,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Clark C,0,3,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Coloe A,0,4,0,False,dnb,False,True,0,1,0,0,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Cooper D,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Cooper G,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Dugdale E,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Reid V,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Woodhouse M,0,1,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Worthy J,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-07 00:00:00,Lessa Wanderers,Young R,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Brocks D,0,5,8,True,c,False,False,0,0,0,1,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Crawford I*,0,9,2,True,ro,False,False,0,0,0,0,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Fenn,0,10,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Giles T,0,8,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Leadley J,0,1,82,True,c,False,True,0,1,0,8,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Lestrelle J,0,7,0,True,c,False,False,1,0,0,0,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Morris D,0,11,1,False,no,False,False,0,0,0,0,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Patel N,0,6,16,True,c,False,False,0,0,0,2,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Springer T,0,2,9,True,b,True,False,0,0,0,2,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Woodhouse M,0,3,2,True,c,False,False,0,0,0,0,0
+-1,-1,2001-07-08 00:00:00,North Croydon,Worthington R,0,4,5,True,c,False,False,0,0,0,0,0
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Brocks D,0,7,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Hamilton A,0,1,4,True,b,False,False,0,0,0,0,0
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Hawksworth A,0,2,2,True,b,False,False,0,0,0,0,0
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Leadley J,0,6,0,False,dnb,False,True,0,1,0,0,0
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Moore K,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Morris D,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Sharpe D,0,4,42,False,no,False,False,0,0,0,7,1
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Shewan D,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Springer T,0,5,50,False,no,True,False,1,0,0,7,1
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Woodhouse M,0,3,6,True,c,False,False,0,0,0,1,0
+-1,-1,2001-07-15 00:00:00,Wallington Tudor,Worthy J,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-07-21 00:00:00,Seven O,Bowers M,0,10,16,False,no,False,False,0,0,0,0,1
+-1,-1,2001-07-21 00:00:00,Seven O,Cooper D,0,6,3,True,st,False,False,0,0,0,0,0
+-1,-1,2001-07-21 00:00:00,Seven O,Cooper G,0,8,9,True,ro,False,False,0,0,0,0,0
+-1,-1,2001-07-21 00:00:00,Seven O,Dugdale E,0,5,0,True,c,False,False,1,0,0,0,0
+-1,-1,2001-07-21 00:00:00,Seven O,Edghill C,0,4,7,True,st,False,False,0,0,0,0,0
+-1,-1,2001-07-21 00:00:00,Seven O,Elliston J,0,11,7,False,no,False,False,0,0,0,0,0
+-1,-1,2001-07-21 00:00:00,Seven O,Leadley J,0,1,96,True,c,False,True,0,1,2,14,1
+-1,-1,2001-07-21 00:00:00,Seven O,Morris D,0,7,22,True,c,False,False,0,0,0,2,0
+-1,-1,2001-07-21 00:00:00,Seven O,Woodhouse M,0,2,8,True,lb,True,False,0,0,0,1,0
+-1,-1,2001-07-21 00:00:00,Seven O,Worthington R,0,3,11,True,b,False,False,0,0,0,1,0
+-1,-1,2001-07-21 00:00:00,Seven O,Young R,0,9,4,True,b,False,False,0,0,0,1,0
+-1,-1,2001-07-22 00:00:00,Falcon,Dugdale E,0,2,23,True,lb,False,False,0,0,0,0,0
+-1,-1,2001-07-22 00:00:00,Falcon,Leadley J,0,1,101,True,c,False,True,0,0,0,13,2
+-1,-1,2001-07-22 00:00:00,Falcon,Lestrelle A,0,7,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-07-22 00:00:00,Falcon,Lestrelle J,0,5,9,True,lb,False,False,0,0,0,1,0
+-1,-1,2001-07-22 00:00:00,Falcon,Mander A,0,10,1,False,no,False,False,1,0,0,0,0
+-1,-1,2001-07-22 00:00:00,Falcon,Mander C,0,8,15,True,b,False,False,0,0,0,0,2
+-1,-1,2001-07-22 00:00:00,Falcon,Mander N,0,4,78,True,hw,False,False,0,0,0,7,1
+-1,-1,2001-07-22 00:00:00,Falcon,Morris D,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-22 00:00:00,Falcon,Snow D,0,6,13,True,st,False,False,0,0,0,0,1
+-1,-1,2001-07-22 00:00:00,Falcon,Springer T,0,3,21,True,b,True,False,0,0,0,3,0
+-1,-1,2001-07-22 00:00:00,Falcon,Worthy J,0,9,14,True,hw,False,False,0,0,0,3,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Bowers M,0,6,8,False,no,False,False,1,0,0,0,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Coloe A,0,3,10,True,c,False,False,0,0,0,1,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Elliston J,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Leadley J,0,0,0,False,,False,False,0,0,0,0,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Morris D,0,5,24,True,c,False,False,1,0,0,3,0
 -1,-1,2001-07-28 00:00:00,Lessa Wanderers,Shewan D,0,10,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Springer T,0,5,50,False,no,True,False,1,0,0,7,1
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Woodhouse M,0,3,6,True,c,False,False,0,0,0,1,0
--1,-1,2001-07-28 00:00:00,Lessa Wanderers,Worthy J,0,9,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-07-29 00:00:00,Wild Geese,Bowers M,0,10,16,False,no,False,False,0,0,0,0,1
--1,-1,2001-07-29 00:00:00,Wild Geese,Cooper D,0,6,3,True,st,False,False,0,0,0,0,0
--1,-1,2001-07-29 00:00:00,Wild Geese,Cooper G,0,8,9,True,ro,False,False,0,0,0,0,0
--1,-1,2001-07-29 00:00:00,Wild Geese,Dugdale E,0,5,0,True,c,False,False,1,0,0,0,0
--1,-1,2001-07-29 00:00:00,Wild Geese,Edghill C,0,4,7,True,st,False,False,0,0,0,0,0
--1,-1,2001-07-29 00:00:00,Wild Geese,Elliston J,0,11,7,False,no,False,False,0,0,0,0,0
--1,-1,2001-07-29 00:00:00,Wild Geese,Leadley J,0,1,96,True,c,False,True,0,1,2,14,1
--1,-1,2001-07-29 00:00:00,Wild Geese,Morris D,0,7,22,True,c,False,False,0,0,0,2,0
--1,-1,2001-07-29 00:00:00,Wild Geese,Woodhouse M,0,2,8,True,lb,True,False,0,0,0,1,0
--1,-1,2001-07-29 00:00:00,Wild Geese,Worthington R,0,3,11,True,b,False,False,0,0,0,1,0
--1,-1,2001-07-29 00:00:00,Wild Geese,Young R,0,9,4,True,b,False,False,0,0,0,1,0
--1,-1,2001-08-04 00:00:00,Old Josephians,Dugdale E,0,2,23,True,lb,False,False,0,0,0,0,0
--1,-1,2001-08-04 00:00:00,Old Josephians,Leadley J,0,1,101,True,c,False,True,0,0,0,13,2
--1,-1,2001-08-04 00:00:00,Old Josephians,Lestrelle A,0,7,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-08-04 00:00:00,Old Josephians,Lestrelle J,0,5,9,True,lb,False,False,0,0,0,1,0
--1,-1,2001-08-04 00:00:00,Old Josephians,Mander A,0,10,1,False,no,False,False,1,0,0,0,0
--1,-1,2001-08-04 00:00:00,Old Josephians,Mander C,0,8,15,True,b,False,False,0,0,0,0,2
--1,-1,2001-08-04 00:00:00,Old Josephians,Mander N,0,4,78,True,hw,False,False,0,0,0,7,1
--1,-1,2001-08-04 00:00:00,Old Josephians,Morris D,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-08-04 00:00:00,Old Josephians,Snow D,0,6,13,True,st,False,False,0,0,0,0,1
--1,-1,2001-08-04 00:00:00,Old Josephians,Springer T,0,3,21,True,b,True,False,0,0,0,3,0
--1,-1,2001-08-04 00:00:00,Old Josephians,Worthy J,0,9,14,True,hw,False,False,0,0,0,3,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Bowers M,0,6,8,False,no,False,False,1,0,0,0,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Coloe A,0,3,10,True,c,False,False,0,0,0,1,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Elliston J,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Leadley J,0,0,0,False,,False,False,0,0,0,0,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Morris D,0,5,24,True,c,False,False,1,0,0,3,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Shewan D,0,10,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Springer T,0,4,39,True,lb,False,False,0,0,0,8,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Woodhouse M,0,2,52,True,c,True,False,0,0,0,6,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Worthy J,0,7,3,True,c,False,False,0,0,0,0,0
--1,-1,2001-08-05 00:00:00,Whyteleaf,Young R,0,8,2,False,no,False,False,0,0,0,0,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Angell G,0,4,9,True,b,False,False,0,0,0,1,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Clark C,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Cooper G,0,9,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Leadley J,0,1,51,True,c,False,True,0,0,1,9,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Mander A,0,11,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Mander C,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Mander N,0,2,128,True,b,False,False,1,0,0,19,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Moore K,0,7,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Patel N,0,3,14,True,c,False,False,2,0,0,1,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Sharpe D,0,6,17,False,no,False,False,0,0,0,3,0
--1,-1,2001-08-11 00:00:00,Prospect Park,Springer T,0,5,48,False,no,True,False,0,0,0,7,1
--1,-1,2001-08-12 00:00:00,Addington 1743,Coloe A,0,2,11,True,c,False,False,0,0,0,0,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Cooper G,0,1,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Edghill C,0,6,10,False,no,False,False,0,0,0,2,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Elliston J,0,4,18,True,c,False,False,1,0,0,2,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Giles T,0,5,1,True,rh,False,False,0,0,0,0,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Lestrelle J,0,9,0,False,dnb,False,True,0,5,0,0,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Morris D,0,11,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Odeneal R,0,3,7,True,c,False,False,0,0,0,1,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Shewan D,0,8,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Woodhouse M,0,7,0,False,no,True,False,0,0,0,0,0
--1,-1,2001-08-12 00:00:00,Addington 1743,Young R,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-08-18 00:00:00,Riverside,Barry S,0,4,14,True,ro,False,False,0,0,0,2,0
--1,-1,2001-08-18 00:00:00,Riverside,Leadley J,0,1,23,True,lb,False,True,0,0,0,4,0
--1,-1,2001-08-18 00:00:00,Riverside,Lestrelle J,0,2,0,True,c,False,False,0,0,0,0,0
--1,-1,2001-08-18 00:00:00,Riverside,Morris R,0,11,1,True,c,False,False,0,0,0,0,0
--1,-1,2001-08-18 00:00:00,Riverside,Patel N,0,10,8,True,b,False,False,0,0,0,1,0
--1,-1,2001-08-18 00:00:00,Riverside,Reid V,0,5,30,True,c,False,False,2,0,0,5,0
--1,-1,2001-08-18 00:00:00,Riverside,Sharpe D,0,6,1,True,b,True,False,1,0,0,0,0
--1,-1,2001-08-18 00:00:00,Riverside,Snow D,0,9,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-08-18 00:00:00,Riverside,Springer T,0,8,49,True,c,False,False,0,0,0,8,2
--1,-1,2001-08-18 00:00:00,Riverside,Worthington R,0,3,11,True,c,False,False,0,0,0,2,0
--1,-1,2001-08-18 00:00:00,Riverside,Worthy J,0,7,19,False,no,False,False,0,0,0,2,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Bowers M,0,9,9,False,no,False,False,0,0,0,0,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Cooper G,0,8,14,False,no,False,False,0,0,0,0,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Elliston J,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Leadley J,0,1,32,True,b,False,True,0,0,1,5,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Morris D,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Odeneal R,0,5,4,True,b,False,False,1,0,0,0,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Patterson,0,6,3,True,c,False,False,0,0,0,0,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Springer T,0,4,0,True,c,False,False,1,0,0,0,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Woodhouse M,0,2,0,True,c,True,False,0,0,0,0,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Worthington R,0,3,26,True,c,False,False,0,0,0,4,0
--1,-1,2001-08-19 00:00:00,Rovers of Croydon,Young R,0,7,20,True,c,False,False,1,0,0,4,0
--1,-1,2001-08-26 00:00:00,Spencer,Brocks D,0,9,10,False,no,False,False,0,0,0,0,1
--1,-1,2001-08-26 00:00:00,Spencer,Coloe A,0,6,16,True,c,False,False,1,0,0,1,0
--1,-1,2001-08-26 00:00:00,Spencer,Crisford J,0,7,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-08-26 00:00:00,Spencer,Hosking M,0,1,4,True,b,False,False,0,0,0,1,0
--1,-1,2001-08-26 00:00:00,Spencer,Leadley J,0,2,30,True,c,False,True,0,1,1,4,0
--1,-1,2001-08-26 00:00:00,Spencer,Lilley G,0,8,8,True,c,False,False,0,0,0,1,0
--1,-1,2001-08-26 00:00:00,Spencer,Morris D,0,11,1,True,c,False,False,0,0,0,0,0
--1,-1,2001-08-26 00:00:00,Spencer,Patel N,0,3,1,True,ro,False,False,0,0,0,0,0
--1,-1,2001-08-26 00:00:00,Spencer,Snow D,0,5,2,True,c,False,False,0,0,0,0,0
--1,-1,2001-08-26 00:00:00,Spencer,Springer T,0,0,0,False,,False,False,0,0,0,0,0
--1,-1,2001-08-26 00:00:00,Spencer,Worthy J,0,10,6,True,c,False,False,1,0,0,1,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Bowers M,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Corrigan D,0,8,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Giles T,0,7,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Hickey L,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Hosking M,0,4,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Leadley J,0,1,9,False,no,False,True,0,0,2,1,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Lestrelle J,0,5,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Odeneal R,0,6,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Woodhouse M,0,2,2,True,c,True,False,0,0,0,0,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Worthington R,0,3,0,False,no,False,False,0,0,0,0,0
--1,-1,2001-09-01 00:00:00,Blackheath Select XI,Young R,0,10,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-09-02 00:00:00,Beddington,Barry S,0,3,42,True,b,False,False,1,0,0,3,2
--1,-1,2001-09-02 00:00:00,Beddington,Crisford J,0,6,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-02 00:00:00,Beddington,Elliston J,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-02 00:00:00,Beddington,Hickey L,0,7,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-02 00:00:00,Beddington,Lestrelle A,0,10,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-02 00:00:00,Beddington,Lestrelle J,0,5,11,False,no,False,True,0,1,0,0,0
--1,-1,2001-09-02 00:00:00,Beddington,Snow D,0,4,8,True,c,False,False,0,0,0,1,0
--1,-1,2001-09-02 00:00:00,Beddington,Springer T,0,2,188,False,no,True,True,0,0,0,21,6
--1,-1,2001-09-02 00:00:00,Beddington,Woodhouse M,0,1,16,True,c,False,False,0,0,0,1,0
--1,-1,2001-09-02 00:00:00,Beddington,Worthy J,0,8,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-09-09 00:00:00,Selsdon,Bowers M,0,6,3,True,c,False,False,0,0,0,0,0
--1,-1,2001-09-09 00:00:00,Selsdon,Elliston J,0,7,8,True,b,False,False,0,0,0,2,0
--1,-1,2001-09-09 00:00:00,Selsdon,Leadley J,0,1,1,True,b,False,True,0,0,1,0,0
--1,-1,2001-09-09 00:00:00,Selsdon,Lestrelle A,0,9,4,False,no,False,False,0,0,0,0,0
--1,-1,2001-09-09 00:00:00,Selsdon,Lestrelle J,0,3,0,True,c,False,False,1,0,0,0,0
--1,-1,2001-09-09 00:00:00,Selsdon,Odeneal R,0,5,4,True,b,False,False,0,0,0,0,0
--1,-1,2001-09-09 00:00:00,Selsdon,Shewan D,0,8,47,True,c,False,False,2,0,0,6,1
--1,-1,2001-09-09 00:00:00,Selsdon,Springer T,0,4,30,True,c,False,False,0,0,0,4,2
--1,-1,2001-09-09 00:00:00,Selsdon,Woodhouse M,0,2,15,True,c,True,False,0,0,0,3,0
--1,-1,2001-09-09 00:00:00,Selsdon,Young R,0,10,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Clark C,0,11,0,False,no,False,False,0,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Coloe A,0,5,0,True,c,False,False,1,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Lestrelle A,0,9,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Lestrelle J,0,3,5,True,c,False,False,1,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Mander A,0,10,3,True,c,False,False,0,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Mander C,0,7,1,True,b,False,False,1,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Mander N,0,1,55,True,b,False,True,0,0,0,4,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Patel N,0,4,7,True,c,False,False,0,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Snow D,0,6,1,True,c,False,False,0,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Woodhouse M,0,2,0,True,b,True,False,0,0,0,0,0
--1,-1,2001-09-15 00:00:00,Prospect Park,Worthy J,0,8,0,True,b,False,False,1,0,0,0,0
--1,-1,2001-09-16 00:00:00,East Cheam,Clark C,0,10,0,False,dnb,False,False,1,0,0,0,0
--1,-1,2001-09-16 00:00:00,East Cheam,Corrigan D,0,7,4,True,b,False,False,1,0,0,0,0
--1,-1,2001-09-16 00:00:00,East Cheam,Edghill C,0,5,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-09-16 00:00:00,East Cheam,Hosking M,0,4,18,True,b,False,False,0,0,0,1,0
--1,-1,2001-09-16 00:00:00,East Cheam,Mander A,0,8,2,False,no,False,False,1,0,0,0,0
--1,-1,2001-09-16 00:00:00,East Cheam,Mander N,0,1,13,True,lb,False,True,0,1,2,0,0
--1,-1,2001-09-16 00:00:00,East Cheam,Morris D,0,9,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-16 00:00:00,East Cheam,Odeneal R,0,6,4,True,b,False,False,0,0,0,0,0
--1,-1,2001-09-16 00:00:00,East Cheam,Woodhouse M,0,2,2,True,b,True,False,0,0,0,0,0
--1,-1,2001-09-16 00:00:00,East Cheam,Worthington R,0,3,51,False,no,False,False,0,0,0,5,0
--1,-1,2001-09-16 00:00:00,East Cheam,Young R,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-22 00:00:00,Peckham Rye,Bowers M,0,7,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-09-22 00:00:00,Peckham Rye,Cooper G,0,2,3,True,c,False,False,0,0,0,0,0
--1,-1,2001-09-22 00:00:00,Peckham Rye,Elliston J,0,8,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-09-22 00:00:00,Peckham Rye,Mander A,0,9,2,True,b,False,False,0,0,0,0,0
--1,-1,2001-09-22 00:00:00,Peckham Rye,Mander C,0,5,38,True,st,True,False,0,0,0,6,2
--1,-1,2001-09-22 00:00:00,Peckham Rye,Mander N,0,1,45,True,c,False,True,0,4,0,5,0
--1,-1,2001-09-22 00:00:00,Peckham Rye,Morris D,0,10,3,True,c,False,False,0,0,0,0,0
--1,-1,2001-09-22 00:00:00,Peckham Rye,Reid V,0,4,63,False,no,False,False,0,0,0,9,0
--1,-1,2001-09-22 00:00:00,Peckham Rye,Saker N,0,3,8,True,ro,False,False,2,0,0,0,0
--1,-1,2001-09-22 00:00:00,Peckham Rye,Worthy J,0,6,1,True,st,False,False,0,0,0,0,0
--1,-1,2001-09-23 00:00:00,North Croydon,Bowers M,0,8,2,True,b,False,False,1,0,0,0,0
--1,-1,2001-09-23 00:00:00,North Croydon,Coloe A,0,4,20,True,c,False,False,0,0,0,1,0
--1,-1,2001-09-23 00:00:00,North Croydon,Cooper G,0,7,1,True,c,False,False,0,0,0,0,0
--1,-1,2001-09-23 00:00:00,North Croydon,Edghill C,0,5,1,True,st,False,False,0,0,0,0,0
--1,-1,2001-09-23 00:00:00,North Croydon,Elliston J,0,10,6,False,no,False,False,0,0,0,1,0
--1,-1,2001-09-23 00:00:00,North Croydon,Lestrelle J,0,2,20,True,c,False,False,0,0,0,0,0
--1,-1,2001-09-23 00:00:00,North Croydon,Mander N,0,1,28,True,c,False,True,0,1,1,3,0
--1,-1,2001-09-23 00:00:00,North Croydon,Morris D,0,9,4,False,no,False,False,1,0,0,0,0
--1,-1,2001-09-23 00:00:00,North Croydon,Saker N,0,6,13,True,c,False,False,0,0,0,0,1
--1,-1,2001-09-23 00:00:00,North Croydon,Woodhouse M,0,3,10,True,lb,True,False,0,0,0,0,0
--1,-1,2001-09-23 00:00:00,North Croydon,Young R,0,11,0,False,dnb,False,False,0,0,0,0,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Clark C,0,10,5,False,no,False,False,0,0,0,0,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Lestrelle J,0,2,14,True,c,False,False,0,0,0,1,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Mander C,0,1,4,True,b,False,False,0,0,0,1,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Mander N,0,7,25,True,b,False,True,0,2,0,3,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Morris D,0,9,12,True,lb,False,False,0,0,0,1,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Odeneal R,0,4,2,True,ro,False,False,0,0,0,0,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Patel N,0,5,0,True,b,False,False,0,0,0,0,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Springer T,0,6,4,True,b,True,False,2,0,0,0,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Worthington R,0,3,11,True,hw,False,False,0,0,0,1,0
--1,-1,2001-09-29 00:00:00,Malden Wanderers,Worthy J,0,8,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Springer T,0,4,39,True,lb,False,False,0,0,0,8,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Woodhouse M,0,2,52,True,c,True,False,0,0,0,6,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Worthy J,0,7,3,True,c,False,False,0,0,0,0,0
+-1,-1,2001-07-28 00:00:00,Lessa Wanderers,Young R,0,8,2,False,no,False,False,0,0,0,0,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Angell G,0,4,9,True,b,False,False,0,0,0,1,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Clark C,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Cooper G,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Leadley J,0,1,51,True,c,False,True,0,0,1,9,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Mander A,0,11,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Mander C,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Mander N,0,2,128,True,b,False,False,1,0,0,19,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Moore K,0,7,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Patel N,0,3,14,True,c,False,False,2,0,0,1,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Sharpe D,0,6,17,False,no,False,False,0,0,0,3,0
+-1,-1,2001-07-29 00:00:00,Wild Geese,Springer T,0,5,48,False,no,True,False,0,0,0,7,1
+-1,-1,2001-08-04 00:00:00,Old Josephians,Coloe A,0,2,11,True,c,False,False,0,0,0,0,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Cooper G,0,1,0,True,c,False,False,0,0,0,0,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Edghill C,0,6,10,False,no,False,False,0,0,0,2,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Elliston J,0,4,18,True,c,False,False,1,0,0,2,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Giles T,0,5,1,True,rh,False,False,0,0,0,0,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Lestrelle J,0,9,0,False,dnb,False,True,0,5,0,0,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Morris D,0,11,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Odeneal R,0,3,7,True,c,False,False,0,0,0,1,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Shewan D,0,8,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Woodhouse M,0,7,0,False,no,True,False,0,0,0,0,0
+-1,-1,2001-08-04 00:00:00,Old Josephians,Young R,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Barry S,0,4,14,True,ro,False,False,0,0,0,2,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Leadley J,0,1,23,True,lb,False,True,0,0,0,4,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Lestrelle J,0,2,0,True,c,False,False,0,0,0,0,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Morris R,0,11,1,True,c,False,False,0,0,0,0,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Patel N,0,10,8,True,b,False,False,0,0,0,1,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Reid V,0,5,30,True,c,False,False,2,0,0,5,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Sharpe D,0,6,1,True,b,True,False,1,0,0,0,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Snow D,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Springer T,0,8,49,True,c,False,False,0,0,0,8,2
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Worthington R,0,3,11,True,c,False,False,0,0,0,2,0
+-1,-1,2001-08-05 00:00:00,Whyteleaf,Worthy J,0,7,19,False,no,False,False,0,0,0,2,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Bowers M,0,9,9,False,no,False,False,0,0,0,0,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Cooper G,0,8,14,False,no,False,False,0,0,0,0,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Elliston J,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Leadley J,0,1,32,True,b,False,True,0,0,1,5,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Morris D,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Odeneal R,0,5,4,True,b,False,False,1,0,0,0,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Patterson,0,6,3,True,c,False,False,0,0,0,0,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Springer T,0,4,0,True,c,False,False,1,0,0,0,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Woodhouse M,0,2,0,True,c,True,False,0,0,0,0,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Worthington R,0,3,26,True,c,False,False,0,0,0,4,0
+-1,-1,2001-08-11 00:00:00,Prospect Park,Young R,0,7,20,True,c,False,False,1,0,0,4,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Brocks D,0,9,10,False,no,False,False,0,0,0,0,1
+-1,-1,2001-08-12 00:00:00,Addington 1743,Coloe A,0,6,16,True,c,False,False,1,0,0,1,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Crisford J,0,7,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Hosking M,0,1,4,True,b,False,False,0,0,0,1,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Leadley J,0,2,30,True,c,False,True,0,1,1,4,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Lilley G,0,8,8,True,c,False,False,0,0,0,1,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Morris D,0,11,1,True,c,False,False,0,0,0,0,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Patel N,0,3,1,True,ro,False,False,0,0,0,0,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Snow D,0,5,2,True,c,False,False,0,0,0,0,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Springer T,0,0,0,False,,False,False,0,0,0,0,0
+-1,-1,2001-08-12 00:00:00,Addington 1743,Worthy J,0,10,6,True,c,False,False,1,0,0,1,0
+-1,-1,2001-08-18 00:00:00,Riverside,Bowers M,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-18 00:00:00,Riverside,Corrigan D,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-08-18 00:00:00,Riverside,Giles T,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-18 00:00:00,Riverside,Hickey L,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-18 00:00:00,Riverside,Hosking M,0,4,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-08-18 00:00:00,Riverside,Leadley J,0,1,9,False,no,False,True,0,0,2,1,0
+-1,-1,2001-08-18 00:00:00,Riverside,Lestrelle J,0,5,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-18 00:00:00,Riverside,Odeneal R,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-18 00:00:00,Riverside,Woodhouse M,0,2,2,True,c,True,False,0,0,0,0,0
+-1,-1,2001-08-18 00:00:00,Riverside,Worthington R,0,3,0,False,no,False,False,0,0,0,0,0
+-1,-1,2001-08-18 00:00:00,Riverside,Young R,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Barry S,0,3,42,True,b,False,False,1,0,0,3,2
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Crisford J,0,6,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Elliston J,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Hickey L,0,7,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Lestrelle A,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Lestrelle J,0,5,11,False,no,False,True,0,1,0,0,0
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Snow D,0,4,8,True,c,False,False,0,0,0,1,0
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Springer T,0,2,188,False,no,True,True,0,0,0,21,6
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Woodhouse M,0,1,16,True,c,False,False,0,0,0,1,0
+-1,-1,2001-08-19 00:00:00,Rovers of Croydon,Worthy J,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Bowers M,0,6,3,True,c,False,False,0,0,0,0,0
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Elliston J,0,7,8,True,b,False,False,0,0,0,2,0
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Leadley J,0,1,1,True,b,False,True,0,0,1,0,0
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Lestrelle A,0,9,4,False,no,False,False,0,0,0,0,0
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Lestrelle J,0,3,0,True,c,False,False,1,0,0,0,0
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Odeneal R,0,5,4,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Shewan D,0,8,47,True,c,False,False,2,0,0,6,1
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Springer T,0,4,30,True,c,False,False,0,0,0,4,2
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Woodhouse M,0,2,15,True,c,True,False,0,0,0,3,0
+-1,-1,2001-09-01 00:00:00,Blackheath Select XI,Young R,0,10,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Clark C,0,11,0,False,no,False,False,0,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Coloe A,0,5,0,True,c,False,False,1,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Lestrelle A,0,9,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Lestrelle J,0,3,5,True,c,False,False,1,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Mander A,0,10,3,True,c,False,False,0,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Mander C,0,7,1,True,b,False,False,1,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Mander N,0,1,55,True,b,False,True,0,0,0,4,0
+-1,-1,2001-09-02 00:00:00,Beddington,Patel N,0,4,7,True,c,False,False,0,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Snow D,0,6,1,True,c,False,False,0,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Woodhouse M,0,2,0,True,b,True,False,0,0,0,0,0
+-1,-1,2001-09-02 00:00:00,Beddington,Worthy J,0,8,0,True,b,False,False,1,0,0,0,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Clark C,0,10,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Corrigan D,0,7,4,True,b,False,False,1,0,0,0,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Edghill C,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Hosking M,0,4,18,True,b,False,False,0,0,0,1,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Mander A,0,8,2,False,no,False,False,1,0,0,0,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Mander N,0,1,13,True,lb,False,True,0,1,2,0,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Morris D,0,9,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Odeneal R,0,6,4,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Woodhouse M,0,2,2,True,b,True,False,0,0,0,0,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Worthington R,0,3,51,False,no,False,False,0,0,0,5,0
+-1,-1,2001-09-08 00:00:00,Lessa Wanderers,Young R,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-09-09 00:00:00,Selsdon,Bowers M,0,7,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-09 00:00:00,Selsdon,Cooper G,0,2,3,True,c,False,False,0,0,0,0,0
+-1,-1,2001-09-09 00:00:00,Selsdon,Elliston J,0,8,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-09 00:00:00,Selsdon,Mander A,0,9,2,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-09 00:00:00,Selsdon,Mander C,0,5,38,True,st,True,False,0,0,0,6,2
+-1,-1,2001-09-09 00:00:00,Selsdon,Mander N,0,1,45,True,c,False,True,0,4,0,5,0
+-1,-1,2001-09-09 00:00:00,Selsdon,Morris D,0,10,3,True,c,False,False,0,0,0,0,0
+-1,-1,2001-09-09 00:00:00,Selsdon,Reid V,0,4,63,False,no,False,False,0,0,0,9,0
+-1,-1,2001-09-09 00:00:00,Selsdon,Saker N,0,3,8,True,ro,False,False,2,0,0,0,0
+-1,-1,2001-09-09 00:00:00,Selsdon,Worthy J,0,6,1,True,st,False,False,0,0,0,0,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Bowers M,0,8,2,True,b,False,False,1,0,0,0,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Coloe A,0,4,20,True,c,False,False,0,0,0,1,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Cooper G,0,7,1,True,c,False,False,0,0,0,0,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Edghill C,0,5,1,True,st,False,False,0,0,0,0,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Elliston J,0,10,6,False,no,False,False,0,0,0,1,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Lestrelle J,0,2,20,True,c,False,False,0,0,0,0,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Mander N,0,1,28,True,c,False,True,0,1,1,3,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Morris D,0,9,4,False,no,False,False,1,0,0,0,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Saker N,0,6,13,True,c,False,False,0,0,0,0,1
+-1,-1,2001-09-15 00:00:00,Prospect Park,Woodhouse M,0,3,10,True,lb,True,False,0,0,0,0,0
+-1,-1,2001-09-15 00:00:00,Prospect Park,Young R,0,11,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Clark C,0,10,5,False,no,False,False,0,0,0,0,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Lestrelle J,0,2,14,True,c,False,False,0,0,0,1,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Mander C,0,1,4,True,b,False,False,0,0,0,1,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Mander N,0,7,25,True,b,False,True,0,2,0,3,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Morris D,0,9,12,True,lb,False,False,0,0,0,1,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Odeneal R,0,4,2,True,ro,False,False,0,0,0,0,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Patel N,0,5,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Springer T,0,6,4,True,b,True,False,2,0,0,0,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Worthington R,0,3,11,True,hw,False,False,0,0,0,1,0
+-1,-1,2001-09-16 00:00:00,East Cheam,Worthy J,0,8,0,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Cooper G,0,8,5,False,no,False,False,1,0,0,1,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Elliston J,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Leadley J,0,1,71,True,b,False,True,0,0,0,11,1
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Lestrelle J,0,4,2,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Mander A,0,7,31,True,c,False,False,0,0,0,4,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Mander N,0,2,66,True,ro,False,False,2,0,0,7,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Morris D,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Odeneal R,0,6,10,False,no,False,False,0,0,0,1,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Snow D,0,5,0,True,b,False,False,1,0,0,0,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Worthington R,0,3,2,True,lb,False,False,0,0,0,0,0
+-1,-1,2001-09-22 00:00:00,Peckham Rye,Young R,0,11,0,False,dnb,True,False,0,0,0,0,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Bowers M,0,10,0,False,dnb,False,False,0,0,0,0,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Clark C,0,9,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Mander A,0,8,0,False,dnb,False,False,1,0,0,0,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Mander C,0,5,35,True,c,False,False,1,0,0,6,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Mander N,0,4,85,False,no,False,True,0,0,0,12,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Patel N,0,2,8,True,b,False,False,0,0,0,0,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Saker N,0,6,7,False,no,False,False,0,0,0,0,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Saker S,0,1,49,True,c,False,False,0,0,0,6,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Springer T,0,3,19,True,b,True,False,0,0,0,3,0
+-1,-1,2001-09-23 00:00:00,North Croydon,Worthy J,0,7,0,False,dnb,False,False,1,0,0,0,0
 -1,-1,2002-05-04 00:00:00,Blackheath Select XI,Clark C,0,10,2,False,no,False,False,1,0,0,0,0
 -1,-1,2002-05-04 00:00:00,Blackheath Select XI,Coloe A,0,7,0,True,c,False,False,1,0,0,0,0
 -1,-1,2002-05-04 00:00:00,Blackheath Select XI,Cooper G,0,8,0,True,b,False,False,0,0,0,0,0
