@@ -47,7 +47,7 @@ class CsvLoader:
 
     def set_player_ids(self) -> None:
         for tbl in ["match_batting", "match_bowling"]:
-            rows = self.conn.execute("SELECT * FROM players")
+            rows = self.conn.execute("SELECT * FROM player_lookup")
             players = [Player(**row) for row in rows]
             lookup: dict[str, list] = defaultdict(list[Player])
             for player in players:
@@ -79,7 +79,7 @@ class CsvLoader:
                 surname = name[: name.rindex(" ")] if " " in name else name
                 possibles = lookup[surname]
                 if len(possibles) == 1:
-                    self.update_player_id(tbl, name, possibles[0].id)
+                    self.update_player_id(tbl, name, possibles[0].player_id)
                 elif not possibles:
                     print(f"{tbl}: no name match for {row}")
                 elif " " not in name:  # no initial
@@ -88,7 +88,7 @@ class CsvLoader:
                     initial = name.split(" ")[-1]
                     for possible in possibles:
                         if possible.initial == initial:
-                            self.update_player_id(tbl, name, possible.id)
+                            self.update_player_id(tbl, name, possible.player_id)
             print(f"{tbl} has {self.null_player_id_count(tbl)} NULL player_ids")
             self.conn.commit()
 

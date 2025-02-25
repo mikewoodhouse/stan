@@ -38,6 +38,10 @@ load_defs = {
         klass=PlayerImport,  # type: ignore
         table="players",
         headers="Code|Surname|Initial|Active|FirstName",
+        exclude_from_insert=[
+            "player_id",
+            "name",
+        ],
     ),
     "seasons": LoadDefinition(
         klass=Season,
@@ -51,6 +55,9 @@ load_defs = {
         player_id_cols={
             "player_id": "code",
         },
+        exclude_from_insert=[
+            "name",
+        ],
     ),
     "partnerships": LoadDefinition(
         klass=Partnership,
@@ -76,6 +83,7 @@ load_defs = {
         },
         exclude_from_insert=[
             "best_bowling",
+            "name",
         ],
     ),
     "season_records": LoadDefinition(
