@@ -37,6 +37,35 @@ This seems to be a convenient way to deal with these issues, although I do have 
 
 Helper methods defined above, most of which arose through DRYing of heavily-repeated chunks of code.
 
+## Scripts
+
+There are (currently) three scripts of significance:
+
+### `extract_xl_to_csv.py`
+
+Does exactly (pretty much) what it says on the tin:
+
+* deletes the three files that are created from the per-season spreadsheets, namely
+    * matches.csv
+    * match_batting.csv
+    * match_bowling.csv
+* for each of the spreadsheets, strips out the relevant data and writes it as CSV
+
+It always does the whole thing, start to finish, because it's quick: about 6 seconds in the run I just did, so no point in getting fancy - if something changes in the xlsx files, just re-run the script, then rebuild as below.
+
+### `build_db.py`
+
+Builds the `stan.sqlite` database from the csv files exported from Access and the Excel extracts:
+
+* deletes & recreates (`db_schema.sql`) the existing database
+* loads all the tables
+
+Again, no incrementals or whatnot, it only takes a couple of seconds.
+
+### `main.py`
+
+Runs the NiceGui web app.
+
 ## The Excel Season Averages Workbook(s)
 
 In general, the following refers to the 2022 workbook, which is the most "highly-evolved" example...
