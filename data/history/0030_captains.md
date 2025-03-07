@@ -1,0 +1,6 @@
+# CAPTAINS
+
+For the greater part of the Club's history, a single player has held the position of Captain. More recently (Up until 2005), two captains has been the norm, with one member serving on Saturdays, the other on Sundays and Midweek. In 1989, from when two sides would play on Sundays, a second Sunday captain was elected. In the early to mid 90’s, there was even three elected captains, with the third individual captaining the Sunday Golds. With the club playing one game a weekend at present, Trinity has since reverted back to having one captain. For some years now, the captaincy has been passed around at the whim of the senior tourists: new prospects are “blooded” and old stagers given a nostalgic reminder of former glories.
+
+By a substantial margin George Onley has captained Trinity most times, 321 between 1957 and 1977.
+A single position of vice-captain existed from 1949 to 1969, From 1970, two vice-captains were elected to provide more comprehensive cover in the event of the captain's absence. From 2006, it was agreed that only one vice-captain was required due to the decrease in fixtures.
