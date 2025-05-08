@@ -17,6 +17,8 @@ class Season:
     tied: int
     noresult: int
     maxpossiblegames: int
+    prev_year: bool
+    next_year: bool
 
     @classmethod
     def all(cls) -> list[Season]:
@@ -28,6 +30,15 @@ class Season:
     @classmethod
     def for_year(cls, year: int) -> Season:
         with closing(config.db.cursor()) as csr:
-            csr.execute("SELECT * FROM seasons WHERE year = :year", {"year": year})
+            sql = """
+            SELECT
+                curr.* 
+            ,   prev.year prev_year
+            ,   next.year next_year
+            FROM seasons curr
+            LEFT JOIN seasons prev ON prev.year = :year - 1
+            LEFT JOIN seasons next ON next.year = :year + 1
+            WHERE curr.year = :year"""
+            csr.execute(sql, {"year": year})
             row = csr.fetchone()
             return Season(**row)

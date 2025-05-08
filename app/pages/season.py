@@ -77,6 +77,12 @@ def show_season(year: int) -> None:
         ui.table(rows=[asdict(season)], columns=SEASON_COLS).props("dense")
         with ui.card():
             ui.link("Matches", f"/matches/{year}")
+        with ui.card():
+            with ui.row():
+                if season.prev_year:
+                    ui.link("Previous", f"/season/{year - 1}")
+                if season.next_year:
+                    ui.link("Next", f"/season/{year + 1}")
     with ui.row():
         records = SeasonRecord.for_year(year)
         ui.table(rows=records, columns=SEASON_RECORD_COLS).props("dense")
