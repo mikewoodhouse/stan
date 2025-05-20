@@ -111,7 +111,7 @@ class MatchBatting:
             "rh": "retired hurt",
             "ro": "run out",
             "st": "stumped",
-        }.get(self.how_out, self.how_out)
+        }.get(self.how_out, "?")
 
     def row_dict(self) -> dict:
         fldg = []
