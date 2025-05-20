@@ -92,3 +92,7 @@ def sql_query(filename: str) -> str:
     path = Path(__file__).parent / "types" / "sql" / f"{filename}.sql"
     sql = path.read_text()
     return extract_sql_parameters(sql)
+
+
+def project_root() -> Path:
+    return next(p for p in Path(__file__).parents if (p / "app").exists())

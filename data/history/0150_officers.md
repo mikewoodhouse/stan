@@ -70,12 +70,16 @@
 
 ## SATURDAY CAPTAIN
 
-*1990	J Leadley
-*1991-93	A Sewell
-*1994-2002	M Woodhouse
-*2002-	C Clark
+Post merged back into single Captain after termination of Saturday fixtures
+
+* 1990	J Leadley
+* 1991-93	A Sewell
+* 1994-2002	M Woodhouse
+* 2002-	C Clark
 
 ## SUNDAY AND MIDWEEK CAPTAIN (MAROONS)
+
+Post merged back into single Captain after termination of Saturday fixtures and dicontinuation of two Sunday sides
 
 * 1990	R Worthy
 * 1991	J Worthy

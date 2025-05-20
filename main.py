@@ -8,6 +8,7 @@ from app.pages import (
     show_captain,
     show_captains,
     show_fielding,
+    show_history,
     show_match,
     show_matches,
     show_partnerships,
@@ -98,6 +99,11 @@ def bowling():
 @ui.page("/fielding", title="fielding • Stan")
 def fielding():
     show_fielding()
+
+
+@ui.page("/history", title="history • Stan")
+def history():
+    show_history()
 
 
 ui.run(favicon="ico/tocc-32x32.png")

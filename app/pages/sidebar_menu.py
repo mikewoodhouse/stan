@@ -14,3 +14,4 @@ def sidebar() -> None:
             ui.link("Fielding", "/fielding")
             ui.link("Hundreds", "/hundreds")
             ui.link("Captains", "/captains")
+            ui.link("History", "/history")
