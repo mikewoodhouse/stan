@@ -17,8 +17,8 @@ class Season:
     tied: int
     noresult: int
     maxpossiblegames: int
-    prev_year: bool
-    next_year: bool
+    prev_year: int = 0
+    next_year: int = 0
 
     @classmethod
     def all(cls) -> list[Season]:
