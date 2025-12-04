@@ -2,7 +2,7 @@ from datetime import date
 
 import pytest
 
-from app.types.match_bowling import MatchBowling
+from stan.types.match_bowling import MatchBowling
 
 
 @pytest.mark.parametrize(

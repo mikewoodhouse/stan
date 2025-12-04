@@ -2,9 +2,9 @@ import sqlite3
 
 import pytest
 
-from app.config import config
-from app.loaders.csv_loader import CsvLoader
-from app.loaders.load_defs import load_defs
+from stan.config import config
+from stan.loaders.csv_loader import CsvLoader
+from stan.loaders.load_defs import load_defs
 
 
 def reset_db():

@@ -1,6 +1,6 @@
 from nicegui import ui
 
-from app.pages import (
+from stan.pages import (
     hundreds_report,
     show_appearances,
     show_batting,
@@ -18,7 +18,9 @@ from app.pages import (
     show_season,
     show_seasons,
 )
-from app.pages.sidebar_menu import sidebar
+from stan.pages.sidebar_menu import sidebar
+
+# region pages
 
 
 @ui.page("/", title="Stan")
@@ -105,5 +107,7 @@ def fielding():
 def history():
     show_history()
 
+
+# endregion
 
 ui.run(favicon="ico/tocc-32x32.png")

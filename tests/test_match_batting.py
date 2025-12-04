@@ -2,7 +2,7 @@ from datetime import date
 
 import pytest
 
-from app.types import MatchBatting
+from stan.types import MatchBatting
 
 # Test IDs for parametrization
 HAPPY_PATH_ID = "happy_path"

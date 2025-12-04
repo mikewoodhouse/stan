@@ -3,13 +3,13 @@ from pathlib import Path
 
 from openpyxl import load_workbook
 
-from app.loaders.xl import (
+from stan.loaders.xl import (
     XlBattingImporter,
     XlBowlingImporter,
     XlMatchImporter,
 )
-from app.stopwatch import StopWatch
-from app.types import Match, MatchBatting, MatchBowling
+from stan.stopwatch import StopWatch
+from stan.types import Match, MatchBatting, MatchBowling
 
 
 def clear_csv_files(path: Path) -> None:

@@ -2,7 +2,7 @@ from datetime import date
 
 import pytest
 
-from app.types import MatchBowling
+from stan.types import MatchBowling
 
 
 # Happy path tests with various realistic test values
@@ -115,9 +115,7 @@ def test_from_string_edge_cases(test_id, name, input_str, match_date, opp, expec
         # Add more error cases as needed for different types of incorrect input
     ],
 )
-def test_from_string_error_cases(
-    test_id, name, input_str, match_date, opp, expected_exception
-):
+def test_from_string_error_cases(test_id, name, input_str, match_date, opp, expected_exception):
     # Act & Assert
     with pytest.raises(expected_exception):
         MatchBowling.from_string(name, input_str, match_date, opp)

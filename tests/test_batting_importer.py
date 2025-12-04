@@ -1,6 +1,6 @@
 from datetime import date
 
-from app.loaders.xl.match_batting_importer import MatchBatting
+from stan.loaders.xl.match_batting_importer import MatchBatting
 
 
 def test_match_batting():

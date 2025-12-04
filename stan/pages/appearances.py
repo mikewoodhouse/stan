@@ -1,0 +1,27 @@
+from nicegui import ui
+
+from stan.config import config
+from stan.types import Performance
+from stan.utils import add_slot_to_table, coldef, page_header
+
+from .sidebar_menu import sidebar
+
+COLS = [
+    coldef("name", align="left"),
+    coldef("appearances", "Apps"),
+    coldef("from_year", "From"),
+    coldef("to_year", "To"),
+]
+
+
+def show_appearances():
+    page_header("Career Appearances")
+
+    sidebar()
+
+    rows = Performance.career_appearances()
+    with ui.row():
+        with ui.column():
+            ui.label(f"All players with a minimum of {config.MIN_APPS} appearances")
+            with ui.table(rows=rows, columns=COLS).props("dense") as table:
+                add_slot_to_table(table, "name", "players", "player_id")

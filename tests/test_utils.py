@@ -1,6 +1,6 @@
 import pytest
 
-from app.utils import coldef, extract_sql_parameters, table_link_slot_html
+from stan.utils import coldef, extract_sql_parameters, table_link_slot_html
 
 
 def test_table_link_slot_html():
