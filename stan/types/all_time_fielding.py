@@ -12,6 +12,7 @@ class AllTimeFielding:
     player_id: int
     name: str
     caught: int
+    caught_fielding: int
     caughtwkt: int
     stumped: int
 

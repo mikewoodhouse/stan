@@ -10,6 +10,7 @@ from stan.utils import add_slot_to_table, page_header, sortable
 COLS: list[dict] = [
     sortable("name", align="left"),
     sortable("caught"),
+    sortable("caught_fielding"),
     sortable("caughtwkt", "Ct Wkt"),
     sortable("stumped"),
 ]
@@ -24,5 +25,9 @@ def show_fielding():
     rows = [asdict(row) for row in records]
 
     with ui.row():
-        with ui.table(rows=rows, columns=COLS).props("dense") as table:
-            add_slot_to_table(table, "name", "players", "player_id")
+        with ui.column():
+            ui.markdown(
+                "Historic statistics are not 100% reliable as to the split between wicket-keeping and outfield catches. Sorry about that..."
+            )
+            with ui.table(rows=rows, columns=COLS).props("dense") as table:
+                add_slot_to_table(table, "name", "players", "player_id")

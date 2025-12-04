@@ -4,6 +4,7 @@ SELECT
 , SUM(f.caught)    AS caught
 , SUM(f.caughtwkt) AS caughtwkt
 , SUM(f.stumped)   AS stumped
+, SUM(f.caught) - SUM(f.caughtwkt) AS caught_fielding
 FROM
   performances f
   JOIN player_lookup p ON p.player_id = f.player_id
