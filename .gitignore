@@ -5,5 +5,5 @@ __pycache__
 .mypy_cache
 *.pyc
 .venv
-*.sqlite*
 logs
+.ruff_cache
