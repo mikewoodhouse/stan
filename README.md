@@ -7,7 +7,24 @@
 
 ## The app
 
-...Contains 3 main folders:
+### Environment
+
+I built the app in WSL2 (Ubuntu 24.04, FWIW), mileage may vary in other OSes.
+
+Python 3.13 environemtn managed by uv (https://docs.astral.sh/uv/getting-started/installation/)
+
+Bootstrapping may go something like this:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | less             # install uv
+uv python install 3.13                                        # ask uv to install python
+git clone https://github.com/mikewoodhouse/stan.git           # clone the repo
+cd stan                                                       # ... and go there
+uv sync                                                       # downloads all the necessary pacakges
+uv run main.py                                                # start the web app
+```
+
+The web app has 3 main folders:
 
 ### `/loaders`
 
@@ -24,7 +41,7 @@ Contains the [`nicegui`](https://nicegui.io/) scripts that define the various pa
 
 Classes defining data types and methods needed to support display. Database operations are (at time of writing) incorporated; there's an argument for extracting these into a set of Repository classes (or maybe just methods) but the value of such an effort has yet to become sufficiently pressing.
 
-### `app/config.py`
+### `stan/config.py`
 
 Provides a global `config` object, which exposes
 
@@ -33,7 +50,7 @@ Provides a global `config` object, which exposes
 
 This seems to be a convenient way to deal with these issues, although I do have a sneaking suspicion that it may in fact be an anti-pattern of some sort...
 
-### `app/utils.py`
+### `stan/utils.py`
 
 Helper methods defined above, most of which arose through DRYing of heavily-repeated chunks of code.
 
