@@ -47,6 +47,10 @@ load_defs = {
         klass=Season,
         table="seasons",
         headers="Year|Played|Won|Lost|Drawn|Tied|NoResult|MaxPossibleGames",
+        exclude_from_insert=[
+            "prev_year",
+            "next_year",
+        ],
     ),
     "hundred_plus": LoadDefinition(
         klass=HundredPlusImport,  # type: ignore
